@@ -149,6 +149,59 @@
     * Il fattore Q è molto alto
     * la frequenza di risonanza dipende dallo spessore del quarzo stesso
 
+# VALVOLE
+
+* il filamento serve a scaldare il catodo
+* la griglia  controllare la corrente che scorre tra anodo a catodo
+* la placca è anche detta anodo
+* I tubi a vuoto sono particolarmente indicati per i circuiti ad *altissima potenza* o ad *altissima frequenza*
+* griglie:
+    * diodo: 0
+    * tetrodo: 2
+    * pentodo: 3
+* lo schermo del tetrodo serve a diminuire la capacità parassita tra griglia e anodo
+* il pentodo ha 5 elettrodi +2 del filamento = 7
+* l'elettrodo soppressore del pentodo serve A sopprimere la corrente inversa da placca a schermo
+
+# SEMICONDUTTORI
+
+* La barriera di potenziale in una giunzione P-N Impedisce la totale ricombinazione degli elettroni con le lacune
+* In un semiconduttore drogato di tipo N le cariche libere sono elettroni
+
+## DIODI
+* La tensione di soglia per un diodo al silicio vale approssimativamente 0,6V
+* la caduta di tensione di un normale diodo al silicio è di 0,7V
+* Una giunzione PN è un diodo
+* Per polarizzare direttamente un diodo al silicio si collega una tensione positiva e maggiore di 0,6 V all'anodo
+* diodo a giunzione l'effetto valanga si verifica per una polarizzazione inversa pari a Vz (tensione zener)
+* Un diodo polarizzato inversamente ha tensione al catodo maggiore di quella all'anodo
+* un diodo al silicio ha 2 elettrodi
+* la tensione inversa di picco caratteristica di un rettificatore rappresenta La tensione inversa massima che il rettificatore può sopportare senza subire danni
+* diodo varicap: 
+    * diodo a capacità variabile
+    * si usa di solito per modificare la frequenza di un oscillatore a frequenza variabile
+* diodo Zener:
+    * polarizzato Inversamente
+    * stabilizzatore di tensione in un alimentatore
+    * 2 elettrodi
+* led: Un diodo che emette luce
+* Il diodo tunnel entro una porzione della caratteristica tensione/corrente presenta la particolarità di avere Una resistenza negativa
+* diodi hot-carrier: hanno una giunzione tra metallo e semiconduttore
+## TRANSISTOR
+* tipi: PNP, NPN, MESFET (adatto a lavorare ad altissime frequenze), MOSFET, FET
+* transistor bipolare
+    * 2 giunzioni
+    * 3 terminali
+    * per condurre 
+        * la base deve essere positiva rispetto all'emettitore e negativa rispetto al collettore.
+        * avere una tensione tra base ed emettitore maggiore di 0,6 V
+    * L'impedenza di ingresso è estremamente elevata
+* FET
+    * La polarizzazione del gateè data da una tensione negativa
+    * terminali: Gate, Drain, Source.
+* MOSFET: un tipo di transistore ad effetto di campo
+
+* Perché in molti dispositivi MOSFET è incorporato un diodo zener di protezione del gate? Per proteggere l'isolamento del gate da perforazioni dovute a piccole cariche statiche o a sovratensioni.
 
 # STRUMENTI/SICUREZZA
 
@@ -498,10 +551,69 @@
 * un FET a gate comune ha impedenza di ingresso alta
 
 
-# NORMATIVA
+# NORMATIVA / REGOLAMENTO INTERNAZIONALE
 
 * La direttiva europea sulla 'compatibilità elettromagnetica' è la 2004/108/CE
+* Se un'Amministrazione viene a conoscenza di un infrazione ai Regolamenti delle radiocomunicazioni commessa da una stazione dipendente accerta i fatti determina le responsabilità e adotta i provvedimenti necessari.
+* la potenza di trasmissione di una stazione deve essere La minima necessaria per assicurare un servizio soddisfacente
+* le larghezze di banda delle emissioni devono essere mantenute ai valori più bassi possibili consentiti dallo stato tecnico e dalla natura del servizio
+* le stazioni obbligate a trasmettere il segnale di identificazione
+    * del servizio d'amatore
+    * del servizio mobile
+    * del servizio di radiodiffusione 
+    * delle frequenze campione
+    * dei segnali orari
+* le stazioni *non* obbligate a trasmettere il segnale di identificazione    
+    * Radiofari di localizzazione dei sinistri
+    * Stazione di salvataggio che emette automaticamente il segnale d'emergenza
+* il nominativo deve essere ripetuto all'inizio ed alla fine delle trasmissioni ed a brevi intervalli nel corso delle stesse
+* una stazione che effettui emissioni per prove, regolaggi o esperimenti deve trasmettere la propria identificazione lentamente e frequentemente.
+* Nel caso che una stazione commetta infrazioni gravi, dovrà farsene rapporto all'Amministarzione del Paese da cui detta stazione dipende a cura delle Amministrazioni che le rilevino
+* le irradiazioni provenienti da apparecchi destinati alle utilizzazioni industriali, scientifiche e mediche *NON* possono causare disturbi nocivi alle comunicazioni di radionavigazione o sicurezza
 
+* le emissioni fuori banda delle stazioni trasmittenti non devono provocare disturbi pregiudizievoli ai servizi che funzionano nelle bande adiacenti.
+* la tolleranza di frequenza è espressa in Parti per milione o Hz
+* La frequenza assegnata ad una stazione di un dato servizio/La frequenza di trasmissione deve essere sufficientemente lontana dai limiti della banda assegnata a detto servizio.
+* potenza dell'onda portante: media della potenza fornita alla linea d'alimentazione dell'antenna durante un ciclo di radiofrequenza in assenza di modulazione
+* un privato o un'impresa che voglia installare o gestire una stazione trasmittente deve possedere una licenza rilasciata dal governo del paese da cui la stazione dipende
+* il contenuto delle trasmissioni tra stazioni d'amatore è limitato a messaggi di carattere tecnico riguardanti esperimenti e ad osservazioni d'indole puramente personale
+* sono vietate: 
+    * le trasmissioni inutili
+    * Le trasmissioni di cui non sia data l'identità.
+    * emissioni ad onde smorzate
+    * messaggi a pagamento
+    * trasmettere comunicazioni internazionali provenienti da terzi o destinate a terzi
+    * trasmettere in FM sulla banda dei 14Mhz (20m)
+    * trasmissioni con un Paese la cui amministrazione ha notificato la sua opposizione
+    * intercettare senza autorizzazione le comunicazioni dei telefoni cellulari ETACS?
+    * le comunicazioni intercettate diverse da quelle che la licenza autorizza a ricevere non devono essere né riprodotte, né comunicate a terzi e non se ne deve nemmeno rivelare l'esistenza
+    * segnali codificati
+    * Trasmissione di segnali falsi o disturbanti
+
+* Nelle trasmissioni di prova o di regolaggio i segnali devono essere scelti tra quelli che non si confondano con i segnali presenti o definiti dal regolamento e dal codice internazionale.
+* la licenza di una stazione trasmittente attesta che per quella stazione è stato concesso l'installazione e l'esercizio.
+* il centro della banda di frequenza assegnata ad una stazione è definito come frequenza assegnata ad una stazione
+* Una stazione d'amatore *NON* può ascoltare senza autorizzazione le comunicazioni tra aerei e torre di controllo
+* La potenza utilizzabile dal titolare di una autorizzazione generale è sempre di 500 W
+    * è fissata dalle amministrazioni interessate, tenendo conto dell'idoneità tecnica degli operatori e delle condizioni nelle quali dette stazioni debbono operare
+* In Italia il nominativo di radioamatore è formato dalla lettera I seguita da una singola cifra e da un gruppo di più di tre lettere.
+* l'autorizzazione dura 10 anni
+* Con la patente di radioamatore è possibile ottenere **l'autorizzazione generale**.
+* un radioamatore può segnalare di trovarsi in condizioni d'emergenza e chiedere assistenza con qualsiasi forma di radiocomunicazione
+* Le apparecchiature radio utilizzate dai radioamatori possono essere modificate se rispettano i requisiti tecnici delle normative internazionali di settore.
+* L'ubicazione della stazione in domicilio diverso deve essere preventivamente comunicato all'Ispettorato territoriale
+* la stazione di radioamatore può essere usata da persona diversa dal titolare solo da persona munita di patente, sotto la diretta responsabilità del titolare
+* Per trasferire temporaneamente la stazione di radioamatore in Italia *non* è necessaria nessuna autorizzazione preventiva.
+* qualora una stazione di radioamatore intercetti involontariamente, una comunicazione di soccorso deve avvertire l'Autorità competente e proseguire l'ascolto.
+* Il servizio di amatore può utilizzare satelliti spaziali
+* le Amministrazioni devono Evitare che gli apparati elettromedicali non causino disturbi pregiudizievoli per i servizi di radiocomunicazione
+* per evitare i disturbi
+    * deve essere scelta La banda laterale
+    * usare nel migliore dei modi le proprietà delle antenne direttive 
+* Ogni disturbo nocivo causato da prove ed esperimenti deve essere eliminato al più presto possibile.
+* Nella pianificazione delle stazioni utilizzare antenne direttive per evitare i disturbi
+* Una stazione che riceve un disturbo nocivo deve dare alla stazione disturbata tutte le informazioni per identificare la causa e le caratteristiche di disturbo e comunicarlo all'Amministrazione da cui dipende la stazione disturbatrice.
+* il mondo è stato suddiviso in 3 Regioni, l'Europa è nella regione 1
 
 
 
@@ -533,8 +645,3 @@
     * Serve a generare un segnale a frequenza determinabile entro la banda di frequenza caratteristica del circuito stesso
     * composto da un rivelatore di fase, un filtro passa basso ed un oscillatore
     *  gamma di cattura: La gamma di frequenze nella quale il circuito può agganciare.
-controllato in tensione.
-* dispositivi attivi in un circuito elettronico
-* Transistor, circuiti integrati e valvole
-* Amplificatore:
-    
