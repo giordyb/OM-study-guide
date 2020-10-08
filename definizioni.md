@@ -1,0 +1,537 @@
+# elettrotecnica
+* circuito aperto
+    * circuito elettrico dove non scorre corrente
+* corto circuito
+    * circuito dove scorre troppa corrente
+* Corrente elettrica:
+    * flusso di elettroni che attraversano un conduttore viaggiando da carica negativa verso carica positiva
+        * Unità di misura dell'intensità di corrente è l'AMPERE (1 coloumb x secondo)
+    * corrente continua
+        * corrente che scorre solo in un verso
+        * un flusso di elettroni unidirezionale e di intensità costante
+    * corrente alternata
+        * un flusso di elettroni bidirezionale e di intensità variabile
+        * valore efficace: 
+            * valore di tensione alternata deve corrispondere una tensione continua per produrre lo stesso riscaldamento in un *carico puramente resistivo*
+            * circa il 70% del valore massimo della tensione
+        * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
+        * frequenza: numero di volte al secondo in cui una corrente alternata inverte la propria direzione
+* Potenza
+    *  grandezza che esprime la velocità con cui viene impiegata l'energia elettrica
+    * P = I*V
+    * P = R * I^2
+* Tensione
+    * Differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
+    * Misurata in volt (V)
+        * unità di forza elettromotrice
+    * Intensità di campo elettrico:
+        * Differenza di potenziale elettrico presente tra due punti
+        * Misurata in Volt per metro (V/m)
+* Frequenza:
+    * Unità di misura Hertz HZ
+    * Lunghezza d'onda:
+        * L (metri)= 300.000.000/frequenza (hertz)
+        * distanza percorsa da un'onda elettromagnetica in un ciclo completo
+    * Se si raddoppia la frequenza, la corrispondente lunghezza d'onda si dimezza
+    * periodo = il tempo che intercorre tra due valori massimi
+    * Lambda = c / f
+    * pulsazione omega: Lambda = 2 x Pgreco x f
+    * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
+* Batterie:
+    * La capacità viene misurata in ampere per ora
+    * converte energia chimica in energia elettrica
+        * generatori in serie = un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
+        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione
+* La legge di Ohm: 
+    * esprime la relazione fra la **tensione**, la **resistenza (o impedenza)** e la **corrente** in un circuito
+    * V= I * R (o Z)
+    * R = V / I 
+
+* legge di KIRCHHOFF:
+    * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
+# RESISTENZA - CONDENSATORE - INDUTTORE
+* Resistenza:
+    * coefficiente di temperatura
+        * Indica la variazione del proprio valore nominale al variare della temperatura
+    * misurata in Ohm (O)
+    * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1A** quando la tensione applicata è **1V**
+    * Si **oppone** al flusso di elettroni
+    * Controlla l'intensità della corrente prodotta da una tensione
+        * fissa la corrente e la tensione desiderate in un certo punto di un circuito
+    * dissipa **calore**
+    * Il valore di resistenza di un resistore a filo varia secondo la temperatura
+    * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
+    * in serie: Rt = R1 + R2 + R3
+    * in parallelo: 1/Rt = 1/R1 + 1/R2 + 1/R3 = (R1*R2)/(R1+R2)
+        * se R1 == R2: Rt = R1 / 2
+
+* Condensatore
+    * accumula energia sotto forma di campo elettrico
+    * Immagazzina energia elettrostatica opponendosi alle variazioni di tensione
+    * Due o più piastre conduttive separate da strati di materiale isolante
+    * capacità (misurata in farad)
+        * determinata dal materiale fra le piastre, la superficie della piastra, il numero di piastre e la distanza fra le piastre.
+        * *Aumenta* aumentando la superficie delle piastre
+        * *Diminuisce* aumentando la spaziatura fra le piastre 
+    * variabile: Due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
+    * elettrolitico: usato nella sezione di filtro degli alimentatori
+    * blocca il flusso della corrente continua e lascia passare la corrente alternata
+    * in serie: Ct = (C1*C2)/(C1+C2)
+    * in parallelo: Ct = C1 + C2
+    * reattanza (capacitiva): 
+        * X = 1 / (6,28 x f x C)
+        * si oppone al flusso della corrente alternata
+        * aumenta al diminuire della frequenza
+    * costante di tempo di un circuito RC
+        * il tempo impiegato dal condensatore per caricarsi fino al 63% della tensione di alimentazione
+        * T= R x C
+        * due costanti di tempo = 86,5%
+* Induttori:
+    * una bobina di filo di rame avvolta su una bacchetta di ferrite
+    * induttanza
+        * misurata in henry
+        * aumenta all'aumentare della frequenza
+        * immagazzina energia elettromagnetica (campo magnetico) opponendosi alle variazioni di corrente
+        * si oppone al flusso di corrente alternata
+        * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
+        * mutua induzione: accoppiamento magnetico tra circuiti diversi
+        * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
+    * costante di tempo in un circuito LC
+        * T=L/R
+    * in serie: It = I1 + I2
+    * in parallelo: It = (I1*I2)/(I1+I2)
+    
+* impedenza (ohm): 
+    * La grandezza che si oppone allo scorrere della corrente alternata in un circuito
+    * L'impedenza di un circuito formato da una resistenza con in parallelo un condensatore/induttore dipende dalla frequenza di lavoro
+* potenza apparente:
+    * misura in voltampere
+    * P=VxI
+    * cosf = potenza attiva / potenza apparente
+    * sfasamento (misurato in gradi tra tensione e corrente)
+        * resistori = 0°
+        * condensatore = 90° in anticipo
+        * induttore = 90° in ritardo
+    * In un circuito formato da pure reattanze la potenza attiva è nulla e quella apparente è massima
+    * un generatore trifase (alternatore) produce tre tensioni alternate della stessa ampiezza ma sfasate tra loro di 120°
+
+* frequenza di risonanza (Circuito LC)
+    * la reattanza dell'induttore è uguale a quella del condensatore (si annullano a vicenda)
+    * Un circuito risonante *serie* alla frequenza f *inferiore* a quella di risonanza ha comportamento capacitivo
+    * Un circuito risonante *parallelo* alla frequenza f *superiore* a quella di risonanza ha comportamento capacitivo
+    * In un circuito risonante serie con induttanza L, capacità C e resistenza Rs alla frequenza di risonanza l'impedenza è uguale a valore minimo resistivo Rs
+    * Circuito risonanza in *serie*: Fa scorrere la *massima* corrente alla frequenza di risonanza
+    * Circuito risonanza in *parallelo*: Fa scorrere la *minima* corrente alla frequenza di risonanza
+    * selettività (fattore Q): rapporto frequenza di risonanza / larghezza di banda
+        * la resistenza in un circuito risonante in *parallelo* per avere la massima selettività deve essere *massimo*
+        * la resistenza in un circuito risonante in *serie* per avere la massima selettività deve essere *minimo*
+        * Q (in serie) = X/R
+
+* reattanza (ohm): La grandezza, dovuta alle bobine ed ai condensatori, che si oppone al flusso di corrente alternata.
+
+## filtri
+* passa basso: attenua i segnali di frequenza *superiore* alla frequenza di taglio
+* passa alto: attenua i segnali di frequenza *maggiori* della frequenza di taglio
+* passa banda: attenua i segnali di frequenza *esterne* alla banda del filtro
+* elimina banda: attenua i segnali di frequenza *interne* alla banda del filtro
+* Se l'attenuazione di un filtro non è sufficiente si collegano più filtri identici in serie
+* l'impedenza di un filtro passa-basso in rapporto all'impedenza della linea di trasmissione  deve essere circa la stessa
+* Nei trasmettitori l'ultimo circuito prima del collegamento con l'antenna è un filtro passa banda/adattatore di impedenza
+
+## dispositivi
+* microfono: capta le onde sonore e le trasforma in corrente elettrica
+* L'altoparlante converte segnali elettrici in onde sonore
+
+
+* quarzo:
+    * funziona grazie all'effetto piezoelettrico
+    * stabilità di frequenza
+    * Il fattore Q è molto alto
+    * la frequenza di risonanza dipende dallo spessore del quarzo stesso
+
+
+# ALTRO
+
+* Sicurezza: 
+    * Quale intensità di corrente attraversando il corpo umano può risultare fatale: Anche un decimo di Ampere (100 mA)
+    * Quale organo del corpo umano può essere danneggiato da una corrente elettrica anche di bassa intensità? Cuore
+    * Staccare l'energia elettrica e chiamare i soccorsi in presenza di qualcuno colpito da alta tensione
+
+* strumenti:
+    * portata: Il valore massimo misurabile della grandezza.
+    * l'ohmmetro misura resistenze
+    * multimetro misura Resistenza, capacità ed induttanza
+    * Si potrebbe danneggiare la circuiteria del multimetro se commutate un multimetro sulla misura di resistenza quando è collegato ad un circuito per misurare la tensione o Se impostate un multimetro per misurare μA e lo collegate ad un circuito percorso da una corrente di 5 A
+
+*  voltmetro:
+    * si collega In parallelo al circuito
+    * misura la tensione tra due punti
+    * resistenza interna elevata
+    * la portata si aumenta collegando una resistenza in *serie* allo strumento
+* amperometro
+    * si collega in serie al ramo in cui si vuol misurare la corrente
+    * la portata si aumenta aggiungendo una resistenza in *parallelo* allo strumento (resistenza shunt)
+* wattmetro
+    * misura la potenza diretta e quella riflessa
+        * in rf collegare al connettore di uscita del trasmettitore
+        * tarato a 50 ohm di impedenza di linea
+* oscilloscopio
+    * visualizza L'andamento nel tempo dei segnali
+    * L'analizzatore di spettro opera nel dominio della frequenza; l'oscilloscopio opera nel dominio del tempo.
+
+# ANTENNE
+
+* Caratteristiche delle antenne:
+    * Frequenza di lavoro, impedenza, guadagno, diagramma di irradiazione, potenza massima applicabile
+* guadagno:
+    * si misura in dBd oppure dBi
+    * è il rapporto tra la potenza irradiata nella direzione di irradiazione massima dell'antenna stessa e la potenza irradiata da un'antenna di riferimento
+
+* Decibel
+    * minima differenza tra due livelli di suono che mediante un orecchio può percepire
+    * amplificatori collegati in cascata sommano i dB
+    * proporzionale al logaritmo dei due livelli
+        * 0 = x1
+        * 3 = x2
+        * 6 = x4
+        * 10 = x10
+        * 20 = x100
+        * 30 = x1000
+* Riducendo l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno aumenta
+* se si *accorcia* un antenna si *aumenta* la sua frequenza di risonanza
+* con una bobina in serie la lunghezza elettrica dell'antenna aumenta (Marconiana=verticale)
+* la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è 733ohm (impedenza dello spazio libero)
+* antenna isotropica: Una antenna teorica (ideale, perfettamente omnidirezionale) usata come termine di paragone per gli altri tipi di antenna.
+        * serve come riferimento per le misure di guadagno delle antenne (per confrontare i guadagni delle antenne direttive).
+        * guadagna 0 in tutte le direzioni
+        * è un carico non irradiante per i trasmettitori
+* antenna artificiale (dummy load):
+        * Un resistore non induttivo
+        * trasforma l'energia a radiofrequenza in calore
+        * riduce la possibilità di interferenze durante prolungate fasi di verifica e taratura di un trasmettitore
+        * serve per fare prove su trasmettitori senza irradiazione di segnali
+* dipolo (a mezza onda):
+    * l (1/2 onda)= 150 / f
+    * si alimenta a metà della sua lunghezza
+    * resistenza di irradiazione è circa 73 ohm
+    * guadagna circa 2,1 dB rispetto all'antenna isotropica
+    * se estremi puntati a nord e sud irradia est e ovest
+    * si usano le trappole per farlo risuonare a diverse frequenze
+* antenna verticale
+    * irradia ugualmente in tutte le direzioni sul piano orizzontale.
+    * antenna a 5/8 onda ha più guadagno di una 1/4
+    * ground plane ha un piano di terra fittizio alla base dello stilo
+* antenne direttive (yagi, riflettore parabolico, ecc )
+    * hanno la capacità di concentrare l'irradiazione in direzioni privilegiate
+    * rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
+    * lobo principale: La direzione in cui viene irradiata la massima intensità di campo
+    * Yagi:
+        * Il direttore è normalmente il più corto degli elementi passivi
+        * radiatore: 
+            * il solo elemento è collegato alla linea di alimentazione
+            * lungo circa 1/2 onda.
+        * mediamente guadagna 5,3 dB
+        * più elementi più direttività
+    * cubic quad: antenna con due o più avvolgimenti paralleli, su telaio a 4 lati, ciascuno lungo circa lambda.
+    * antenne paraboliche: utilizzate per le microonde
+* antenne multibanda:
+    * potrebbero irradiare armoniche indesiderate
+    * Rende possibile operare su diverse bande impiegando la stessa linea di collegamento
+    * Un accordatore d'antenna permette di utilizzare una antenna su una banda diversa da quella per la quale è stata progettata
+* polarizzazione: 
+    * La polarizzazione di un'antenna è definita come il piano in cui si propaga il campo elettrico
+    * polarizzazione orizzontale: Le linee di forza della componente elettrica sono **parallele** alla superficie terrestre
+    * polarizzazione verticale: Le linee di forza della componente elettrica sono **perpendicolari** alla superficie terrestre
+    * i ripetitori radioamatoriali in VHF hanno polarizzazione verticale
+
+# linee di trasmissione:
+* L'impedenza d'uscita di un trasmettitore deve essere uguale a quella della linea/antenna a cui è collegato
+* il cavo deve essere più corto possibile
+* Nei radiotrasmettitori amatoriali l'impedenza d'uscita è 50 ohm
+* accordatore:
+    * serve ad adattare l'impedenza all'uscita del cavo a quella nominale del trasmettitore
+    * Consente l'accoppiamento fra l'impedenza di uscita del trasmettitore e l'impedenza del sistema d'antenna.
+* linea a conduttori paralleli (piattina): 
+    * può sopportare un ROS elevato ed ha perdite inferiori
+    * Due fili metallici affiancati tenuti separati con materiale isolante
+    * impedenza circa 300 ohm
+* cavo coassiale: 
+    * Un filo metallico centrale contenuto in un materiale isolante a sua volta coperto da una guaina metallica
+    * miglior cavo ha l'attenuazione di linea più bassa possibile
+    * funziona correttamente anche se scorre interrata
+    * E' ben protetto dagli agenti atmosferici e può essere steso anche in prossimità di superfici metalliche
+
+* L'attenuazione di linea si misura in dB/m
+* Le perdite aumentano all'aumentare della lunghezza
+* Una linea con un conduttore connesso a massa è **sbilanciata**
+* Una linea con nessun conduttore connesso a massa è **bilanciata**
+* rapporto d'onda stazionaria (ROS):
+    * Il rapporto fra la massima e la minima tensione in una linea di trasmissione
+    * rapporto fra l'impedenza caratteristica della linea e la resistenza del carico (o viceversa)
+    * per evitare danni al trasmettitore deve essere circa 1 : 1
+    * Un ROS basso rende più efficiente il trasferimento di energia dalla linea di trasmissione all'antenna
+    * può essere misurato con un wattmetro direzionale
+    * il misuratore di onde stazionarie deve essere collegato fra la linea di alimentazione e l'antenna.
+    * ROS misurato ai capi di una linea di trasmissione cortocircuitata è infinito
+* le perdite aumentano all'aumentare della frequenza
+* BALUN (*bal*anced to *un*balanced)
+    * serve per alimentare una antenna bilanciata con una linea sbilanciata 
+    * un nucleo toroidale, Uno spezzone di linea di trasmissione, Una coppia di bobine avvolte in aria
+    * viene collegato tra il cavo coassiale e l'antenna
+
+
+* potenza diretta: La potenza che transita dal **trasmettitore** all'**antenna** 
+* potenza riflessa: La potenza che transita dall'**antenna** al **trasmettitore**
+
+# propagazione
+* propagazione ionosferica: 
+    * L'attività solare è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
+    * propaga Le onde corte (HF) a lunga distanza
+    * segnali che partono verticalmente dall'antenna e sono di frequenza superiore alla frequenza critica attraversano la ionosfera
+    * La banda dei 28 MHz è usata per collegamenti a lunga distanza prevalentemente nelle ore diurne
+    * 14Mhz (20m)  più adatta a collegamenti a lunga distanza sia di giorno, sia di notte
+    * 1,8 MHz solo per collegamenti notturni
+    * La ionizzazione della regione D provoca l'assorbimento delle onde radio nella ionosfera
+    * La ionizzazione è al minimo poco prima dell'alba 
+    * la regione E sopra un certa area della superficie terrestre è maggiormente ionizzata a mezzogiorno
+    * la regione D:
+        * limita le comunicazioni nella gamma degli 80 m alle brevi distanze durante il giorno
+        * meno utile per le comunicazioni radio a lunga distanza
+        * si verifica principalmente l'assorbimento dei segnali nelle gamme MF/HF durante il giorno
+* MUF (Maximum Usable Frequency): 
+    * la più alta frequenza che si può utilizzare per trasmettere un segnale ad una data destinazione
+    * determinata dall'intensità delle radiazioni solari, specialmente le ultraviolette
+    * le onde a frequenza inferiore della MUF vengono rifratte e ritornano verso la superficie terrestre
+
+* troposfera: L'attenuazione cresce all'aumentare della frequenza
+* Le onde lunghe si propagano prevalentemente per per onda di terra
+* zona d'ombra: la fascia di territorio compresa tra il limite massimo cui giunge l'onda di terra ed il limite minimo cui giunge l'onda riflessa dalla ionosfera
+ 
+* Ripetitori:
+    * servono a facilitare i collegamenti alle stazioni mobili ed a quelle di bassa potenza estendendone la portata
+    * come potreste fare per verificare se è possibile comunicare anche in simplex? Verificando se è possibile ricevere il proprio interlocutore sulla frequenza di ingresso del ripetitore
+    * Perché è preferibile utilizzare comunicazioni in simplex, quando è possibile, anziché utilizzare i ripetitori? Il ripetitore non deve essere impegnato senza motivo
+    * impegnare a lungo un ripetitore potrebbe impedirne l'utilizzo per comunicazioni d'emergenza
+    * per inserirsi trasmettere il proprio nominativo nel corso della pausa fra un messaggio e l'altro
+    * offset: La differenza fra la frequenza di trasmissione e quella di ricezione del ripetitore
+        * 2 metri: 600khz
+        * 70cm: 5MHz
+* la fm è usata dalle VHF in su
+
+# modulazione 
+* modulazione: la combinazione di un segnale contenente un'informazione e un segnale a radiofrequenza
+    * portante RF: Un segnale a radiofrequenza (di ampiezza costante) che viene modulato per produrre un segnale radiotelefonico
+    * La FM occupa una banda piuttosto larga
+    * La AM occupa il doppio della banda rispetto alla SSB
+    * La SSB sfrutta la potenza del trasmettitore meglio delle altre modulazioni
+
+* AM: L'ampiezza del segnale portante viene variato dal segnale modulante.
+    * %/indice/profondità di modulazione: Il rapporto tra l'ampiezza della modulante e quella della portante
+        * Non può superare 100% perché si introdurrebbe distorsione e quindi armoniche indesiderate 
+        * m=ampiezza_modulante/ampiezza_portante
+        * per 150W di potenza 100 W sulla portante e 25 W su ciascuna banda laterale
+        * la trasmissione di un segnale con fmax=X occuperà una banda di larghezza pari a X*2
+* SSB: La SSB è migliore della AM perché occupa meno banda e sfrutta meglio la potenza del trasmettitore
+    * USB: La parte di un segnale a banda laterale unica che si trova al di **sopra** della frequenza della portante
+    * LSB: La parte di un segnale a banda laterale unica che si trova al di **sotto** della frequenza della portante
+    * la portante rispetto alla potenza di picco erogata da un buon trasmettitore a banda laterale unica deve essere attenuata di almeno 40dB
+    * a parità di segnale modulante, la larghezza di banda di un'emissione SSB è la metà di quella di un'emissione AM
+* FM: Nella modulazione FM varia la frequenza ma non l'ampiezza di picco della portante
+    * La frequenza del segnale portante viene variato dall'ampiezza del segnale modulante.
+    * Maggiore immunità ai disturbi
+        * l'audio non è disturbato dai rumori generati da macchine elettriche
+    * grande larghezza di banda occupata
+    * FORMULA DI CARSON: 2(deviazione + freq._modulante)
+    * si ottiene una maggiore fedeltà nella riproduzione dei suoni
+    * effetto della sovradeviazione: Emissioni fuori dal canale
+    * indice modulazione: deviazione/frequenza_modulante
+    * Quale tipo di emissioni produce un trasmettitore che usa un modulatore a reattanza: Telefonia a modulazione di fase
+    * modulazione di fase somiglia a modulazione di frequenza
+# regolamentazione
+* In quante bande è suddiviso lo spettro delle frequenze radioelettriche: 9
+* onda miriametrica: VLF
+* onda ettometrica: MF (30-300 kHz)
+* onda decametrica (HF): 3-30 MHz
+* onde metriche (VHF): 30 a 300 MHz
+* onda centimetrica(SHF)
+* onda millimetrica: 30 a 300 GHz
+* onda decimillimetrica:  300-3000 GHz
+# DA FARE
+**CODICE LARGHEZZA DI BANDA**
+
+* larghezza di banda: 
+    * tre cifre e una lettera.
+   
+* TIPI DI EMISSIONE    
+    * ordine crescente di larghezza di banda: CW (filtri più selettivi), RTTY, telefonia SSB, telefonia FM
+
+* MOSFET:
+    * DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
+
+# ricevitori
+* mixer: converte la frequenza di un segnale
+* circuiti prescaler: dividono la frequenza di un segnale HF per visualizzarla con un frequenzimetro di bassa frequenza
+* effetto del battimento: due suoni di frequenze leggermente diverse f1 e f2 (f2>f1) vengono percepiti dal nostro orecchio come un unico suono di frequenza f2-f1
+*inserire domande 900-920*
+* BFO (beat freq oscillator): usato in SSB e CW (no AM)
+* AGC (controllo automatico di guadagno): 
+    * mantiene costante il livello d'uscita audio di un ricevitore anche se varia il livello dei segnali in ingresso a RF
+    * circuito per riuscire a riprodurre sia segnali deboli, sia segnali forti con lo stesso livello audio d'uscita
+* La larghezza di banda e la figura di rumore determinano la sensibilità di un ricevitore
+* Un ricevitore FM utilizza un limitatore e un discriminatore di frequenza per produrre un segnale udibile
+* un ricevitore AM utilizza Mixer, Amplificatore RF, AGC
+* SSB (single side band - banda laterale unica)
+    * necessita di un BFO (oscillatore a frequenza di battimento) e di un rilevatore a prodotto  
+    * larghezza di banda è di 2-3 kHz 
+    * usa un MOSFET doppio gate come rivelatore a prodotto
+    * grado di selettività 2,4 kHz
+* FM:
+    * utilizza la de-enfasi
+    * per demodulare utilizza il Discriminatore Foster-Seeley
+
+* CW:
+    * larghezza di banda è 250 Hz
+    * utilizza BFO
+* grado di selettività è necessario nei circuiti a frequenza intermedia di un ricevitore radioamatoriale per RTTY è 300hz
+* rumore è dato dall'agitazione termica dei componenti.
+    * di un ricevitore: il livello di rumore generato nello stadio di ingresso e negli stadi successivi del ricevitore
+* selettività: La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda
+    * discrimina tra segnali di frequenze diverse ma vicine
+    * si migliora usando filtri IF  (preselettore) il più possibile selettivi (migliore Q)
+    * alta selettività permette di ricevere in bande affollate di segnali
+* sensibilità: minima tensione in ingresso che riesce a produrre un segnale d'uscita chiaramente distinguibile dal rumore generato dal ricevitore stesso
+    * misurata in microvolt (uV)
+    * limitata dal rumore di fondo
+* Amplificatore RF/filtro passa banda è il primo circuito collegato all'antenna
+* fenomeni legati al sovraccarico: 
+    * Modulazione incrociata
+    * Silenziamento
+    * Distorsione da intermodulazione (forte segnale disturbante modulato sopra al debole segnale che si sta sintonizzando, dovuto al sovraccarico, compare in più posizioni della sintonia )
+* clarifier: controllo del ricevitore usato per correggere il timbro di voce di un segnale ricevuto in SSB quando è troppo grave o troppo acuto
+* gamma dinamica: Il rapporto fra l'intensità del minimo segnale intelligibile e l'intensità del massimo segnale tollerabile in ingresso.
+* la banda passante degli stadi IF di un ricevitore deve essere leggermente più larga della larghezza di banda del segnale ricevuto.
+* la frequenza immagine si elimina tramite l'uso di filtri passa banda e con una scelta accurata della prima IF
+* Il rivelatore: combina il segnale di uscita dell'amplificatore IF con quello del BFO per produrre un segnale udibile
+    * si trova in tutti i tipi di ricevitori
+
+# trasmettitori
+* VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
+* in SSB è presente un filtro passa banda all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
+* un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
+* profondità di modulazione, sopra 1 produce armoniche **verificare**
+* Amplificatore in classe C è usato come moltiplicatore di frequenza (per aumentare la deviazione di frequenza prodotta dal modulatore)
+* in FM la frequenza della portante tipicamente viene variata tramite un diodo varicap
+    * utilizzata la tecnica della preenfasi
+* lo stadio moltiplicatore in VHF a modulazione di frequenza seleziona ed amplifica una armonica del segnale modulato per produrre la frequenza di trasmissione
+* in SSB si usa il modulatore bilanciato ad anello
+* Collegando dei moltiplicatori di frequenza in cascata all'oscillatore si possono ottenere frequenze molto elevate (VHF ed oltre) da semplici oscillatori al quarzo
+* Il modulatore bilanciato: in SSB riceve i segnali dall'oscillatore che genera la portante e dall'amplificatore audio e li invia al filtro
+* in SSB si usa un filtro passa banda per lasciar passare una sola delle due bande laterali (tra il modulatore bilanciato e il mixer)
+* lo squelch non è presente in trasmissione
+* frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
+
+# alimentatori
+* resistenza "bleeder": 
+    * Scarica i condensatori del circuito allo spegnimento dell'alimentatore
+    * filtra la tensione e quindi riduce l'ondulazione
+* alimentatore stabilizzato:
+    * Gli stadi sono 
+        * Trasformatore (serve ad abbassare la tensione in ingresso), 
+        * raddrizzatore a onda intera (ponte di diodi), 
+        * filtro (condensatori e induttanze), 
+        * stabilizzatore (In un alimentatore è lo stadio in cui viene resa costante la tensione in uscita al variare del carico)
+    * stadio discriminatore:
+    * Modulazione di frequenza
+* la forma d'onda in uscita ad un rettificatore a *doppia* semionda (conduce 360 gradi) connesso ad un carico resistivo è una serie di impulsi a frequenza doppia della frequenza di alimentazione
+* un rettificatore a *singola* semionda è in conduzione per 180 gradi
+* per aumentare la portata di corrente di un rettificatore è bene collegare due o più diodi i parallelo per evitare che un solo diodo sopporti la maggior pare della corrente
+* il transistor in un alimentatore è inserito nello stabilizzatore
+
+# amplificatori
+* La valvola termoionica:
+    * usato per amplificare piccoli segnali ma necessita di tensioni elevate per funzionare
+    * accetta carichi come una resistenza, un condensatore oppure un trasformatore.
+* Controreazionando un amplificatore si ottiene: 
+    * Riduzione del rumore. 
+    * Allargamento della banda. 
+    * Maggiore linearità.
+* Gli amplificatori compensati sono quelli utilizzati nella televisione.
+* il diodo non si usa per amplificare segnali
+* il transistor bipolare ad emettitore comune *non* è adatto a lavorare in alta frequenza
+* per ottenere un guadagno molto elevato si collegano più stadi in cascata
+* l'amplificazione di corrente di un transistor bipolare in configurazione a base comune è minore di 1
+* Negli amplificatori a radiofrequenza, per annullare l'effetto delle capacità interelettrodiche del componente attivo si usano circuiti risonanti all'ingresso e all'uscita dell'amplificatore
+* L'amplificatore lineare: amplifica il segnale emesso in trasmissione, senza distorsione ed entro i limiti di legge
+* amplificatore operazionale:
+    * Un amplificatore **differenziale** le cui caratteristiche sono determinate da componenti esterni all'amplificatore.
+    * caratteristiche: Impedenza di ingresso altissima, impedenza di uscita bassissima, guadagno infinito, linearità in frequenza.
+    * invertente: uscita 180°
+    * non invertente: uscita in fase
+    * guadagno non varia al variare della frequenza.
+    * il fattore di amplificazione è dato Dal rapporto tra la tensione del segnale in uscita con la tensione del segnale in ingresso	
+* classe di funzionamento: 
+    * Indica quanti gradi (angolo di conduzione) di un periodo del segnale vi è circolazione di corrente nell'elemento attivo amplificante (valvola o transistor)
+    * classe A:
+        * In un trasmettitore il primo stadio BF per amplificare il segnale microfonico
+        * In zona di funzionamento lineare e distante da interdizione e saturazione
+        * scarso rendimento
+        * bassissima distorsione
+    * classe AB:
+    * classe B: 
+        * Alto rendimento e minima dissipazione anodica in assenza di pilotaggio.
+        * raddoppiando la tensione del segnale all'ingresso di un amplificatore in classe B la potenza d'uscita è quadruplicata, perché varia con il quadrato del potenziale di griglia.
+    * classe C: 
+        * maggiore distorsione
+        * alto rendimento
+        * per alte frequenze, CW
+* Amplificatore push-pull: 
+    * garantisce alto rendimento e bassa distorsione
+    * bassa frequenza: cancella le armoniche pari.
+
+# IMPEDENZE DI INGRESSO USCITA
+* Il FET ha impedenza di ingresso alta, il transistor ha impedenza di ingresso bassa.
+* L'impedenza d'ingresso di un amplificatore a catodo comune è elevata
+    * deve essere alta per non caricare eccessivamente lo stadio a monte
+* un transistor bipolare in colletore comune ha impedenza di ingresso alta
+* un FET a gate comune ha impedenza di ingresso alta
+
+
+# NORMATIVA
+
+* La direttiva europea sulla 'compatibilità elettromagnetica' è la 2004/108/CE
+
+
+
+# DA FARE
+**900**
+
+* Trasformatori
+    * il rapporto di trasformazione N=V1/V2 è proporzionale al rapporto spire tra primario e secondario.
+
+* Semiconduttore: 
+    * Un materiale con caratteristiche intermedie tra un conduttore e un isolante
+
+* Stabilizzatore: 
+    
+* Selettività:
+    * La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda viene chiamata
+* Alimentatori:
+    
+* oscillatore al quarzo
+    * La frequenza generata è più stabile nel tempo
+* transistor BJT
+* Sovramodulazione:
+    * Una conseguenza dell'eccessivo livello del segnale modulante applicato allo stadio modulatore
+* Discriminatore Foster-Seeley
+
+   
+* PLL (Phase Locked Loop):
+    * generatore di frequenza ad aggancio di fase
+    * Serve a generare un segnale a frequenza determinabile entro la banda di frequenza caratteristica del circuito stesso
+    * composto da un rivelatore di fase, un filtro passa basso ed un oscillatore
+    *  gamma di cattura: La gamma di frequenze nella quale il circuito può agganciare.
+controllato in tensione.
+* dispositivi attivi in un circuito elettronico
+* Transistor, circuiti integrati e valvole
+* Amplificatore:
+    
