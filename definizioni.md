@@ -1,4 +1,4 @@
-# elettrotecnica
+# ELETTROTECNICA
 * circuito aperto
     * circuito elettrico dove non scorre corrente
 * corto circuito
@@ -86,7 +86,7 @@
         * il tempo impiegato dal condensatore per caricarsi fino al 63% della tensione di alimentazione
         * T= R x C
         * due costanti di tempo = 86,5%
-* Induttori:
+* Induttore:
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
     * induttanza
         * misurata in henry
@@ -150,7 +150,7 @@
     * la frequenza di risonanza dipende dallo spessore del quarzo stesso
 
 
-# ALTRO
+# STRUMENTI/SICUREZZA
 
 * Sicurezza: 
     * Quale intensità di corrente attraversando il corpo umano può risultare fatale: Anche un decimo di Ampere (100 mA)
@@ -179,7 +179,7 @@
     * visualizza L'andamento nel tempo dei segnali
     * L'analizzatore di spettro opera nel dominio della frequenza; l'oscilloscopio opera nel dominio del tempo.
 
-# ANTENNE
+# ANTENNE
 
 * Caratteristiche delle antenne:
     * Frequenza di lavoro, impedenza, guadagno, diagramma di irradiazione, potenza massima applicabile
@@ -244,7 +244,7 @@
     * polarizzazione verticale: Le linee di forza della componente elettrica sono **perpendicolari** alla superficie terrestre
     * i ripetitori radioamatoriali in VHF hanno polarizzazione verticale
 
-# linee di trasmissione:
+# LINEE DI TRASMISSIONE
 * L'impedenza d'uscita di un trasmettitore deve essere uguale a quella della linea/antenna a cui è collegato
 * il cavo deve essere più corto possibile
 * Nei radiotrasmettitori amatoriali l'impedenza d'uscita è 50 ohm
@@ -283,7 +283,7 @@
 * potenza diretta: La potenza che transita dal **trasmettitore** all'**antenna** 
 * potenza riflessa: La potenza che transita dall'**antenna** al **trasmettitore**
 
-# propagazione
+# PROPAGAZIONE
 * propagazione ionosferica: 
     * L'attività solare è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
     * propaga Le onde corte (HF) a lunga distanza
@@ -318,7 +318,7 @@
         * 70cm: 5MHz
 * la fm è usata dalle VHF in su
 
-# modulazione 
+# MODULAZIONE 
 * modulazione: la combinazione di un segnale contenente un'informazione e un segnale a radiofrequenza
     * portante RF: Un segnale a radiofrequenza (di ampiezza costante) che viene modulato per produrre un segnale radiotelefonico
     * La FM occupa una banda piuttosto larga
@@ -347,7 +347,9 @@
     * indice modulazione: deviazione/frequenza_modulante
     * Quale tipo di emissioni produce un trasmettitore che usa un modulatore a reattanza: Telefonia a modulazione di fase
     * modulazione di fase somiglia a modulazione di frequenza
-# regolamentazione
+
+## SUDDIVISIONE SPETTRO
+
 * In quante bande è suddiviso lo spettro delle frequenze radioelettriche: 9
 * onda miriametrica: VLF
 * onda ettometrica: MF (30-300 kHz)
@@ -356,8 +358,8 @@
 * onda centimetrica(SHF)
 * onda millimetrica: 30 a 300 GHz
 * onda decimillimetrica:  300-3000 GHz
-# DA FARE
-**CODICE LARGHEZZA DI BANDA**
+
+# DA FARE (CODICE LARGHEZZA DI BANDA)
 
 * larghezza di banda: 
     * tre cifre e una lettera.
@@ -368,7 +370,7 @@
 * MOSFET:
     * DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
 
-# ricevitori
+# RICEVITORI
 * mixer: converte la frequenza di un segnale
 * circuiti prescaler: dividono la frequenza di un segnale HF per visualizzarla con un frequenzimetro di bassa frequenza
 * effetto del battimento: due suoni di frequenze leggermente diverse f1 e f2 (f2>f1) vengono percepiti dal nostro orecchio come un unico suono di frequenza f2-f1
@@ -414,7 +416,7 @@
 * Il rivelatore: combina il segnale di uscita dell'amplificatore IF con quello del BFO per produrre un segnale udibile
     * si trova in tutti i tipi di ricevitori
 
-# trasmettitori
+# TRASMETTITORI
 * VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
 * in SSB è presente un filtro passa banda all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
 * un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
@@ -430,7 +432,7 @@
 * lo squelch non è presente in trasmissione
 * frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
 
-# alimentatori
+# ALIMENTATORI
 * resistenza "bleeder": 
     * Scarica i condensatori del circuito allo spegnimento dell'alimentatore
     * filtra la tensione e quindi riduce l'ondulazione
@@ -447,7 +449,7 @@
 * per aumentare la portata di corrente di un rettificatore è bene collegare due o più diodi i parallelo per evitare che un solo diodo sopporti la maggior pare della corrente
 * il transistor in un alimentatore è inserito nello stabilizzatore
 
-# amplificatori
+# AMPLIFICATORI
 * La valvola termoionica:
     * usato per amplificare piccoli segnali ma necessita di tensioni elevate per funzionare
     * accetta carichi come una resistenza, un condensatore oppure un trasformatore.
@@ -488,7 +490,7 @@
     * garantisce alto rendimento e bassa distorsione
     * bassa frequenza: cancella le armoniche pari.
 
-# IMPEDENZE DI INGRESSO USCITA
+## IMPEDENZE DI INGRESSO USCITA
 * Il FET ha impedenza di ingresso alta, il transistor ha impedenza di ingresso bassa.
 * L'impedenza d'ingresso di un amplificatore a catodo comune è elevata
     * deve essere alta per non caricare eccessivamente lo stadio a monte
@@ -499,6 +501,7 @@
 # NORMATIVA
 
 * La direttiva europea sulla 'compatibilità elettromagnetica' è la 2004/108/CE
+
 
 
 
