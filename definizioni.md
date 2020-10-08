@@ -614,34 +614,3 @@
 * Nella pianificazione delle stazioni utilizzare antenne direttive per evitare i disturbi
 * Una stazione che riceve un disturbo nocivo deve dare alla stazione disturbata tutte le informazioni per identificare la causa e le caratteristiche di disturbo e comunicarlo all'Amministrazione da cui dipende la stazione disturbatrice.
 * il mondo è stato suddiviso in 3 Regioni, l'Europa è nella regione 1
-
-
-
-# DA FARE
-**900**
-
-* Trasformatori
-    * il rapporto di trasformazione N=V1/V2 è proporzionale al rapporto spire tra primario e secondario.
-
-* Semiconduttore: 
-    * Un materiale con caratteristiche intermedie tra un conduttore e un isolante
-
-* Stabilizzatore: 
-    
-* Selettività:
-    * La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda viene chiamata
-* Alimentatori:
-    
-* oscillatore al quarzo
-    * La frequenza generata è più stabile nel tempo
-* transistor BJT
-* Sovramodulazione:
-    * Una conseguenza dell'eccessivo livello del segnale modulante applicato allo stadio modulatore
-* Discriminatore Foster-Seeley
-
-   
-* PLL (Phase Locked Loop):
-    * generatore di frequenza ad aggancio di fase
-    * Serve a generare un segnale a frequenza determinabile entro la banda di frequenza caratteristica del circuito stesso
-    * composto da un rivelatore di fase, un filtro passa basso ed un oscillatore
-    *  gamma di cattura: La gamma di frequenze nella quale il circuito può agganciare.
