@@ -17,7 +17,7 @@
         * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
         * frequenza: numero di volte al secondo in cui una corrente alternata inverte la propria direzione
 * Potenza
-    *  grandezza che esprime la velocità con cui viene impiegata l'energia elettrica
+    * grandezza che esprime la velocità con cui viene impiegata l'energia elettrica
     * P = I*V
     * P = R * I^2
 * Tensione
@@ -46,7 +46,6 @@
     * esprime la relazione fra la **tensione**, la **resistenza (o impedenza)** e la **corrente** in un circuito
     * V= I * R (o Z)
     * R = V / I 
-
 * legge di KIRCHHOFF:
     * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
 # RESISTENZA - CONDENSATORE - INDUTTORE
@@ -424,10 +423,11 @@
     * DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
 
 # RICEVITORI
-* mixer: converte la frequenza di un segnale
+* mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
+    * riceve i segnali dell'amplificatore RF e dell'oscillatore locale e li invia al filtro
 * circuiti prescaler: dividono la frequenza di un segnale HF per visualizzarla con un frequenzimetro di bassa frequenza
 * effetto del battimento: due suoni di frequenze leggermente diverse f1 e f2 (f2>f1) vengono percepiti dal nostro orecchio come un unico suono di frequenza f2-f1
-*inserire domande 900-920*
+
 * BFO (beat freq oscillator): usato in SSB e CW (no AM)
 * AGC (controllo automatico di guadagno): 
     * mantiene costante il livello d'uscita audio di un ricevitore anche se varia il livello dei segnali in ingresso a RF
@@ -446,6 +446,7 @@
 
 * CW:
     * larghezza di banda è 250 Hz
+    * filtro IF più selettivo
     * utilizza BFO
 * grado di selettività è necessario nei circuiti a frequenza intermedia di un ricevitore radioamatoriale per RTTY è 300hz
 * rumore è dato dall'agitazione termica dei componenti.
@@ -458,7 +459,7 @@
     * misurata in microvolt (uV)
     * limitata dal rumore di fondo
 * Amplificatore RF/filtro passa banda è il primo circuito collegato all'antenna
-* fenomeni legati al sovraccarico: 
+* fenomeni legati al sovraccarico (Interferenze causate da segnali troppo intensi): 
     * Modulazione incrociata
     * Silenziamento
     * Distorsione da intermodulazione (forte segnale disturbante modulato sopra al debole segnale che si sta sintonizzando, dovuto al sovraccarico, compare in più posizioni della sintonia )
