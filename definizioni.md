@@ -18,7 +18,7 @@
         * frequenza: numero di volte al secondo in cui una corrente alternata inverte la propria direzione
 * Potenza
     * grandezza che esprime la velocità con cui viene impiegata l'energia elettrica
-    * P = I*V
+    * P = I * V
     * P = R * I^2
 * Tensione
     * Differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
@@ -30,11 +30,11 @@
 * Frequenza:
     * Unità di misura Hertz HZ
     * Lunghezza d'onda:
-        * L (metri/LAMBDA)= 300.000.000(C)/frequenza (hertz)
+        * L (metri/LAMBDA)= 300.000.000(C) /frequenza (hertz)
         * distanza percorsa da un'onda elettromagnetica in un ciclo completo
     * Se si raddoppia la frequenza, la corrispondente lunghezza d'onda si dimezza
     * periodo = il tempo che intercorre tra due valori massimi
-    * pulsazione omega: Lambda = 2 x Pgreco x f
+    * pulsazione omega: Lambda = 2 * Pgreco * f
     * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
 * Batterie:
     * La capacità viene misurata in ampere per ora
@@ -60,7 +60,7 @@
     * Il valore di resistenza di un resistore a filo varia secondo la temperatura
     * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
     * in serie: Rt = R1 + R2 + R3
-    * in parallelo: 1/Rt = 1/R1 + 1/R2 + 1/R3 = (R1*R2)/(R1+R2)
+    * in parallelo: 1/Rt = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
         * se R1 == R2: Rt = R1 / 2
 
 * Condensatore
@@ -77,12 +77,12 @@
     * in serie: Ct = (C1*C2)/(C1+C2)
     * in parallelo: Ct = C1 + C2
     * reattanza (capacitiva): 
-        * X = 1 / (6,28 x f x C)
+        * X = 1 / (6,28 * f * C)
         * si oppone al flusso della corrente alternata
         * aumenta al diminuire della frequenza
     * costante di tempo di un circuito RC
         * il tempo impiegato dal condensatore per caricarsi fino al 63% della tensione di alimentazione
-        * T= R x C
+        * T = R * C
         * due costanti di tempo = 86,5%
 * Induttore:
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
@@ -105,7 +105,7 @@
     * L'impedenza di un circuito formato da una resistenza con in parallelo un condensatore/induttore dipende dalla frequenza di lavoro
 * potenza apparente:
     * misura in voltampere
-    * P=VxI
+    * P=V * I
     * cosf = potenza attiva / potenza apparente
     * sfasamento (misurato in gradi tra tensione e corrente)
         * resistori = 0°
@@ -124,7 +124,7 @@
     * selettività (fattore Q): rapporto frequenza di risonanza / larghezza di banda
         * la resistenza in un circuito risonante in *parallelo* per avere la massima selettività deve essere *massimo*
         * la resistenza in un circuito risonante in *serie* per avere la massima selettività deve essere *minimo*
-        * Q (in serie) = X/R
+        * Q (in serie) = X / R
 
 * reattanza (ohm): La grandezza, dovuta alle bobine ed ai condensatori, che si oppone al flusso di corrente alternata.
 
@@ -161,9 +161,6 @@
 * lo schermo del tetrodo serve a diminuire la capacità parassita tra griglia e anodo
 * il pentodo ha 5 elettrodi +2 del filamento = 7
 * l'elettrodo soppressore del pentodo serve A sopprimere la corrente inversa da placca a schermo
-
-
-
 
 
 ## DIODI
@@ -503,24 +500,21 @@
     * circuito per riuscire a riprodurre sia segnali deboli, sia segnali forti con lo stesso livello audio d'uscita
 * La larghezza di banda e la figura di rumore determinano la sensibilità di un ricevitore
 
-
 * AM
     * utilizza Mixer, Amplificatore RF, AGC
 * SSB (single side band - banda laterale unica)
-    * necessita di un BFO (oscillatore a frequenza di battimento) e di un rilevatore a prodotto  
+    * necessita di un BFO (oscillatore a frequenza di battimento) e di un rilevatore a prodotto (MOSFET doppio gate)
     * larghezza di banda è di 2-3 kHz 
-    * usa un MOSFET doppio gate come rivelatore a prodotto
     * grado di selettività 2,4 kHz
 * FM:
     * utilizza un limitatore e un discriminatore di frequenza per produrre un segnale udibile
     * utilizza la de-enfasi
     * per demodulare utilizza il Discriminatore Foster-Seeley
-
 * CW:
     * larghezza di banda è 250 Hz
     * filtro IF più selettivo
     * utilizza BFO
-* grado di selettività è necessario nei circuiti a frequenza intermedia di un ricevitore radioamatoriale per RTTY è 300hz
+* il grado di selettività è necessario nei circuiti a frequenza intermedia di un ricevitore radioamatoriale per RTTY è 300hz
 * rumore è dato dall'agitazione termica dei componenti.
     * rumore di un ricevitore: il livello di rumore generato nello stadio di ingresso e negli stadi successivi del ricevitore
 * selettività: La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda
@@ -531,7 +525,7 @@
     * misurata in microvolt (uV)
     * limitata dal rumore di fondo
 * Amplificatore RF/filtro passa banda è il primo circuito collegato all'antenna
-* fenomeni legati al sovraccarico (Interferenze causate da segnali troppo intensi): 
+* fenomeni legati al sovraccarico (interferenze causate da segnali troppo intensi): 
     * Modulazione incrociata
     * Silenziamento
     * Distorsione da intermodulazione (forte segnale disturbante modulato sopra al debole segnale che si sta sintonizzando, dovuto al sovraccarico, compare in più posizioni della sintonia )
@@ -543,7 +537,6 @@
     * si trova in tutti i tipi di ricevitori
 * nei ricevitori eterodina il segnale è convertito di frequenza una o più volte prima di essere demodulato
 
-
 # ALIMENTATORI
 * resistenza "bleeder": 
     * Scarica i condensatori del circuito allo spegnimento dell'alimentatore
@@ -554,8 +547,7 @@
         * raddrizzatore a onda intera (ponte di diodi), 
         * filtro (condensatori e induttanze), 
         * stabilizzatore (In un alimentatore è lo stadio in cui viene resa costante la tensione in uscita al variare del carico)
-    * stadio discriminatore:
-    * Modulazione di frequenza
+
 * la forma d'onda in uscita ad un rettificatore a *doppia* semionda (conduce 360 gradi) connesso ad un carico resistivo è una serie di impulsi a frequenza doppia della frequenza di alimentazione
 * un rettificatore a *singola* semionda è in conduzione per 180 gradi
 * per aumentare la portata di corrente di un rettificatore è bene collegare due o più diodi i parallelo per evitare che un solo diodo sopporti la maggior pare della corrente
