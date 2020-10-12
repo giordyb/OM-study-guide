@@ -472,18 +472,23 @@
 * uno stadio RF finale da 100w alimentato a 20V assorbe più di 5A
 * la schermatura serve per evitare l'irradiazione di segnali spuri
 * VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
-* in SSB è presente un *filtro passa banda* all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
 * un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
 * profondità di modulazione, mai superare 100% perchè produce armoniche
 * Amplificatore in classe C è usato come moltiplicatore di frequenza (per aumentare la deviazione di frequenza prodotta dal modulatore)
-* in FM la frequenza della portante tipicamente viene variata tramite un diodo varicap
+* FM 
+    * la frequenza della portante tipicamente viene variata tramite un diodo varicap
     * utilizzata la tecnica della preenfasi
-* lo stadio moltiplicatore in VHF a modulazione di frequenza seleziona ed amplifica una armonica del segnale modulato per produrre la frequenza di trasmissione
-* in SSB si usa il modulatore bilanciato ad anello
+    * lo stadio moltiplicatore in VHF a modulazione di frequenza seleziona ed amplifica una armonica del segnale modulato per produrre la frequenza di trasmissione
+* SSB
+    * si usa il modulatore bilanciato ad anello
+    * si usa un filtro passa banda per lasciar passare una sola delle due bande laterali (tra il modulatore bilanciato e il mixer)
+    * Il modulatore bilanciato: riceve i segnali dall'oscillatore che genera la portante e dall'amplificatore audio e li invia al filtro
+    * è presente un *filtro passa banda* all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
 * Collegando dei moltiplicatori di frequenza in cascata all'oscillatore si possono ottenere frequenze molto elevate (VHF ed oltre) da semplici oscillatori al quarzo
-* Il modulatore bilanciato: in SSB riceve i segnali dall'oscillatore che genera la portante e dall'amplificatore audio e li invia al filtro
-* in SSB si usa un filtro passa banda per lasciar passare una sola delle due bande laterali (tra il modulatore bilanciato e il mixer)
-* lo squelch non è presente in trasmissione
+* lo squelch non è presente in trasmissione (solo in FM e solo in ricezione per sopprimere il soffio)
+* deviazione di frequenza: aumentando la frequenza aumenta anche la deviazione.
+    * deviazione LO = Deviazione RF / (Frequenza RF / Frequenza LO) 
+        * es. 12.21mhz/146.52mhz == 5000hz/x
 * frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
 
 # RICEVITORI
