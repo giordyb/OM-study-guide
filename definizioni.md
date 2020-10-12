@@ -660,5 +660,3 @@
 * Nella pianificazione delle stazioni utilizzare antenne direttive per evitare i disturbi
 * Una stazione che riceve un disturbo nocivo deve dare alla stazione disturbata tutte le informazioni per identificare la causa e le caratteristiche di disturbo e comunicarlo all'Amministrazione da cui dipende la stazione disturbatrice.
 * il mondo è stato suddiviso in 3 Regioni, l'Europa è nella regione 1
-
-# LARGHEZZA DI BANDA
