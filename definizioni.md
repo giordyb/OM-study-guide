@@ -202,10 +202,9 @@
     * La polarizzazione del gateè data da una tensione negativa
     * terminali: Gate, Drain, Source.
 * MOSFET: un tipo di transistore ad effetto di campo
+    * in molti dispositivi MOSFET è incorporato un diodo zener di protezione del gate per proteggere l'isolamento del gate da perforazioni dovute a piccole cariche statiche o a sovratensioni.
     * MOSFET A DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
-
-* Perché in molti dispositivi MOSFET è incorporato un diodo zener di protezione del gate? Per proteggere l'isolamento del gate da perforazioni dovute a piccole cariche statiche o a sovratensioni.
-
+        * **non** si usa come raddrizzatore
 
 ## CIRCUITI LOGICI
 * vantaggi: incorporano diverse funzioni in un singolo componente
@@ -389,7 +388,7 @@
 
 # MODULAZIONE 
 * modulazione: la combinazione di un segnale contenente un'informazione e un segnale a radiofrequenza
-    * portante RF: Un segnale a radiofrequenza (di ampiezza costante) che viene modulato per produrre un segnale radiotelefonico
+    * portante RF: Un segnale a radiofrequenza (di *ampiezza costante)* che viene modulato per produrre un segnale radiotelefonico
     * La FM occupa una banda piuttosto larga
     * La AM occupa il doppio della banda rispetto alla SSB
     * La SSB sfrutta la potenza del trasmettitore meglio delle altre modulazioni
@@ -413,9 +412,9 @@
     * FORMULA DI CARSON: 2(deviazione + freq._modulante)
     * si ottiene una maggiore fedeltà nella riproduzione dei suoni
     * effetto della sovradeviazione: Emissioni fuori dal canale
-    * indice modulazione: deviazione/frequenza_modulante
-    * Quale tipo di emissioni produce un trasmettitore che usa un modulatore a reattanza: Telefonia a modulazione di fase
-    * modulazione di fase somiglia a modulazione di frequenza
+    * indice modulazione: deviazione/frequenza_modulante (analogo ad indice modulazione per AM)
+    * Quale tipo di emissioni produce un trasmettitore che usa un modulatore a reattanza (varicap): Telefonia a modulazione di fase
+    * un segnale in modulazione di fase è uguale a modulazione di frequenza
 
 ## BANDE E FREQUENZE
 
@@ -468,10 +467,29 @@
     * ordine crescente di larghezza di banda: CW (filtri più selettivi), RTTY, telefonia SSB, telefonia FM
 
 
+
+# TRASMETTITORI
+* uno stadio RF finale da 100w alimentato a 20V assorbe più di 5A
+* la schermatura serve per evitare l'irradiazione di segnali spuri
+* VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
+* in SSB è presente un *filtro passa banda* all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
+* un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
+* profondità di modulazione, mai superare 100% perchè produce armoniche
+* Amplificatore in classe C è usato come moltiplicatore di frequenza (per aumentare la deviazione di frequenza prodotta dal modulatore)
+* in FM la frequenza della portante tipicamente viene variata tramite un diodo varicap
+    * utilizzata la tecnica della preenfasi
+* lo stadio moltiplicatore in VHF a modulazione di frequenza seleziona ed amplifica una armonica del segnale modulato per produrre la frequenza di trasmissione
+* in SSB si usa il modulatore bilanciato ad anello
+* Collegando dei moltiplicatori di frequenza in cascata all'oscillatore si possono ottenere frequenze molto elevate (VHF ed oltre) da semplici oscillatori al quarzo
+* Il modulatore bilanciato: in SSB riceve i segnali dall'oscillatore che genera la portante e dall'amplificatore audio e li invia al filtro
+* in SSB si usa un filtro passa banda per lasciar passare una sola delle due bande laterali (tra il modulatore bilanciato e il mixer)
+* lo squelch non è presente in trasmissione
+* frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
+
 # RICEVITORI
 * mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
     * riceve i segnali dell'amplificatore RF e dell'oscillatore locale e li invia al filtro
-* circuiti prescaler: dividono la frequenza di un segnale HF per visualizzarla con un frequenzimetro di bassa frequenza
+* circuiti prescaler: dividono la frequenza di un segnale HF per visualizzarla con un frequenzimetro di bassa frequenza (es segnale da 20mhz per frequenzimetro a 10mhz)
 * effetto del battimento: due suoni di frequenze leggermente diverse f1 e f2 (f2>f1) vengono percepiti dal nostro orecchio come un unico suono di frequenza f2-f1
 
 * BFO (beat freq oscillator): usato in SSB e CW (no AM)
@@ -479,14 +497,17 @@
     * mantiene costante il livello d'uscita audio di un ricevitore anche se varia il livello dei segnali in ingresso a RF
     * circuito per riuscire a riprodurre sia segnali deboli, sia segnali forti con lo stesso livello audio d'uscita
 * La larghezza di banda e la figura di rumore determinano la sensibilità di un ricevitore
-* Un ricevitore FM utilizza un limitatore e un discriminatore di frequenza per produrre un segnale udibile
-* un ricevitore AM utilizza Mixer, Amplificatore RF, AGC
+
+
+* AM
+    * utilizza Mixer, Amplificatore RF, AGC
 * SSB (single side band - banda laterale unica)
     * necessita di un BFO (oscillatore a frequenza di battimento) e di un rilevatore a prodotto  
     * larghezza di banda è di 2-3 kHz 
     * usa un MOSFET doppio gate come rivelatore a prodotto
     * grado di selettività 2,4 kHz
 * FM:
+    * utilizza un limitatore e un discriminatore di frequenza per produrre un segnale udibile
     * utilizza la de-enfasi
     * per demodulare utilizza il Discriminatore Foster-Seeley
 
@@ -496,7 +517,7 @@
     * utilizza BFO
 * grado di selettività è necessario nei circuiti a frequenza intermedia di un ricevitore radioamatoriale per RTTY è 300hz
 * rumore è dato dall'agitazione termica dei componenti.
-    * di un ricevitore: il livello di rumore generato nello stadio di ingresso e negli stadi successivi del ricevitore
+    * rumore di un ricevitore: il livello di rumore generato nello stadio di ingresso e negli stadi successivi del ricevitore
 * selettività: La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda
     * discrimina tra segnali di frequenze diverse ma vicine
     * si migliora usando filtri IF  (preselettore) il più possibile selettivi (migliore Q)
@@ -515,22 +536,8 @@
 * la frequenza immagine si elimina tramite l'uso di filtri passa banda e con una scelta accurata della prima IF
 * Il rivelatore: combina il segnale di uscita dell'amplificatore IF con quello del BFO per produrre un segnale udibile
     * si trova in tutti i tipi di ricevitori
+* nei ricevitori eterodina il segnale è convertito di frequenza una o più volte prima di essere demodulato
 
-# TRASMETTITORI
-* VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
-* in SSB è presente un filtro passa banda all'uscita del modulatore bilanciato per eliminare una delle due bande laterali
-* un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
-* profondità di modulazione, sopra 1 produce armoniche **verificare**
-* Amplificatore in classe C è usato come moltiplicatore di frequenza (per aumentare la deviazione di frequenza prodotta dal modulatore)
-* in FM la frequenza della portante tipicamente viene variata tramite un diodo varicap
-    * utilizzata la tecnica della preenfasi
-* lo stadio moltiplicatore in VHF a modulazione di frequenza seleziona ed amplifica una armonica del segnale modulato per produrre la frequenza di trasmissione
-* in SSB si usa il modulatore bilanciato ad anello
-* Collegando dei moltiplicatori di frequenza in cascata all'oscillatore si possono ottenere frequenze molto elevate (VHF ed oltre) da semplici oscillatori al quarzo
-* Il modulatore bilanciato: in SSB riceve i segnali dall'oscillatore che genera la portante e dall'amplificatore audio e li invia al filtro
-* in SSB si usa un filtro passa banda per lasciar passare una sola delle due bande laterali (tra il modulatore bilanciato e il mixer)
-* lo squelch non è presente in trasmissione
-* frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
 
 # ALIMENTATORI
 * resistenza "bleeder": 
