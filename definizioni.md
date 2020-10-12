@@ -30,11 +30,10 @@
 * Frequenza:
     * Unità di misura Hertz HZ
     * Lunghezza d'onda:
-        * L (metri)= 300.000.000/frequenza (hertz)
+        * L (metri/LAMBDA)= 300.000.000(C)/frequenza (hertz)
         * distanza percorsa da un'onda elettromagnetica in un ciclo completo
     * Se si raddoppia la frequenza, la corrispondente lunghezza d'onda si dimezza
     * periodo = il tempo che intercorre tra due valori massimi
-    * Lambda = c / f
     * pulsazione omega: Lambda = 2 x Pgreco x f
     * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
 * Batterie:
@@ -74,7 +73,7 @@
         * *Diminuisce* aumentando la spaziatura fra le piastre 
     * variabile: Due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
     * elettrolitico: usato nella sezione di filtro degli alimentatori
-    * blocca il flusso della corrente continua e lascia passare la corrente alternata
+    * *blocca* il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
     * in serie: Ct = (C1*C2)/(C1+C2)
     * in parallelo: Ct = C1 + C2
     * reattanza (capacitiva): 
@@ -99,6 +98,7 @@
         * T=L/R
     * in serie: It = I1 + I2
     * in parallelo: It = (I1*I2)/(I1+I2)
+    * limita il passaggio della corrente *alternata* e lascia scorrere la corrente *continua*
     
 * impedenza (ohm): 
     * La grandezza che si oppone allo scorrere della corrente alternata in un circuito
@@ -162,10 +162,9 @@
 * il pentodo ha 5 elettrodi +2 del filamento = 7
 * l'elettrodo soppressore del pentodo serve A sopprimere la corrente inversa da placca a schermo
 
-# SEMICONDUTTORI
 
-* La barriera di potenziale in una giunzione P-N Impedisce la totale ricombinazione degli elettroni con le lacune
-* In un semiconduttore drogato di tipo N le cariche libere sono elettroni
+
+
 
 ## DIODI
 * La tensione di soglia per un diodo al silicio vale approssimativamente 0,6V
@@ -186,7 +185,11 @@
 * led: Un diodo che emette luce
 * Il diodo tunnel entro una porzione della caratteristica tensione/corrente presenta la particolarità di avere Una resistenza negativa
 * diodi hot-carrier: hanno una giunzione tra metallo e semiconduttore
+
 ## TRANSISTOR
+* SEMICONDUTTORI
+    * La barriera di potenziale in una giunzione P-N Impedisce la totale ricombinazione degli elettroni con le lacune
+    * In un semiconduttore drogato di tipo N le cariche libere sono elettroni
 * tipi: PNP, NPN, MESFET (adatto a lavorare ad altissime frequenze), MOSFET, FET
 * transistor bipolare
     * 2 giunzioni
@@ -199,8 +202,22 @@
     * La polarizzazione del gateè data da una tensione negativa
     * terminali: Gate, Drain, Source.
 * MOSFET: un tipo di transistore ad effetto di campo
+    * MOSFET A DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
 
 * Perché in molti dispositivi MOSFET è incorporato un diodo zener di protezione del gate? Per proteggere l'isolamento del gate da perforazioni dovute a piccole cariche statiche o a sovratensioni.
+
+
+## CIRCUITI LOGICI
+* vantaggi: incorporano diverse funzioni in un singolo componente
+* TTL
+    * 5V Tensione di alimentazione
+    * livello alto: 2.0-5.5V
+    * livello basso: 0-0.8V
+    * se l'ingresso è aperto il livello è alto
+
+* CMOS: Complimentary Metal Oxide Semiconductor
+    * vantaggio di consumo ridotto
+* la sonda logica indica gli stati alto/basso di un circuito digitale
 
 # STRUMENTI/SICUREZZA
 
@@ -400,27 +417,56 @@
     * Quale tipo di emissioni produce un trasmettitore che usa un modulatore a reattanza: Telefonia a modulazione di fase
     * modulazione di fase somiglia a modulazione di frequenza
 
-## SUDDIVISIONE SPETTRO
+## BANDE E FREQUENZE
 
 * In quante bande è suddiviso lo spettro delle frequenze radioelettriche: 9
 * onda miriametrica: VLF
 * onda ettometrica: MF (30-300 kHz)
 * onda decametrica (HF): 3-30 MHz
 * onde metriche (VHF): 30 a 300 MHz
-* onda centimetrica(SHF)
+* onda centimetrica(SHF) 8Ghz
 * onda millimetrica: 30 a 300 GHz
 * onda decimillimetrica:  300-3000 GHz
 
-# DA FARE (CODICE LARGHEZZA DI BANDA)
-
-* larghezza di banda: 
+* Codici larghezza di banda: 
     * tre cifre e una lettera.
-   
+    * La lettere occupa la posizione della virgola e rappresenta l'unità della larghezza di banda.
+    * Il primo carattere non deve essere né la cifra zero né le lettere K - M - G.
+        * entro 0,001 e 999 Hz è espressa in Hz (lett. H)
+        * entro 1,00 e 999 kHz è espressa in kHz (lett. K)
+        * entro 1,00 e 999 MHz è espressa in MHz (lett. M)
+        * entro 1,00 e 999 GHz è espressa in GHz (lett. G).
+    * 9G05: 9,05Ghz
+    * 350H: 350Hz
+    * 20H0: 20hz
+    * 2k40: 2,40khz
+    * 5G21: 5,21Ghz
+    * 300H: 300Hz
+    * 42K0: 42khz
+    * 6M25: 6,25Mhz
+    * 71M2: 71,238Mhz
+    * 6K50: 6,5Khz
+    * 5k65: 5,65Khz
+    * 2M00: 2Mhz
+    * 8K55: 8,55Khz
+    * 400H: 400Hz
+    * 181K: 181Khz
+    * H100: 0,1Hz
+    * 195H: 195Hz
+
+* Classi di Emissioni
+    * A3E: telefonia ad un solo canale analogico in AM, doppia banda laterale
+    * C3F: video televisivo modulato a banda laterale vestigiale
+    * H3E: banda laterale unica, portante intera, un solo canale analogico, telefonia
+    * A1A: doppia banda laterale, telegrafia ad un solo canale, telegrafia per ricezione automatica
+    * F3E: modulazione di frequenza, telefonia, un solo canale analogico
+    * 300KF8E: emissione di radiodiffusione FM stereo con nbanda 300khz
+    * 150HA1A: telegrafia ad interruzione di portante, codice morse, larghezza di banda 150Hz
+    * 8k00A3E: radio diffusione sonora, doppia banda laterale, 8khz larghezza di banda
+
 * TIPI DI EMISSIONE    
     * ordine crescente di larghezza di banda: CW (filtri più selettivi), RTTY, telefonia SSB, telefonia FM
 
-* MOSFET:
-    * DOPPIO GATE: usato in Rivelatore a prodotto per la SSB, Mixer, Amplificatore
 
 # RICEVITORI
 * mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
@@ -511,7 +557,7 @@
     * Riduzione del rumore. 
     * Allargamento della banda. 
     * Maggiore linearità.
-* Gli amplificatori compensati sono quelli utilizzati nella televisione.
+* Gli amplificatori compensati sono quelli utilizzati nella televisione (banda larga).
 * il diodo non si usa per amplificare segnali
 * il transistor bipolare ad emettitore comune *non* è adatto a lavorare in alta frequenza
 * per ottenere un guadagno molto elevato si collegano più stadi in cascata
@@ -550,7 +596,6 @@
     * deve essere alta per non caricare eccessivamente lo stadio a monte
 * un transistor bipolare in colletore comune ha impedenza di ingresso alta
 * un FET a gate comune ha impedenza di ingresso alta
-
 
 # NORMATIVA / REGOLAMENTO INTERNAZIONALE
 
@@ -615,3 +660,5 @@
 * Nella pianificazione delle stazioni utilizzare antenne direttive per evitare i disturbi
 * Una stazione che riceve un disturbo nocivo deve dare alla stazione disturbata tutte le informazioni per identificare la causa e le caratteristiche di disturbo e comunicarlo all'Amministrazione da cui dipende la stazione disturbatrice.
 * il mondo è stato suddiviso in 3 Regioni, l'Europa è nella regione 1
+
+# LARGHEZZA DI BANDA
