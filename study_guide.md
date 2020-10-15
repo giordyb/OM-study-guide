@@ -6,20 +6,23 @@
 * Corrente elettrica:
     * flusso di elettroni che attraversano un conduttore viaggiando da carica negativa verso carica positiva
         * Unità di misura dell'intensità di corrente è l'AMPERE (1 coloumb x secondo)
-    * corrente continua
+    * corrente continua (DC)
         * corrente che scorre solo in un verso
         * un flusso di elettroni unidirezionale e di intensità costante
-    * corrente alternata
+    * corrente alternata (AC)
         * un flusso di elettroni bidirezionale e di intensità variabile
-        * valore efficace: 
+        * valore efficace (RMS): 
             * valore di tensione alternata deve corrispondere una tensione continua per produrre lo stesso riscaldamento in un *carico puramente resistivo*
             * circa il 70% del valore massimo della tensione
+            * Vrms = 0.707 Vmax
+            * Vmax = 1,41 Vrms
+            * radice quadrata della media dei quadrati (root mean square)
         * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
-        * frequenza: numero di volte al secondo in cui una corrente alternata inverte la propria direzione
+        * frequenza: numero di volte al secondo in cui una corrente alternata *inverte* la propria direzione
 * Potenza
-    * grandezza che esprime la velocità con cui viene impiegata l'energia elettrica
+    * grandezza che esprime la *velocità* con cui viene impiegata l'energia elettrica
     * P = I * V
-    * P = R * I^2
+    * P = I^2 * R
 * Tensione
     * Differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
     * Misurata in volt (V)
@@ -30,27 +33,28 @@
 * Frequenza:
     * Unità di misura Hertz HZ
     * Lunghezza d'onda:
-        * L (metri/LAMBDA)= 300.000.000(C) /frequenza (hertz)
-        * distanza percorsa da un'onda elettromagnetica in un ciclo completo
-    * Se si raddoppia la frequenza, la corrispondente lunghezza d'onda si dimezza
+        * L (metri/LAMBDA)= 300.000.000(C) /frequenza (Hz)
+            * L (metri)= 300(C) / frequenza (Mhz) (es. 300/14Mhz = 21,42M )
+        * distanza percorsa da un'onda elettromagnetica in un ciclo *completo*
+    * Se si **raddoppia** la frequenza, la corrispondente lunghezza d'onda si **dimezza**
     * periodo = il tempo che intercorre tra due valori massimi
     * pulsazione omega: Lambda = 2 * Pgreco * f
     * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
 * Batterie:
-    * La capacità viene misurata in ampere per ora
+    * La portata (capacità di erogazione) viene misurata in ampere/ora
     * converte energia chimica in energia elettrica
         * generatori in serie = un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
-        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione
+        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (A/h)
 * La legge di Ohm: 
-    * esprime la relazione fra la **tensione**, la **resistenza (o impedenza)** e la **corrente** in un circuito
-    * V= I * R (o Z)
+    * esprime la relazione fra la **tensione (V)**, la **resistenza (R)** o **impedenza (Z)** e la **corrente (A)** in un circuito
+    * V= I * R (o Z) *viva il re*
     * R = V / I 
 * legge di KIRCHHOFF:
     * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
 # RESISTENZA - CONDENSATORE - INDUTTORE
 * Resistenza:
     * coefficiente di temperatura
-        * Indica la variazione del proprio valore nominale al variare della temperatura
+        * Indica la variazione del proprio valore nominale al *variare della temperatura*
     * misurata in Ohm (O)
     * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1A** quando la tensione applicata è **1V**
     * Si **oppone** al flusso di elettroni
