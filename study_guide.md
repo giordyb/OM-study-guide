@@ -52,7 +52,7 @@
 * legge di KIRCHHOFF:
     * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
 # RESISTENZA - CONDENSATORE - INDUTTORE
-* Resistenza:
+* Resistenza (R):
     * coefficiente di temperatura
         * Indica la variazione del proprio valore nominale al *variare della temperatura*
     * misurata in Ohm (O)
@@ -63,71 +63,74 @@
     * dissipa **calore**
     * Il valore di resistenza di un resistore a filo varia secondo la temperatura
     * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
-    * in serie: Rt = R1 + R2 + R3
-    * in parallelo: 1/Rt = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
-        * se R1 == R2: Rt = R1 / 2
+    * in serie: R<sub>tot</tot> = R1 + R2 + R3
+    * in parallelo: 1/R<sub>tot</sub> = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
+        * se R1 == R2: R<sub>tot</sub> = R1 / 2
 
-* Condensatore
+* Condensatore (C)
     * accumula energia sotto forma di campo elettrico
     * Immagazzina energia elettrostatica opponendosi alle variazioni di tensione
     * Due o più piastre conduttive separate da strati di materiale isolante
     * capacità (misurata in farad)
         * determinata dal materiale fra le piastre, la superficie della piastra, il numero di piastre e la distanza fra le piastre.
-        * *Aumenta* aumentando la superficie delle piastre
-        * *Diminuisce* aumentando la spaziatura fra le piastre 
+        * **Aumenta** aumentando la superficie delle piastre
+        * **Diminuisce** aumentando la spaziatura fra le piastre 
     * variabile: Due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
     * elettrolitico: usato nella sezione di filtro degli alimentatori
-    * *blocca* il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
-    * in serie: Ct = (C1*C2)/(C1+C2)
-    * in parallelo: Ct = C1 + C2
+    * **blocca** il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
+    * in serie: C<sub>tot</sub> = (C1*C2)/(C1+C2)
+    * in parallelo: C<sub>tot<sub> = C1 + C2
     * reattanza (capacitiva): 
         * X = 1 / (6,28 * f * C)
-        * si oppone al flusso della corrente alternata
+        * si **oppone** al flusso della corrente alternata
         * aumenta al diminuire della frequenza
     * costante di tempo di un circuito RC
-        * il tempo impiegato dal condensatore per caricarsi fino al 63% della tensione di alimentazione
+        * il tempo impiegato dal condensatore per caricarsi fino al *63%* della tensione di alimentazione
         * T = R * C
         * due costanti di tempo = 86,5%
-* Induttore:
+* Induttore (L):
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
     * induttanza
-        * misurata in henry
-        * aumenta all'aumentare della frequenza
-        * immagazzina energia elettromagnetica (campo magnetico) opponendosi alle variazioni di corrente
-        * si oppone al flusso di corrente alternata
+        * misurata in henry (H)
+        * **aumenta** all'aumentare della frequenza
+        * immagazzina energia elettromagnetica (campo magnetico) **opponendosi** alle variazioni di corrente
+        * si **oppone** al flusso di corrente alternata
         * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
         * mutua induzione: accoppiamento magnetico tra circuiti diversi
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
     * costante di tempo in un circuito LC
         * T=L/R
-    * in serie: It = I1 + I2
-    * in parallelo: It = (I1*I2)/(I1+I2)
-    * limita il passaggio della corrente *alternata* e lascia scorrere la corrente *continua*
+    * in serie: I<sub>tot</sub> = I1 + I2
+    * in parallelo: I<sub>tot</sub> = (I1*I2)/(I1+I2)
+    * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
     
-* impedenza (ohm): 
+* impedenza (Z): 
+    * misurata in ohm
     * La grandezza che si oppone allo scorrere della corrente alternata in un circuito
     * L'impedenza di un circuito formato da una resistenza con in parallelo un condensatore/induttore dipende dalla frequenza di lavoro
-* potenza apparente:
-    * misura in voltampere
-    * P=V * I
-    * cosf = potenza attiva / potenza apparente
+
+* potenza apparente (P):
+    * misura in VoltAmpere
+    * P<sub>apparente</sub> = V * I
+    * P<sub>attiva</sub> = V * I * cosf
+    * cosf = P<sub>attiva</sub> / P<sub>apparente</sub>
     * sfasamento (misurato in gradi tra tensione e corrente)
         * resistori = 0°
         * condensatore = 90° in anticipo
         * induttore = 90° in ritardo
-    * In un circuito formato da pure reattanze la potenza attiva è nulla e quella apparente è massima
+    * In un circuito formato da pure reattanze la potenza attiva è **nulla** e quella apparente è **massima**
     * un generatore trifase (alternatore) produce tre tensioni alternate della stessa ampiezza ma sfasate tra loro di 120°
 
-* frequenza di risonanza (Circuito LC)
+* frequenza di risonanza (Circuito LRC)
     * la reattanza dell'induttore è uguale a quella del condensatore (si annullano a vicenda)
-    * Un circuito risonante *serie* alla frequenza f *inferiore* a quella di risonanza ha comportamento capacitivo
-    * Un circuito risonante *parallelo* alla frequenza f *superiore* a quella di risonanza ha comportamento capacitivo
-    * In un circuito risonante serie con induttanza L, capacità C e resistenza Rs alla frequenza di risonanza l'impedenza è uguale a valore minimo resistivo Rs
-    * Circuito risonanza in *serie*: Fa scorrere la *massima* corrente alla frequenza di risonanza
-    * Circuito risonanza in *parallelo*: Fa scorrere la *minima* corrente alla frequenza di risonanza
+    * Un circuito risonante **serie** alla frequenza f **inferiore** a quella di risonanza ha comportamento capacitivo
+    * Un circuito risonante **parallelo** alla frequenza f **superiore** a quella di risonanza ha comportamento capacitivo
+    * In un circuito risonante serie con induttanza L, capacità C e resistenza R alla frequenza di risonanza l'impedenza è uguale a valore minimo resistivo R
+    * Circuito risonanza in **serie**: Fa scorrere la **massima** corrente alla frequenza di risonanza
+    * Circuito risonanza in **parallelo**: Fa scorrere la **minima** corrente alla frequenza di risonanza
     * selettività (fattore Q): rapporto frequenza di risonanza / larghezza di banda
-        * la resistenza in un circuito risonante in *parallelo* per avere la massima selettività deve essere *massimo*
-        * la resistenza in un circuito risonante in *serie* per avere la massima selettività deve essere *minimo*
+        * la resistenza in un circuito risonante in **parallelo** per avere la massima selettività deve essere **massimo**
+        * la resistenza in un circuito risonante in *serie* per avere la massima selettività deve essere **minimo**
         * Q (in serie) = X / R
 
 * reattanza (ohm): La grandezza, dovuta alle bobine ed ai condensatori, che si oppone al flusso di corrente alternata.
@@ -145,7 +148,6 @@
 * microfono: capta le onde sonore e le trasforma in corrente elettrica
 * L'altoparlante converte segnali elettrici in onde sonore
 
-
 * quarzo:
     * funziona grazie all'effetto piezoelettrico
     * stabilità di frequenza
@@ -155,32 +157,32 @@
 # VALVOLE
 
 * il filamento serve a scaldare il catodo
-* la griglia  controllare la corrente che scorre tra anodo a catodo
+* la griglia controlla la corrente che scorre tra anodo a catodo
 * la placca è anche detta anodo
-* I tubi a vuoto sono particolarmente indicati per i circuiti ad *altissima potenza* o ad *altissima frequenza*
+* I tubi a vuoto sono particolarmente indicati per i circuiti ad **altissima potenza** o ad **altissima frequenza**
 * griglie:
     * diodo: 0
     * tetrodo: 2
     * pentodo: 3
-* lo schermo del tetrodo serve a diminuire la capacità parassita tra griglia e anodo
+* lo schermo del tetrodo serve a diminuire la **capacità parassita** tra griglia e anodo
 * il pentodo ha 5 elettrodi +2 del filamento = 7
-* l'elettrodo soppressore del pentodo serve A sopprimere la corrente inversa da placca a schermo
+* l'elettrodo soppressore del pentodo serve a sopprimere la corrente inversa da placca a schermo
 
 
 ## DIODI
 * La tensione di soglia per un diodo al silicio vale approssimativamente 0,6V
 * la caduta di tensione di un normale diodo al silicio è di 0,7V
 * Una giunzione PN è un diodo
-* Per polarizzare direttamente un diodo al silicio si collega una tensione positiva e maggiore di 0,6 V all'anodo
-* diodo a giunzione l'effetto valanga si verifica per una polarizzazione inversa pari a Vz (tensione zener)
-* Un diodo polarizzato inversamente ha tensione al catodo maggiore di quella all'anodo
+* Per polarizzare direttamente un diodo al silicio si collega una tensione **positiva** e **maggiore** di 0,6 V all'anodo
+* diodo a giunzione l'effetto valanga si verifica per una **polarizzazione inversa** pari a Vz (tensione zener)
+* Un diodo polarizzato **inversamente** ha tensione al catodo maggiore di quella all'anodo
 * un diodo al silicio ha 2 elettrodi
-* la tensione inversa di picco caratteristica di un rettificatore rappresenta La tensione inversa massima che il rettificatore può sopportare senza subire danni
-* diodo varicap: 
-    * diodo a capacità variabile
+* la **tensione inversa di picco** caratteristica di un rettificatore rappresenta La tensione inversa massima che il rettificatore può sopportare senza subire danni
+* diodo **vari**cap: 
+    * diodo a capacità **variabile**
     * si usa di solito per modificare la frequenza di un oscillatore a frequenza variabile
 * diodo Zener:
-    * polarizzato Inversamente
+    * polarizzato inversamente
     * stabilizzatore di tensione in un alimentatore
     * 2 elettrodi
 * led: Un diodo che emette luce
@@ -189,15 +191,15 @@
 
 ## TRANSISTOR
 * SEMICONDUTTORI
-    * La barriera di potenziale in una giunzione P-N Impedisce la totale ricombinazione degli elettroni con le lacune
+    * La barriera di potenziale in una giunzione P-N impedisce la totale ricombinazione degli elettroni con le lacune
     * In un semiconduttore drogato di tipo N le cariche libere sono elettroni
 * tipi: PNP, NPN, MESFET (adatto a lavorare ad altissime frequenze), MOSFET, FET
 * transistor bipolare
     * 2 giunzioni
     * 3 terminali
     * per condurre 
-        * la base deve essere positiva rispetto all'emettitore e negativa rispetto al collettore.
-        * avere una tensione tra base ed emettitore maggiore di 0,6 V
+        * la base deve essere **positiva** rispetto all'**emettitore** e **negativa** rispetto al **collettore**.
+        * avere una tensione **tra base ed emettitore** maggiore di 0,6 V
     * L'impedenza di ingresso è estremamente elevata
 * FET
     * La polarizzazione del gateè data da una tensione negativa
@@ -221,54 +223,58 @@
 
 # STRUMENTI/SICUREZZA
 
-* Sicurezza: 
-    * Quale intensità di corrente attraversando il corpo umano può risultare fatale: Anche un decimo di Ampere (100 mA)
-    * Quale organo del corpo umano può essere danneggiato da una corrente elettrica anche di bassa intensità? Cuore
+* sicurezza: 
+    * Anche un decimo di ampere (100 mA) attraversando il corpo umano può risultare **fatale**
+    * Il **cuore** può essere danneggiato da una corrente elettrica anche di bassa intensità
     * Staccare l'energia elettrica e chiamare i soccorsi in presenza di qualcuno colpito da alta tensione
 
 * strumenti:
     * portata: Il valore massimo misurabile della grandezza.
     * l'ohmmetro misura resistenze
-    * multimetro misura Resistenza, capacità ed induttanza
-    * Si potrebbe danneggiare la circuiteria del multimetro se commutate un multimetro sulla misura di resistenza quando è collegato ad un circuito per misurare la tensione o Se impostate un multimetro per misurare μA e lo collegate ad un circuito percorso da una corrente di 5 A
+    * multimetro misura resistenza, capacità ed induttanza
+    * Si potrebbe danneggiare la circuiteria del multimetro
+        * se commutate un multimetro sulla misura di resistenza quando è collegato ad un circuito per misurare la tensione
+        * se impostate un multimetro per misurare μA e lo collegate ad un circuito percorso da una corrente di 5 A
 
 *  voltmetro:
-    * si collega In parallelo al circuito
-    * misura la tensione tra due punti
-    * resistenza interna elevata
-    * la portata si aumenta collegando una resistenza in *serie* allo strumento
+    * si collega in **parallelo** al circuito
+    * misura la tensione **tra due punti**
+    * resistenza interna **elevata**
+    * la portata si **aumenta** collegando una resistenza in **serie** allo strumento
 * amperometro
-    * si collega in serie al ramo in cui si vuol misurare la corrente
-    * la portata si aumenta aggiungendo una resistenza in *parallelo* allo strumento (resistenza shunt)
+    * si collega in **serie** al ramo in cui si vuol misurare la corrente
+    * la portata si aumenta aggiungendo una resistenza in **parallelo** allo strumento (resistenza shunt)
 * wattmetro
-    * misura la potenza diretta e quella riflessa
+    * misura la potenza **diretta** e quella **riflessa**
         * in rf collegare al connettore di uscita del trasmettitore
         * tarato a 50 ohm di impedenza di linea
 * oscilloscopio
     * visualizza L'andamento nel tempo dei segnali
-    * L'analizzatore di spettro opera nel dominio della frequenza; l'oscilloscopio opera nel dominio del tempo.
+    * L'analizzatore di spettro opera nel dominio della frequenza; l'oscilloscopio opera nel dominio del **tempo**.
 
 # ANTENNE
 
 * Caratteristiche delle antenne:
-    * Frequenza di lavoro, impedenza, guadagno, diagramma di irradiazione, potenza massima applicabile
+    * frequenza di lavoro, impedenza, guadagno, diagramma di irradiazione, potenza massima applicabile
 * guadagno:
-    * si misura in dBd oppure dBi
+    * si misura in
+        * dB**d** (rispetto a un dipolo) 
+        * dB**i** (rispetto ad un antenna isotropica)
     * è il rapporto tra la potenza irradiata nella direzione di irradiazione massima dell'antenna stessa e la potenza irradiata da un'antenna di riferimento
 
-* Decibel
-    * minima differenza tra due livelli di suono che mediante un orecchio può percepire
-    * amplificatori collegati in cascata sommano i dB
-    * proporzionale al logaritmo dei due livelli
-        * 0 = x1
-        * 3 = x2
-        * 6 = x4
-        * 10 = x10
-        * 20 = x100
-        * 30 = x1000
-* Riducendo l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno aumenta
-* se si *accorcia* un antenna si *aumenta* la sua frequenza di risonanza
-* con una bobina in serie la lunghezza elettrica dell'antenna aumenta (Marconiana=verticale)
+    * Decibel
+        * minima differenza tra due livelli di suono che mediante un orecchio può percepire
+        * amplificatori collegati in cascata sommano i dB
+        * proporzionale al logaritmo dei due livelli
+            * 0 = x1
+            * 3 = x2
+            * 6 = x4
+            * 10 = x10
+            * 20 = x100
+            * 30 = x1000
+* **Riducendo** l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno **aumenta**
+* se si **accorcia** un antenna si **aumenta** la sua frequenza di risonanza
+* con una bobina in serie la lunghezza elettrica dell'antenna **aumenta** (Marconiana=verticale)
 * la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è 733ohm (impedenza dello spazio libero)
 * antenna isotropica: Una antenna teorica (ideale, perfettamente omnidirezionale) usata come termine di paragone per gli altri tipi di antenna.
         * serve come riferimento per le misure di guadagno delle antenne (per confrontare i guadagni delle antenne direttive).
@@ -281,7 +287,8 @@
         * serve per fare prove su trasmettitori senza irradiazione di segnali
 * dipolo (a mezza onda):
     * l (1/2 onda)= 150 / f
-    * si alimenta a metà della sua lunghezza
+        * ***notare*** -> L(onda completa) = 300/f
+    * si alimenta a **metà** della sua lunghezza
     * resistenza di irradiazione è circa 73 ohm
     * guadagna circa 2,1 dB rispetto all'antenna isotropica
     * se estremi puntati a nord e sud irradia est e ovest
@@ -289,9 +296,9 @@
 * antenna verticale
     * irradia ugualmente in tutte le direzioni sul piano orizzontale.
     * antenna a 5/8 onda ha più guadagno di una 1/4
-    * ground plane ha un piano di terra fittizio alla base dello stilo
+    * ground plane: ha un piano di terra fittizio alla base dello stilo
 * antenne direttive (yagi, riflettore parabolico, ecc )
-    * hanno la capacità di concentrare l'irradiazione in direzioni privilegiate
+    * hanno la capacità di **concentrare** l'irradiazione in direzioni privilegiate
     * rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
     * lobo principale: La direzione in cui viene irradiata la massima intensità di campo
     * Yagi:
@@ -299,8 +306,8 @@
         * radiatore: 
             * il solo elemento è collegato alla linea di alimentazione
             * lungo circa 1/2 onda.
-        * mediamente guadagna 5,3 dB
-        * più elementi più direttività
+        * mediamente guadagna 5,3 dB**d**
+        * più elementi == più direttività
     * cubic quad: antenna con due o più avvolgimenti paralleli, su telaio a 4 lati, ciascuno lungo circa lambda.
     * antenne paraboliche: utilizzate per le microonde
 * antenne multibanda:
@@ -311,14 +318,14 @@
     * La polarizzazione di un'antenna è definita come il piano in cui si propaga il campo elettrico
     * polarizzazione orizzontale: Le linee di forza della componente elettrica sono **parallele** alla superficie terrestre
     * polarizzazione verticale: Le linee di forza della componente elettrica sono **perpendicolari** alla superficie terrestre
-    * i ripetitori radioamatoriali in VHF hanno polarizzazione verticale
+    * i ripetitori radioamatoriali in VHF hanno polarizzazione **verticale**
 
 # LINEE DI TRASMISSIONE
 * L'impedenza d'uscita di un trasmettitore deve essere uguale a quella della linea/antenna a cui è collegato
 * il cavo deve essere più corto possibile
 * Nei radiotrasmettitori amatoriali l'impedenza d'uscita è 50 ohm
 * accordatore:
-    * serve ad adattare l'impedenza all'uscita del cavo a quella nominale del trasmettitore
+    * serve ad **adattare** l'impedenza all'uscita del cavo a quella nominale del trasmettitore
     * Consente l'accoppiamento fra l'impedenza di uscita del trasmettitore e l'impedenza del sistema d'antenna.
 * linea a conduttori paralleli (piattina): 
     * può sopportare un ROS elevato ed ha perdite inferiori
@@ -334,18 +341,18 @@
 * Le perdite aumentano all'aumentare della lunghezza
 * Una linea con un conduttore connesso a massa è **sbilanciata**
 * Una linea con nessun conduttore connesso a massa è **bilanciata**
-* rapporto d'onda stazionaria (ROS):
+* rapporto d'onda stazionaria (ROS)(SWR: Standing Wave Ratio):
     * Il rapporto fra la massima e la minima tensione in una linea di trasmissione
     * rapporto fra l'impedenza caratteristica della linea e la resistenza del carico (o viceversa)
     * per evitare danni al trasmettitore deve essere circa 1 : 1
-    * Un ROS basso rende più efficiente il trasferimento di energia dalla linea di trasmissione all'antenna
+    * Un ROS basso rende **più efficiente** il trasferimento di energia dalla linea di trasmissione all'antenna
     * può essere misurato con un wattmetro direzionale
-    * il misuratore di onde stazionarie deve essere collegato fra la linea di alimentazione e l'antenna.
+    * il misuratore di onde stazionarie deve essere collegato **fra la linea di alimentazione e l'antenna**.
     * ROS misurato ai capi di una linea di trasmissione cortocircuitata è infinito
 * le perdite aumentano all'aumentare della frequenza
 * BALUN (*bal*anced to *un*balanced)
     * serve per alimentare una antenna bilanciata con una linea sbilanciata 
-    * un nucleo toroidale, Uno spezzone di linea di trasmissione, Una coppia di bobine avvolte in aria
+    * un nucleo toroidale, uno spezzone di linea di trasmissione, una coppia di bobine avvolte in aria
     * viene collegato tra il cavo coassiale e l'antenna
 
 
@@ -355,7 +362,7 @@
 # PROPAGAZIONE
 * propagazione ionosferica: 
     * L'attività solare è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
-    * propaga Le onde corte (HF) a lunga distanza
+    * propaga le onde corte (HF) a lunga distanza
     * segnali che partono verticalmente dall'antenna e sono di frequenza superiore alla frequenza critica attraversano la ionosfera
     * La banda dei 28 MHz è usata per collegamenti a lunga distanza prevalentemente nelle ore diurne
     * 14Mhz (20m)  più adatta a collegamenti a lunga distanza sia di giorno, sia di notte
