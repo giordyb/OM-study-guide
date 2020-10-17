@@ -4,16 +4,17 @@
 # ELETTROTECNICA
 * circuito aperto
     * circuito elettrico dove non scorre corrente
+    * può essere creato a seguito della bruciatura di un fusibile
 * corto circuito
-    * circuito dove scorre troppa corrente
+    * circuito dove scorre (assorbe) troppa corrente
 * Corrente elettrica (I):
-    * flusso di elettroni che attraversano un conduttore viaggiando da carica negativa verso carica positiva
+    * flusso di **elettroni** che attraversano un conduttore viaggiando da carica negativa verso carica positiva
         * Unità di misura dell'intensità di corrente è l'AMPERE (1 coloumb x secondo)
     * corrente continua (DC)
         * corrente che scorre solo in un verso
-        * un flusso di elettroni unidirezionale e di intensità costante
+        * un flusso di elettroni **unidirezionale** e di intensità **costante**
     * corrente alternata (AC)
-        * un flusso di elettroni bidirezionale e di intensità variabile
+        * un flusso di elettroni **bidirezionale** e di intensità **variabile**
         * valore efficace (RMS): 
             * valore di tensione alternata deve corrispondere una tensione continua per produrre lo stesso riscaldamento in un *carico puramente resistivo*
             * circa il 70% del valore massimo della tensione
@@ -21,18 +22,21 @@
             * V~max~ = 1,41 V~rms~
             * radice quadrata della media dei quadrati (root mean square)
         * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
-        * frequenza: numero di volte al secondo in cui una corrente alternata *inverte* la propria direzione
+        * frequenza: numero di **volte al secondo** in cui una corrente alternata *inverte* la propria direzione
+
+* Carica Elettrica (Q)
+    * si misura in Coulomb
 
 * Tensione (V)
-    * Differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
-    * Misurata in volt (V)
+    * differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
+    * misurata in volt (V)
         * unità di forza elettromotrice
     * Intensità di campo elettrico:
-        * Differenza di potenziale elettrico presente tra due punti **distanti 1 metro fra di loro**
-        * Misurata in Volt per metro (V/m)
+        * differenza di potenziale elettrico presente tra due punti **distanti 1 metro fra di loro**
+        * misurata in Volt per metro (V/m)
 
-* La legge di Ohm: 
-    * esprime la relazione fra la **tensione (V)**, la **resistenza (R)** o **impedenza (Z)** e la **corrente (A)** in un circuito
+* legge di Ohm: 
+    * esprime la relazione fra la **tensione (V)**, la **resistenza (R)** (o **impedenza (Z)**) e la **corrente (A)** in un circuito
     * V= I * R (o Z) {**V**iva **I**l **R**e}
     * R = V / I 
 
@@ -45,7 +49,7 @@
     * P = I^2 * R
     
 * Frequenza:
-    * Unità di misura Hertz HZ
+    * Unità di misura Hertz (Hz)
     * Lunghezza d'onda:
         * distanza percorsa da un'onda elettromagnetica in un ciclo *completo*
         * L (metri/LAMBDA)= 300.000.000(C) /frequenza (Hz)
@@ -55,10 +59,11 @@
     * pulsazione omega: Lambda = 2 * Pgreco * f
     * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
 * Batterie:
-    * La portata (capacità di erogazione) viene misurata in ampere/ora
+    * La portata (capacità di erogazione) viene misurata in ampere/ora (Ah)
+        * es. 10 Ah = 1A per 10 ore
     * converte energia chimica in energia elettrica
-        * generatori in serie = un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
-        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (A/h)
+        * generatori in serie: un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
+        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (Ah)
 
 
 # RESISTENZA - CONDENSATORE - INDUTTORE
@@ -77,6 +82,10 @@
         * se R1 == R2: R~tot~ = R1 / 2
     * coefficiente di temperatura
         * Indica la variazione del proprio valore nominale al *variare della temperatura*
+        * percentuale di cui varia di valore la resistenza quando al temperatura varia di 1 grado
+    * resistenza specifica (resistività elettrica)
+        * l'attitudine di un materiale ad opporre resistenza al passaggio delle cariche elettriche
+        * si misura in ohm/metro
 
 * Condensatore (C)
     * accumula energia sotto forma di campo elettrico
