@@ -1,9 +1,12 @@
+%GUIDA ALL'ESAME PER RADIOAMATORE
+
+
 # ELETTROTECNICA
 * circuito aperto
     * circuito elettrico dove non scorre corrente
 * corto circuito
     * circuito dove scorre troppa corrente
-* Corrente elettrica:
+* Corrente elettrica (I):
     * flusso di elettroni che attraversano un conduttore viaggiando da carica negativa verso carica positiva
         * Unità di misura dell'intensità di corrente è l'AMPERE (1 coloumb x secondo)
     * corrente continua (DC)
@@ -14,28 +17,39 @@
         * valore efficace (RMS): 
             * valore di tensione alternata deve corrispondere una tensione continua per produrre lo stesso riscaldamento in un *carico puramente resistivo*
             * circa il 70% del valore massimo della tensione
-            * Vrms = 0.707 Vmax
-            * Vmax = 1,41 Vrms
+            * V~rms~ = 0.707 V~max~
+            * V~max~ = 1,41 V~rms~
             * radice quadrata della media dei quadrati (root mean square)
         * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
         * frequenza: numero di volte al secondo in cui una corrente alternata *inverte* la propria direzione
-* Potenza
-    * grandezza che esprime la *velocità* con cui viene impiegata l'energia elettrica
-    * P = I * V
-    * P = I^2 * R
-* Tensione
+
+* Tensione (V)
     * Differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
     * Misurata in volt (V)
         * unità di forza elettromotrice
     * Intensità di campo elettrico:
-        * Differenza di potenziale elettrico presente tra due punti
+        * Differenza di potenziale elettrico presente tra due punti **distanti 1 metro fra di loro**
         * Misurata in Volt per metro (V/m)
+
+* La legge di Ohm: 
+    * esprime la relazione fra la **tensione (V)**, la **resistenza (R)** o **impedenza (Z)** e la **corrente (A)** in un circuito
+    * V= I * R (o Z) {**V**iva **I**l **R**e}
+    * R = V / I 
+
+* legge di KIRCHHOFF:
+    * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
+
+* Potenza
+    * grandezza che esprime la *velocità* con cui viene impiegata l'energia elettrica
+    * P = I * V
+    * P = I^2 * R
+    
 * Frequenza:
     * Unità di misura Hertz HZ
     * Lunghezza d'onda:
-        * L (metri/LAMBDA)= 300.000.000(C) /frequenza (Hz)
-            * L (metri)= 300(C) / frequenza (Mhz) (es. 300/14Mhz = 21,42M )
         * distanza percorsa da un'onda elettromagnetica in un ciclo *completo*
+        * L (metri/LAMBDA)= 300.000.000(C) /frequenza (Hz)
+        * L (metri)= 300(C) / frequenza (Mhz) (es. 300/14Mhz = 21,42M )
     * Se si **raddoppia** la frequenza, la corrispondente lunghezza d'onda si **dimezza**
     * periodo = il tempo che intercorre tra due valori massimi
     * pulsazione omega: Lambda = 2 * Pgreco * f
@@ -45,16 +59,11 @@
     * converte energia chimica in energia elettrica
         * generatori in serie = un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
         * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (A/h)
-* La legge di Ohm: 
-    * esprime la relazione fra la **tensione (V)**, la **resistenza (R)** o **impedenza (Z)** e la **corrente (A)** in un circuito
-    * V= I * R (o Z) *viva il re*
-    * R = V / I 
-* legge di KIRCHHOFF:
-    * In un circuito composto da un generatore e da diversi rami resistivi in parallelo la corrente totale è uguale alla somma delle correnti nei vari rami
+
+
 # RESISTENZA - CONDENSATORE - INDUTTORE
+
 * Resistenza (R):
-    * coefficiente di temperatura
-        * Indica la variazione del proprio valore nominale al *variare della temperatura*
     * misurata in Ohm (O)
     * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1A** quando la tensione applicata è **1V**
     * Si **oppone** al flusso di elettroni
@@ -63,9 +72,11 @@
     * dissipa **calore**
     * Il valore di resistenza di un resistore a filo varia secondo la temperatura
     * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
-    * in serie: R<sub>tot</tot> = R1 + R2 + R3
-    * in parallelo: 1/R<sub>tot</sub> = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
-        * se R1 == R2: R<sub>tot</sub> = R1 / 2
+    * in serie: R~tot~ = R1 + R2 + R3
+    * in parallelo: 1/R~tot~ = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
+        * se R1 == R2: R~tot~ = R1 / 2
+    * coefficiente di temperatura
+        * Indica la variazione del proprio valore nominale al *variare della temperatura*
 
 * Condensatore (C)
     * accumula energia sotto forma di campo elettrico
@@ -75,11 +86,11 @@
         * determinata dal materiale fra le piastre, la superficie della piastra, il numero di piastre e la distanza fra le piastre.
         * **Aumenta** aumentando la superficie delle piastre
         * **Diminuisce** aumentando la spaziatura fra le piastre 
-    * variabile: Due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
+    * variabile: due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
     * elettrolitico: usato nella sezione di filtro degli alimentatori
     * **blocca** il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
-    * in serie: C<sub>tot</sub> = (C1*C2)/(C1+C2)
-    * in parallelo: C<sub>tot<sub> = C1 + C2
+    * in serie: C~tot~ = (C1*C2)/(C1+C2)
+    * in parallelo: C~tot~ = C1 + C2
     * reattanza (capacitiva): 
         * X = 1 / (6,28 * f * C)
         * si **oppone** al flusso della corrente alternata
@@ -88,6 +99,7 @@
         * il tempo impiegato dal condensatore per caricarsi fino al *63%* della tensione di alimentazione
         * T = R * C
         * due costanti di tempo = 86,5%
+
 * Induttore (L):
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
     * induttanza
@@ -100,8 +112,8 @@
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
     * costante di tempo in un circuito LC
         * T=L/R
-    * in serie: I<sub>tot</sub> = I1 + I2
-    * in parallelo: I<sub>tot</sub> = (I1*I2)/(I1+I2)
+    * in serie: I~tot~ = I1 + I2
+    * in parallelo: I~tot~ = (I1*I2)/(I1+I2)
     * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
     
 * impedenza (Z): 
@@ -111,9 +123,9 @@
 
 * potenza apparente (P):
     * misura in VoltAmpere
-    * P<sub>apparente</sub> = V * I
-    * P<sub>attiva</sub> = V * I * cosf
-    * cosf = P<sub>attiva</sub> / P<sub>apparente</sub>
+    * P~apparente~ = V * I
+    * P~attiva~ = V * I * cosf
+    * cosf = P~attiva~ / P~apparente~
     * sfasamento (misurato in gradi tra tensione e corrente)
         * resistori = 0°
         * condensatore = 90° in anticipo
@@ -234,7 +246,7 @@
     * multimetro misura resistenza, capacità ed induttanza
     * Si potrebbe danneggiare la circuiteria del multimetro
         * se commutate un multimetro sulla misura di resistenza quando è collegato ad un circuito per misurare la tensione
-        * se impostate un multimetro per misurare μA e lo collegate ad un circuito percorso da una corrente di 5 A
+        * se impostate un multimetro per misurare microA e lo collegate ad un circuito percorso da una corrente di 5 A
 
 *  voltmetro:
     * si collega in **parallelo** al circuito
@@ -266,13 +278,13 @@
         * minima differenza tra due livelli di suono che mediante un orecchio può percepire
         * amplificatori collegati in cascata sommano i dB
         * proporzionale al logaritmo dei due livelli
-            * 0 = x1
-            * 3 = x2
-            * 6 = x4
-            * 10 = x10
-            * 20 = x100
-            * 30 = x1000
-* **Riducendo** l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno **aumenta**
+            ```* 0 = x1
+            3 = x2
+            6 = x4
+            10 = x10
+            20 = x100
+            30 = x1000
+* **riducendo** l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno **aumenta**
 * se si **accorcia** un antenna si **aumenta** la sua frequenza di risonanza
 * con una bobina in serie la lunghezza elettrica dell'antenna **aumenta** (Marconiana=verticale)
 * la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è 733ohm (impedenza dello spazio libero)
@@ -380,7 +392,9 @@
     * le onde a frequenza inferiore della MUF vengono rifratte e ritornano verso la superficie terrestre
 
 * troposfera: L'attenuazione cresce all'aumentare della frequenza
+
 * Le onde lunghe si propagano prevalentemente per per onda di terra
+
 * zona d'ombra: la fascia di territorio compresa tra il limite massimo cui giunge l'onda di terra ed il limite minimo cui giunge l'onda riflessa dalla ionosfera
  
 * Ripetitori:
@@ -443,6 +457,7 @@
         * entro 1,00 e 999 kHz è espressa in kHz (lett. K)
         * entro 1,00 e 999 MHz è espressa in MHz (lett. M)
         * entro 1,00 e 999 GHz è espressa in GHz (lett. G).
+
     * 9G05: 9,05Ghz
     * 350H: 350Hz
     * 20H0: 20hz
