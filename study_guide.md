@@ -58,12 +58,16 @@
     * periodo = il tempo che intercorre tra due valori massimi
     * pulsazione omega: Lambda = 2 * Pgreco * f
     * effetto pelle: il segnale a radiofrequenza scorre essenzialmente sulla superficie del conduttore
+    * L di 400m = 300/400=0.75Mhz = 750khz = Onda media
+    * 850Mhz = UHF
+
 * Batterie:
     * La portata (capacità di erogazione) viene misurata in ampere/ora (Ah)
         * es. 10 Ah = 1A per 10 ore
     * converte energia chimica in energia elettrica
         * generatori in serie: un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
         * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (Ah)
+    * generatore reale: un generatore ideale con in serie una resistenza interna 
 
 
 # RESISTENZA - CONDENSATORE - INDUTTORE
@@ -88,25 +92,25 @@
         * si misura in ohm/metro
 
 * Condensatore (C)
-    * accumula energia sotto forma di campo elettrico
-    * Immagazzina energia elettrostatica opponendosi alle variazioni di tensione
-    * Due o più piastre conduttive separate da strati di materiale isolante
     * capacità (misurata in farad)
+    * accumula energia sotto forma di campo elettrico (cariche elettriche)
+    * Immagazzina energia **elettrostatica** opponendosi alle variazioni di tensione
+    * Due o più piastre conduttive separate da strati di materiale isolante
         * determinata dal materiale fra le piastre, la superficie della piastra, il numero di piastre e la distanza fra le piastre.
         * **Aumenta** aumentando la superficie delle piastre
         * **Diminuisce** aumentando la spaziatura fra le piastre 
     * variabile: due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
-    * elettrolitico: usato nella sezione di filtro degli alimentatori
+    * condensatore elettrolitico: usato nella sezione di filtro degli alimentatori
     * **blocca** il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
-    * in serie: C~tot~ = (C1*C2)/(C1+C2)
-    * in parallelo: C~tot~ = C1 + C2
+    * in serie: C~tot~ = (C~1~*C~2~)/(C~1~+C~2~)
+    * in parallelo: C~tot~ = C~1~ + C~2~
     * reattanza (capacitiva): 
         * X = 1 / (6,28 * f * C)
         * si **oppone** al flusso della corrente alternata
         * aumenta al diminuire della frequenza
     * costante di tempo di un circuito RC
-        * il tempo impiegato dal condensatore per caricarsi fino al *63%* della tensione di alimentazione
-        * T = R * C
+        * il tempo impiegato dal condensatore per caricarsi fino al *63%* della **tensione** di alimentazione
+        * T~sec~ = R~ohm~ * C~farad~
         * due costanti di tempo = 86,5%
 
 * Induttore (L):
@@ -119,10 +123,10 @@
         * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
         * mutua induzione: accoppiamento magnetico tra circuiti diversi
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
-    * costante di tempo in un circuito LC
-        * T=L/R
-    * in serie: I~tot~ = I1 + I2
-    * in parallelo: I~tot~ = (I1*I2)/(I1+I2)
+    * costante di tempo in un circuito LC: il tempo affinchè la **corrente** nel circuito salga al 63% del valore di regime
+        * T~sec~=L~henry~ / R~ohm~
+    * in serie: I~tot~ = I~1~ + I~2v
+    * in parallelo: I~tot~ = (I~1~*I~2~)/(I~1~+I~2~)
     * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
     
 * impedenza (Z): 
@@ -237,6 +241,11 @@
     * livello alto: 2.0-5.5V
     * livello basso: 0-0.8V
     * se l'ingresso è aperto il livello è alto
+* porte logiche:
+    * OR 
+    * AND
+    * NOT
+    * NAND (NOT AND)
 
 * CMOS: Complimentary Metal Oxide Semiconductor
     * vantaggio di consumo ridotto
@@ -605,7 +614,7 @@
 * L'amplificatore lineare: amplifica il segnale emesso in trasmissione, senza distorsione ed entro i limiti di legge
 * amplificatore operazionale:
     * Un amplificatore **differenziale** le cui caratteristiche sono determinate da componenti esterni all'amplificatore.
-    * caratteristiche: Impedenza di ingresso altissima, impedenza di uscita bassissima, guadagno infinito, linearità in frequenza.
+    * caratteristiche ideali: Impedenza di ingresso altissima, impedenza di uscita bassissima, guadagno infinito, linearità in frequenza.
     * invertente: uscita 180°
     * non invertente: uscita in fase
     * guadagno non varia al variare della frequenza.
