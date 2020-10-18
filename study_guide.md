@@ -607,9 +607,11 @@
     * Maggiore linearità.
 * Gli amplificatori compensati sono quelli utilizzati nella televisione (banda larga).
 * il diodo non si usa per amplificare segnali
-* il transistor bipolare ad emettitore comune *non* è adatto a lavorare in alta frequenza
+* Amplificatore a transistor (BJT)
+    * il transistor bipolare (BJT) ad emettitore comune (CE) *non* è adatto a lavorare in alta frequenza
+    * l'amplificazione di **corrente** di un transistor bipolare in configurazione a base comune (CB) è minore di 1
+    * l'amplificazione di **tensione** di un transistor bipolare in configurazione a inseguitore di emettitore comune (CC o EF) è minore di 1
 * per ottenere un guadagno molto elevato si collegano più stadi in cascata
-* l'amplificazione di corrente di un transistor bipolare in configurazione a base comune è minore di 1
 * Negli amplificatori a radiofrequenza, per annullare l'effetto delle capacità interelettrodiche del componente attivo si usano circuiti risonanti all'ingresso e all'uscita dell'amplificatore
 * L'amplificatore lineare: amplifica il segnale emesso in trasmissione, senza distorsione ed entro i limiti di legge
 * amplificatore operazionale:
