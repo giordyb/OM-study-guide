@@ -46,7 +46,7 @@
 * Potenza
     * grandezza che esprime la *velocità* con cui viene impiegata l'energia elettrica
     * P = I * V
-    * P = I^2 * R
+    * P = I^2^ * R
     
 * Frequenza:
     * Unità di misura Hertz (Hz)
@@ -81,9 +81,9 @@
     * dissipa **calore**
     * Il valore di resistenza di un resistore a filo varia secondo la temperatura
     * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
-    * in serie: R~tot~ = R1 + R2 + R3
-    * in parallelo: 1/R~tot~ = 1/R1 + 1/R2 + 1/R3 = (R1 * R2)/(R1 + R2)
-        * se R1 == R2: R~tot~ = R1 / 2
+    * in serie: R~tot~ = R~1~ + R~2~ + R~3~
+    * in parallelo: 1/R~tot~ = 1/R~1~ + 1/R~2~ + 1/R~3~ = (R~1~ * R~2~)/(R~1~ + R~2~)
+        * se R~1~ == R~2~: R~tot~ = R~1~ / 2
     * coefficiente di temperatura
         * Indica la variazione del proprio valore nominale al *variare della temperatura*
         * percentuale di cui varia di valore la resistenza quando al temperatura varia di 1 grado
@@ -94,14 +94,14 @@
 * Condensatore (C)
     * capacità (misurata in farad)
     * accumula energia sotto forma di campo elettrico (cariche elettriche)
-    * Immagazzina energia **elettrostatica** opponendosi alle variazioni di tensione
+    * Immagazzina energia **elettrostatica** opponendosi alle variazioni di **tensione**
     * Due o più piastre conduttive separate da strati di materiale isolante
         * determinata dal materiale fra le piastre, la superficie della piastra, il numero di piastre e la distanza fra le piastre.
         * **Aumenta** aumentando la superficie delle piastre
         * **Diminuisce** aumentando la spaziatura fra le piastre 
     * variabile: due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
     * condensatore elettrolitico: usato nella sezione di filtro degli alimentatori
-    * **blocca** il flusso della corrente *continua* e *lascia passare* la corrente *alternata*
+    * **blocca** il flusso della corrente **continua** e **lascia passare** la corrente **alternata**
     * in serie: C~tot~ = (C~1~*C~2~)/(C~1~+C~2~)
     * in parallelo: C~tot~ = C~1~ + C~2~
     * reattanza (capacitiva): 
@@ -118,14 +118,14 @@
     * induttanza
         * misurata in henry (H)
         * **aumenta** all'aumentare della frequenza
-        * immagazzina energia elettromagnetica (campo magnetico) **opponendosi** alle variazioni di corrente
+        * immagazzina energia elettromagnetica (campo magnetico) **opponendosi** alle variazioni di **corrente**
         * si **oppone** al flusso di corrente alternata
         * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
         * mutua induzione: accoppiamento magnetico tra circuiti diversi
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
     * costante di tempo in un circuito LC: il tempo affinchè la **corrente** nel circuito salga al 63% del valore di regime
         * T~sec~=L~henry~ / R~ohm~
-    * in serie: I~tot~ = I~1~ + I~2v
+    * in serie: I~tot~ = I~1~ + I~2~
     * in parallelo: I~tot~ = (I~1~*I~2~)/(I~1~+I~2~)
     * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
     
