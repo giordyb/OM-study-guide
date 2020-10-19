@@ -3,10 +3,10 @@
 
 # ELETTROTECNICA
 * circuito aperto
-    * circuito elettrico dove non scorre corrente
+    * circuito elettrico dove **non scorre** corrente
     * può essere creato a seguito della bruciatura di un fusibile
 * corto circuito
-    * circuito dove scorre (assorbe) troppa corrente
+    * circuito dove **scorre (assorbe) troppa** corrente
 * Corrente elettrica (I):
     * flusso di **elettroni** che attraversano un conduttore viaggiando da carica negativa verso carica positiva
         * Unità di misura dell'intensità di corrente è l'AMPERE (1 coloumb x secondo)
@@ -16,16 +16,16 @@
     * corrente alternata (AC)
         * un flusso di elettroni **bidirezionale** e di intensità **variabile**
         * valore efficace (RMS): 
-            * valore di tensione alternata deve corrispondere una tensione continua per produrre lo stesso riscaldamento in un *carico puramente resistivo*
-            * circa il 70% del valore massimo della tensione
+            * valore di tensione alternata che corrisponde ad un valore di tensione continua necessario per produrre lo stesso riscaldamento in un **carico puramente resistivo**
+            * circa il 70% del valore **massimo** della tensione
             * V~rms~ = 0.707 V~max~
             * V~max~ = 1,41 V~rms~
             * radice quadrata della media dei quadrati (root mean square)
-        * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel perio
-        * frequenza: numero di **volte al secondo** in cui una corrente alternata *inverte* la propria direzione
+        * valore picco - picco: differenza tra il valore massimo ed il valore minimo assunto nel periodo
+        * frequenza: numero di **volte al secondo** in cui una corrente alternata **inverte** la propria direzione
 
 * Carica Elettrica (Q)
-    * si misura in Coulomb
+    * misurata in Coulomb
 
 * Tensione (V)
     * differenza di potenziale, la pressione esercitata su un elettrone per muoverlo
@@ -62,11 +62,11 @@
     * 850Mhz = UHF
 
 * Batterie:
+    * converte energia chimica in energia elettrica
+        * generatori in **serie**: un unico generatore il cui valore di tensione è la **somma** dei due (es. 2x5V = 10V)
+        * generatori in **parallelo**: unico generatore con stessa tensione ma **doppia erogazione** (Ah)
     * La portata (capacità di erogazione) viene misurata in ampere/ora (Ah)
         * es. 10 Ah = 1A per 10 ore
-    * converte energia chimica in energia elettrica
-        * generatori in serie: un unico generatore il cui valore di tensione è la somma dei due (es. 2x5V = 10V)
-        * generatori in parallelo: unico generatore con stessa tensione ma doppia erogazione (Ah)
     * generatore reale: un generatore ideale con in serie una resistenza interna 
 
 
@@ -74,7 +74,7 @@
 
 * Resistenza (R):
     * misurata in Ohm (O)
-    * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1A** quando la tensione applicata è **1V**
+    * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1 A** quando la tensione applicata è **1 V**
     * Si **oppone** al flusso di elettroni
     * Controlla l'intensità della corrente prodotta da una tensione
         * fissa la corrente e la tensione desiderate in un certo punto di un circuito
@@ -85,7 +85,7 @@
     * in parallelo: 1/R~tot~ = 1/R~1~ + 1/R~2~ + 1/R~3~ = (R~1~ * R~2~)/(R~1~ + R~2~)
         * se R~1~ == R~2~: R~tot~ = R~1~ / 2
     * coefficiente di temperatura
-        * Indica la variazione del proprio valore nominale al *variare della temperatura*
+        * Indica la variazione del proprio valore nominale al **variare della temperatura**
         * percentuale di cui varia di valore la resistenza quando al temperatura varia di 1 grado
     * resistenza specifica (resistività elettrica)
         * l'attitudine di un materiale ad opporre resistenza al passaggio delle cariche elettriche
@@ -105,11 +105,11 @@
     * in serie: C~tot~ = (C~1~*C~2~)/(C~1~+C~2~)
     * in parallelo: C~tot~ = C~1~ + C~2~
     * reattanza (capacitiva): 
-        * X = 1 / (6,28 * f * C)
+        * X~C~ = 1 / (6,28 * f~Hz~ * C~F~)
+        * aumenta al **diminuire** della frequenza
         * si **oppone** al flusso della corrente alternata
-        * aumenta al diminuire della frequenza
     * costante di tempo di un circuito RC
-        * il tempo impiegato dal condensatore per caricarsi fino al *63%* della **tensione** di alimentazione
+        * il tempo impiegato dal condensatore per caricarsi fino al **63%** della **tensione** di alimentazione
         * T~sec~ = R~ohm~ * C~farad~
         * due costanti di tempo = 86,5%
 
@@ -117,18 +117,22 @@
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
     * induttanza
         * misurata in henry (H)
-        * **aumenta** all'aumentare della frequenza
         * immagazzina energia elettromagnetica (campo magnetico) **opponendosi** alle variazioni di **corrente**
-        * si **oppone** al flusso di corrente alternata
         * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
         * mutua induzione: accoppiamento magnetico tra circuiti diversi
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
+    * reattanza induttiva
+        * X~L~ = 6,28 * f~Hz~ * I~H~)
+        * aumenta all'**aumentare** della frequenza
+        * si **oppone** al flusso di corrente alternata
     * costante di tempo in un circuito LC: il tempo affinchè la **corrente** nel circuito salga al 63% del valore di regime
         * T~sec~=L~henry~ / R~ohm~
     * in serie: I~tot~ = I~1~ + I~2~
     * in parallelo: I~tot~ = (I~1~*I~2~)/(I~1~+I~2~)
     * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
-    
+
+* reattanza (ohm): La grandezza, dovuta alle **bobine** ed ai **condensatori**, che si oppone al flusso di corrente alternata.
+
 * impedenza (Z): 
     * misurata in ohm
     * La grandezza che si oppone allo scorrere della corrente alternata in un circuito
@@ -141,31 +145,30 @@
     * cosf = P~attiva~ / P~apparente~
     * sfasamento (misurato in gradi tra tensione e corrente)
         * resistori = 0°
-        * condensatore = 90° in anticipo
-        * induttore = 90° in ritardo
+        * condensatore = 90° in **anticipo**
+        * induttore = 90° in **ritardo**
     * In un circuito formato da pure reattanze la potenza attiva è **nulla** e quella apparente è **massima**
-    * un generatore trifase (alternatore) produce tre tensioni alternate della stessa ampiezza ma sfasate tra loro di 120°
+    * un generatore trifase (alternatore) produce **tre tensioni alternate** della stessa ampiezza ma **sfasate** tra loro di 120°
 
 * frequenza di risonanza (Circuito LRC)
-    * la reattanza dell'induttore è uguale a quella del condensatore (si annullano a vicenda)
-    * Un circuito risonante **serie** alla frequenza f **inferiore** a quella di risonanza ha comportamento capacitivo
-    * Un circuito risonante **parallelo** alla frequenza f **superiore** a quella di risonanza ha comportamento capacitivo
-    * In un circuito risonante serie con induttanza L, capacità C e resistenza R alla frequenza di risonanza l'impedenza è uguale a valore minimo resistivo R
-    * Circuito risonanza in **serie**: Fa scorrere la **massima** corrente alla frequenza di risonanza
-    * Circuito risonanza in **parallelo**: Fa scorrere la **minima** corrente alla frequenza di risonanza
+    * la reattanza dell'induttore è uguale a quella del condensatore (si **annullano** a vicenda)
+    * Un circuito risonante **serie** alla frequenza f **inferiore** a quella di risonanza ha comportamento **capacitivo**
+    * Un circuito risonante **parallelo** alla frequenza f **superiore** a quella di risonanza ha comportamento **capacitivo**
+    * In un circuito risonante serie con induttanza L, capacità C e resistenza R alla frequenza di risonanza l'impedenza è uguale a valore **minimo resistivo R**
+    * circuito risonanza in **serie**: Fa scorrere la **massima** corrente alla frequenza di risonanza
+    * circuito risonanza in **parallelo**: Fa scorrere la **minima** corrente alla frequenza di risonanza
     * selettività (fattore Q): rapporto frequenza di risonanza / larghezza di banda
         * la resistenza in un circuito risonante in **parallelo** per avere la massima selettività deve essere **massimo**
-        * la resistenza in un circuito risonante in *serie* per avere la massima selettività deve essere **minimo**
+        * la resistenza in un circuito risonante in **serie** per avere la massima selettività deve essere **minimo**
         * Q (in serie) = X / R
 
-* reattanza (ohm): La grandezza, dovuta alle bobine ed ai condensatori, che si oppone al flusso di corrente alternata.
 
 ## filtri
-* passa basso: attenua i segnali di frequenza *superiore* alla frequenza di taglio
-* passa alto: attenua i segnali di frequenza *maggiori* della frequenza di taglio
-* passa banda: attenua i segnali di frequenza *esterne* alla banda del filtro
-* elimina banda: attenua i segnali di frequenza *interne* alla banda del filtro
-* Se l'attenuazione di un filtro non è sufficiente si collegano più filtri identici in serie
+* passa basso: **attenua** i segnali di frequenza **superiore** alla frequenza di taglio
+* passa alto: **attenua** i segnali di frequenza ***maggiori*** della frequenza di taglio
+* passa banda: **attenua** i segnali di frequenza **esterne** alla banda del filtro
+* elimina banda: **attenua** i segnali di frequenza **interne** alla banda del filtro
+* Se l'attenuazione di un filtro non è sufficiente si collegano più filtri identici **in serie**
 * l'impedenza di un filtro passa-basso in rapporto all'impedenza della linea di trasmissione  deve essere circa la stessa
 * Nei trasmettitori l'ultimo circuito prima del collegamento con l'antenna è un filtro passa banda/adattatore di impedenza
 
@@ -175,9 +178,9 @@
 
 * quarzo:
     * funziona grazie all'effetto piezoelettrico
-    * stabilità di frequenza
+    * alta stabilità di frequenza
     * Il fattore Q è molto alto
-    * la frequenza di risonanza dipende dallo spessore del quarzo stesso
+    * la frequenza di risonanza dipende dallo **spessore** del quarzo stesso
 
 # VALVOLE
 
@@ -189,20 +192,20 @@
     * diodo: 0
     * tetrodo: 2
     * pentodo: 3
-* lo schermo del tetrodo serve a diminuire la **capacità parassita** tra griglia e anodo
+* lo schermo del tetrodo serve a **diminuire** la **capacità parassita** tra griglia e anodo
 * il pentodo ha 5 elettrodi +2 del filamento = 7
-* l'elettrodo soppressore del pentodo serve a sopprimere la corrente inversa da placca a schermo
+* l'elettrodo soppressore del pentodo serve a **sopprimere la corrente inversa** da placca a schermo
 
 
 ## DIODI
-* La tensione di soglia per un diodo al silicio vale approssimativamente 0,6V
+* La tensione di **soglia** per un diodo al silicio vale approssimativamente 0,6V
 * la caduta di tensione di un normale diodo al silicio è di 0,7V
 * Una giunzione PN è un diodo
 * Per polarizzare direttamente un diodo al silicio si collega una tensione **positiva** e **maggiore** di 0,6 V all'anodo
-* diodo a giunzione l'effetto valanga si verifica per una **polarizzazione inversa** pari a Vz (tensione zener)
+* diodo a giunzione: l'effetto valanga si verifica per una **polarizzazione inversa** pari a Vz (tensione zener)
 * Un diodo polarizzato **inversamente** ha tensione al catodo maggiore di quella all'anodo
 * un diodo al silicio ha 2 elettrodi
-* la **tensione inversa di picco** caratteristica di un rettificatore rappresenta La tensione inversa massima che il rettificatore può sopportare senza subire danni
+* la **tensione inversa di picco** caratteristica di un rettificatore rappresenta La **tensione inversa massima** che il rettificatore può sopportare senza subire danni
 * diodo **vari**cap: 
     * diodo a capacità **variabile**
     * si usa di solito per modificare la frequenza di un oscillatore a frequenza variabile
@@ -217,7 +220,7 @@
 ## TRANSISTOR
 * SEMICONDUTTORI
     * La barriera di potenziale in una giunzione P-N impedisce la totale ricombinazione degli elettroni con le lacune
-    * In un semiconduttore drogato di tipo N le cariche libere sono elettroni
+    * In un semiconduttore drogato di tipo N le cariche libere sono **elettroni**
 * tipi: PNP, NPN, MESFET (adatto a lavorare ad altissime frequenze), MOSFET, FET
 * transistor bipolare
     * 2 giunzioni
@@ -225,9 +228,9 @@
     * per condurre 
         * la base deve essere **positiva** rispetto all'**emettitore** e **negativa** rispetto al **collettore**.
         * avere una tensione **tra base ed emettitore** maggiore di 0,6 V
-    * L'impedenza di ingresso è estremamente elevata
+    * L'impedenza di ingresso è **estremamente elevata**
 * FET
-    * La polarizzazione del gateè data da una tensione negativa
+    * La polarizzazione del gate è data da una tensione negativa
     * terminali: Gate, Drain, Source.
 * MOSFET: un tipo di transistore ad effetto di campo
     * in molti dispositivi MOSFET è incorporato un diodo zener di protezione del gate per proteggere l'isolamento del gate da perforazioni dovute a piccole cariche statiche o a sovratensioni.
@@ -254,16 +257,16 @@
 # STRUMENTI/SICUREZZA
 
 * sicurezza: 
-    * Anche un decimo di ampere (100 mA) attraversando il corpo umano può risultare **fatale**
-    * Il **cuore** può essere danneggiato da una corrente elettrica anche di bassa intensità
+    * Anche un **decimo di ampere** (100 mA) attraversando il corpo umano può risultare **fatale**
+    * Il **cuore** può essere danneggiato da una corrente elettrica anche di **bassa intensità**
     * Staccare l'energia elettrica e chiamare i soccorsi in presenza di qualcuno colpito da alta tensione
 
 * strumenti:
-    * portata: Il valore massimo misurabile della grandezza.
+    * portata: Il valore **massimo misurabile** della grandezza.
     * l'ohmmetro misura resistenze
     * multimetro misura resistenza, capacità ed induttanza
     * Si potrebbe danneggiare la circuiteria del multimetro
-        * se commutate un multimetro sulla misura di resistenza quando è collegato ad un circuito per misurare la tensione
+        * se commutate un multimetro sulla misura di **resistenza** quando è collegato ad un circuito per misurare la **tensione**
         * se impostate un multimetro per misurare microA e lo collegate ad un circuito percorso da una corrente di 5 A
 
 *  voltmetro:
@@ -296,17 +299,17 @@
         * minima differenza tra due livelli di suono che mediante un orecchio può percepire
         * amplificatori collegati in cascata sommano i dB
         * proporzionale al logaritmo dei due livelli
-            ```* 0 = x1
-            3 = x2
-            6 = x4
-            10 = x10
-            20 = x100
-            30 = x1000
+            * 0 = x1
+            * 3 = x2
+            * 6 = x4
+            * 10 = x10
+            * 20 = x100
+            * 30 = x1000
 * **riducendo** l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno **aumenta**
 * se si **accorcia** un antenna si **aumenta** la sua frequenza di risonanza
-* con una bobina in serie la lunghezza elettrica dell'antenna **aumenta** (Marconiana=verticale)
-* la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è 733ohm (impedenza dello spazio libero)
-* antenna isotropica: Una antenna teorica (ideale, perfettamente omnidirezionale) usata come termine di paragone per gli altri tipi di antenna.
+* con una bobina in serie la **lunghezza elettrica** dell'antenna **aumenta** (Marconiana=verticale)
+* la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è **733ohm** (impedenza dello spazio libero)
+* antenna isotropica: Una antenna **teorica** (ideale, perfettamente omnidirezionale) usata come termine di paragone per gli altri tipi di antenna.
         * serve come riferimento per le misure di guadagno delle antenne (per confrontare i guadagni delle antenne direttive).
         * guadagna 0 in tutte le direzioni
         * è un carico non irradiante per i trasmettitori
@@ -332,7 +335,7 @@
     * rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
     * lobo principale: La direzione in cui viene irradiata la massima intensità di campo
     * Yagi:
-        * Il direttore è normalmente il più corto degli elementi passivi
+        * Il direttore è normalmente il **più corto** degli elementi passivi
         * radiatore: 
             * il solo elemento è collegato alla linea di alimentazione
             * lungo circa 1/2 onda.
@@ -345,9 +348,9 @@
     * Rende possibile operare su diverse bande impiegando la stessa linea di collegamento
     * Un accordatore d'antenna permette di utilizzare una antenna su una banda diversa da quella per la quale è stata progettata
 * polarizzazione: 
-    * La polarizzazione di un'antenna è definita come il piano in cui si propaga il campo elettrico
-    * polarizzazione orizzontale: Le linee di forza della componente elettrica sono **parallele** alla superficie terrestre
-    * polarizzazione verticale: Le linee di forza della componente elettrica sono **perpendicolari** alla superficie terrestre
+    * La polarizzazione di un'antenna è definita come il **piano in cui si propaga** il campo elettrico
+    * polarizzazione **orizzontale**: Le linee di forza della componente elettrica sono **parallele** alla superficie terrestre
+    * polarizzazione **verticale**: Le linee di forza della componente elettrica sono **perpendicolari** alla superficie terrestre
     * i ripetitori radioamatoriali in VHF hanno polarizzazione **verticale**
 
 # LINEE DI TRASMISSIONE
@@ -358,21 +361,21 @@
     * serve ad **adattare** l'impedenza all'uscita del cavo a quella nominale del trasmettitore
     * Consente l'accoppiamento fra l'impedenza di uscita del trasmettitore e l'impedenza del sistema d'antenna.
 * linea a conduttori paralleli (piattina): 
-    * può sopportare un ROS elevato ed ha perdite inferiori
+    * può sopportare un **ROS elevato** ed ha **perdite inferiori**
     * Due fili metallici affiancati tenuti separati con materiale isolante
-    * impedenza circa 300 ohm
+    * impedenza circa **300 ohm**
 * cavo coassiale: 
     * Un filo metallico centrale contenuto in un materiale isolante a sua volta coperto da una guaina metallica
-    * miglior cavo ha l'attenuazione di linea più bassa possibile
-    * funziona correttamente anche se scorre interrata
+    * miglior cavo ha l'**attenuazione di linea più bassa** possibile
+    * funziona correttamente anche se scorre **interrata**
     * E' ben protetto dagli agenti atmosferici e può essere steso anche in prossimità di superfici metalliche
 
-* L'attenuazione di linea si misura in dB/m
+* L'attenuazione di linea si misura in **dB/m**
 * Le perdite aumentano all'aumentare della lunghezza
 * Una linea con un conduttore connesso a massa è **sbilanciata**
 * Una linea con nessun conduttore connesso a massa è **bilanciata**
 * rapporto d'onda stazionaria (ROS)(SWR: Standing Wave Ratio):
-    * Il rapporto fra la massima e la minima tensione in una linea di trasmissione
+    * Il rapporto fra la **massima** e la **minima** tensione in una linea di trasmissione
     * rapporto fra l'impedenza caratteristica della linea e la resistenza del carico (o viceversa)
     * per evitare danni al trasmettitore deve essere circa 1 : 1
     * Un ROS basso rende **più efficiente** il trasferimento di energia dalla linea di trasmissione all'antenna
@@ -392,24 +395,24 @@
 # PROPAGAZIONE
 * propagazione ionosferica: 
     * L'attività solare è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
-    * propaga le onde corte (HF) a lunga distanza
-    * segnali che partono verticalmente dall'antenna e sono di frequenza superiore alla frequenza critica attraversano la ionosfera
-    * La banda dei 28 MHz è usata per collegamenti a lunga distanza prevalentemente nelle ore diurne
-    * 14Mhz (20m)  più adatta a collegamenti a lunga distanza sia di giorno, sia di notte
-    * 1,8 MHz solo per collegamenti notturni
-    * La ionizzazione della regione D provoca l'assorbimento delle onde radio nella ionosfera
+    * propaga le **onde corte** (HF) a lunga distanza
+    * segnali che partono verticalmente dall'antenna e sono di frequenza **superiore** alla frequenza critica **attraversano** la ionosfera
+    * La banda dei 28 MHz è usata per collegamenti a lunga distanza prevalentemente nelle ore **diurne**
+    * 14Mhz (20m)  più adatta a collegamenti a lunga distanza sia di **giorno**, sia di **notte**
+    * 1,8 MHz solo per collegamenti **notturni**
+    * La ionizzazione della regione D provoca l'**assorbimento** delle onde radio nella ionosfera
     * La ionizzazione è al minimo poco prima dell'alba 
-    * la regione E sopra un certa area della superficie terrestre è maggiormente ionizzata a mezzogiorno
+    * la regione E sopra un certa area della superficie terrestre è maggiormente ionizzata a **mezzogiorno**
     * la regione D:
         * limita le comunicazioni nella gamma degli 80 m alle brevi distanze durante il giorno
         * meno utile per le comunicazioni radio a lunga distanza
-        * si verifica principalmente l'assorbimento dei segnali nelle gamme MF/HF durante il giorno
+        * si verifica principalmente l'**assorbimento** dei segnali nelle gamme MF/HF durante il giorno
 * MUF (Maximum Usable Frequency): 
-    * la più alta frequenza che si può utilizzare per trasmettere un segnale ad una data destinazione
+    * la più **alta frequenza** che si può utilizzare per trasmettere un segnale ad una data destinazione
     * determinata dall'intensità delle radiazioni solari, specialmente le ultraviolette
-    * le onde a frequenza inferiore della MUF vengono rifratte e ritornano verso la superficie terrestre
+    * le onde a frequenza **inferiore** della MUF vengono **rifratte** e ritornano verso la superficie terrestre
 
-* troposfera: L'attenuazione cresce all'aumentare della frequenza
+* troposfera: L'**attenuazione** cresce all'**aumentare** della frequenza
 
 * Le onde lunghe si propagano prevalentemente per per onda di terra
 
@@ -417,7 +420,7 @@
  
 * Ripetitori:
     * servono a facilitare i collegamenti alle stazioni mobili ed a quelle di bassa potenza estendendone la portata
-    * come potreste fare per verificare se è possibile comunicare anche in simplex? Verificando se è possibile ricevere il proprio interlocutore sulla frequenza di ingresso del ripetitore
+    * come potreste fare per verificare se è possibile comunicare anche in **simplex**? Verificando se è possibile ricevere il proprio interlocutore sulla frequenza di **ingresso** del ripetitore
     * Perché è preferibile utilizzare comunicazioni in simplex, quando è possibile, anziché utilizzare i ripetitori? Il ripetitore non deve essere impegnato senza motivo
     * impegnare a lungo un ripetitore potrebbe impedirne l'utilizzo per comunicazioni d'emergenza
     * per inserirsi trasmettere il proprio nominativo nel corso della pausa fra un messaggio e l'altro
@@ -428,25 +431,25 @@
 
 # MODULAZIONE 
 * modulazione: la combinazione di un segnale contenente un'informazione e un segnale a radiofrequenza
-    * portante RF: Un segnale a radiofrequenza (di *ampiezza costante)* che viene modulato per produrre un segnale radiotelefonico
+    * portante RF: Un segnale a **radiofrequenza** (di **ampiezza costante**) che viene modulato per produrre un segnale radiotelefonico
     * La FM occupa una banda piuttosto larga
-    * La AM occupa il doppio della banda rispetto alla SSB
-    * La SSB sfrutta la potenza del trasmettitore meglio delle altre modulazioni
+    * La AM occupa il **doppio** della banda rispetto alla SSB
+    * La SSB sfrutta la **potenza** del trasmettitore meglio delle altre modulazioni
 
-* AM: L'ampiezza del segnale portante viene variato dal segnale modulante.
-    * %/indice/profondità di modulazione: Il rapporto tra l'ampiezza della modulante e quella della portante
+* AM: L'**ampiezza** del segnale portante viene variato dal segnale modulante.
+    * %/indice/profondità di modulazione: Il rapporto tra l'**ampiezza** della **modulante** e quella della **portante**
         * Non può superare 100% perché si introdurrebbe distorsione e quindi armoniche indesiderate 
-        * m=ampiezza_modulante/ampiezza_portante
+        * m = ampiezza_modulante / ampiezza_portante
         * per 150W di potenza 100 W sulla portante e 25 W su ciascuna banda laterale
         * la trasmissione di un segnale con fmax=X occuperà una banda di larghezza pari a X*2
-* SSB: La SSB è migliore della AM perché occupa meno banda e sfrutta meglio la potenza del trasmettitore
+* SSB: La SSB è **migliore della AM** perché occupa **meno banda** e sfrutta meglio la **potenza** del trasmettitore
     * USB: La parte di un segnale a banda laterale unica che si trova al di **sopra** della frequenza della portante
     * LSB: La parte di un segnale a banda laterale unica che si trova al di **sotto** della frequenza della portante
     * la portante rispetto alla potenza di picco erogata da un buon trasmettitore a banda laterale unica deve essere attenuata di almeno 40dB
     * a parità di segnale modulante, la larghezza di banda di un'emissione SSB è la metà di quella di un'emissione AM
-* FM: Nella modulazione FM varia la frequenza ma non l'ampiezza di picco della portante
+* FM: Nella modulazione FM **varia la frequenza** ma non l'ampiezza di picco della portante
     * La frequenza del segnale portante viene variato dall'ampiezza del segnale modulante.
-    * Maggiore immunità ai disturbi
+    * Maggiore **immunità ai disturbi**
         * l'audio non è disturbato dai rumori generati da macchine elettriche
     * grande larghezza di banda occupata
     * FORMULA DI CARSON: 2(deviazione + freq._modulante)
@@ -459,13 +462,13 @@
 ## BANDE E FREQUENZE
 
 * In quante bande è suddiviso lo spettro delle frequenze radioelettriche: 9
-* onda miriametrica: VLF
+* onda miriametrica: VLF (3-30khz)
 * onda ettometrica: MF (30-300 kHz)
-* onda decametrica (HF): 3-30 MHz
-* onde metriche (VHF): 30 a 300 MHz
-* onda centimetrica(SHF) 8Ghz
-* onda millimetrica: 30 a 300 GHz
-* onda decimillimetrica:  300-3000 GHz
+* onda decametrica: HF (3-30 MHz)
+* onde metriche: VHF (30-300 MHz)
+* onda centimetrica: SHF (3-30Ghz)
+* onda millimetrica: EHF (30-300GHz)
+* onda decimillimetrica:  (300-3000GHz)
 
 * Codici larghezza di banda: 
     * tre cifre e una lettera.
@@ -505,15 +508,14 @@
     * 8k00A3E: radio diffusione sonora, doppia banda laterale, 8khz larghezza di banda
 
 * TIPI DI EMISSIONE    
-    * ordine crescente di larghezza di banda: CW (filtri più selettivi), RTTY, telefonia SSB, telefonia FM
-
+    * ordine **crescente** di larghezza di banda: CW (filtri più selettivi), RTTY, telefonia SSB, telefonia FM
 
 
 # TRASMETTITORI
-* uno stadio RF finale da 100w alimentato a 20V assorbe più di 5A
+* uno stadio RF finale da 100W alimentato a 20V assorbe più di 5A
 * la schermatura serve per evitare l'irradiazione di segnali spuri
-* VOX: circuito che provoca il passaggio automatico dalla ricezione alla trasmissione quando l'operatore parla nel microfono
-* un filtro (passa basso in HF-passa banda rivedere video domande) per ridurre l'emissione di armoniche deve essere installato fra il trasmettitore e l'antenna
+* VOX: circuito che provoca il **passaggio automatico** dalla ricezione alla trasmissione quando l'operatore parla nel microfono
+* un filtro (passa basso in HF tra il trasmettiore e l'antenna serve per ridurre l'emissione di armoniche
 * profondità di modulazione, mai superare 100% perchè produce armoniche
 * Amplificatore in classe C è usato come moltiplicatore di frequenza (per aumentare la deviazione di frequenza prodotta dal modulatore)
 * FM 
@@ -529,8 +531,8 @@
 * lo squelch non è presente in trasmissione (solo in FM e solo in ricezione per sopprimere il soffio)
 * deviazione di frequenza: aumentando la frequenza aumenta anche la deviazione.
     * deviazione LO = Deviazione RF / (Frequenza RF / Frequenza LO) 
-        * es. 12.21mhz/146.52mhz == 5000hz/x
-* frequenza immagine: e' lontana 2*IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
+        * es. 12.21Mhz/146.52Mhz == 5000hz/x
+* frequenza immagine: e' lontana 2 * IF dalla freq. sintonizzata... in piu' o in meno, dipende dall'oscillatore locale
 
 # RICEVITORI
 * mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
@@ -659,7 +661,7 @@
     * del servizio di radiodiffusione 
     * delle frequenze campione
     * dei segnali orari
-* le stazioni *non* obbligate a trasmettere il segnale di identificazione    
+* le stazioni **non** obbligate a trasmettere il segnale di identificazione    
     * Radiofari di localizzazione dei sinistri
     * Stazione di salvataggio che emette automaticamente il segnale d'emergenza
 * il nominativo deve essere ripetuto all'inizio ed alla fine delle trasmissioni ed a brevi intervalli nel corso delle stesse
