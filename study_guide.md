@@ -1,6 +1,4 @@
 %GUIDA ALL'ESAME PER RADIOAMATORE
-
-
 # ELETTROTECNICA
 * circuito aperto
     * circuito elettrico dove **non scorre** corrente
@@ -72,9 +70,11 @@
 
 # RESISTENZA - CONDENSATORE - INDUTTORE
 
-* Resistenza (R):
-    * misurata in Ohm (O)
-    * 1 ohm = La **resistenza** di un circuito in cui scorre una corrente di **1 A** quando la tensione applicata è **1 V**
+* Resistore (R):
+    * resistenza
+        * la tendenza di un corpo ad opporsi al passaggio di una corrente elettrica
+        * misurata in Ohm (symbol)
+    * 1 Ohm = La **resistenza** di un circuito in cui scorre una corrente di **1 A** quando la tensione applicata è **1 V**
     * Si **oppone** al flusso di elettroni
     * Controlla l'intensità della corrente prodotta da una tensione
         * fissa la corrente e la tensione desiderate in un certo punto di un circuito
@@ -82,17 +82,19 @@
     * Il valore di resistenza di un resistore a filo varia secondo la temperatura
     * resistore variabile: Varia la propria resistenza secondo la posizione di un contatto strisciante
     * in serie: R~tot~ = R~1~ + R~2~ + R~3~
-    * in parallelo: 1/R~tot~ = 1/R~1~ + 1/R~2~ + 1/R~3~ = (R~1~ * R~2~)/(R~1~ + R~2~)
+    * in parallelo: 1 / R~tot~ = 1 / R~1~ + 1 / R~2~ + 1 / R~3~ = (R~1~ * R~2~) / (R~1~ + R~2~)
         * se R~1~ == R~2~: R~tot~ = R~1~ / 2
     * coefficiente di temperatura
         * Indica la variazione del proprio valore nominale al **variare della temperatura**
         * percentuale di cui varia di valore la resistenza quando al temperatura varia di 1 grado
     * resistenza specifica (resistività elettrica)
         * l'attitudine di un materiale ad opporre resistenza al passaggio delle cariche elettriche
-        * si misura in ohm/metro
+        * si misura in Ohm/metro
 
 * Condensatore (C)
-    * capacità (misurata in farad)
+    * capacità 
+        * capacità di immagazzinare energia in un campo **elettrico**
+        * misurata in farad (F)
     * accumula energia sotto forma di campo elettrico (cariche elettriche)
     * Immagazzina energia **elettrostatica** opponendosi alle variazioni di **tensione**
     * Due o più piastre conduttive separate da strati di materiale isolante
@@ -102,40 +104,42 @@
     * variabile: due gruppi di piastre conduttive, separate da un isolante la cui superficie affacciata può essere variata
     * condensatore elettrolitico: usato nella sezione di filtro degli alimentatori
     * **blocca** il flusso della corrente **continua** e **lascia passare** la corrente **alternata**
-    * in serie: C~tot~ = (C~1~*C~2~)/(C~1~+C~2~)
+    * in serie: C~tot~ = (C~1~ * C~2~) / (C~1~ + C~2~)
     * in parallelo: C~tot~ = C~1~ + C~2~
-    * reattanza (capacitiva): 
+    * reattanza **capacitiva**: 
         * X~C~ = 1 / (6,28 * f~Hz~ * C~F~)
         * aumenta al **diminuire** della frequenza
         * si **oppone** al flusso della corrente alternata
     * costante di tempo di un circuito RC
         * il tempo impiegato dal condensatore per caricarsi fino al **63%** della **tensione** di alimentazione
-        * T~sec~ = R~ohm~ * C~farad~
+        * T~sec~ = R~Ohm~ * C~farad~
         * due costanti di tempo = 86,5%
 
 * Induttore (L):
     * una bobina di filo di rame avvolta su una bacchetta di ferrite
     * induttanza
+        * capacità di immagazzinare energia in un campo **magnetico**
         * misurata in henry (H)
         * immagazzina energia elettromagnetica (campo magnetico) **opponendosi** alle variazioni di **corrente**
         * determinata dal materiale del nucleo e il suo diametro, la lunghezza della bobina e il numero di spire
         * mutua induzione: accoppiamento magnetico tra circuiti diversi
         * Se viene inserito un nucleo di ferro in una bobina l'induttanza aumenta
-    * reattanza induttiva
-        * X~L~ = 6,28 * f~Hz~ * I~H~)
+    * reattanza **induttiva**
+        * X~L~ = 6,28 * f~Hz~ * L~H~)
         * aumenta all'**aumentare** della frequenza
         * si **oppone** al flusso di corrente alternata
     * costante di tempo in un circuito LC: il tempo affinchè la **corrente** nel circuito salga al 63% del valore di regime
-        * T~sec~=L~henry~ / R~ohm~
+        * T~sec~=L~henry~ / R~Ohm~
     * in serie: I~tot~ = I~1~ + I~2~
-    * in parallelo: I~tot~ = (I~1~*I~2~)/(I~1~+I~2~)
+    * in parallelo: I~tot~ = (I~1~ * I~2~) / (I~1~ + I~2~)
     * limita il passaggio della corrente **alternata** e lascia scorrere la corrente **continua**
 
-* reattanza (ohm): La grandezza, dovuta alle **bobine** ed ai **condensatori**, che si oppone al flusso di corrente alternata.
+* reattanza (Ohm): La grandezza, dovuta alle **bobine** ed ai **condensatori**, che si oppone al flusso di corrente alternata.
+    * è la parte **immaginaria** dell'impedenza
 
 * impedenza (Z): 
-    * misurata in ohm
-    * La grandezza che si oppone allo scorrere della corrente alternata in un circuito
+    * misurata in Ohm
+    * La grandezza che si **oppone** allo scorrere della **corrente alternata** in un circuito
     * L'impedenza di un circuito formato da una resistenza con in parallelo un condensatore/induttore dipende dalla frequenza di lavoro
 
 * potenza apparente (P):
@@ -152,11 +156,13 @@
 
 * frequenza di risonanza (Circuito LRC)
     * la reattanza dell'induttore è uguale a quella del condensatore (si **annullano** a vicenda)
+    * f0~MHz~ = 159 / sqrt(L~microH~ * C~pF~)
+
     * Un circuito risonante **serie** alla frequenza f **inferiore** a quella di risonanza ha comportamento **capacitivo**
     * Un circuito risonante **parallelo** alla frequenza f **superiore** a quella di risonanza ha comportamento **capacitivo**
-    * In un circuito risonante serie con induttanza L, capacità C e resistenza R alla frequenza di risonanza l'impedenza è uguale a valore **minimo resistivo R**
+    * In un circuito risonante **serie** con induttanza L, capacità C e resistenza R alla frequenza di risonanza l'impedenza è uguale a valore **minimo resistivo R**
     * circuito risonanza in **serie**: Fa scorrere la **massima** corrente alla frequenza di risonanza
-    * circuito risonanza in **parallelo**: Fa scorrere la **minima** corrente alla frequenza di risonanza
+    * circuito risonanza in **parallelo** (antirisonanza): Fa scorrere la **minima** corrente alla frequenza di risonanza
     * selettività (fattore Q): rapporto frequenza di risonanza / larghezza di banda
         * la resistenza in un circuito risonante in **parallelo** per avere la massima selettività deve essere **massimo**
         * la resistenza in un circuito risonante in **serie** per avere la massima selettività deve essere **minimo**
@@ -263,7 +269,7 @@
 
 * strumenti:
     * portata: Il valore **massimo misurabile** della grandezza.
-    * l'ohmmetro misura resistenze
+    * l'Ohmmetro misura resistenze
     * multimetro misura resistenza, capacità ed induttanza
     * Si potrebbe danneggiare la circuiteria del multimetro
         * se commutate un multimetro sulla misura di **resistenza** quando è collegato ad un circuito per misurare la **tensione**
@@ -280,7 +286,7 @@
 * wattmetro
     * misura la potenza **diretta** e quella **riflessa**
         * in rf collegare al connettore di uscita del trasmettitore
-        * tarato a 50 ohm di impedenza di linea
+        * tarato a 50 Ohm di impedenza di linea
 * oscilloscopio
     * visualizza L'andamento nel tempo dei segnali
     * L'analizzatore di spettro opera nel dominio della frequenza; l'oscilloscopio opera nel dominio del **tempo**.
@@ -308,7 +314,7 @@
 * **riducendo** l'angolo di apertura del lobo d'irradiazione di un'antenna, il guadagno **aumenta**
 * se si **accorcia** un antenna si **aumenta** la sua frequenza di risonanza
 * con una bobina in serie la **lunghezza elettrica** dell'antenna **aumenta** (Marconiana=verticale)
-* la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è **733ohm** (impedenza dello spazio libero)
+* la relazione fra la componente elettrica E e la componente magnetica H di un un'onda elettromagnetica nello spazio libero è **733Ohm** (impedenza dello spazio libero)
 * antenna isotropica: Una antenna **teorica** (ideale, perfettamente omnidirezionale) usata come termine di paragone per gli altri tipi di antenna.
         * serve come riferimento per le misure di guadagno delle antenne (per confrontare i guadagni delle antenne direttive).
         * guadagna 0 in tutte le direzioni
@@ -322,7 +328,7 @@
     * l (1/2 onda)= 150 / f
         * ***notare*** -> L(onda completa) = 300/f
     * si alimenta a **metà** della sua lunghezza
-    * resistenza di irradiazione è circa 73 ohm
+    * resistenza di irradiazione è circa 73 Ohm
     * guadagna circa 2,1 dB rispetto all'antenna isotropica
     * se estremi puntati a nord e sud irradia est e ovest
     * si usano le trappole per farlo risuonare a diverse frequenze
@@ -356,14 +362,14 @@
 # LINEE DI TRASMISSIONE
 * L'impedenza d'uscita di un trasmettitore deve essere uguale a quella della linea/antenna a cui è collegato
 * il cavo deve essere più corto possibile
-* Nei radiotrasmettitori amatoriali l'impedenza d'uscita è 50 ohm
+* Nei radiotrasmettitori amatoriali l'impedenza d'uscita è 50 Ohm
 * accordatore:
     * serve ad **adattare** l'impedenza all'uscita del cavo a quella nominale del trasmettitore
     * Consente l'accoppiamento fra l'impedenza di uscita del trasmettitore e l'impedenza del sistema d'antenna.
 * linea a conduttori paralleli (piattina): 
     * può sopportare un **ROS elevato** ed ha **perdite inferiori**
     * Due fili metallici affiancati tenuti separati con materiale isolante
-    * impedenza circa **300 ohm**
+    * impedenza circa **300 Ohm**
 * cavo coassiale: 
     * Un filo metallico centrale contenuto in un materiale isolante a sua volta coperto da una guaina metallica
     * miglior cavo ha l'**attenuazione di linea più bassa** possibile

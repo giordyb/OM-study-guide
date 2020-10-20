@@ -1,1 +1,1 @@
-pandoc -V geometry:left=1cm,right=1cm,top=2cm,bottom=2cm study_guide.md -o study_guide.pdf
+pandoc -V geometry:left=1cm,right=1cm,top=1.25cm,bottom=1.5cm study_guide.md -o study_guide.pdf
