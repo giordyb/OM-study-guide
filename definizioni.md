@@ -34,3 +34,26 @@
 * onda fondamentale: onda sinusoidale della stessa frequenza del segnale di partenza
 * armoniche: frequenze più alte della fondamentale e sempre più alte di un numero intero di volte (multiple)
 * velocità di propagazione: la velocità con cui le onde EM si propagano nello spazio libero  (300.000m/s)
+* capacità: capacità di immagazzinare energia in un campo **elettrico**
+* reattanza capacitiva: l’opposizione di un condensatore al passaggio di corrente alternata
+* condensatore: accumula energia sotto forma di campo elettrico (cariche elettriche),  Immagazzina energia **elettrostatica** opponendosi alle variazioni di **tensione**
+* costante di tempo: il tempo richiesto dal condensatore (induttore) a caricarsi o scaricarsi fino al 63% della tensione (corrente) di alimentazione
+
+## strumenti
+
+* amperometro: dispositivo a bassa resistenza interna che misura l’intensità di corrente che lo attraversa, collegato in serie al circuito
+* voltmetro: dispositivo ad alta resistenza interna che misura la differenza di tensione tra due punti e viene collegato in parallelo al circuito
+* portata: l’insieme delle indicazioni ottenibili (range)
+* risoluzione: la più piccola variazione della grandezza da misurare che causa una variazione percettibile nell’uscita
+* sensibilità: rapporto fra la variazione dell’indicazione data in uscita e la corrispondente variazione ricevuta all’ingresso
+
+* trasduttori: dispositivi che convertono un segnale elettrico in sonoro e viceversa
+* ponte di Wheatstone: indicatore di zero, misuratore di intensità di segnale
+* ponte di graetz: raddrizzatore di onde sinusoidali (4 diodi)
+
+
+## elettromagneti
+
+* elettromagneti: ogni conduttore percorso da corrente si circonda di campo magnetico che nasce con la corrente e con essa si estingue
+
+* riluttanza: la grandezza che presenta un materiale ad opporsi alla formazione di campo magnetico
