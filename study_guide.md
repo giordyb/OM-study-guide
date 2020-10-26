@@ -194,7 +194,7 @@
 * la griglia controlla la corrente che scorre tra anodo a catodo
 * la placca è anche detta anodo
 * I tubi a vuoto sono particolarmente indicati per i circuiti ad **altissima potenza** o ad **altissima frequenza**
-* griglie:
+* numero di griglie:
     * diodo: 0
     * tetrodo: 2
     * pentodo: 3
@@ -632,15 +632,18 @@
 * classe di funzionamento: 
     * Indica quanti gradi (angolo di conduzione) di un periodo del segnale vi è circolazione di corrente nell'elemento attivo amplificante (valvola o transistor)
     * classe A:
+        * conduzione a 180° 
         * In un trasmettitore il primo stadio BF per amplificare il segnale microfonico
         * In zona di funzionamento lineare e distante da interdizione e saturazione
         * scarso rendimento
         * bassissima distorsione
     * classe AB:
     * classe B: 
+        * conduzione a 90°
         * Alto rendimento e minima dissipazione anodica in assenza di pilotaggio.
         * raddoppiando la tensione del segnale all'ingresso di un amplificatore in classe B la potenza d'uscita è quadruplicata, perché varia con il quadrato del potenziale di griglia.
     * classe C: 
+        * conduzione < 90°
         * maggiore distorsione
         * alto rendimento
         * per alte frequenze, CW
