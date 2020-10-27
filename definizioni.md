@@ -103,10 +103,10 @@ effetto pelle:
 * **TRIodo**: filamento, anodo, griglia (di controllo), catodo
 * **TETRodo**: filamento, anodo, griglia schermo, griglia controllo, catodo
 * **PENTodo**: filamento, griglia di soppressione, griglia schermo, griglia di controllo, catodo
-* **Classe di lavoro A**: angolo di conduzione 180°, rendimento del 30%, bassissima distorsione
-* **Classe di lavoro B**: angolo di conduzione 90°, rendimento del 50%, bassa distorsione
-* **Classe di lavoro C**: angolo di conduzione <90°, rendimento 70-75%, alta distorsione (alte frequenze)
-* **Amplificatori Push-Pull**: alto rendimento e bassa distorsione, 2 amplificatori classe B messi assieme (invertiti)
+* **Classe di lavoro A**: angolo di conduzione 360°, rendimento del 30%, bassissima distorsione
+* **Classe di lavoro B**: angolo di conduzione 180, rendimento del 50%, bassa distorsione. (raddoppiando la tensione del segnale d'ingresso la potenza in uscita si quadrupla)
+* **Classe di lavoro AB**: angolo di conduzione tra 180° e 360°
+* **Classe di lavoro C**: angolo di conduzione <180°, rendimento 70-75%, alta distorsione (alte frequenze)
 
 ## CIRCUITI BASE
 * **a catodo/emettitore/source comune**: massima amplificazione, impedenza ingresso alta, impedenza d'uscita medio-alta, frequenza di impiego limitata
@@ -127,3 +127,36 @@ effetto pelle:
 * **MOSFET**: il gate è perfettamente isolato, resistenza di ingresso altissima
 * **MOSFET doppio Gate**: G1 è il cate di segnale e G2 il gate di controllo (polarizzato diretto)
 * **MESFET**: mobilità maggiore delle cariche, più veloci usati in microonde
+
+## AMPLIFICATORI
+
+* **impedenza d'ingresso**: l'impedenza vista dalla sorgente di segnale quando viene collegata ai terminali d'ingresso.
+* **impedenza di uscita**: il valore della resistenza di carico shuntata dalla capacità di uscita (valvole) o dalla resistenza equivalente
+* **tipi di amplificatori**: R/C, L/C, RF, a più stadi. Guadagno 100x per FET,Triodo 200x Pentodo e JBT
+* **amplificatore darlington**: 2 BJP dove corrente emettitore del primo è corrente di base del secondo.
+* **amplificatore differenziale**: dotato di due ingressi e un uscita, è in grado di amplificare la differenza tra due segnali applicati in ingresso. in configurazione "invertente" la fase del segnale in uscita viene invertita (180°)
+* **amplificatore cascode**: due amplificatori collegati in cascata, il primo a emettitore comune, il secondo a base comune. Adatto all'uso in VHF, guadagno paragonabile a emettitore comune
+* **amplificatore Push-Pull**: alto rendimento e bassa distorsione, 2 amplificatori classe B messi assieme (invertiti)
+
+## OSCILLATORI
+* **a reazione (o retroazione)**: amplificatore dove una parte del segnale in uscita viene riportata indietro all'ingresso
+* **oscillatori LC**: Meissner, Hartley, Colpitts
+* **oscillatori a cristallo**: frequenza stabile, equivalenti ad un circuito LC ma con Q elevatissimo (x10k/x100k). frequenza max 20Mhz, oltre si usano le armoniche (3°/5°/7°)
+* **oscillatori RC**: usati in BF
+* **oscillatori moltiplicatori di frequenza**: operano in classe C e generano armoniche
+
+## MODULAZIONI:
+
+* **modulazione di ampiezza (AM)**: il segnale (modulante) in BF va a modulare (imprimere il ritmo) l'ampiezza di un onda in RF (portante), inalternado frequenza e fase. L'ampiezza della **portante** varia al ritmo della **modulante**
+* **profondità di modulazione (AM)**: il rapporto in % tra V~modulante~/V~portante~. Non deve superare 100%
+* **sovramodulazione**: quando la profondità di modulazione **supera** il 100%
+* **demodulazione (rivelazione)**: l'estrazione da un onda RF modulata dell'informazione audio.
+* **modulazione di frequenza (FM) e di fase (PM)**: l'ampiezza dell'onda RF (portante) resta costante mentre varia la frequenza e la fase al ritmo del segnale a BF (modulante). la banda passante è superiore all'AM ma è meno sensibile ai rumori
+* **indice di modulazione**: rapporto tra devazione portante (RF)/frequenza modulante (BF)
+* **circuiti di modulazione**: oscillatore colpitts a cristallo di quarzo
+* **circuiti di rivelazione**: discriminatore foster-seeley
+* **modulazione di fase (PM)**:  si ottiene variando la fase della portante rispetto al suo valore in assenza di modulazione, proporzionalmente al valore istantaneo dell'ampiezza del segnale modulante
+* **banda laterale unica (SSB)**: come AM ma senza portante e senza una delle due bande laterali
+    * **USB**: la parte di banda che si trova sopra alla frequenza della portante
+    * **LSB**: la parte di banda che si trova sotto alla frequenza della portante
+* **modulatore bilanciato**: serve a rimuovere la portante per l'USB
