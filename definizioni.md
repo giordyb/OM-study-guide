@@ -59,7 +59,6 @@
 * ***sensibilità***: rapporto fra la variazione dell’indicazione data in uscita e la corrispondente variazione ricevuta all’ingresso
 * ***trasduttori***: dispositivi che convertono un segnale elettrico in sonoro e viceversa
 * **ponte di Wheatstone**: indicatore di zero, misuratore di intensità di segnale
-* **ponte di graetz**: raddrizzatore di onde sinusoidali (4 diodi)
 
 
 ## ELETTROMAGNETISMO
@@ -134,7 +133,8 @@ effetto pelle:
 * **impedenza di uscita**: il valore della resistenza di carico shuntata dalla capacità di uscita (valvole) o dalla resistenza equivalente
 * **tipi di amplificatori**: R/C, L/C, RF, a più stadi. Guadagno 100x per FET,Triodo 200x Pentodo e JBT
 * **amplificatore darlington**: 2 BJP dove corrente emettitore del primo è corrente di base del secondo.
-* **amplificatore differenziale**: dotato di due ingressi e un uscita, è in grado di amplificare la differenza tra due segnali applicati in ingresso. in configurazione "invertente" la fase del segnale in uscita viene invertita (180°)
+* **amplificatore differenziale (o operazionale)**: dotato di due ingressi e un uscita, è in grado di amplificare la differenza tra due segnali applicati in ingresso. in configurazione "invertente" la fase del segnale in uscita viene invertita (180°). Ha elevata impedenza d'ingresso, bassa impedenza di uscita, guadagno in tensione molto alto, risposta di frequenza piatta, stabile al funzionamento
+
 * **amplificatore cascode**: due amplificatori collegati in cascata, il primo a emettitore comune, il secondo a base comune. Adatto all'uso in VHF, guadagno paragonabile a emettitore comune
 * **amplificatore Push-Pull**: alto rendimento e bassa distorsione, 2 amplificatori classe B messi assieme (invertiti)
 
@@ -154,9 +154,60 @@ effetto pelle:
 * **modulazione di frequenza (FM) e di fase (PM)**: l'ampiezza dell'onda RF (portante) resta costante mentre varia la frequenza e la fase al ritmo del segnale a BF (modulante). la banda passante è superiore all'AM ma è meno sensibile ai rumori
 * **indice di modulazione**: rapporto tra devazione portante (RF)/frequenza modulante (BF)
 * **circuiti di modulazione**: oscillatore colpitts a cristallo di quarzo
-* **circuiti di rivelazione**: discriminatore foster-seeley
+* **circuiti di rivelazione**: discriminatore (per FM) foster-seeley 
 * **modulazione di fase (PM)**:  si ottiene variando la fase della portante rispetto al suo valore in assenza di modulazione, proporzionalmente al valore istantaneo dell'ampiezza del segnale modulante
 * **banda laterale unica (SSB)**: come AM ma senza portante e senza una delle due bande laterali
     * **USB**: la parte di banda che si trova sopra alla frequenza della portante
     * **LSB**: la parte di banda che si trova sotto alla frequenza della portante
-* **modulatore bilanciato**: serve a rimuovere la portante per l'USB
+* **modulatore bilanciato**: serve a rimuovere la portante RF per l'SSB
+* **rilevatore a prodotto**:  versione particolare del modulatore bilanciato usato per la demodulazione SSB, l'uscita corrisponde al prodotto dei segnali entranti
+* **PLL (Phase Locked Loop)**: circuito per mantenere in fase due oscillatori, paragona due frequenze (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e modifica la tensione di controllo del VFO per mantenerli in fase. 
+* **BFO (Beat Frequency Oscillator)**: circuito oscillatore che reinserisce la portante nel segnale per demodulare segnali SSB o CW 
+## ALIMENTATORI
+
+* **raddrizzatore a mezz'onda (semionda)**: circuito per raddrizzare la corrente alternata in corrente continua, è la più semplice versione di rettificatore (solo onda positiva)
+* **raddrizzatore a onda intera**: formato utilizzando due diodi in uscita (utilizza entrambe le onde)
+* **ponte di graetz**: raddrizzatore di onde sinusoidali (4 diodi)
+* **stabilizzatore di tensione**: evita slittamenti di frequenza, distorsioni, diminuzioni di potenza, può essere utilizzati diodi zener con apposita resistenza limitatrice.
+
+## CIRCUITI INTEGRATI
+
+* **circuiti integrati lineari**: la loro uscita è lineare, proporzionale al segnale presente in ingresso
+* **amplificatore operazionale**: vedi amplificatore differenziale
+
+## RICEVITORE GENERICO
+
+* **selettività**: La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda
+* **sensibilità**: la capacità di captare segnali molto deboli
+* **stabilità**: l'attitudine a rimanere sintonizzato su un segnale fisso
+* **intermodulazione** : distorsione dovute a frequenze generate dai componenti utilizzati
+* **ricevitore a supereterodina**: converte i segnali ricevuti (RF) in una frequenza di valore fisso e ben definita (IF)
+* **s-meter**: misura l'intensità di segnale RF all'ingresso del ricevitore.
+* **squelch** circuito che inibisce il fruscio in assenza di segnale
+* **clarifier** corregge il tipo di voce troppo acuta o grave
+
+## TRASMETTITORE GENERICO
+* **oscillatore**: genera l'onda portante sul quale viaggerà il segnale informativo vero e proprio
+* **modulatore**: modula l'onda portante in base al segnale informativo da trasmettere
+* **larghezza di banda**: l'ampiezza dello spettro occupata dal segnale
+* **non linearità**: se i segnali non sono elaborati uniformemente al variare della loro ampiezza si verifica una non linearità
+* **irradiazioni parassite**: emissioni su frequenze diverse da quella del segnale utile e sono prodotte dai generatori presenti o da schermature insufficienti
+
+## ANTENNE
+
+* **onda elettromagnetica**: fenomeno ondulatorio di propagazione di
+energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati di 90° l'uno rispetto all'altro: sul piano verticale l'intensità e direzione del campo elettrico, sul piano orizzontale l'intensità e direzione del campo magnetico.
+
+* **antenna**: circuito risonante in serie a **costanti distribuite**, trasforma l'energia elettrica fornita da un trasmettitore (sotto forma di corrente che l'attraversa) in energia elettromagnetica che viene irradiata nello spazio sotto forma di onde. Analogamente cattura l'energia elettromagnetica dello spazio circostante e la converte in energia elettrica atta a essere sfruttata da un ricevitore.
+
+* **antenna bilanciata** quando i morsetti di alimentazione sono riforniti di energia RF in modo bilanciato rispetto a terra e la struttura dell'antenna è simmetrica attorno al punto di alimentazione (dipolo)
+
+* **direttività**: rapporto tra l'intensità di radiazione irradiata in tale direzione (la sua emissione più forte) e la potenza totale irradiata uniformemente in tutte le direzioni (radiatore isotropico ideale)
+* **guadagno**: il rapporto in dB tra la potenza irradiata di un antenna nella sua direzione di massima emissione e intensità e quella di un antenna di riferimento (dBd per dipolo e dBi per isotropica)
+    * guadagno di un dipolo sull isotropico = 2,1 dBi
+* **polarizzazione**: il piano in cui si propaga l'onda elettrica, parallela al conduttore (piano di polarizzazione)
+* **armonica**: un antenna risuona anche sulle armoniche e si ripete su ogni tratto di conduttore pari a 1/2 onda.
+* **antenne verticale**: nel caso una delle due estremità sia collegata a terra, l'antenna posta in verticale diventa a 1/4 d'onda (il resto 1/4 è simulato dal terreno)
+* **ERP (potenza effettivamente irradiata)**: potenza reale disponibile nella direzione di massima irradiazione, tiene condo della potenza da tx che del guadagno e perdite dei sistemi di accoppiamento.
+
+## LINEE DI TRASMISSIONE
