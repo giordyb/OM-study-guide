@@ -52,12 +52,12 @@
 * **costante di tempo**: il tempo impiegato dal condensatore per caricarsi fino al **63%** della **tensione** di alimentazione
 
 ## STRUMENTI
-* ***amperometro***: dispositivo a **bassa** resistenza che misura l'intensità di corrente che lo attraversa, collegato in **serie**
-* ***voltmetro***: dispositivo ad **alta** resistenza che misura la differenza di tenione tra due punti, collegato in **parallelo**
-* ***portata***: l'insieme di indicazioni ottenbili (range)
-* ***risoluzione***: la più piccola variazione della grandezza da misurare che causa una variazione percettibile nell’uscita
-* ***sensibilità***: rapporto fra la variazione dell’indicazione data in uscita e la corrispondente variazione ricevuta all’ingresso
-* ***trasduttori***: dispositivi che convertono un segnale elettrico in sonoro e viceversa
+* **amperometro**: dispositivo a **bassa** resistenza che misura l'intensità di corrente che lo attraversa, collegato in **serie**
+* **voltmetro**: dispositivo ad **alta** resistenza che misura la differenza di tenione tra due punti, collegato in **parallelo**
+* **portata**: l'insieme di indicazioni ottenbili (range)
+* **risoluzione**: la più piccola variazione della grandezza da misurare che causa una variazione percettibile nell’uscita
+* **sensibilità**: rapporto fra la variazione dell’indicazione data in uscita e la corrispondente variazione ricevuta all’ingresso
+* **trasduttori**: dispositivi che convertono un segnale elettrico in sonoro e viceversa
 * **ponte di Wheatstone**: indicatore di zero, misuratore di intensità di segnale
 
 
@@ -163,6 +163,7 @@ effetto pelle:
 * **rilevatore a prodotto**:  versione particolare del modulatore bilanciato usato per la demodulazione SSB, l'uscita corrisponde al prodotto dei segnali entranti
 * **PLL (Phase Locked Loop)**: circuito per mantenere in fase due oscillatori, paragona due frequenze (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e modifica la tensione di controllo del VFO per mantenerli in fase. 
 * **BFO (Beat Frequency Oscillator)**: circuito oscillatore che reinserisce la portante nel segnale per demodulare segnali SSB o CW 
+
 ## ALIMENTATORI
 
 * **raddrizzatore a mezz'onda (semionda)**: circuito per raddrizzare la corrente alternata in corrente continua, è la più semplice versione di rettificatore (solo onda positiva)
@@ -187,13 +188,14 @@ effetto pelle:
 * **clarifier** corregge il tipo di voce troppo acuta o grave
 
 ## TRASMETTITORE GENERICO
+
 * **oscillatore**: genera l'onda portante sul quale viaggerà il segnale informativo vero e proprio
 * **modulatore**: modula l'onda portante in base al segnale informativo da trasmettere
 * **larghezza di banda**: l'ampiezza dello spettro occupata dal segnale
 * **non linearità**: se i segnali non sono elaborati uniformemente al variare della loro ampiezza si verifica una non linearità
 * **irradiazioni parassite**: emissioni su frequenze diverse da quella del segnale utile e sono prodotte dai generatori presenti o da schermature insufficienti
 
-## ANTENNE
+## ANTENNE
 
 * **onda elettromagnetica**: fenomeno ondulatorio di propagazione di
 energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati di 90° l'uno rispetto all'altro: sul piano verticale l'intensità e direzione del campo elettrico, sul piano orizzontale l'intensità e direzione del campo magnetico.
