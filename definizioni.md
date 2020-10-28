@@ -213,3 +213,28 @@ energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati 
 * **ERP (potenza effettivamente irradiata)**: potenza reale disponibile nella direzione di massima irradiazione, tiene condo della potenza da tx che del guadagno e perdite dei sistemi di accoppiamento.
 
 ## LINEE DI TRASMISSIONE
+
+* **adattata**: linea di trasmissione dove un amperometro inserito in qualsiasi punto segna lo stesso valore di corrente
+* **impedenza caratteristica**: la resistenza di irradiazione dell'antenna nel suo punto di irradiazione
+* **bilanciata**:  linea con nessun conduttore connesso a massa
+* **sbilanciata**: linea con un conduttore connesso a massa
+* **costanti caratteristiche di una linea**: induttanza, capacità, resistenza, conduttanza
+* **costanti secondarie caratteristiche di una linea**: impedenza, costante di propagazione, fattore di velocità, attenuazione di linea
+
+## PROPAGAZIONE
+
+* **strato D**: dai 50-90km, poco determinante per la deviazione verso terra delle onde HF. riflette le onde tra 3-300kHz
+* **strato E**: fra 100-150km, influisce su i collegamenti a lunga distanza. 
+    * riflette di giorno tra i 90-130km le onde tra 3-30Mhz (HF)
+    * riflette di notte tra i 100-150km le onde tra 30-3000kHz (LF-MF)
+* **strato F**: riflette di notte dai 160-410km
+    * *strato F1*: di giorno dai 130-240km
+    * *strato F2*: di giorno dai 240-410km
+
+* **attività solare**: è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
+
+* **MUF (Maximum Usable Frequency)**:  la più **alta frequenza** che si può utilizzare per trasmettere un segnale ad una data destinazione, determinata dall'intensità delle radiazioni solari, specialmente le ultraviolette
+
+* **fading (evanescenza)**: quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
+
+* **zona di silenzio d'ombra**: fascia di territorio compresa tra il limite massimo in cui giunge l'onda terrestre emessa da un antenna e il limite minimo cui giunge l'onda riflessa ionosferica proveniente dalla stessa antenna
