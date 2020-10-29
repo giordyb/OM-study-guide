@@ -76,9 +76,9 @@ effetto pelle:
 * **effetto pelle**: la corrente alternata ad alte frequenze (radiofrequenza) scorre essenzialmente sulla superficie del conduttore
 
 ## TRASFORMATORI
-* dispositivo che serve a trasferire dal primario al secondario un certo ammontare di potenza (V*I) che nel trasferimento resta costate pur variandone i singoli termini
-* rapporto di trasformazione spire/tensione: tra la tensione primaria e secondaria vi è lo stesso rapporto che esiste fra il numero di spire dei due avvolgimenti
-* autotrasformatore: quando il carico, invece che essere applicato ad un avvolgimento viene collegato ad una presa sul primario.
+* **trasformatore**: dispositivo che serve a trasferire dal primario al secondario un certo ammontare di potenza (V*I) che nel trasferimento resta costate pur variandone i singoli termini
+* **rapporto di trasformazione spire/tensione**: tra la tensione primaria e secondaria vi è lo stesso rapporto che esiste fra il numero di spire dei due avvolgimenti
+* **autotrasformatore**: quando il carico, invece che essere applicato ad un avvolgimento viene collegato ad una presa sul primario.
 
 ## CIRCUITI RISONANTI
 * **risonanza in serie**: alla frequenza di risonanza si ha impedenza bassa e intensità di corrente massima
@@ -238,3 +238,24 @@ energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati 
 * **fading (evanescenza)**: quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 
 * **zona di silenzio d'ombra**: fascia di territorio compresa tra il limite massimo in cui giunge l'onda terrestre emessa da un antenna e il limite minimo cui giunge l'onda riflessa ionosferica proveniente dalla stessa antenna
+
+* **onde lunghe**: propagano per onde di terra, si possono riflettere negli strati più bassi della ionosfera
+
+* **onde medie**: portata limitata per onde di terra perchè subiscono forte attenuazione, nelle ore serali/notturne vengono riflesse dagli strati ionosferici permettendo propagazione di +100km
+
+* **onde corte**: si propagano quasi esclusivamente per riflessione ionosferica. sotto 10Mhz poche 1000km tutte le ore, 15Mhz lunghe distanze specie nei periodi estivi e ore serali. 20-30Mhz lunga distanza solo nelle ore diurne e solo in periodi di alta attività solare
+
+## COMPORTAMENTO BANDE:
+
+* **1.8Mhz (160m)**: forte rumore atm. risente assorbimento diurno strato D, pochi 100km giorno, lunga distanza notte.
+
+* **3.5Mhz (80m)**: come 160m meno disturbo atmosferico
+
+* **7Mhz (40m)**: rumore atmosferico solo nei mesi estivi. Banda più alta ad usare riflessione ionosferica. di giorno 1000km di notte tutto il mondo
+
+* **14Mhz (20m)**: banda per lunga distanza sia diurna che notturna, specialmente in picco di attività solare. basso rumore atmosferico, risente in parte del ciclo solare undecennale
+
+* **21Mhz (15m)**: attività diurna, risente dell'attività solare
+
+* **28Mhz (10m)**: rumore atm. quasi inesistente, sfruttabile principalmente durante picco attività solare
+
