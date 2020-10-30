@@ -71,7 +71,6 @@
 * **mutua induzione**: quando il campo magnetico di un solenoide viene ad interessare anche il secondo, generando forza elettromagnetica indotta.
 * **autoinduzione**: l'effetto di induzione che ogni circuito esercita su se stesso (forza contro-elettromotrice), cioè di opporsi a qualsiasi cambiamento di corrente
 * **reattanza induttiva**: l'**opposizione** di un induttore alla circolazione di corrente **alternata**
-effetto pelle: 
 * **costante di tempo**: il tempo affinchè la **corrente** nel circuito salga al 63% del valore di regime
 * **effetto pelle**: la corrente alternata ad alte frequenze (radiofrequenza) scorre essenzialmente sulla superficie del conduttore
 
