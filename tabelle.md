@@ -1,6 +1,28 @@
 
 # TABELLE
 
+## CODICE Q
+
+|CODICE|SIGNIFICATO|CODICE|SIGNIFICATO|
+|---|---|--|--|
+|**QRA**|Nominativo|**QRB**|Distanza|
+|**QRG**|Frequenza *esatta*|**QRH**|*Variazione* di frequenza|
+|**QRI**|tonalità 1(buona)-2(variabile)-3(cattiva)|**QRK**|comprensibilità 1(cattiva)-2(mediocre)-3(abb. buona)-4(buona)-5(ottima)|
+|**QRL**|stazione impegnata|**QRM**|Disturbi|
+|**QRN**|Disturbi *atmosferici*|**QRO**|Aumento potenza|
+|**QRP**|Diminuzione di potenza|**QRQ**|(QUICK) Aumento *velocità* di trasmissione
+|**QRS**|(SLOW) Diminuire *velocità* di trasmissione|**QRT**|sospendere trasmissione|
+|**QRU**|non ho nulla da comunicare|**QRV**|stazione pronta|
+|**QRX**|sospendo temporaneamente|**QRZ**|stazione chiamata|
+|**QSA**|intensità segnale 1(appena percettibile)-2(debole)-3(abb. buona)-4(buona)-5(ottima)|**QSB**|fading|
+|**QSD**|manipolazione CW difettosa|**QSK**|posso sentirti tra i miei segnali|
+|**QSL**|ricevuto manderò conferma|**QSM**|ripeti ultima frase|
+|**QSN**|ascolto il tuo segnale|**QSO**|comunicare|
+|**QSS**|frequenza di lavoro|**QSX**|Stare in ascolto|
+|**QSY**|cambiare frequenza|**QTC**|messaggio|
+|**QTH**|posizione|**QTR**|ora esatta|
+
+
 ## MISURE
 | |+|-|
 |---|---|---|
@@ -24,21 +46,3 @@
 |EHF|30-300Ghz|Millimetriche|10 mm-1 mm
 |THF|300-3000Ghz|Decimillimetriche|1 mm-1000 micrometri
 
-
-## ALFABETO FONETICO
-
-| | |
-|---|---|
-|A: ALFA|B: BRAVO|
-|C: CHARLIE|D: DELTA|
-|E: ECHO|F: FOXTROT|
-|G: GOLF|H: HOTEL|
-|I: INDIA|J: JULIET|
-|K: KILO|L: LIMA|
-|M: MIKE|N: NOVEMBER|
-|O: OSCAR|P: PAPA|
-|Q: QUEBEC|R: ROMEO|
-|S: SIERRA|T: TANGO|
-|U: UNIFORM|V: VICTOR|
-|W: WHISKEY|X: X-RAY|
-|Y: YANKEE|Z: ZULU|
