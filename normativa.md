@@ -3,7 +3,7 @@
 * l'etere appartiene allo stato
 * Il ministero dello sviluppo economico (MISE) - dipartimento di comunicazioni assegna le frequenze
 * l'International Telecommunication Union (ITU): coordina l'utilizzo dello spettro e permette che i servizi in varie parti del mondo possano interoperare
-    * fondata nel 1865 a Ginevra)
+    * fondata nel 1865 a Ginevra
     * E' il ramo delle nazioni unite che si occupa di problemi di telecomunicazioni.
 * il mondo è stato suddiviso in 3 Regioni
     * regione 1: Europa, Africa, Asia Settentrionale (Russia)
@@ -25,34 +25,37 @@
 
 * Radioamatore: 
     * D.Lvo 1/8/2003 n.259 art 14"codice delle comunicazioni elettroniche", **allegato 26**. Dpr n.64 27/1/2000 (CEPT) Decr. Min. 21/7/2005:
-    * L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
+    * L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
     * anche su mezzo mobile **escluso quello aereo**
     * l'attività di ascolto **sulle frequenze di OM** è libera
 * Patente:
     * conseguita dopo esame,  autorizza a utilizzare le apparecchiature radioamatoriali. 
-    * Non scade mai. 
-    * Rilasciata dall'ispettorato territoriale del MISE
+    * **Non scade mai.**
+    * Rilasciata dall'ispettorato **territoriale** del MISE
     * in caso di furto/smarrimento il titolare è tenuto a richiedere il duplicato
     * alcuni titoli di studio sono esonerati dall'esame
     * c'è solo patente classe A
+    * necessaria per la richiesta del nominativo
 
-* Nominativo: Prefisso (IU4) + suffisso personale (ZZZ).
-    * Rilasciato dalla sede centrale del ministero delle comunicazioni di Roma
+* Nominativo (Italia): Prefisso (IU2) + suffisso personale (ZZZ).
+    * Rilasciato dalla sede centrale del MISE (Roma)
     * decade al mancato rinnovo dell'autorizzazione generale o al primo rilascio se non si richiede l'autorizzazione generale entro 30 giorni
     * possono acquisirlo: persone fisiche, stazioni ripetitrici, associazioni di OM, università, scuole, enti pubblici
     * utilizzi alternativi se in luogo diverso dall'indirizzo dichiarato
-        * nella propria zona: IUFIT /P
-        * in zona diversa: IUFIT /IA5
-        * su mezzo mobile: IUFIT /M4
-        * su barca: IUFIT /MM
-        * all'estero: F/ IUFIT 
-        * radiofaro IUFIT /B
+        * nella propria zona: IU2ZZZ /P
+        * in zona diversa: IU2ZZZ /5 (codice zona)
+        * su mezzo mobile: IU2ZZZ /M4
+        * su barca: IU2ZZZ /MM
+        * all'estero: F/ IU2ZZZ 
+        * radiofaro IU2ZZZ /B
     * nominativo speciale: per gara o manifestazione, valido solo per l'attività dichiarata, possibile estendere ad altri operatori
-* autorizzazione generale: 
+    * non può essere modificato se non dal ministero
+    * da presentare prima della richiesta di Autorizzazione Generale
+* Autorizzazione Generale: 
     * da richiedere entro 30 giorni dal ricevimento del nominativo
-    * requisiti: patente, 16 anni, nominativo, luogo di installazione e tipo di apparecchiatura
+    * requisiti: patente OM, 16 anni, nominativo, luogo di installazione e tipo di apparecchiatura
     * automaticamente autorizzati dopo 30gg dalla richiesta (silenzio assenso)
-    * durata 10 anni
+    * **durata 10 anni**
     * in caso di calamità o contingenze particolari o di pubblico interesse può autorizzare le stazioni di radioamatore ad effettuare collegamenti oltre i limiti stabiliti 
     * può essere consentito ai radioamatori svolgere attività di radioassistenza ad eventi o manifestazioni previa tempestiva comunicazione
     * può essere sospesa per ragioni di sicurezza pubblica/difesa militare/emergenze
@@ -93,7 +96,7 @@
 * impianto ed esercizio all'estero in occasione di soggiorno temporaneo è soggetto all'osservanza delle norme del paese visitato
 * Ai cittadini dei membri dei paesi CEPT in possesso di patente HAREC per soggiorno superiore a 3 mesi è rilasciata su domanda la patente italiana
 
-
+* sequenza acquisizione autorizzazioni: esame --> patente --> nominativo --> autorizzazione generale
 
 * La direttiva europea sulla 'compatibilità elettromagnetica' è la 2004/108/CE
 * Se un'Amministrazione viene a conoscenza di un infrazione ai Regolamenti delle radiocomunicazioni commessa da una stazione dipendente accerta i fatti determina le responsabilità e adotta i provvedimenti necessari.
