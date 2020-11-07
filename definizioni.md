@@ -196,6 +196,10 @@
 
 ## ANTENNE
 
+* **campo elettromagnetico**: quando la lunghezza di un conduttore è paragonabile alla lunghezza d’onda, una parte dell’energia elettrica che lo attraversa viene ceduta allo spazio circostante sotto forma di campo elettromagnetico.
+
+* **irradiazione**: la trasformazione di energia elettrica in energia magnetica
+
 * **onda elettromagnetica**: fenomeno ondulatorio di propagazione di
 energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati di 90° l'uno rispetto all'altro: sul piano verticale l'intensità e direzione del campo elettrico, sul piano orizzontale l'intensità e direzione del campo magnetico.
 
