@@ -98,21 +98,45 @@
 ### - Componente di tensione continua, componente della frequenza fondamentale e armoniche
 * Un segnale periodico si dice **alternato** quando il suo valore medio in un periodo è nullo
 * Un segnale periodico non **alternato** ha un valore medio non nullo e si può scomporre in una componente continua e una componente alternata avente la stessa forma d’ onda del segnale originario
-
-
 * fondamentale :l’onda sinusoidale che ha la stessa frequenza del segnale
 * armoniche: le frequenze più alte, multiple della fondamentale
 
-
 ## 1.8. - Segnali modulati
-### - Modulazione di ampiezza
+## - Modulazione di ampiezza
 
-- Modulazione di ampiezza a banda laterale unica - Modulazione di fase, modulazione di frequenza - Deviazione di frequenza e indice di modulazione - Portante, bande laterali e larghezza di banda
-- Forme d’onda
-1.9. - Potenza ed energia
-- Potenza dei segnali sinusoidali
-- Rapporti di potenza corrispondenti ai seguenti valori in dB: 0 dB, 3 dB, 6 dB, 10 dB e 20 dB (positivi e negativi)
-- Rapporti di potenza ingresso/uscita in dB di amplificatori collegati in serie e/o attenuatori
+### - Modulazione di ampiezza a banda laterale unica - Modulazione di fase, modulazione di frequenza - Deviazione di frequenza e indice di modulazione - Portante, bande laterali e larghezza di banda
+
+
+* modulazione di ampiezza (AM): il segnale (modulante) in BF va a modulare (imprimere il ritmo) l’ampiezza di un onda in RF (portante), inalternado frequenza e fase. L’ampiezza della portante varia al ritmo della modulante
+* AM a banda laterale unica (SSB): come AM ma senza portante e senza una delle due bande laterali
+   * USB: la parte di banda che si trova sopra alla frequenza della portante
+   * LSB: la parte di banda che si trova sotto alla frequenza della portante
+* modulazione di frequenza (FM) e di fase (PM): l’ampiezza dell’onda RF (portante) resta costante mentre varia la frequenza e la fase al ritmo del segnale a BF (modulante). la banda passante è superiore all’AM ma è meno sensibile ai rumori
+* modulazione di fase (PM): si ottiene variando la fase della portante rispetto al suo valore in assenza di modulazione, proporzionalmente al valore istantaneo dell’ampiezza del segnale modulante
+* deviazione di frequenza: l’entità di cui varia la frequenza della portante, proporzionale all’ampiezza istantanea del segnale modulante, equivalente all’ampiezza delle bande laterali
+* indice di modulazione: rapporto tra devazione portante (RF)/frequenza modulante (BF)
+* portante: un’onda elettromagnetica o un segnale elettrico, generalmente sinusoidale, con caratteristiche di frequenza, ampiezza e fase note, che viene modificata da un segnale modulante, in genere contenente informazioni, per essere poi trasmessa via etere o via cavo.
+* bande laterali: una banda di frequenze più alta o più bassa rispetto alla frequenza portante, contenente un’energia risultante dal processo di modulazione. 
+* larghezza di banda: è la misura dell’ampiezza di banda dello spettro. Si misura in Hertz ed è data dall’intervallo di frequenze occupato dal segnale (audio tra 300 e 3000hz)
+
+### - Forme d’onda
+
+* ????
+
+
+## 1.9. - Potenza ed energia
+### - Potenza dei segnali sinusoidali
+
+* ????
+
+### - Rapporti di potenza corrispondenti ai seguenti valori in dB: 0 dB, 3 dB, 6 dB, 10 dB e 20 dB (positivi e negativi)
+
+* dB = la minima differenza tra due livelli di suono che un orecchio può percepire
+* 0dB = x1, 3dB = x2, 6dB = x4, 10dB = x10, 20dB = x100, 30dB = x1000
+
+### - Rapporti di potenza ingresso/uscita in dB di amplificatori collegati in serie e/o attenuatori
+* guadagno complessivo di sistema: basta eseguire la somma algebrica dei singoli componenti
+
 - Adattamento (massimo trasferimento di potenza)
 - relazione tra potenza d’ingresso e potenza di uscita e rendimento
 - Potenza di cresta della portante modulata
