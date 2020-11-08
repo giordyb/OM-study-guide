@@ -574,136 +574,244 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ### - Frequenza immagine
 * è la frequenza **somma** della frequenza di oscillatore locale più frequenza intermedia quando l'oscillatore locale del supereterodina converte la frequenza **differenza** e viceversa. 
-* frequenza immagine: e' lontana 2 * IF dalla freq. sintonizzata...in piu' o in meno, dipende dall'oscillatore locale
+* la freq. immagine è "lontana" 2 x IF dalla freq. sintonizzata. Se in più o in meno, dipende se l'oscillatore locale è sopra o sotto il segnale ricevuto.
 
 ### - Intermodulazione; transmodulazione
 * intermodulazione: effetto conseguente dal sovraccarico è la cosiddetta distorsione da intermodulazione (IMD); esso consiste nella comparsa del forte segnale, indesiderato e disturbante, in più posi­zioni della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
-
 * transmodulazione:  modulazione incrociata (o transmodulazio­ ne), si manifesta con la modulazione di unse­ gnale molto forte (anche se su frequenza lonta na) che compare sopra il segnale più debole che si sta sintonizzando; il suono ap­partenente al segnale forte viene superimposto al messaggio debole.
 
 ## 5 - TRASMETTITORI
 ## 5.1 - Tipi di trasmettitori
 ### - Trasmettitori con o senza commutazione di frequenza 
 
+* ????
+
 ### - Moltiplicazione di frequenza
+* un circuito elettronico che genera un'uscita segnale la cui uscita in frequenza è una armonica (multiplo) della sua frequenza di ingresso. 
 
 ## 5.2 - Schemi a blocchi
 ### - Trasmettitori telegrafici in CW (A1A)
+* [oscill. variabile] -> [(oscill. xtal)->mixer] -> [ampli. potenza] -> [antenna]
 
 ### - Trasmettitori in banda laterale unica (SSB) a portante soppressa (J3E) 
+[oscill. xtal] -> [(amplif. bf) -> modul. bilanc] -> [filtro] -> [(oscill. var) -> 1° conv] -> [(oscill. xtal) -> 2° conv] -> [ampl. lineare] -> [antenna]
 
 ### - Trasmettitori in modulazione di frequenza (F3E)
+[ampl. audio] -> [filtro elimn] -> [modulat. reatt. (fase)] -> [oscill] -> [moltipl] -> [molitpl] -> [ampl. potenza] -> [antenna]
 
 ## 5.3 - Descrizione degli stadi seguenti (limitatamente agli schemi a blocchi) 
 ### - Miscelatore (Mixer)
+* mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
 
 ### - Oscillatore
+* genera l'onda portante sul quale viaggerà il segnale informativo vero e proprio
 
 ### - Eccitatore (buffer, driver)
+* amplificazione di potenza mo­desta (pilota o driver) (p.165)
 
 ### - Moltiplicatore di frequenza
+* un circuito elettronico che genera un'uscita segnale la cui uscita in frequenza è una armonica (multiplo) della sua frequenza di ingresso. 
 
 ### - Amplificatore di potenza
+* amplifica il segnale RF per essere irradiato
 
 ### - Filtro di uscita (filtro a pigreco) 
+* filtro d’uscita per evitare/attenuare sensibilmente eventuali prodotti spurii presenti. (p.165)
 
 ### - Modulatore di frequenza
+* imprime alla portante le informazioni da trasmettere.
 
 ### - Modulatore SSB
+* Modulatore bilanciato: manipola la portante a RF e l’informazione audio in modo da rendere dispo­nibili all’uscita ambedue le bande laterali, ma non la portante. (p. 151)
 
 ### - Modulatore di fase
-
+* provvede a variare la sintonia del circuito risonante dell’o­ scillatore a quarzo, dando così luogo ad una variazione nella fase della corrente che attraversa lo stesso. (p. 183)
 ### - Filtro a quarzo
+* ???
 
-## 5.4 - Caratteristiche dei trasmettitori (in forma descrittiva) - Stabilità di frequenza
+## 5.4 - Caratteristiche dei trasmettitori (in forma descrittiva) 
+### - Stabilità di frequenza
+* spostamenti della fre­ quenza che caratterizza l’onda portante posso­no determinare conseguenze indesiderate, l’o­scillatore dovrà essere scelto e realizzato in modo tale da presentare una sufficiente stabilità della sua frequenza di oscillazione. (p.166)
+
 ### - Larghezza di banda in alta frequenza
+* CW: 500hz
+* AM: 5-6kHz
+* FM: 10-20kHz
+* SSB: 2-3Khz
 
 ### - Bande laterali
+* vedi 1.8
 
-### - Banda di frequenze audio - Non linearità
+### - Banda di frequenze audio
+* tra 300 Hz e 3400 Hz
+
+### - Non linearità
+* se i segnali non sono elaborati uniformemente al variare della loro ampiezza si verifica una non linearità.
 
 ### - Impedenza di uscita
+* ???
 
 ### - Potenza di uscita
+* è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizzio adeguato
 
 ### - Rendimento
+* ???
 
 ### - Deviazione di frequenza
+vedi 1.8
 
 ### - Indice di modulazione
+vedi 1.8
 
 ### - Clicks di manipolazione CW
+* Quando la manipola­zione telegrafica avviene producendo interruzio­ni con fronti d'onda molto ripidi e squadrati, la nota ricevuta risulta disturbata da rumori di tipo metallico. (p.166)
 
 ### - Irradiazioni parassite
+* battimenti e combinazioni indesiderate, dovute a non lineari­tà di certi stadi od a insufficienti schermature de­ gli stessi e dell'apparato.(p.166)
 
 ### - Irradiazioni della struttura (cabinet radiations)
+* la struttura metallica di contenimento dell’apparato (specie se non collegata a terra) abbia a comportarsi essa stessa come elemento radiante (ovvero antenna) di emissioni indesiderate, cioè irradiazioni del contenitore e della struttura. (p.166)
 
 ## 6 - ANTENNE E LINEE DI TRASMISSIONE
 ## 6.1 - Tipi di antenne
 ### - Dipolo a mezzonda alimentato al centro
+* tipo di antenna formata da due conduttori di eguale lunghezza, situati sulla stessa linea e alimentati contemporaneamente nel punto medio.
+* risuona (pur se in modo pronunciato) anche sulle armo­niche.
+* l (1/2 onda)= 150 / f
+* si alimenta a **metà** della sua lunghezza
+* resistenza di irradiazione è circa 73 Ohm
+* guadagna circa 2,1 dB rispetto all'antenna isotropica
+* se estremi puntati a nord e sud irradia est e ovest
+* si usano le trappole per farlo risuonare a diverse frequenze
 
 ### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
+la lunghezza effettiva e to­ tale del conduttore è lambda, ma esso risulta ripiegato in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale (250-300Ohm)
 
 ### - Antenna verticale in quarto d’onda
+* nel caso una delle due estremità sia collegata a terra, con l'antenna stessa posta in verticale, il potenziale del punto a terra diventa come quello della terra ,ovvero zero,perché la terra può considerarsi un sistema a resistenza nulla e quindi anche il suo punto di collegamento
+* irradia ugualmente in tutte le direzioni sul piano orizzontale.
+* antenna a 5/8 onda ha più guadagno di una 1/4
+* ground plane: ha un piano di terra fittizio alla base dello stilo (radiali)
 
-### - Antenne con riflettore e/o direttore (Yagi) - Antenne paraboliche
+### - Antenne con riflettore e/o direttore (Yagi) 
+* hanno la capacità di **concentrare** l'irradiazione in direzioni privilegiate
+* rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
+* lobo principale: La direzione in cui viene irradiata la massima intensità di campo
+* Yagi:
+   * Il direttore è normalmente il **più corto** degli elementi passivi
+      * radiatore: 
+         * il solo elemento è collegato alla linea di alimentazione
+         * lungo circa 1/2 onda.
+      * mediamente guadagna 5,3 dB**d**
+      * più elementi == più direttività
+* cubic quad: antenna con due o più avvolgimenti paralleli, su telaio a 4 lati, ciascuno lungo circa lambda
+
+### - Antenne paraboliche
+* utilizzate per le microonde, guadagni elevatissimi
+* un radiatore (tipicamente un dipolo a mezz'onda con riflettore) viene posto nel fuoco di una “scodella” a profilo parabolico di­ rigendone l’energia irradiata verso tale riflettore, se ne ottiene un fascio piuttosto stretto, e quindi una direttività molto accentuata.
+* Le dimensioni del disco parabolico influisco­no solo sul guadagno ottenibile da questo tipo di antenna
 
 ### - Dipolo accordato
+* ???
 
 ## 6.2 - Caratteristiche delle antenne
 ### - Distribuzione della corrente e della tensione lungo l’antenna
+* ogni punto dell'antenna è interessato da un diverso valore di tensione e corrente e quindi da un diverso valore del loro rapporto, pertanto l'impendeza è differente in ogni punto risultando minima al centro di un dipolo a 1/2 onda e massima ai suoi estremi
 
 ### - Impedenza nel punto di alimentazione
+* l’elemento radiante a mezz'onda può venire alimentato, anziché al centro (come nel caso del dipolo classico), anche ad una delle estremità; in tal caso l’impedenza di ali­mentazione avrà un valore ben diverso (cioè molto elevato), talché è necessario interporre, fra conduttore e linea (non risonante) un oppor­tuno sistema di adattamento/accordo. (p.203)
 
-### - Impedenza capacitiva o induttiva di un’antenna non accordata - Polarizzazione
+### - Impedenza capacitiva o induttiva di un’antenna non accordata 
+* se l’antenna vien fatta funzionare su frequenza lontana da quella di risonanza, essa presenta impedenza di alimentazione capacitiva o induttiva, che va compensata. (p.203)
+
+### - Polarizzazione
+* piano di polarizzazione: un’antenna è a polarizzazione oriz­zontale se il conduttore che la costituisce è teso orizzontalmente; è invece a polarizzazione verti­cale se esso è montato verticalmente. (p.195)
 
 ### - Guadagno d’antenna
+* è il rapporto tra la potenza irradiata nella direzione di irradiazione massima dell'antenna stessa e la potenza irradiata da un'antenna di riferimento
+* si misura in
+   * dB**d** (rispetto a un dipolo) 
+   * dB**i** (rispetto ad un antenna isotropica)
 
 ### - Potenza equivalente irradiata (e.r.p.)
-
+* La potenza effettiva irradiata è la potenza irradiata dall'antenna nella sua direzione centrale con riferimento al dipolo. P
+* potenza reale disponibile nella direzione di massima irra­diazione; (p. 208)
 ### - Rapporto avanti-dietro
+* è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
 
 ### - Diagrammi d’irradiazione nei piani orizzontale e verticale
+* è la rappresentazione tridimensionale del guadagno della stessa
+* orizzontale: ???
+* verticale: ???
 
-## 6.3 - Linee di trasmissione - Linea bifilare
+## 6.3 - Linee di trasmissione 
+### - Linea bifilare
+* La tipica linea bilanciata è la cosiddetta linea aperta bifilare, o nella vecchia versione “a n­astro” di tipo TV (generalmente 300Ohm)
+
 ### - Cavo coassiale
+* La tipica linea sbilanciata è il cavo coassiale, che può avere lo schermo esterno direttamente collegato a terra: si tratta della linea di trasmissione di più largo impiego, elevata efficienza e facilità di installazione
 
 ### - Guida d’onda
+* ???
 
 ### - Impedenza caratteristica
+* il comportamento non riflettente di una linea infinitamente lunga può ottenersi in modo identi­ co da una linea di lunghezza finita e qualsiasi, purché essa sia chiusa, all’estremo opposto al generatore, su un certo valore di resistenza, uguale alla cosiddetta impedenza caratteristica della linea stessa
 
 ### - Velocità di propagazione
+* risultanti su tutte le componenti sinusoidali subiscono lungo la linea uguale attenuazione e uguale velocità di propagazione,si suddivide in "costante di attenuazione" e dovrebbe essere il più possibile indipendente dalla frequenza e "costante di fase" che che dovrebbe essere variabile linearmente con la frequenza.
 
 ### - Rapporto di onda stazionaria
+* il rapporto fra un valore massimo ed uno minimo di tensione (o di corrente, è lo stesso) che fornisce il modo più semplice per de­finire il funzionamento di un sistema d’antenna e accessori connessi: il cosiddetto rapporto di onda stazionaria (abbreviato in ROS).
+* equivalente al rapporto fra l’impedenza caratteri­stica della linea e la resistenza del carico (o vice­versa, a seconda se è più alta la prima o la se­conda).
 
 ### - Perdite
+* ???
 
 ### - Bilanciatore (balun)
+* tra­sformatore bilanciato-sbilanciato, ha lo scopo di isolare l’estremo del condutto­re esterno della linea coassiale (altrimenti a ter­ra), consentendo il collegamento al carico bilan­ciato. (p.200)
 
 ### - Linea in quarto d’onda (impedenza)
+* adattatore di impe­denza avente lunghezza (elettrica) pari ad 1/4 della lunghezza d’onda della frequenza di lavoro. La sua impedenza dovrà essere pari alla media aritmetica delle impedenze delle due linee da adattare Z1 e Z2; sarà allora Z=sqrt(Z1 * Z2) (p.201)
 
 ### - Trasformatore di linea
+* semplice dispositivo passivo che permette di adattare fra di loro linee o apparati di impedenza e tipologie diverse. (p.201) 
 
-### - Linee aperte e chiuse come circuiti accordati - Sistemi di accordo d’antenna
+### - Linee aperte e chiuse come circuiti accordati 
+* Spezzoni di linee aventi lunghezze opportune possono comportarsi come veri e propri circuiti accordati a seconda che siano lasciati aperti o che siano chiusi in cortocircuito.
+* si comportano come dispositivi la cui reattanza, alla frequenza di risonanza, è funzione del carico su cui vengono “terminati”, non­ ché della lunghezza dei vari tipi di linea, indipen­dentemente dalla loro impedenza caratteristica.
+
+### - Sistemi di accordo d’antenna
+* consente il collegamento diretto dela linea di alimentazione RF all'antenna (specie se direttiva) può avere diverse caratteristiche costruttive
+* delta-match, t-match, gamma match a capacità variabile, gamma match a ponticello mobile.
+
 
 ## 7 - PROPAGAZIONE
 ### - Strati ionosferici
+* STRATO D: dai 50 ai 90 km di altezza è poco determinante per la deviazione verso terra delle onde ad alta frequenza.Riflette quasi totalmente le onde tra i 3 e 300 kHz(VLF-LF) soprattutto di giorno.
+* STRATO E: fra i 1oo e 150 km di altezza,influisce nettamente sui collegamenti a lunga distanza.Riflette di giorno tra i 90-130km le onde tra i 3 e 30 MHz(HF) e di notte tra i 100-150 km quelle tra i 30 e 3000 kHz (LF-MF).
+* STRATO F: determinante per le radiocomunicazioni nelle ore notturne circa dai 160 ai 410 km, di giorno si suddivide nello strato F1 circa dai 130 ai 240 km e nello strato F2 circa dai 240 ai 410 km di altezza.
 
 ### - Frequenza critica
+* ???
 
 ### - Massima frequenza utilizzabile (MUF)
+* la più **alta frequenza** che si può utilizzare per trasmettere un segnale ad una data destinazione, determinata dall'intensità delle radiazioni solari, specialmente le ultraviolette
 
 ### - Influenza del sole sulla ionosfera
+* è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
+
 
 ### - Onda di suolo, onda spaziale, angolo di irradiazione, riflessioni
 
 ### - Affievolimenti (fading)
+* due (o più) onde che si sommano nel punto di ri­cezione, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
+* quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 
 ### - Troposfera
 
 ### - Influenza dell’altezza delle antenne sulla distanza che puo’ essere coperta (orizzonte radioelettrico) 
 
-### - Inversione di  temperatura
+### - Inversione di temperatura
 
 ### - Riflessione sporadica sullo strato E
 
@@ -723,9 +831,9 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ### - Influenza della resistenza interna degli apparecchi di misura 
 
-### - Resistenza 
+### - Resistenza
 
-### - Potenza in continua e in alta frequenza  (potenza media e di cresta)
+### - Potenza in continua e in alta frequenza (potenza media e di cresta)
 
 ### - Rapporto di onda stazionaria
 
@@ -773,7 +881,6 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ### - per irraggiamento diretto
 
 ## 9.3 - Protezione contro i disturbi
-
 ### - Misure per prevenire ed eliminare i disturbi 
 
 ### - Filtraggio
@@ -785,7 +892,9 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ## 10 - PROTEZIONE ELETTRICA
 ### - Il corpo umano
 
-### - Sistemi di alimentazione - Alte tensioni
+### - Sistemi di alimentazione 
+
+### - Alte tensioni
 
 ### - Fulmini
 
