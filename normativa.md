@@ -29,7 +29,7 @@
     * anche su mezzo mobile **escluso quello aereo**
     * l'attività di ascolto **sulle frequenze di OM** è libera
 * Patente:
-    * conseguita dopo esame,  autorizza a utilizzare le apparecchiature radioamatoriali. 
+    * conseguita dopo esame, autorizza a utilizzare le apparecchiature radioamatoriali. 
     * **Non scade mai.**
     * Rilasciata dall'ispettorato **territoriale** del MISE
     * in caso di furto/smarrimento il titolare è tenuto a richiedere il duplicato

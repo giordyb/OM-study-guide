@@ -5,11 +5,13 @@
 ### - Materiali conduttori, semiconduttori ed isolanti 
 * conduttore: materiale che contiene elettroni liberi e con alta conduttività
 * isolante: materiale che **non** contiene elettroni liberi, bassa conduttività
-* semiconduttore: componente che in normali condizioni è un isolante ma in determinate
+* semiconduttore: componente che in normali condizioni è un isolante ma in determinate condizioni diventea conduttore
 * conduttanza: l’attitudine a farsi attraversare dalla corrente
 
 ### - Corrente, tensione e resistenza
-* da fare
+* corrente: indica lo spostamento complessivo delle cariche elettriche. Cioè un qualsiasi moto ordinato definito operativamente come la quantità di carica elettrica che attraversa una determinata superficie nell'unità di tempo.
+* tensione: la differenza tra il potenziale elettrico di due punti dello spazio
+* resistenza: la tendenza di un corpo ad opporsi al passaggio di una corrente elettrica, quando sottoposto ad una tensione elettrica. 
 
 ### - Le unità di misura: ampere, volt e ohm
 * ampere: unità di misura della intensità di corrente (1 columb/sec). La quantità di corrente che passa un conduttore nell’unità di tempo.
@@ -39,7 +41,6 @@
 * in parallelo la tensione rimane uguale ma si ha doppia erogazione
 
 ## 1.2 - I generatori elettrici
-
 ### - Generatore di tensione, forza elettromotrice (f.e.m.), corrente di corto circuito, resistenza interna e tensione di uscita
 * generatore di tensione: dispositivo in grado di mantenere un ecceso di elettroni ad uno dei suoi terminali (positivo) e un difetto di elettroni nell’altro terminale (negativo)
 * f.e.m.: la forza esercitata su un conduttore per far muovere le cariche, espressione della d.d.p.
@@ -53,9 +54,10 @@
 * intensità di campo elettrico: d.d.p. presente tra due punti del campo elettrico distante 1 metro tra di loro
 
 ### - L’unità di misura: volt/metro
+* l'unità di misura dell'intensità di campo elettrico
 
 ### - Schermatura contro i campi elettrici
-* Gabbia di faraday
+* ??? Gabbia di faraday
 
 ## 1.4 - Campo magnetico
 ### - Campo magnetico attorno ad un conduttore 
@@ -150,12 +152,11 @@
 * larghezza di banda: è la misura dell’ampiezza di banda dello spettro. Si misura in Hertz ed è data dall’intervallo di frequenze occupato dal segnale (audio tra 300 e 3000hz)
 
 ### - Forme d’onda
-* ????
-
+* ???
 
 ## 1.9 - Potenza ed energia
 ### - Potenza dei segnali sinusoidali
-* ????
+* ???
 
 ### - Rapporti di potenza corrispondenti ai seguenti valori in dB: 0 dB, 3 dB, 6 dB, 10 dB e 20 dB (positivi e negativi)
 * dB = la minima differenza tra due livelli di suono che un orecchio può percepire
@@ -353,7 +354,6 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
     * NAND (NOT AND)
 
 ## 3 - CIRCUITI
-
 ## 3.1 - Combinazione dei componenti
 ### - Circuiti in serie e in parallelo di resistori, bobine, condensatori, trasformatori e diodi 
 * resistenze e reattanze in serie: Impedenza (Z) = sqrt(R^2+X^2)
@@ -409,7 +409,7 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
    * si ottiene combinando un filtro PA con uno PB avente la frequenza di taglio (ft) del PA **superiore** alla frequenza di taglio (ft) del PB
 
 ### - Risposta in frequenza
-* ??
+* E’ la variazione del comportamento del circuito al variare della frequenza. Puo’ anche essere considerata come la variazione del guadagno e della fase della funzione di trasferimento del circuito (Diagramma di Bode)
 
 ### - Filtri a PiGreco e a T
 * T: viene aggiunto un componente in orizzontale (es. C+C||L)
@@ -458,7 +458,7 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ## 3.5 - Rivelatori
 ### - Rivelatori di modulazione di ampiezza
-
+* a diodo per audio, bfo per CW
 
 ### - Rivelatori a diodi
 * composto da un diodo e un circuito RC. Il diodo elimina la parte di segnale negativa, il circuito RC filtra il segnale RF e rimane il segnale a BF
@@ -476,7 +476,7 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * demodulatore per la FM 
 
 ### - Rivelatori per la telegrafia e per la banda laterale unica
-* rivelatore CW: ???
+* rivelatore CW: ??? BFO??
 * rivelatore SSB: rivelatore a prodotto
 
 ## 3.6 - Oscillatori
@@ -515,7 +515,6 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ### - Ricevitore SSB per telefonia con portante soppressa (J3E) 
 * [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 2,5kHz] -> [ampl. IF] -> [(BFO)-> Rilev.] -> [Ampl.. Audio]
 
-
 ### - Ricevitore FM (F3E)
 * [Antenna] -> [amplificatore RF] -> [(oscill. locale) -> mixer] -> [Filtro 10+20kHz] -> [ampl. /limit] -> [discrim.] -> [Ampl. Audio]
 
@@ -525,7 +524,6 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ### - Oscillatore fisso e variabile
 * genera l'onda portante sul quale viaggerà il segnale informativo vero e proprio
-
 
 ### - Miscelatore (Mixer)
 * mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
@@ -577,13 +575,12 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * la freq. immagine è "lontana" 2 x IF dalla freq. sintonizzata. Se in più o in meno, dipende se l'oscillatore locale è sopra o sotto il segnale ricevuto.
 
 ### - Intermodulazione; transmodulazione
-* intermodulazione: effetto conseguente dal sovraccarico è la cosiddetta distorsione da intermodulazione (IMD); esso consiste nella comparsa del forte segnale, indesiderato e disturbante, in più posi­zioni della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
-* transmodulazione:  modulazione incrociata (o transmodulazio­ ne), si manifesta con la modulazione di unse­ gnale molto forte (anche se su frequenza lonta na) che compare sopra il segnale più debole che si sta sintonizzando; il suono ap­partenente al segnale forte viene superimposto al messaggio debole.
+* distorsione da intermodulazione (IMD): effetto dal sovraccarico consiste nella comparsa del segnale indesiderato **in più posi­zioni** della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
+* transmodulazione (modulazione incrociata): si manifesta con la modulazione di un se­gnale molto forte (anche se su frequenza lonta na) che compare **sopra** il segnale più debole. il suono del segnale forte viene superimposto al segnale debole.
 
 ## 5 - TRASMETTITORI
 ## 5.1 - Tipi di trasmettitori
 ### - Trasmettitori con o senza commutazione di frequenza 
-
 * ????
 
 ### - Moltiplicazione di frequenza
@@ -625,13 +622,14 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * Modulatore bilanciato: manipola la portante a RF e l’informazione audio in modo da rendere dispo­nibili all’uscita ambedue le bande laterali, ma non la portante. (p. 151)
 
 ### - Modulatore di fase
-* provvede a variare la sintonia del circuito risonante dell’o­ scillatore a quarzo, dando così luogo ad una variazione nella fase della corrente che attraversa lo stesso. (p. 183)
+* provvede a variare la sintonia del circuito risonante dell’o­scillatore a quarzo, dando così luogo ad una variazione nella fase della corrente che attraversa lo stesso. (p. 183)
+
 ### - Filtro a quarzo
-* ???
+* filtro ad alta selettività per eliminare la frequenza immagine
 
 ## 5.4 - Caratteristiche dei trasmettitori (in forma descrittiva) 
 ### - Stabilità di frequenza
-* spostamenti della fre­ quenza che caratterizza l’onda portante posso­no determinare conseguenze indesiderate, l’o­scillatore dovrà essere scelto e realizzato in modo tale da presentare una sufficiente stabilità della sua frequenza di oscillazione. (p.166)
+* spostamenti della frequenza dell’onda portante sono indesiderati, l’o­scillatore dovrà essere scelto e realizzato in modo tale da presentare una sufficiente stabilità della sua frequenza di oscillazione. (p.166)
 
 ### - Larghezza di banda in alta frequenza
 * CW: 500hz
@@ -649,7 +647,7 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * se i segnali non sono elaborati uniformemente al variare della loro ampiezza si verifica una non linearità.
 
 ### - Impedenza di uscita
-* ???
+* ??? del trasmettitore? 75ohm?
 
 ### - Potenza di uscita
 * è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizzio adeguato
@@ -667,10 +665,10 @@ vedi 1.8
 * Quando la manipola­zione telegrafica avviene producendo interruzio­ni con fronti d'onda molto ripidi e squadrati, la nota ricevuta risulta disturbata da rumori di tipo metallico. (p.166)
 
 ### - Irradiazioni parassite
-* battimenti e combinazioni indesiderate, dovute a non lineari­tà di certi stadi od a insufficienti schermature de­ gli stessi e dell'apparato.(p.166)
+* battimenti e combinazioni indesiderate, dovute a non lineari­tà di certi stadi o insufficienti schermature. (p.166)
 
 ### - Irradiazioni della struttura (cabinet radiations)
-* la struttura metallica di contenimento dell’apparato (specie se non collegata a terra) abbia a comportarsi essa stessa come elemento radiante (ovvero antenna) di emissioni indesiderate, cioè irradiazioni del contenitore e della struttura. (p.166)
+* la struttura metallica di contenimento dell’apparato (specie se non collegata a terra) si comportacome elemento radiante (ovvero antenna) di emissioni indesiderate, cioè irradiazioni del contenitore e della struttura. (p.166)
 
 ## 6 - ANTENNE E LINEE DI TRASMISSIONE
 ## 6.1 - Tipi di antenne
@@ -685,10 +683,10 @@ vedi 1.8
 * si usano le trappole per farlo risuonare a diverse frequenze
 
 ### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
-la lunghezza effettiva e to­ tale del conduttore è lambda, ma esso risulta ripiegato in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale (250-300Ohm)
+la lunghezza effettiva del conduttore è lambda, ma esso risulta ripiegato in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale (250-300Ohm)
 
 ### - Antenna verticale in quarto d’onda
-* nel caso una delle due estremità sia collegata a terra, con l'antenna stessa posta in verticale, il potenziale del punto a terra diventa come quello della terra ,ovvero zero,perché la terra può considerarsi un sistema a resistenza nulla e quindi anche il suo punto di collegamento
+* nel caso una delle due estremità sia collegata a terra, con l'antenna stessa posta in verticale, il potenziale del punto a terra diventa come quello della terra, ovvero zero, perché la terra può considerarsi un sistema a resistenza nulla e quindi anche il suo punto di collegamento
 * irradia ugualmente in tutte le direzioni sul piano orizzontale.
 * antenna a 5/8 onda ha più guadagno di una 1/4
 * ground plane: ha un piano di terra fittizio alla base dello stilo (radiali)
@@ -792,37 +790,39 @@ la lunghezza effettiva e to­ tale del conduttore è lambda, ma esso risulta rip
 * STRATO F: determinante per le radiocomunicazioni nelle ore notturne circa dai 160 ai 410 km, di giorno si suddivide nello strato F1 circa dai 130 ai 240 km e nello strato F2 circa dai 240 ai 410 km di altezza.
 
 ### - Frequenza critica
-* ???
+* la massima frequenza che viene riflessa per incidenza verticale nella ionosfera
 
 ### - Massima frequenza utilizzabile (MUF)
 * la più **alta frequenza** che si può utilizzare per trasmettere un segnale ad una data destinazione, determinata dall'intensità delle radiazioni solari, specialmente le ultraviolette
 
 ### - Influenza del sole sulla ionosfera
 * è l'elemento più importante che determina le caratteristiche della propagazione ionosferica
+* presenza durante il giorno (ionizzazione)
+* inclinazione stagionale 
+* maggiore attività (macchie solari, ciclo undecennale)
 
 
 ### - Onda di suolo, onda spaziale, angolo di irradiazione, riflessioni
-* L’onda di terra (o diretta) è quella che si pro­ paga (almeno nella prima parte del suo percor­ so) parallelamente alla superficie terrestre, re­ stando cioè entro la troposfera (il livello più bas­ so dell’atmosfera), e si propaga prevalentemen­ te con polarizzazione verticale, senza che vi si manifestino riflessioni di un qualche rilievo; ci si verificano invece notevoli attenuazioni di percor­ so.
+* L’onda di terra (o diretta) è quella che si pro­paga (almeno nella prima parte del suo percor­so) parallelamente alla superficie terrestre, re­stando cioè entro la troposfera (il livello più bas­ so dell’atmosfera), e si propaga prevalentemen­te con polarizzazione verticale, senza che vi si manifestino riflessioni di un qualche rilievo; ci si verificano invece notevoli attenuazioni di percor­so.
 
 * L ’onda di spazio (ovvero soggetta a riflessione ionosferica) è soggetta a rientrare nell’atmosfera secondo angoli piuttosto elevati sull’orizzonte; tale comportamento è dovuto all’effetto speculare degli strati ionizzanti. 
 
 * angolo di riflessione,l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
 
-* Riflessione sporadica dello strato E. Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumu­ lo (ad opera di "venti” in alta atmosfera) di polveri metalliche, si possono attivare ionicamente lenti riflettenti corrispondenti alle quote di strato E. Questo fenomeno si manifesta per brevi periodi specialmente nella stagione estiva, e in corri­ spondènza di esso diventano possibili collega- menti a lunga distanza con basse potenze e (specialmente) in VHF, con risultati altrimenti non raggiungibili con normale propagazione.
+* Riflessione sporadica dello strato E. Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumu­ lo (ad opera di "venti” in alta atmosfera) di polveri metalliche, si possono attivare ionicamente lenti riflettenti corrispondenti alle quote di strato E. Questo fenomeno si manifesta per brevi periodi specialmente nella stagione estiva, e in corri­spondenza di esso diventano possibili collegamenti a lunga distanza con basse potenze e (specialmente) in VHF, con risultati altrimenti non raggiungibili con normale propagazione.
 
 * riflessioni: ???
-
-
 
 ### - Affievolimenti (fading)
 * due (o più) onde che si sommano nel punto di ri­cezione, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
 * quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 
 ### - Troposfera
-* il livello più bas­ so dell’atmosfera
+* il livello più bas­so dell’atmosfera (dal suolo si estende fino a 10-15 km)
 
 ### - Influenza dell’altezza delle antenne sulla distanza che puo’ essere coperta (orizzonte radioelettrico) 
-* ????
+* la caratteristica delle frequenze sopra i 30Mhz, dove qualsiasi ostacolo tra l'antenna trasmittente e l'antenna ricevente bloccherà il segnale, per cui la capacità di vedere l'antenna trasmittente corrisponde approssimativamente alla capacità di ricevere il segnale
+* orizzonte radioelettrico: il punto di propagazione più lontano possibile.
 
 ### - Inversione di temperatura
 * Inversioni di temperatura. In presenza di particolari condizioni fisico/meteorologiche ed in zone particolari (segnatamente la superficie del mare), si viene spesso a creare una discontinui­tà nel normale andamento della temperatura, che tende a calare con la quota.
@@ -843,89 +843,180 @@ Quando si verifica questa inversione del normale gradiente termico, si può anch
 
 * voltmetro: è un dispositivo ad alta resistenza interna che misura la differenza di tensione tra due punti e quindi viene collegato in parallelo al circuito. Calcolo resistenza di shunt da mettere in parallelo: R shunt= (V fondo scala voluti / I fondo scala attuali) - R interna
 
-
 ### - Errori di misura
+* ???
 
 ### - Influenza della frequenza
+* Nel caso si effettuino misure su segnali a RF, occorre accertarsi che lo strumento impiegato abbia una banda passante operativa sufficiente- mente ampia, tale comunque da introdurre atte­ nuazioni, e quindi errori, sui valori rilevati. Tali misure possono essere influenzate, e talvolta anche esaltate, dal verificarsi di una riso­ nanza su una qualche frequenza nella gamma di lavoro, segnatamente localizzata negli stadi d’in­ gresso dello strumento in uso.
 
 ### - Influenza della forma d’onda
+* Qualora si abbia sotto misura una grandezza alternata la cui forma d’onda sia diversa dall’an­damento sinusoidale standard, il valore indicato sul dispositivo di lettura può esserne anche net­ tamente influenzato, con conseguente percen­ tuale di errore tutt’altro che trascurabile.
+
 
 ### - Influenza della resistenza interna degli apparecchi di misura 
-* 
+* Quando si tratta di misurare tensioni su certi punti di un circuito, la resistenza (d’ingresso) del­ lo strumento di misura può non essere sufficien­ temente elevata da non “caricare” lo stadio cui è posta in parallelo, venendosi così ad alterare (o meglio ridurre) il valore rilevato.
+Se invece si tratta di misure correnti che scor­ rono in un circuito o apparato, la resistenza inter­ na dello strumento può essere eccessivamente elevata (o comunque non trascurabile), venen­ dosi così a verificare cadute di tensione che alte­ rano la misura in atto.
 
 ### - Resistenza
-* si utilizza un voltmetro con una resistenza e una pila 
+* Sfruttando la legge di Ohm, è possibile pure effettuare la misura di resistenze incognite; se infatti, tramite una pila, viene fatta scorrere una corrente entro la resistenza incognita da misura­ re, nota la tensione della pila, la corrente è inver­ samente proporzionale alla resistenza e lo stru­ mento può così avere la scala tarata direttamen­ te in ohm.
 
-### - Potenza in continua e in alta frequenza (potenza media e di cresta)
+### - Potenza in continua e in alta frequenza (potenza media e di cresta)
+* Ove si tratti di misure di potenza su un segna­ le a RF consistente in una sola portante (cioè esente da modulazione), indicando con Vp il va­ lore di picco della tensione di segnale, la sua po tenza media sarà calcolabile da: Pm = Veff^2 / R
+
+* Ove invece il segnale sia modulato, esso sarà variamente influenzato (in forma come in valore) dalla modulazione, con valori estremamente variabili della potenza di picco, o **potenza di cresta** che risulterà estremamente variabile nel tempo in modo scorrelato rispetto a potenza efficace e potenza media.
 
 ### - Rapporto di onda stazionaria
+* In misure lungo linee di trasmissione, la pre­senza di ROS (specialmente se elevati) può introdurre errori di misura per la presenza di ventri e nodi delle tensioni e correnti presenti, che vi sovrappongono.
 
 ### - Forma d’onda dell’inviluppo di un segnale in alta frequenza
+* la forma d’onda dell’inviluppo di modulazione conseguente ad un valore continuamente variabile nel tempo non consente una misura attendibile della potenza di cresta, se non per valori istantanei o in presenza di una nota continua.
 
 ### - Frequenza
+* ???
 
 ### - Frequenza di risonanza
+* ???
 
 ## 8.2 - Strumenti di misura
 ### Pratica delle operazioni di misura:
+* ???
+ 
+### - Apparecchi di misura a bobina mobile 
+* bobinetta molto leggera, che può ruotare essen­do imperniata con minimo attrito. tale bobina è inserita fra le espansioni polari di un magnete permanente, e ne è quindi immersa nel campo. La corrente da misurare vien fatta passare attraverso la bobina mobile, creando quindi un campo che, contrasta con quello permanente preesi­stente; si origina cioè una forza che costringe la bobina ad eseguire una rotazione angolare che riporta la reazione delle molle in equilibrio con la forza stessa. Questa rotazione angolare è proporzionale alla corrente in oggetto
 
-### - Apparecchi di misura a bobina mobile - Apparecchi di misura multigamma
+### - Apparecchi di misura multigamma
+* strumenti che, con la possibilità di selezionare diversi valori di fondo scala mediante opportuni dispositivi selettori o commutatori, consentono di effettuare misurazioni di varie grandezze entro ampie gamme di valori
 
 ### - Riflettometri a ponte
+* ???
 
 ### - Contatori di frequenza
+* ???
 
 ### - Frequenzimetro ad assorbimento
+* ???
+
 
 ### - Ondametro ad assorbimento
+* circuiti risonanti cali­brati, dotati cioè di una specifica scala di taratura in frequenza e di un qualche sistema (piccola lampada o microamperometro in c.a.) per indica­re quando l’assorbimento di energia dal circuito sotto misura è al massimo, cioè la frequenza mi­surata coincide con quella di calibrazione.
 
 ### - Oscilloscopio
+* L'oscilloscopio a raggi catodici è uno stru­ mento che consente l’esame visivo dei più sva­ riati fenomeni elettrici che spaziano dalla corren­ te continua finanche a qualche migliaio di MHz. Si possono osservare variazioni istantanee di tensione, corrente e fase la cui durata sia suffi­ ciente a produrre un segnale che possa impres­ sionare il nostro occhio; meglio, si può esamina­ re una qualsiasi variabile (naturalmente, entro i limiti di sensibilità e di frequenza dello strumen­ to) che possa essere convertita in un potenziale elettrico.
+
 
 ## 9 - DISTURBI E PROTEZIONE
-## 9.1 - Disturbi degli apparecchi elettronici - Bloccaggio
+## 9.1 - Disturbi degli apparecchi elettronici 
+### - Bloccaggio
+* bloccaggio o silenziamento, cioè la desensibilizzazione del ricevi­tore in quanto il forte livello del segnale sposta automaticamente le polarizzazioni degli stadi fino a bloccarli: ciò risulta evidentemente danno­so nel ricevere segnali deboli.
 
 ### - Disturbi con il segnale desiderato
+* modulazione incrociata (o transmodulazio­ne), e si manifesta con la modulazione di un se­ gnale molto forte (anche se su frequenza lonta­na) che compare sopra il segnale più debole che si sta sintonizzando; in altre parole, il suono ap­partenente al segnale forte viene superimposto al messaggio debole, col risultato dell’incomprensibilità.
 
 ### - Intermodulazione
+* distorsione da intermodulazione (IMD); esso consiste nella comparsa del forte segnale, indesiderato e disturbante, in più posi­zioni della sintonia del ricevitore, ed il fatto è pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore (ma non solo da esso), che passano di conseguenza agli stadi successivi, anche se il segnale disturbante è molto fuori sintonia.
 
 ### - Rivelazione nei circuiti audio
-## 9.2 - Cause dei disturbi degli apparecchi elettronici
+* In presenza di campi elettromagnetici partico­ larmente forti, gli apparati più sensibili possono demodulare, nonché amplificare, il segnale a RF, e comunque può verificarsi rivelazione diret­ tamente nei circuiti audio; adeguata schermatu­ ra e filtraggio possono ovviare a questi inconve­ nienti.
 
+## 9.2 - Cause dei disturbi degli apparecchi elettronici
 ### - Intensità di campo del trasmettitore
+* L'intensità di campo emessa dall’antenna, funzione della potenza del trasmettitore e del guadagno dell’antenna stessa, quando è parti­ colarmente elevata ed in prossimità del sistema radiante, può assumere valori tanto elevati da superare i valori limite tollerati delle apparec­ chiature circostanti per il loro regolare funziona­ mento; per questo non dimentichiamo che il va­ lore del campo irradiato decresce con l'aumenta­ re della distanza dal punto di irradiazione, e ciò avviene col quadrato di tale distanza.
 
 ### - Irradiazioni non essenziali del trasmettitore (irradiazioni parassite, armoniche) 
+* Irradiazioni parassite e armoniche possono altresì essere presenti nel segnale irradiato da un trasmettitore; tali spurie sono imputabili ad inadeguato funzionamento, o comunque realiz­ zazione, degli stadi generatori, dei mixer o degli amplificatori (specie di potenza) dell’apparato trasmittente.
 
 ### - Effetti non desiderati  sull’apparecchiatura
+* Gli effetti indesiderati sull’apparecchiatura soggetta ai suddetti disturbi possono essere in­ quadrati nell’ampia casistica della compatibilità elettromagnetica (o EMC), ed essere attribuiti: all'irraggiamento diretto, ovvero alla formazione di forti campi elettromagnetici (come esaminato poc’anzi);
 
 ### - all’ingresso d’antenna
+* all’ingresso del lato antenna, cioè sulla linea di trasmissione tra apparecchio rice­ trasmittente e sistema d'antenna, su cui vengono indotti i più forti segnali di disturbi;
 
 ### - su altre linee di connessione
+* all’ingresso su altre linee di connessione, tipica­mente cavi di alimentazione dell’energia elettrica o fra le varie apparecchiature costituenti una sta­zione ricevente.
 
 ### - per irraggiamento diretto
+* la formazione di forti campi elettromagnetici
 
 ## 9.3 - Protezione contro i disturbi
 ### - Misure per prevenire ed eliminare i disturbi 
+* Per eliminare questi tipi di interferenze può servire un’appropriata schermatura o un adatto filtraggio; 
 
 ### - Filtraggio
+* ottenibile interponendo appositi cir­ cuiti LC (opportunamente risonanti) lungo le linee di segnale e di alimentazione;
 
 ### - Disaccoppiamento
+* ottenuto interponendo lun­ go le linee opportuni dispositivi che separino tra di loro le linee di alimentazione da quella di se­ gnale;
 
 ### - Schermatura
+* provvedendo all’effettuazione di opportune schermature che proteggano i circuiti più semplici da eventuali campi elettromagnetici presenti, o comunque adottando cavi di collega­ mento fra i vari circuiti o unità costituenti gli appa­ recchi che siano di tipo schermato.
 
 ## 10 - PROTEZIONE ELETTRICA
 ### - Il corpo umano
+* se il corpo umano (o parte di esso) viene sot­toposto ad una differenza di potenziale, inevita­ bilmente esso permette il passaggio di una certa quantità di corrente elettrica. Il passaggio di tale corrente può produrre ef­ fetti anche molto dannosi, o addirittura letali, a seconda delle modalità di contatto con la sorgente di d.d.p. e delle sue caratteristiche;
+* Anche un **decimo di ampere** (100 mA) attraversando il corpo umano può risultare **fatale**
+* Il **cuore** può essere danneggiato da una corrente elettrica anche di **bassa intensità**
+* Staccare l'energia elettrica e chiamare i soccorsi in presenza di qualcuno colpito da alta tensione
 
 ### - Sistemi di alimentazione 
+* I sistemi di alimentazione degli apparati radio­ elettrici costituenti le stazioni radioamatoriali (vale a dire la normale rete di distribuzione di energia) devono essere realizzati in modo da ri­spondere alle norme previste per tali impianti, alla protezione contro i contatti che possono av­venire accidentalmente ed in particolare alle nor­me di messa a terra.
 
-### - Alte tensioni
+### - Alte tensioni
+* Sia negli apparati costituenti le stazioni di ra­ dioamatore sia nella strumentazione di corredo sono spesso presenti elevati valori di tensione, e questo vale particolarmente per gli stadi finali di potenza a RF e sui relativi circuiti di alimentazio­ ne. Devono quindi essere messe in atto accurate misure di protezione sia per le cosiddette “scos­se elettriche” sia per le ustioni che parimenti ne possono nascere.
 
 ### - Fulmini
-
+* I fulmini sono feno­ meni atmosferici intensissimi che si manifestano con conseguenze particolarmente pericolose come fortissime scariche elettriche fra nuvole temporalesche e la Terra; le tensioni in ballo sono elevatissime e le correnti che ne conseguo­ no, che sono cioè presenti all’interno della scari­ ca elettrica, possono raggiungere intensità an­ che ben superiore a migliaia di ampere.
 
 # B - REGOLE E PROCEDURE D’ESERCIZIO NAZIONALI ED INTERNAZIONALI 
 ## 1 - ALFABETO FONETICO
 
+| | |
+|---|---|
+|A: ALFA|
+|B: BRAVO|
+|C: CHARLIE
+|D: DELTA|
+|E: ECHO|
+|F: FOXTROT|
+|G: GOLF|
+|H: HOTEL|
+|I: INDIA|
+|J: JULIET|
+|K: KILO|
+|L: LIMA|
+|M: MIKE|
+|N: NOVEMBER|
+|O: OSCAR|
+|P: PAPA|
+|Q: QUEBEC
+|R: ROMEO|
+|S: SIERRA
+|T: TANGO|
+|U: UNIFORM
+|V: VICTOR|
+|W: WHISKEY
+|X: X-RAY|
+|Y: YANKEE|
+|Z: ZULU|
+
 ## 2 - CODICE Q
+|CODICE|SIGNIFICATO|CODICE|SIGNIFICATO|
+|---|---|--|--|
+|**QRA**|Nominativo|**QRB**|Distanza|
+|**QRG**|Frequenza *esatta*|**QRH**|*Variazione* di frequenza|
+|**QRI**|tonalità 1(buona)-2(variabile)-3(cattiva)|**QRK**|comprensibilità 1(cattiva)-2(mediocre)-3(abb. buona)-4(buona)-5(ottima)|
+|**QRL**|stazione impegnata|**QRM**|Disturbi|
+|**QRN**|Disturbi *atmosferici*|**QRO**|Aumento potenza|
+|**QRP**|Diminuzione di potenza|**QRQ**|(QUICK) Aumento *velocità* di trasmissione
+|**QRS**|(SLOW) Diminuire *velocità* di trasmissione|**QRT**|sospendere trasmissione|
+|**QRU**|non ho nulla da comunicare|**QRV**|stazione pronta|
+|**QRX**|sospendo temporaneamente|**QRZ**|stazione chiamata|
+|**QSA**|intensità segnale 1(appena percettibile)-2(debole)-3(abb. buona)-4(buona)-5(ottima)|**QSB**|fading|
+|**QSD**|manipolazione CW difettosa|**QSK**|posso sentirti tra i miei segnali|
+|**QSL**|ricevuto manderò conferma|**QSM**|ripeti ultima frase|
+|**QSN**|ascolto il tuo segnale|**QSO**|comunicare|
+|**QSS**|frequenza di lavoro|**QSX**|Stare in ascolto|
+|**QSY**|cambiare frequenza|**QTC**|messaggio|
+|**QTH**|posizione|**QTR**|ora esatta|
 
 ## 3 - ABBREVIAZIONI OPERATIVE UTILIZZATE NEL SERVIZIO DI RADIOAMATORE
 * AR: Fine della trasmissione
@@ -941,70 +1032,104 @@ Quando si verifica questa inversione del normale gradiente termico, si può anch
 * SIG:   Segnale
 * TX :   Trasmettitore
 * UR:  Vostro
-## 4 - SEGNALI INTERNAZIONALI DI SOCCORSO, TRAFFICO IN CASO DI URGENZA E COMUNICAZIONI IN CASO DI CATASTROFI NATURALI
 
+## 4 - SEGNALI INTERNAZIONALI DI SOCCORSO, TRAFFICO IN CASO DI URGENZA E COMUNICAZIONI IN CASO DI CATASTROFI NATURALI
 ### - Segnali di soccorso:
+* ???
 
 ### - radiotelegrafia ...—... (SOS)
+* ???
 
 ### - radiotelefonia “MAYDAY”
+* ???
 
 ### - Risoluzione n. 640 del Regolamento delle Radiocomunicazioni dell’UIT
+* ???
 
 ### - Utilizzazione internazionale di una stazione di radioamatore in caso di catastrofi naturali 
+* L'Autorità competente può, in caso di pubblica calamità o per contingenze particolari di interesse pubblico, autorizzare le stazioni di radioamatore ad effettuare speciali collegamenti oltre i limiti stabiliti dall'articolo 134.
 
 ### - Bande di frequenze attribuite al servizio di radioamatore per le catastrofi naturali
+* ???
 
 ## 5 - INDICATIVI DI CHIAMATA
-
 ### - Identificazione delle stazioni di radioamatore 
+* le stazioni obbligate a trasmettere il segnale di identificazione
+    * del servizio d'amatore
+    * del servizio mobile
+    * del servizio di radiodiffusione 
+    * delle frequenze campione
+    * dei segnali orari
 
 ### - Utilizzazione degli indicativi di chiamata
+* il nominativo deve essere ripetuto: all'inizio e alla fine delle trasmissioni, ogni 5 minuti, in ogni pacchetto per digitale
 
 ### - Composizione dell’indicativo di chiamata
+* Prefisso (IU2) + suffisso personale (ZZZ).
 
 ### - Prefissi nazionali
+* in base alla regione
 
 ## 6 - PIANI DI FREQUENZE DELLA IARU
-
 ### - Piani di frequenze della IARU 
+* ???
 
 ### - Obiettivi
+* ???
 
 # C - REGOLAMENTAZIONE NAZIONALE E INTERNAZIONALE DEI SERVIZI DI RADIOAMATORE E DI RADIOAMATORE VIA SATELLITE
 ## 1 - REGOLAMENTO DELLE RADIOCOMUNICAZIONI DELL’UIT
-
 ### - Definizione del servizio di radioamatore e del servizio di radioamatore via satellite 
+* L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
 
 ### - Definizione della stazione di radioamatore
 
 ### - Articolo S25 del Regolamento delle Radiocomunicazioni
+* Radioamatori possono essere presenti nelle comunicazioni di emergenza in seguito a CATASTROFE NATURALE, ma ne lasciano la gestione alle normative dei singoli Stati membri.
 
 ### - Bande di frequenze del servizio di radioamatore e relativi statuti
+* ???
 
 ### - Regioni radio dell’UIT
-## 2 - REGOLAMENTAZIONE DELLA CEPT
+* regione 1: Europa, Africa, Asia Settentrionale (Russia)
+* regione 2: America del Nord, America del sud, groenlandia
+* regione 3: asia meridionale e oceania
 
-### - Raccomandazione TR 61 -02
+## 2 - REGOLAMENTAZIONE DELLA CEPT
+### - Raccomandazione TR 61-02
+* rende possibile per le varie Amministrazioni CEPT rilasciare il Certificato HAREC, che significa Harmonized Amateur Radio Examination Certificate.
 
 ### - Raccomandazione TR 61-01
+* riconoscimento di "Licenza di Radioamatore della CEPT",rese possibile per i Radioamatori degli Stati sottoscrittori operare per breve tempo da altri Stati aderenti senza chiedere licenze temporanee
 
 ### - Utilizzazione temporanea delle stazioni di radioamatore nei Paesi CEPT
+* Ai cittadini dei membri dei paesi CEPT in possesso di patente HAREC per soggiorno superiore a 3 mesi è rilasciata su domanda la patente italiana
 
 ### - Utilizzazione temporanea delle stazioni di radioamatore nei Paesi non membri della CEPT che partecipano al sistema della Raccomandazione T/R 61-01
+* Ai cittadini dei Paesi membri della CEPT e non membri che attuano la raccomandazione CEPT TR 61-02, in possesso della patente HAREC in occasione di loro soggiorni in Italia della durata superiore a tre mesi, è rilasciata a domanda la corrispondente patente italiana.
 
 ## 3 - LEGISLAZIONE NAZIONALE, REGOLAMENTAZIONE E CONDIZIONI PER L’OTTENIMENTO DELLA LICENZA
 
 ### - Legislazione nazionale
+* ???
 
 ### - Regolamentazione e condizioni per l’ottenimento della licenza
+* ???
 
-### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: - modo di tenuta del registro
+### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
+* ???
+
+### - modo di tenuta del registro
+* log (quaderno di stazione): dove registrare le informazioni sui collegamenti effettuati. **Obbligatoria per legge**  DL 259/03 art 215 comma 2. **conservato per tutto l'anno successivo al corrente** sanzione da €34-€370 per omissione o mancato aggiornamento
 
 ### - obiettivi
+* ???
 
 ### - dati da registrare
+* dati da inserire: data, ora inizio e fine (in UTC), indicativo stazione, freq, rst, modo e potenza, note, QSL inviata/ricevuta
 
 ### Bibliografia:
-Radiotecnica per radioamatori (Nerio Neri)
-
+* Radiotecnica per radioamatori (Nerio Neri)
+* Wikipedia
+* Appunti per sostenere l'esame da radioamatori di IU5HIV 
+   * (http://www.iu5hiv.cloud/progetti/appuntiesameom.html)
