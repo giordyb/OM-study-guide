@@ -802,26 +802,47 @@ la lunghezza effettiva e to­ tale del conduttore è lambda, ma esso risulta rip
 
 
 ### - Onda di suolo, onda spaziale, angolo di irradiazione, riflessioni
+* L’onda di terra (o diretta) è quella che si pro­ paga (almeno nella prima parte del suo percor­ so) parallelamente alla superficie terrestre, re­ stando cioè entro la troposfera (il livello più bas­ so dell’atmosfera), e si propaga prevalentemen­ te con polarizzazione verticale, senza che vi si manifestino riflessioni di un qualche rilievo; ci si verificano invece notevoli attenuazioni di percor­ so.
+
+* L ’onda di spazio (ovvero soggetta a riflessione ionosferica) è soggetta a rientrare nell’atmosfera secondo angoli piuttosto elevati sull’orizzonte; tale comportamento è dovuto all’effetto speculare degli strati ionizzanti. 
+
+* angolo di riflessione,l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
+
+* Riflessione sporadica dello strato E. Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumu­ lo (ad opera di "venti” in alta atmosfera) di polveri metalliche, si possono attivare ionicamente lenti riflettenti corrispondenti alle quote di strato E. Questo fenomeno si manifesta per brevi periodi specialmente nella stagione estiva, e in corri­ spondènza di esso diventano possibili collega- menti a lunga distanza con basse potenze e (specialmente) in VHF, con risultati altrimenti non raggiungibili con normale propagazione.
+
+* riflessioni: ???
+
+
 
 ### - Affievolimenti (fading)
 * due (o più) onde che si sommano nel punto di ri­cezione, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
 * quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 
 ### - Troposfera
+* il livello più bas­ so dell’atmosfera
 
 ### - Influenza dell’altezza delle antenne sulla distanza che puo’ essere coperta (orizzonte radioelettrico) 
+* ????
 
 ### - Inversione di temperatura
+* Inversioni di temperatura. In presenza di particolari condizioni fisico/meteorologiche ed in zone particolari (segnatamente la superficie del mare), si viene spesso a creare una discontinui­tà nel normale andamento della temperatura, che tende a calare con la quota.
+Quando si verifica questa inversione del normale gradiente termico, si può anche verificare, specialmente attivo per frequenze elevate, una sorta di “condotto d’onda” le cui superfici di discontinuità riflettono le onde radio incidenti portandole a compiere percorsi altrimenti non realizzabili.
 
 ### - Riflessione sporadica sullo strato E
+* Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumu­lo (ad opera di "venti” in alta atmosfera) di polveri metalliche, si possono attivare ionicamente lenti riflettenti corrispondenti alle quote di strato E. Questo fenomeno si manifesta per brevi periodi specialmente nella stagione estiva, e in corri­spondenza di esso diventano possibili collegamenti a lunga distanza con basse potenze e (specialmente) in VHF, con risultati altrimenti non raggiungibili con normale propagazione.
 
 ### - Riflessione aurorale
+* Nelle regioni polari, in corrispondenza di tempeste, e quindi di emissio­ni solari, si verificano combinazioni fra questi fe­nomeni ed il campo magnetico terrestre che possono provocare sia l’effetto visivo delle aurore boreali (o australi) sia intense perturbazioni elet­tromagnetiche che favoriscono la riflessione di onde radio verso zone della superficie terrestre altrimenti non raggiungibili a frequenze molto alte e con potenze molto basse.
 
 ## 8 - MISURE
 ## 8.1 - Principi sulle misure
 ### Misure di:
 
 ### - Tensioni e correnti continue ed alternate
+* amperometro: è un dispositivo a bassa resistenza interna che misura l’intensità di corrente che lo attraversa e quindi è collegato in serie al circuito. R shunt= (A fondo scala attuali * R interna) / (A fondo scala voluti - A fondo scala attuali) .
+
+* voltmetro: è un dispositivo ad alta resistenza interna che misura la differenza di tensione tra due punti e quindi viene collegato in parallelo al circuito. Calcolo resistenza di shunt da mettere in parallelo: R shunt= (V fondo scala voluti / I fondo scala attuali) - R interna
+
 
 ### - Errori di misura
 
@@ -830,8 +851,10 @@ la lunghezza effettiva e to­ tale del conduttore è lambda, ma esso risulta rip
 ### - Influenza della forma d’onda
 
 ### - Influenza della resistenza interna degli apparecchi di misura 
+* 
 
 ### - Resistenza
+* si utilizza un voltmetro con una resistenza e una pila 
 
 ### - Potenza in continua e in alta frequenza (potenza media e di cresta)
 
