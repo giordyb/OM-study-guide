@@ -10,9 +10,9 @@
 * conduttanza: l’attitudine a farsi attraversare dalla corrente
 
 ### - Corrente, tensione e resistenza
-* corrente: indica lo spostamento complessivo delle cariche elettriche. Cioè un qualsiasi moto ordinato definito operativamente come la quantità di carica elettrica che attraversa una determinata superficie nell'unità di tempo.
+* corrente: indica lo **spostamento complessivo** delle cariche elettriche. Moto ordinato definito come la quantità di carica elettrica che attraversa una determinata superficie nell'unità di tempo.
 * tensione: la differenza tra il potenziale elettrico di due punti dello spazio
-* resistenza: la tendenza di un corpo ad opporsi al passaggio di una corrente elettrica, quando sottoposto ad una tensione elettrica. 
+* resistenza: la tendenza di un corpo ad **opporsi** al passaggio di una corrente elettrica, quando sottoposto ad una tensione elettrica. 
 
 ### - Le unità di misura: ampere, volt e ohm
 * ampere: unità di misura della intensità di corrente (1 columb/sec). La quantità di corrente che passa un conduttore nell’unità di tempo.
@@ -20,31 +20,34 @@
 * ohm: unità di misura della resistenza, la tendenza di un corpo ad opporsi al passaggio di una corrente elettrica.
 
 ### - La legge di Ohm
-* V = I*R
+* V = I * R
 * la tensione (V) presente ai capi di una resistenza (R) percorsa da una corrente (I) è uguale al prodotto fra I e R
 
 ### - Le leggi di Kirchhoff
-* 1. la somma delle correnti che entrano in un nodo deve essere uguale alla somma di correnti che ne escono
-* 2. La somma delle cadute di tensione in un circuito deve eguagliare la somma delle sorgenti in tensione.
+* 1. la somma delle **correnti** che entrano in un nodo deve essere uguale alla somma di correnti che ne escono
+* 2. La somma delle **cadute di tensione** in un circuito deve eguagliare la somma delle sorgenti in tensione.
 
 ### - La potenza elettrica
 * la potenza erogata o dissipata da un dispositivo ai capi del quale è localizzata una tensione V e attraverso la quale scorre una corrente I è il prodotto tra V e I
-- L’unità di misura: il watt
+* L’unità di misura: il watt
 * pari alla potenza di cui dispone una corrente di 1 ampere che si muove sotto la tensione di 1 volt
 
 ### - L’energia elettrica
-* L’energia elettrica è l’energia causata dallo spostamento di cariche elettriche, chiamate elettroni. Più velocemente le cariche si muovono, più energia elettrica trasportano.
+* L’energia elettrica è **l’energia causata dallo spostamento di cariche elettriche**, chiamate elettroni. Più velocemente le cariche si muovono, più energia elettrica trasportano.
 
 ### - La capacità di una batteria
-* converte energia chimica in energia elettrica
+* converte energia **chimica** in energia elettrica
 * la portata (capacità di erogazione) viene misurata in ampere/ora (Ah)
-* in serie si somma la tensione
-* in parallelo la tensione rimane uguale ma si ha doppia erogazione
+* in serie si **somma** la tensione
+* in parallelo la tensione rimane uguale ma si ha **doppia erogazione**
 
 ## 1.2 - I generatori elettrici
 ### - Generatore di tensione, forza elettromotrice (f.e.m.), corrente di corto circuito, resistenza interna e tensione di uscita
-* generatore di tensione: dispositivo in grado di mantenere un ecceso di elettroni ad uno dei suoi terminali (positivo) e un difetto di elettroni nell’altro terminale (negativo)
-* f.e.m.: la forza esercitata su un conduttore per far muovere le cariche, espressione della d.d.p.
+* generatore di tensione: dispositivo in grado di **mantenere un ecceso di elettroni** ad uno dei suoi terminali (positivo) e un difetto di elettroni nell’altro terminale (negativo)
+* forza elettromotrice: la forza esercitata su un conduttore per far **muovere le cariche**, espressione della d.d.p.
+* corrente di corto circuito: circuito dove **scorre (assorbe) troppa** corrente (resistenza prossima a zero)
+* resistenza interna e tensione: ogni genera­tore chimico o un circuito elettrico qualsiasi è do­tato di una certa resistività r.
+* tensione di uscita: tensione in uscita dal generatore, tenendo conto della resistenza interna ???
 
 ### - Connessione di generatori di tensione in serie ed in parallelo
 * tensioni in serie si sommano o si sottraggono se il segno è concordante o discordante
@@ -63,7 +66,7 @@
 ## 1.4 - Campo magnetico
 ### - Campo magnetico attorno ad un conduttore 
 * campo magnetico: la presenza di forze magnetiche in un certo spazio
-* ogni conduttore percorso da corrente si circonda di campo magnetico che nasce con la corrente e con essa si estingue
+* **ogni conduttore percorso da corrente si circonda di campo magnetico** che nasce con la corrente e con essa si estingue
 * le linee che determinano le direzioni lungo cui tale campo si manifesta (“linee di forza”) sono (per un conduttore rettilineo) cerchi concentrici che lo circondano perpendicolarmente
 * l’intensità di campo magnetico è misurata in Henry
 
@@ -72,28 +75,29 @@
 
 ## 1.5 - Campo elettromagnetico
 ### - Le onde radio come onde elettromagnetiche
-* le onde elettromagnetiche sono un fenomeno ondulatorio di propagazione di energia costituito da due campi,uno elettrico e uno magnetico,ruotati e sfasati di 90° l’uno rispetto all’altro: sul piano verticale l’intensità e direzione del campo elettrico, sul piano orizzontale l’intensità e direzione del campo magnetico.
+* le onde elettromagnetiche sono un **fenomeno ondulatorio di propagazione di energia** costituito da **due campi,uno elettrico e uno magnetico,ruotati e sfasati di 90°** l’uno rispetto all’altro: sul piano verticale l’intensità e direzione del campo elettrico, sul piano orizzontale l’intensità e direzione del campo magnetico.
 * onda: perturbazione che si propaga nello spazio sia esso vuoto oppure occupato
 
 ### - Velocità di propagazione e relazione con la frequenza e la lunghezza d’onda 
-* lunghezza d’onda: la distanza percorsa da un onda elettromagnetica in un ciclo completo
-* il campo elettromagnetico si propaga alla velocità della luce (300.000.000m/s)
-* lunghezza d’onda = 300.000.000(m/s)/f(Hz) = 300/f(MHz)
-* frequenza(mhz) = 300/l(m)
+* lunghezza d’onda: la distanza percorsa da un onda elettromagnetica in un **ciclo completo**
+* il campo elettromagnetico si propaga alla velocità della luce (300.000.000 metri al secondo)
+* lunghezza d’onda = 300.000.000 ~m/s~ / f ~Hz~ = 300 / f ~MHz~
+* frequenza ~Mhz~ = 300 / l ~metri~
 
 ### - Polarizzazione
-* polarizzazione: il piano in cui si propaga l’onda elettrica, parallela al conduttore (piano di polarizzazione) opposta a quella magnetica
+* polarizzazione: il piano in cui si propaga l’onda elettrica, **parallela al conduttore** (piano di polarizzazione) opposta a quella magnetica
 
 ## 1.6 - Segnali sinusoidali
 ### - La rappresentazione grafica in funzione del tempo 
 * sinusoidale: forma d’onda per la quale la variazione del valore avviene regolarmente e simmetricamente per due seomionde 
-* graficamente descrive due semi onde
+* graficamente descrive due semionde
 * ciclo: lo sviluppo completo di una singola alternanza
 
 ### - Valore istantaneo, valore efficace e valore medio 
 * valore istantaneo: il valore di ampiezza in un singolo punto della sinusoide
-* valore efficace: Veff=0,707Vmax il valore che dovrebbe avere la corrente continua che, percorrendo lo stesso circuito di quella alternata, determina la stessa quantità di calore 
-* valore medio: la media di tutti valori dell’onda
+* valore efficace: V~eff~ = 0,707V~max~
+   * il valore che dovrebbe avere la **corrente continua** che, percorrendo lo stesso circuito di quella alternata, determina la **stessa quantità di calore** 
+* valore medio: la **media** di tutti valori dell’onda
 
 ### - Periodo
 * periodo: tempo che la forma d’onda impiega a percorrere un ciclo completo
@@ -106,51 +110,54 @@
 
 ### - Differenza di fase
 * differenza angolare tra due onde (sfasamento o fi) tra 0 e 360°
-* in fase (0°) - in quadratura (90°) - in opposizione (180°)
+* in fase (0°)
+* in quadratura (90°)
+* in opposizione (180°)
 
 ## 1.7 - Segnali non sinusoidali 
 ### - Segnali di bassa frequenza 
-* segnali di bassa frequenza: vibrazioni di varie origini (naturale, meccanica o elettrica) che si propagano nello spazio o in mezzi materiali sotto forma di energia meccanica
+* segnali di bassa frequenza: **vibrazioni di varie origini** (naturale, meccanica o elettrica) che si propagano nello spazio o in mezzi materiali sotto forma di **energia meccanica** ???
 
 ### - Segnali audio
 * onde acustiche: frequenze comprese tra 16 e 16.000Hz
 * frequenze acustiche (0-150Khz)
 
 ### - Segnali rettangolari
-* variano bruscamente tra due livelli
-* Il duty cycle del segnale rettangolare sta ad indicare quale percentuale del periodo il segnale rimane a livello basso.
+* variano **bruscamente** tra due livelli
+* Il duty cycle del segnale rettangolare sta ad indicare quale **percentuale del periodo** il segnale rimane a livello basso.
 * onda quadra contiene fino a 21 armoniche
 
 ### - La rappresentazione grafica in funzione del tempo
-* ogni onda periodica (non sinusoidale) è composta da tante onde sinusoidali di ampiezza e frequenza diverse, combinate assieme.
+* ogni onda periodica (non sinusoidale) è composta da **tante onde sinusoidali di ampiezza e frequenza diverse**, combinate assieme.
 
 ### - Componente di tensione continua, componente della frequenza fondamentale e armoniche
 * Un segnale periodico si dice **alternato** quando il suo valore medio in un periodo è nullo
-* Un segnale periodico non **alternato** ha un valore medio non nullo e si può scomporre in una componente continua e una componente alternata avente la stessa forma d’ onda del segnale originario
-* fondamentale :l’onda sinusoidale che ha la stessa frequenza del segnale
-* armoniche: le frequenze più alte, multiple della fondamentale
+* Un segnale periodico non **alternato** ha un valore medio non nullo e **si può scomporre in una componente continua e una componente alternata** avente la stessa forma d’ onda del segnale originario
+* fondamentale :l’onda sinusoidale che ha la **stessa frequenza del segnale**
+* armoniche: le frequenze più alte, **multiple** della fondamentale
 
 ## 1.8 - Segnali modulati
 ### - Modulazione di ampiezza
-* modulazione di ampiezza (AM): il segnale (modulante) in BF va a modulare (imprimere il ritmo) l’ampiezza di un onda in RF (portante), inalternado frequenza e fase. L’ampiezza della portante varia al ritmo della modulante
+* modulazione di ampiezza (AM): il segnale (modulante) in BF va a **modulare** (imprimere il ritmo) **l’ampiezza** di un onda in RF (portante), inalternado frequenza e fase. 
+   * L’ampiezza della **portante** varia al ritmo della **modulante**
 
 ### - Modulazione di ampiezza a banda laterale unica 
 * AM a banda laterale unica (SSB): come AM ma senza portante e senza una delle due bande laterali
-   * USB: la parte di banda che si trova sopra alla frequenza della portante
-   * LSB: la parte di banda che si trova sotto alla frequenza della portante
+   * **U**SB: la parte di banda che si trova **sopra** (**U**pper) alla frequenza della portante
+   * **L**SB: la parte di banda che si trova **sotto** (**L**ower) alla frequenza della portante
 
 ### - Modulazione di fase, modulazione di frequenza 
-* modulazione di frequenza (FM) e di fase (PM): l’ampiezza dell’onda RF (portante) resta costante mentre varia la frequenza e la fase al ritmo del segnale a BF (modulante). la banda passante è superiore all’AM ma è meno sensibile ai rumori
-* modulazione di fase (PM): si ottiene variando la fase della portante rispetto al suo valore in assenza di modulazione, proporzionalmente al valore istantaneo dell’ampiezza del segnale modulante
+* modulazione di frequenza (FM) e di fase (PM): l’ampiezza dell’onda RF (portante) **resta costante** mentre **varia la frequenza e la fase** al ritmo del segnale a BF (modulante). la banda passante è superiore all’AM ma è meno sensibile ai rumori
+* modulazione di fase (PM): **si ottiene variando la fase della portante** rispetto al suo valore in assenza di modulazione, proporzionalmente al valore istantaneo dell’ampiezza del segnale modulante
 
 ### - Deviazione di frequenza e indice di modulazione 
-* deviazione di frequenza: l’entità di cui varia la frequenza della portante, proporzionale all’ampiezza istantanea del segnale modulante, equivalente all’ampiezza delle bande laterali
-* indice di modulazione: rapporto tra devazione portante (RF)/frequenza modulante (BF)
+* deviazione di frequenza: l’entità di cui varia la frequenza della portante, proporzionale all’ampiezza istantanea del segnale modulante, **equivalente all’ampiezza delle bande laterali**
+* indice di modulazione: rapporto tra **devazione portante (RF) / frequenza modulante (BF)**
 
 ### - Portante, bande laterali e larghezza di banda
-* portante: un’onda elettromagnetica o un segnale elettrico, generalmente sinusoidale, con caratteristiche di frequenza, ampiezza e fase note, che viene modificata da un segnale modulante, in genere contenente informazioni, per essere poi trasmessa via etere o via cavo.
-* bande laterali: una banda di frequenze più alta o più bassa rispetto alla frequenza portante, contenente un’energia risultante dal processo di modulazione. 
-* larghezza di banda: è la misura dell’ampiezza di banda dello spettro. Si misura in Hertz ed è data dall’intervallo di frequenze occupato dal segnale (audio tra 300 e 3000hz)
+* portante: un’onda elettromagnetica o un segnale elettrico, generalmente sinusoidale, con caratteristiche di **frequenza, ampiezza e fase note**, che viene **modificata da un segnale modulante**, in genere contenente informazioni, per essere poi trasmessa via etere o via cavo.
+* bande laterali: una **banda di frequenze più alta o più bassa rispetto alla frequenza portante**, contenente un’energia risultante dal processo di modulazione. 
+* larghezza di banda: è la **misura dell’ampiezza di banda dello spettro**. Si misura in Hertz ed è data dall’intervallo di frequenze occupato dal segnale (audio tra 300 e 3000hz)
 
 ### - Forme d’onda
 * ???
@@ -160,17 +167,19 @@
 * ???
 
 ### - Rapporti di potenza corrispondenti ai seguenti valori in dB: 0 dB, 3 dB, 6 dB, 10 dB e 20 dB (positivi e negativi)
-* dB = la minima differenza tra due livelli di suono che un orecchio può percepire
+* dB = la **minima differenza tra due livelli** di suono che un orecchio può percepire
 * 0dB = x1, 3dB = x2, 6dB = x4, 10dB = x10, 20dB = x100, 30dB = x1000
 
 ### - Rapporti di potenza ingresso/uscita in dB di amplificatori collegati in serie e/o attenuatori
-* guadagno complessivo di sistema: basta eseguire la somma algebrica dei singoli componenti
+* guadagno complessivo di sistema:  **somma algebrica dei singoli componenti**
 
 ### - Adattamento (massimo trasferimento di potenza)
-quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratteristica della linea (o del circuito) e la resistenza del carico è 1:1) si ottiene il massimo trasferimento di potenza 
+* quando il rapporto fra l’impedenza caratteristica della linea/circuito e la resistenza del carico è 1:1
+   * si ottiene il massimo trasferimento di potenza 
+   * vedi R.O.S.
 
 ### - relazione tra potenza d’ingresso e potenza di uscita e rendimento
-* rendimento: rapporto fra la potenza che viene utilizzata e sfruttata da un certo circuito e la potenza che ad esso viene addotta dall’esterno. (Es. Lampadina da 24w converte in 6w energia luminosa.
+* rendimento: rapporto tra la potenza utile a compiere un lavoro (**erogata**) e la potenza assorbita (**dissipata**). (Es. Lampadina da 24w converte in 6w energia luminosa.
    * potenza erogata / potenza dissipata (in %) [6/24=25%]
 
 ### - Potenza di cresta della portante modulata
@@ -179,13 +188,13 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ## 2 - COMPONENTI
 ## 2.1 - Resistore
 ### - Resistenza
-* la tendenza di un corpo ad opporsi al passaggio di una corrente elettrica
-* fattori determinanti: tipo di materiale (p), sezione trasversale (S) (inversamente proporzionale), lunghezza (l)(direttamente proporzionale)
+* la tendenza di un corpo ad **opporsi** al passaggio di una corrente elettrica
+* fattori determinanti: tipo di materiale ~p~, sezione trasversale ~S~ (inversamente proporzionale), lunghezza ~l~ (direttamente proporzionale)
 * R = p * (l/S)
 * in serie si sommano, in parallelo 1/(1/R1 + 1/R2 + 1/R3...)
 
 ### - L’unità di misura: l’ohm
-* 1 ohm la resistenza di un circuito in cui scorre una corrente di 1A quando la tensione applicata è 1V
+* 1 Ohm la resistenza di un circuito in cui scorre una corrente di 1A quando la tensione applicata è 1V
 
 ### - Caratteristiche corrente/tensione
 * fissa la corrente e la tensione desiderate in un certo punto di esercizio
@@ -201,11 +210,11 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ## 2.2 - Condensatore
 ### - Capacità
-* Capacità: capacità di immagazzinare energia in un campo **elettrico** 
+* Capacità: la capacità di immagazzinare energia in un campo **elettrico** 
 * tende ad opporsi a bruschi cambiamenti di tensione
 
 ### - L’unità di misura: il farad
-* C = Q/V rapporto tra quantità di cariche immagazzinate e la tensione occorsa a farlo
+* C = Q / V rapporto tra quantità di cariche immagazzinate e la tensione occorsa a farlo
 
 ### - La relazione tra capacità, dimensioni e dielettrico (limitatamente agli aspetti qualitativi)
 * la capacità di un condensatore è relativa (maggiore) a quanto maggiore è la superficie e minore è la distanza delle armature del dielettrico
@@ -213,10 +222,10 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 
 ### - La reattanza
 * la reattanza capacitiva si oppone al flusso della corrente alternata. Infinita in DC (0Hz), diminuisce con la frequenza. Misurata in Ohm
-* Xc (Ohm) = 1/(2*pi*f*C)
+* X~C~ (Ohm) = 1/(2*pi*f*C)
 
 ### - Sfasamento tra tensione e corrente
-* in AC la corrente è in anticipo sulla tensione di 90°
+* in AC la corrente è in **anticipo** sulla tensione di 90°
 
 ### - Caratteristiche dei condensatori fissi e variabili: in aria, a mica, in plastica, ceramici ed elettrolitici 
 * ad aria: usati come tipi di capacità variabile
@@ -226,7 +235,7 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * elettrolitici: capacità elevata in dimensioni contenute, poco stabili, polarizzati
 
 ### - Coefficiente di temperatura
-* coefficiente di temperatura: parti per milione per grado, capacità può aumentare o diminuire con la temp.
+* coefficiente di temperatura: parti per milione per grado, capacità può aumentare o diminuire con la temperatura
 
 ### - Corrente di fuga
 * corrente (modestissima) che percorre un condensatore in funzione alla tensione applicata fra le armature 
@@ -246,14 +255,14 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * H = (N * I) / l
 
 ### - La reattanza
-* reattanza induttiva (Xl): l’opposizione di un induttore alla circolazione di corrente alternata
+* reattanza induttiva (X~L~): l’opposizione di un induttore alla circolazione di corrente alternata
 * aumenta con la frequenza
 
 ### - Sfasamento tra tensione e corrente
-* corrente è in ritardo di 90°
+* corrente è in **ritardo** di 90°
 
 ### - Fattore di merito
-* è il rapporto tra la reattanza dell’elemento e la resistenza globale (Q) X/R
+* è il rapporto tra la **reattanza** dell’elemento e la **resistenza globale** Q = |X/R|
 
 ### - Effetto pelle
 * la corrente alternata preferisce attraversare il conduttore distribuendosi sulla fascia periferica e superficie esterna, dove trova bassa reattanza
@@ -267,14 +276,14 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * corrente primario è in opposizione di fase da quello secondario
 
 ### - La relazione tra il rapporto del numero di spire e il rapporto delle tensioni, delle correnti e delle impedenze (limitatamente agli aspetti qualitativi)
-* tra la tensione primaria e quella secondaria vi è lo stesso rapporto che esiste fra il numero di spire dei due avvolgimenti
+* tra la **tensione** primaria e quella secondaria vi è lo stesso rapporto che esiste fra il numero di spire dei due avvolgimenti
 * variando il rapporto di tensione/corrente viene variata anche l’impedenza 
-* Z~p~ = Z~sv/N^2 
-* n = sqrt(Z~p~/Z~s~)
+   * Z~p~ = Z~s~/n^2 
+   * n = sqrt(Z~p~/Z~s~)
 
 ### - I trasformatori
 * 2 induttori accoppiati, possono avere un nucleo magnetico in comune
-* autotrasformatore: singola bobina con circuito secondario attaccato con una presa al circuito primario (singolo avvolgimento), si risparmia rame ma il secondo circuito non è isolato)
+* autotrasformatore: singola bobina con circuito secondario attaccato con una presa al circuito primario (singolo avvolgimento), si risparmia rame ma il secondo circuito non è isolato
 
 ## 2.5 - Diodo
 ### - Utilizzazione ed applicazione dei diodi
@@ -299,17 +308,18 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ### - Transistor PNP e NPN
 * semiconduttore formato da doppia giunzione (NPN o PNP)
 * 3 terminali collettore, base e emettitore
-* con una modesta corrente entro la giunzione base-emettitore si ottiene una elevata corrente collettore-emettitore
+* con una **modesta corrente** entro la giunzione base-emettitore si ottiene una **elevata corrente** collettore-emettitore (amplifica)
 * per condurre la base deve essere positiva rispetto all’emettitore e negativa rispetto al collettore, tensione +0,6V tra base e emettitore
 
 ### - Fattore di amplificazione
-* detto beta, esprime l’amplificazione di corrente del transistor. Rapporto corrente collettore/base
+* detto beta, esprime **l’amplificazione** di corrente del transistor. Rapporto corrente collettore/base
 
 ### - Transistor a effetto di campo
 * detto FET, piccola barra di semiconduttore, tipicamente silicio a drogaggio N
 * 3 terminali, drain, gate, source
-* impedenza altissima
+* **impedenza altissima**
 * variando la tensione (negativa) varia la corrente alterando la zona di svuotamento
+* La polarizzazione del gate è data da una tensione negativa
 * analogo al tubo a vuoto
 
 ### - I principali parametri del transistor ad effetto di campo
@@ -365,21 +375,27 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * diodi: ???
 
 ### - Corrente e tensione nei circuiti
-* le reattanze (pure) introducono uno sfasamento pari a 90° (in più o in meno) fra tensione e corrente, mentre le resistenze (pure) non provocano alcuna rotazio­ ne di fase; ciascuno di questi componenti si op­pone cioè alla corrente in un modo diverso.
-* quando una reattanza ed una resistenza sono combinate fra di loro, l’angolo di fase con cui la corrente circola risulta di un qualche valore com­ preso fra 0 e 90° rispetto alla tensione applicata
+* le reattanze (pure) introducono uno **sfasamento** pari a 90° (in più o in meno) fra tensione e corrente, mentre le resistenze (pure) **non provocano alcuna rotazio­ne** di fase; ciascuno di questi componenti si op­pone cioè alla corrente in un modo diverso.
+* quando una reattanza ed una resistenza sono combinate fra di loro, l’angolo di fase con cui la corrente circola risulta di un **qualche valore com­preso fra 0 e 90°** rispetto alla tensione applicata
+
 ### - Impedenza
-* la corrente in un circuito complesso (comprendente cioè resi­stenza e reattanze) non può essere calcolata semplicemente sommando fra di loro i valori di resistenza e reattanza, anche se figurano tutti misurati in ohm perchè le reattanze introducono uno sfasamento.
-* L’effetto combinato dei due termini reattivi e di quello resistivo, cioè l’opposizione complessiva che il circuito presenta al passaggio della corrente alternata, è indicato col nome di impedenza e rappresentato col simbolo Z; si misura in Ohm.
+* la corrente in un circuito complesso (comprendente cioè resi­stenza e reattanze) **non può essere calcolata semplicemente sommando** fra di loro i valori di resistenza e reattanza perchè le reattanze introducono uno sfasamento.
+* **L’effetto combinato** dei due termini reattivi e di quello resistivo è indicato col nome di impedenza e rappresentato col simbolo Z; si misura in Ohm.
 
 ## 3.2 - Filtri
 ### - Filtri serie e parallelo
-* filtri: reti circuitali complesse, costituite da componenti quasi sempre reattivi, che presenta­no caratteristiche di selettività.
+* filtri: reti circuitali complesse, costituite da componenti quasi sempre reattivi, che presenta­no caratteristiche di **selettività**.
+
 * serie: alla frequenza di risonanza si ha impedenza bassa e intensità di corrente massima. X~L~=X~C~ si eliminano e rimane R
-* parallelo: antirisonanza o risonanza di tensione, alla frequenza di risonanza si ha impedenza alta, tensione massima ai suoi capi e corrente minima.
+
+* parallelo: **antirisonanza** o risonanza di tensione, alla frequenza di risonanza si ha impedenza alta, tensione massima ai suoi capi e corrente minima.
+
 ### - Impedenze
-* nei circuiti risonanti in serie, alla frequenza di risonanza l'impendenza bassissima (solo R)
+* nei circuiti risonanti in serie, alla frequenza di risonanza l'impendenza è bassissima (solo R)
 * nei circuiti risonanti in parallelo, alla frequenza di risonanza l'impedenza è altissima, rimane R || L 
+
 ### - Frequenze caratteristiche
+* ???
 
 ### - Frequenza di risonanza
 * La frequenza di risonanza si ha quando XL=XC
@@ -390,23 +406,23 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
    * Q=X/R 
 * in parallelo: è il rapporto tra la potenza reattiva e quella resistiva
    * Q=IL/IR
-* serie: più e grande R e meno è sensibile il picco di risonanza
-* parallelo: più e piccolo R e meno è sensibile il picco di risonanza
+* serie: più è grande R e meno è sensibile il picco di risonanza
+* parallelo: più è piccolo R e meno è sensibile il picco di risonanza
 
 ### - Larghezza di banda
-* In un circuito LC, la differenza fra le due frequenze rispettivamente a destra e sinistra della freq. di risonanza, per le quali la tensione o la corrente(a seconda se è un circuito in parallelo o serie) subisce una diminuzione del 30% (dal 100% al 70%), è detta larghezza di banda (indicata con B)
+* In un circuito LC, **la differenza fra le due frequenze rispettivamente a destra e sinistra della freq. di risonanza**, per le quali la tensione o la corrente(a seconda se è un circuito in parallelo o serie) subisce una **diminuzione del 30%** (dal 100% al 70%), è detta larghezza di banda (indicata con B)
 
 ### - Filtro passa banda
 * ???
 
 ### - Filtri passa basso, passa alto, passa banda e arresta banda composti da elementi passivi
-* passa basso: elimina frequenze superiori ad una certa frequenza di taglio
+* passa basso: **elimina frequenze superiori** ad una certa frequenza di taglio
    * una o più induttanze in serie e uno o più condensatori in parallelo
-* passa alto: elimina frequenze inferiori ad una certa frequenza di taglio
+* passa alto: **elimina frequenze inferiori** ad una certa frequenza di taglio
    * uno o più condensatori in serie e da una o più induttanze in parallelo
-* passa banda: lascia passare frequenze tra f1 e f2 dove f1<f2
+* passa banda: **lascia passare** frequenze tra f1 e f2 dove f1<f2
    * si ottiene combinando un filtro PA con uno PB avente la frequenza di taglio (ft) del PA **inferiore** alla frequenza di taglio (ft) del PB
-* arresta banda (notch): elimina frequenze tra f1 e f2 dove f1<f2
+* arresta banda (**notch**): elimina frequenze tra f1 e f2 dove f1<f2
    * si ottiene combinando un filtro PA con uno PB avente la frequenza di taglio (ft) del PA **superiore** alla frequenza di taglio (ft) del PB
 
 ### - Risposta in frequenza
@@ -417,14 +433,14 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * PiGreco: viene aggiunto un componente in verticale (es. C+L||L)
 
 ### - Cristallo a quarzo
-* un cristallo di quarzo presenta le caratteristiche di un circuito in risonanza serie con un elevato rapporto L/C e un altissimo Q (di solito molte decine di migliaia e comunque maggiore di quello ottenibile coi migliori circuiti LC).
+* un cristallo di quarzo presenta le caratteristiche di un circuito in risonanza serie con un **elevato rapporto L/C e un altissimo Q** (di solito molte decine di migliaia e comunque maggiore di quello ottenibile coi migliori circuiti LC).
 * disponibili in freq. da qualche centinaio di kHz a poco oltre i 20 MHz
 * Le lastrine di quarzo devono essere montate fra due elettrodi metallici ed esercitandovi una pressione meccanica si manifesta agli estremi di tali assi la comparsa di cariche elettriche di segna opposto
 
 
 ## 3.3 - Alimentazione
 ### - Circuiti di raddrizzamento a semionda e ad onda intera, raddrizzatori a ponte 
-* semionda: semplice circuito con diodo che blocca l'onda negativa
+* semionda: semplice circuito con **diodo** che blocca l'onda negativa
 * onda intera: due diodi in uscita con trasformatore a doppio avvolgimento
 * raddrizzatore a ponte: 4 diodi montati a ponte
 
@@ -437,74 +453,75 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 ## 3.4 - Amplificatori
 ### - Amplificatori a bassa frequenza e ad alta frequenza
 
-* bassa frequenza: amplificatore con emettitore, source o catodo comune: viene usato per amplificazioni elevate su valori di impedenza abbastanza alti,il suo è esteso sia agli amplificatori di tensione che di potenza.
-* alta frequenza: amplificatore con base, griglia o gate comune. molto stabile,viene usato per frequenze molto alte per le quali l'effetto di capacità ingresso/uscita sarebbe intollerabile. Oltre che come amplificatore di tensione viene usato anche come amplificatore di potenza a RF.
+* bassa frequenza: amplificatore con **emettitore, source o catodo comune**: viene usato per amplificazioni elevate su valori di impedenza abbastanza alti,il suo è esteso sia agli amplificatori di tensione che di potenza.
+* alta frequenza: amplificatore con **base, griglia o gate comune**. molto stabile,viene usato per frequenze molto alte per le quali l'effetto di capacità ingresso/uscita sarebbe intollerabile. Oltre che come amplificatore di tensione viene usato anche come amplificatore di potenza a RF.
 
 ### - Fattore di amplificazione
-* il fattore di amplificazione è dato dal rapporto tra la tensione del segnale in uscita con la tensione del segnale in ingresso
+* il fattore di amplificazione è dato dal rapporto tra la tensione del segnale in uscita con la tensione del segnale in ingresso (beta)
 
 ### - Caratteristica ampiezza/frequenza e larghezza di banda 
 * caratteristica ampiezza/frequenza: rappresenta l'andamento dell'amplificazione (o curva di risposta) in funziona della frequenza
 * larghezza di banda: l'intervallo di frequenza entro cui la caratteristica amp.freq. ne indica il regolare funzionamento, cioè l'amplificazione rimane costante (costanza del fattore di amplificazione)
 
 ### - Classi di amplificatori A, A/B, B e C
-* Classe di lavoro A: angolo di conduzione 360°, rendimento del 30%, bassissima distorsione
-* Classe di lavoro B: angolo di conduzione 180, rendimento del 50%, bassa distorsione. (raddoppiando la tensione del segnale d'ingresso la potenza in uscita si quadrupla)
-* Classe di lavoro AB: angolo di conduzione tra 180° e 360°
+* Classe di lavoro A: angolo di **conduzione 360°**, rendimento del 30%, bassissima distorsione
+* Classe di lavoro B: angolo di **conduzione 180°**, rendimento del 50%, bassa distorsione. (raddoppiando la tensione del segnale d'ingresso la potenza in uscita si quadrupla)
+* Classe di lavoro AB: angolo di **conduzione tra 180° e 360°**
 * Classe di lavoro C: angolo di conduzione <180°, rendimento 70-75%, alta distorsione (alte frequenze)
 
 
 ### - Armoniche (distorsioni non desiderate)
-* un amplificatore non lineare può generare distorsioni indesiderate che si trasformano in armoniche, nel caso sia inevitabile è bene preedere di filtrare il segnale ottenuto con circuiti risonanti. 
+* un amplificatore **non lineare** può generare distorsioni indesiderate che si trasformano in armoniche, nel caso sia inevitabile è bene preedere di filtrare il segnale ottenuto con circuiti risonanti. 
 
 ## 3.5 - Rivelatori
 ### - Rivelatori di modulazione di ampiezza
-* a diodo per audio, bfo per CW
+* a diodo per audio, bfo per CW ???
 
 ### - Rivelatori a diodi
 * composto da un diodo e un circuito RC. Il diodo elimina la parte di segnale negativa, il circuito RC filtra il segnale RF e rimane il segnale a BF
 
 ### - Rivelatori a prodotto
-* in questo circuito la sua uscita corrisponde in qualche modo al prodotto dei due segnali entranti, il segnale SSB di una banda laterale più una portante sostitutiva di quella originaria che viene fornita dal BFO(Beat-Frequency-Oscillator). Il segnale rimanente viene convertito in audiofrequenza. questi rivelatori a prodotto possono essere costituiti da diodi(ovvero passivi) o da mosfet(ovvero attivi).
+* l'uscita corrisponde al prodotto dei due segnali entranti, il segnale SSB di una banda laterale più una portante sostitutiva di quella originaria che viene fornita dal BFO (Beat-Frequency-Oscillator). Il segnale rimanente viene convertito in audiofrequenza. questi rivelatori a prodotto possono essere costituiti da diodi (ovvero passivi) o da mosfet (ovvero attivi).
 
 ### - Rivelatori di modulatori di frequenza
-* discriminatore: circuito di demodulazione usato per la FM. deriva dalle relazioni di fase che esistono in un trasformatore che ha primario e secondario accordati. La deviazione di frequenza provoca uno spostamento nella fase dei due componenti che si traduce in un aumento di ampiezza nel secondario e una diminuzione nel primario, la differenza è il segnale audio.
+* discriminatore: **circuito di demodulazione usato per la FM**. deriva dalle relazioni di fase che esistono in un trasformatore che ha primario e secondario accordati. La deviazione di frequenza provoca uno spostamento nella fase dei due componenti che si traduce in un aumento di ampiezza nel secondario e una diminuzione nel primario, la differenza è il segnale audio.
 
 ### - Rivelatori a pendenza
-* si utilizza un ricevitore AM per rilevare un segnale FM sintonizzando il segnale FM in modo che la portante cada in una zona centrale del fianco della curva di selettività del ricevitore. Le variazioni di frequenza vengono convertite in variazioni di ampiezza.
+* **si utilizza un ricevitore AM per rilevare un segnale FM sintonizzando il segnale FM** in modo che la portante cada in una zona centrale del fianco della curva di selettività del ricevitore. Le variazioni di frequenza vengono convertite in variazioni di ampiezza.
 
 ### - Discriminatore Foster-Seeley
 * demodulatore per la FM 
 
 ### - Rivelatori per la telegrafia e per la banda laterale unica
-* rivelatore CW: ??? BFO??
+* rivelatore CW: ??? BFO ???
 * rivelatore SSB: rivelatore a prodotto
 
 ## 3.6 - Oscillatori
 ### - Fattori che influiscono sulla frequenza e le condizioni di stabilità necessarie per l’oscillazione 
-* cambia­menti istantanei di frequenza dovuti a variazioni della tensione di alimentazione
-* variazioni lente della frequenza causate dal riscaldamento di qualche componente; 
-* slittamenti di frequenza dovuti a variazioni nel carico applicato all’oscilla­tore; 
-* salti bruschi dovuti ad instabilità meccanica ed a insufficiente robustezza.
+* **cambia­menti istantanei di frequenza** dovuti a variazioni della tensione di alimentazione
+* variazioni lente della frequenza causate dal **riscaldamento** di qualche componente; 
+* slittamenti di frequenza dovuti a **variazioni nel carico** applicato all’oscilla­tore; 
+* salti bruschi dovuti ad **instabilità meccanica** ed a insufficiente robustezza.
 
 ### - Oscillatore LC
-* un oscillatore è un amplificatore che si autopilota ,cioè è autoeccitato.
+* un oscillatore è un **amplificatore che si autopilota** ,cioè è autoeccitato.
 * diversi tipi circuitali tra cui: oscillatore Meissner, Hartley, Colpitts.
 * composto da circuito risonante, un amplificatore e una rete di reazione (o retroazione)
+
 ### - Oscillatore a quarzo, oscillatore su frequenze armoniche
-* oscillatore al quarzo: mantiene la frequenza di oscillazione costante e con un alto grado di precisione rispetto ad altri circuiti (alto Q)
-* è possibile ottenere da un oscillatore al quarzo un modo di vibrazione che esalta le armoniche (normalmente la 3a) ovviando in parte alla massima frequenza raggiungibile. da accoppiare con un circuito LC in uscita sintonizzato sull'armonica  
+* oscillatore al quarzo: **mantiene la frequenza** di oscillazione costante e con un alto grado di precisione rispetto ad altri circuiti (alto Q)
+* è possibile ottenere da un oscillatore al quarzo un modo di **vibrazione che esalta le armoniche** (normalmente la 3a) ovviando in parte alla massima frequenza raggiungibile. da accoppiare con un circuito LC in uscita sintonizzato sull'armonica  
 
 ## 3.7 - Circuiti ad aggancio di fase (PLL - Phase Lock Loop)
 ### - Circuiti a PLL con circuito comparatore di fase
-* circuito per mantenere in fase due oscillatori, paragona due frequenze (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e modifica la tensione di controllo del VFO per mantenerli in fase. 
+* circuito **per mantenere in fase due oscillatori**, paragona due frequenze (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e modifica la tensione di controllo del VFO per mantenerli in fase. 
 
 ## 4 - RICEVITORI
 ## 4.1 - Tipi di ricevitore
 ### - Ricevitore a supereterodina semplice e doppia
-* A una o più frequenze intermedie MF (o IF). Converte i segnali RF ricevuti in una frequenza di valore fisso e ben definito detta MF(IF) .
+* A una o più frequenze intermedie IF. Converte i segnali RF ricevuti in una frequenza di valore fisso e ben definito IF.
 * consiste nel convertire tutti i segnali ricevuti, opportunamente sintoniz­zati ed eventualmente preamplificati (in genere con un solo stadio), ad un valore di frequenza fis­so e ben definito IF
-*  supereterodina doppia ha 2 frequenze intermedie
+*  supereterodina doppia ha 2 IF
 
 ## 4.2 - Schemi a blocchi
 ### - Ricevitore CW (A1A)
@@ -524,52 +541,52 @@ quando una linea è adattata (cioè quando il rapporto fra l’impedenza caratte
 * amplifica il segnale RF 
 
 ### - Oscillatore fisso e variabile
-* genera l'onda portante sul quale viaggerà il segnale informativo vero e proprio
+* **genera l'onda portante** sul quale viaggerà il segnale informativo vero e proprio
 
 ### - Miscelatore (Mixer)
-* mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
+* mixer: converte la frequenza di un segnale / **mescola** 2 segnali in 1
 
 ### - Amplificatore a frequenza intermedia 
 * amplifica il segnale in uscita dal convertitore (mixer) o filtro
 
 ### - Limitatore
-* elimina gli effetti disturbanti della modulazione d'ampiezza eventualmente sovrapposta al segnale FM.
+* **elimina gli effetti disturbanti** della modulazione d'ampiezza eventualmente sovrapposta al segnale FM.
 
 ### - Rivelatore
-* combina il segnale di uscita dell'amplificatore IF con quello del BFO per produrre un segnale udibile
+* combina il segnale di uscita dell'amplificatore IF con quello del BFO per **produrre un segnale udibile**
 
 ### - Oscillatore di battimento (BFO)
 * effetto del battimento: due suoni di frequenze leggermente diverse f1 e f2 (f2>f1) vengono percepiti dal nostro orecchio come un unico suono di frequenza f2-f1
-* circuito oscillatore che reinserisce la portante nel segnale per demodulare segnali SSB o CW 
+* circuito oscillatore che **reinserisce la portante** nel segnale per demodulare segnali SSB o CW 
 
 ### - Calibratore a quarzo
-* on oscillatore di alta stabilità e precisione (quarzo) che serve per controllare (e confrontare) la frequenza dei segnali entranti e quindi per eseguire le necessarie tarature.
+* oscillatore di alta stabilità e precisione (quarzo) che serve per **controllare (e confrontare) la frequenza** dei segnali entranti e quindi per eseguire le necessarie tarature.
 
 ### - Amplificatore di bassa frequenza
 * amplifica il segnale audio
 
 ### - Controllo automatico di guadagno
-* mantiene costante il livello d'uscita audio di un ricevitore anche se varia il livello dei segnali in ingresso a RF
+* **mantiene costante il livello d'uscita audio** di un ricevitore anche se varia il livello dei segnali in ingresso a RF
 * circuito per riuscire a riprodurre sia segnali deboli, sia segnali forti con lo stesso livello audio d'uscita
 
 ### - Misuratore di livello di segnale in ingresso (S-meter) 
-* misura l'intensità di segnale RF all'ingresso del ricevitore.
+* **misura l'intensità di segnale RF** all'ingresso del ricevitore.
 
 ### - Silenziatore (squelch)
-* circuito che inibisce il fruscio in assenza di segnale
+* circuito che **inibisce il fruscio** in assenza di segnale
 
 ## 4.4 - Caratteristiche dei ricevitori (in forma descrittiva) 
 ### - Protezione da canale adiacente
 * la capacità, per un ricevitore, di funzionare regolarmente anche in presenza di uno, o più forti segnali posti su frequenze molto prossime a quella di lavoro.
 
 ### - Selettività
-* La capacità di un ricevitore di "selezionare" un segnale fra quelli presenti nella banda
+* La capacità di un ricevitore di **"selezionare" un segnale** fra quelli presenti nella banda
 
 ### - Sensibilità
-* la capacità di captare segnali molto deboli
+* la capacità di captare segnali molto **deboli**
 
 ### - Stabilità
-* l'attitudine a rimanere sintonizzato su un segnale fisso
+* l'attitudine a **rimanere sintonizzato** su un segnale fisso
 
 ### - Frequenza immagine
 * è la frequenza **somma** della frequenza di oscillatore locale più frequenza intermedia quando l'oscillatore locale del supereterodina converte la frequenza **differenza** e viceversa. 
@@ -1134,3 +1151,44 @@ Se invece si tratta di misure correnti che scor­ rono in un circuito o apparato
 * Wikipedia
 * Appunti per sostenere l'esame da radioamatori di IU5HIV 
    * (http://www.iu5hiv.cloud/progetti/appuntiesameom.html)
+
+|frequenza|statuto|max power|note|
+|---|---|--|--|
+|135,5 - 137,8 kHz|secondario|1 W eirp|max. 1 W eirp|
+|472 - 479 kHz|secondario|1 W eirp|max. 1 W eirp|
+|1,830 – 1,850 MHz|PRIMARIO|500 W||
+|3,500 – 3,800 MHz|secondario|500 W||
+|5,3515 – 5,3665 MHz|secondario|15 W eirp||
+|7,000 – 7,200 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|10,100 - 10,150 MHz|secondario|500 W|
+|14,000 - 14,350 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|18,068 - 18,168 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|21,000 - 21,450 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|24,890 - 24,990 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|28,000 - 29,700 MHz|PRIMARIO|500 W|Più servizio satelliti|
+|50 - 52 MHz|secondario|500 W|
+|144 – 145,8 MHz|PRIMARIO|500 W|
+|145,8 – 146 MHz|PRIMARIO|500 W|Esclusivo satelliti|
+|430 - 434 MHz|secondario|500 W|
+|435 - 436 MHz|PRIMARIO|500 W|Esclusivo satelliti|
+|436 - 438 MHz|secondario|500 W|Esclusivo satelliti|
+|1240 - 1245 MHz|secondario|500 W|
+|1260 - 1270 MHz|secondario|500 W|Più servizio satelliti|
+|1270 - 1298 MHz|secondario|500 W|
+|2300 - 2400 MHz|secondario|500 W|
+|2400 - 2450 MHz|secondario|500 W|Più servizio satelliti|
+|5650 - 5670 MHz|secondario|500 W|Più servizio satelliti|
+|5760 - 5770 MHz|PRIMARIO|500 W|
+|5830 - 5850 MHz|secondario|500 W|Più servizio satelliti|
+|10,3 - 10,4 GHz|secondario|500 W|
+|10,4 - 10,50 GHz|secondario|500 W|Più servizio satelliti|
+|24- 24,05 GHz|PRIMARIO|500 W|Più servizio satelliti|
+|47 - 47,20 GHz|PRIMARIO|500 W|Più servizio satelliti|
+|76 – 77,5 GHz|secondario|500 W|Più servizio satelliti|
+|77,500 – 77,501 GHz|PRIMARIO|500 W|Più servizio satelliti|
+|78 - 81 GHz|secondario|500 W|
+|122,5 - 123 GHz|secondario|500 W|
+|134,000 – 134,001 GHz|PRIMARIO|500 W|
+|136 - 141 GHz|secondario|500 W|
+|241 - 248 GHz|secondario|500 W|
+|248 - 250 GHz|PRIMARIO|500 W|
