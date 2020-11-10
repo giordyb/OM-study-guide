@@ -695,6 +695,7 @@ vedi 1.8
 * la **struttura metallica** di contenimento dell’apparato (specie se non collegata a terra) si comportacome **elemento radiante** (ovvero antenna) di emissioni indesiderate, cioè irradiazioni del contenitore e della struttura. (p.166)
 
 ## 6 - ANTENNE E LINEE DI TRASMISSIONE
+ * 
 ## 6.1 - Tipi di antenne
 ### - Dipolo a mezzonda alimentato al centro
 * tipo di antenna formata da **due conduttori di eguale lunghezza**, situati sulla stessa linea e alimentati contemporaneamente nel punto medio.
@@ -707,7 +708,7 @@ vedi 1.8
 * si usano le trappole per farlo risuonare a diverse frequenze
 
 ### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
-la lunghezza effettiva del conduttore è lambda, ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
+la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
 
 ### - Antenna verticale in quarto d’onda
 * 50 ohm, metà dipolo è il terreno, oppure I RADIALI lunghi 1⁄4 d'onda.
@@ -995,57 +996,48 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 ### - Fulmini
 * I fulmini sono feno­meni atmosferici intensissimi che si manifestano con conseguenze particolarmente pericolose come fortissime scariche elettriche fra nuvole temporalesche e la Terra; le tensioni sono elevatissime e le correnti possono raggiungere intensità an­ che ben superiore a migliaia di ampere.
 
+\pagebreak
+
 # B - REGOLE E PROCEDURE D’ESERCIZIO NAZIONALI ED INTERNAZIONALI 
 ## 1 - ALFABETO FONETICO
 
-| | |
-|---|---|
-|A: ALFA|
-|B: BRAVO|
-|C: CHARLIE
-|D: DELTA|
-|E: ECHO|
-|F: FOXTROT|
-|G: GOLF|
-|H: HOTEL|
-|I: INDIA|
-|J: JULIET|
-|K: KILO|
-|L: LIMA|
-|M: MIKE|
-|N: NOVEMBER|
-|O: OSCAR|
-|P: PAPA|
-|Q: QUEBEC
-|R: ROMEO|
-|S: SIERRA
-|T: TANGO|
-|U: UNIFORM
-|V: VICTOR|
-|W: WHISKEY
-|X: X-RAY|
-|Y: YANKEE|
-|Z: ZULU|
+| | | | |
+|---|---|--|--|
+|A|ALFA|B|BRAVO|
+|C|CHARLIE|D| DELTA|
+|E|ECHO|F| FOXTROT|
+|G|GOLF|H| HOTEL|
+|I|INDIA|J| JULIET|
+|K|KILO|L| LIMA|
+|M|MIKE|N| NOVEMBER|
+|O|OSCAR|P| PAPA|
+|Q|QUEBEC|R| ROMEO|
+|S|SIERRA|T| TANGO|
+|U|UNIFORM|V| VICTOR|
+|W|WHISKEY|X| X-RAY|
+|Y|YANKEE|Z| ZULU|
 
 ## 2 - CODICE Q
 |CODICE|SIGNIFICATO|CODICE|SIGNIFICATO|
 |---|---|--|--|
-|**QRA**|Nominativo|**QRB**|Distanza|
-|**QRG**|Frequenza *esatta*|**QRH**|*Variazione* di frequenza|
-|**QRI**|tonalità 1(buona)-2(variabile)-3(cattiva)|**QRK**|comprensibilità 1(cattiva)-2(mediocre)-3(abb. buona)-4(buona)-5(ottima)|
-|**QRL**|stazione impegnata|**QRM**|Disturbi|
-|**QRN**|Disturbi *atmosferici*|**QRO**|Aumento potenza|
-|**QRP**|Diminuzione di potenza|**QRQ**|(QUICK) Aumento *velocità* di trasmissione
-|**QRS**|(SLOW) Diminuire *velocità* di trasmissione|**QRT**|sospendere trasmissione|
-|**QRU**|non ho nulla da comunicare|**QRV**|stazione pronta|
-|**QRX**|sospendo temporaneamente|**QRZ**|stazione chiamata|
-|**QSA**|intensità segnale 1(appena percettibile)-2(debole)-3(abb. buona)-4(buona)-5(ottima)|**QSB**|fading|
-|**QSD**|manipolazione CW difettosa|**QSK**|posso sentirti tra i miei segnali|
-|**QSL**|ricevuto manderò conferma|**QSM**|ripeti ultima frase|
-|**QSN**|ascolto il tuo segnale|**QSO**|comunicare|
-|**QSS**|frequenza di lavoro|**QSX**|Stare in ascolto|
-|**QSY**|cambiare frequenza|**QTC**|messaggio|
-|**QTH**|posizione|**QTR**|ora esatta|
+|**QRK**|**comprensibilità 1(cattiva)-5(ottima)**|**QRM**|**Disturbi**|
+|**QRN**|**Disturbi atmosferici**|**QRO**|**Aumento potenza**|
+|**QRP**|**Diminuzione di potenza**|**QSL**|**ricevuto manderò conferma**|
+|**QRS**|**(SLOW) Diminuire velocità di trasmissione**|**QRT**|**sospendere trasmissione**|
+|**QRX**|**sospendo temporaneamente**|**QRZ**|**stazione chiamata**|
+|**QSA**|**intensità segnale 1-5**|**QSB**|**fading**|
+|**QRV**|**stazione pronta**|**QSO**|**comunicare**|
+|**QSY**|**cambiare frequenza**|**QTH**|**posizione**|
+|QRA|Nominativo|QRB|Distanza|
+|QRG|Frequenza esatta|QRH|Variazione di frequenza|
+|QRI|tonalità 1(buona)-2(variabile)-3(cattiva)|QRL|stazione impegnata|
+|QRQ|(QUICK) Aumento velocità di trasmissione|QRU|non ho nulla da comunicare|
+|QSD|manipolazione CW difettosa|QSK|posso sentirti tra i miei segnali|
+|QSM|ripeti ultima frase|QSN|ascolto il tuo segnale|
+|QSS|frequenza di lavoro|QSX|Stare in ascolto|
+|QTC|messaggio|QTR|ora esatta|
+
+
 
 ## 3 - ABBREVIAZIONI OPERATIVE UTILIZZATE NEL SERVIZIO DI RADIOAMATORE
 * AR: Fine della trasmissione
@@ -1061,6 +1053,8 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * SIG:   Segnale
 * TX :   Trasmettitore
 * UR:  Vostro
+
+\pagebreak
 
 ## 4 - SEGNALI INTERNAZIONALI DI SOCCORSO, TRAFFICO IN CASO DI URGENZA E COMUNICAZIONI IN CASO DI CATASTROFI NATURALI
 ### - Segnali di soccorso:
@@ -1099,52 +1093,57 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 ### - Prefissi nazionali
 * in base alla regione
 
+\pagebreak
+
 ## 6 - PIANI DI FREQUENZE DELLA IARU
 ### - Piani di frequenze della IARU 
 
-|frequenza|statuto|max power|note|
+|frequenza|lambda|statuto|max power|note|
 |---|---|--|--|
-|135,5 - 137,8 kHz|secondario|1 W eirp|max. 1 W eirp|
-|472 - 479 kHz|secondario|1 W eirp|max. 1 W eirp|
-|1,830 – 1,850 MHz|PRIMARIO|500 W||
-|3,500 – 3,800 MHz|secondario|500 W||
-|5,3515 – 5,3665 MHz|secondario|15 W eirp||
-|7,000 – 7,200 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|10,100 - 10,150 MHz|secondario|500 W|
-|14,000 - 14,350 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|18,068 - 18,168 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|21,000 - 21,450 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|24,890 - 24,990 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|28,000 - 29,700 MHz|PRIMARIO|500 W|Più servizio satelliti|
-|50 - 52 MHz|secondario|500 W|
-|144 – 145,8 MHz|PRIMARIO|500 W|
-|145,8 – 146 MHz|PRIMARIO|500 W|Esclusivo satelliti|
-|430 - 434 MHz|secondario|500 W|
-|435 - 436 MHz|PRIMARIO|500 W|Esclusivo satelliti|
-|436 - 438 MHz|secondario|500 W|Esclusivo satelliti|
-|1240 - 1245 MHz|secondario|500 W|
-|1260 - 1270 MHz|secondario|500 W|Più servizio satelliti|
-|1270 - 1298 MHz|secondario|500 W|
-|2300 - 2400 MHz|secondario|500 W|
-|2400 - 2450 MHz|secondario|500 W|Più servizio satelliti|
-|5650 - 5670 MHz|secondario|500 W|Più servizio satelliti|
-|5760 - 5770 MHz|PRIMARIO|500 W|
-|5830 - 5850 MHz|secondario|500 W|Più servizio satelliti|
-|10,3 - 10,4 GHz|secondario|500 W|
-|10,4 - 10,50 GHz|secondario|500 W|Più servizio satelliti|
-|24- 24,05 GHz|PRIMARIO|500 W|Più servizio satelliti|
-|47 - 47,20 GHz|PRIMARIO|500 W|Più servizio satelliti|
-|76 – 77,5 GHz|secondario|500 W|Più servizio satelliti|
-|77,500 – 77,501 GHz|PRIMARIO|500 W|Più servizio satelliti|
-|78 - 81 GHz|secondario|500 W|
-|122,5 - 123 GHz|secondario|500 W|
-|134,000 – 134,001 GHz|PRIMARIO|500 W|
-|136 - 141 GHz|secondario|500 W|
-|241 - 248 GHz|secondario|500 W|
-|248 - 250 GHz|PRIMARIO|500 W|
+|135,5 - 137,8 kHz|2200m|secondario|1 W eirp|max. 1 W eirp|
+|472 - 479 kHz|630m|secondario|1 W eirp|max. 1 W eirp|
+|1,830 – 1,850 MHz|160m|PRIMARIO|500 W||
+|3,500 – 3,800 MHz|80m|secondario|500 W||
+|5,3515 – 5,3665 MHz|60m|secondario|15 W eirp||
+|7,000 – 7,200 MHz|40m|PRIMARIO|500 W|Più servizio satelliti|
+|10,100 - 10,150 MHz|30m|secondario|500 W|
+|14,000 - 14,350 MHz|20m|PRIMARIO|500 W|Più servizio satelliti|
+|18,068 - 18,168 MHz|17m|PRIMARIO|500 W|Più servizio satelliti|
+|21,000 - 21,450 MHz|15m|PRIMARIO|500 W|Più servizio satelliti|
+|24,890 - 24,990 MHz|12m|PRIMARIO|500 W|Più servizio satelliti|
+|28,000 - 29,700 MHz|10m|PRIMARIO|500 W|Più servizio satelliti|
+|50 - 52 MHz|6m|secondario|500 W|
+|144 – 145,8 MHz|2m|PRIMARIO|500 W|
+|145,8 – 146 MHz|2m|PRIMARIO|500 W|Esclusivo satelliti|
+|430 - 434 MHz|70cm|secondario|500 W|
+|435 - 436 MHz|70cm|PRIMARIO|500 W|Esclusivo satelliti|
+|436 - 438 MHz|70cm|secondario|500 W|Esclusivo satelliti|
+|1240 - 1245 MHz|24cm|secondario|500 W|
+|1260 - 1270 MHz|23cm|secondario|500 W|Più servizio satelliti|
+|1270 - 1298 MHz|23cm|secondario|500 W|
+|2300 - 2400 MHz|13cm|secondario|500 W|
+|2400 - 2450 MHz|12cm|secondario|500 W|Più servizio satelliti|
+|5650 - 5670 MHz|5cm|secondario|500 W|Più servizio satelliti|
+|5760 - 5770 MHz|5cm|PRIMARIO|500 W|
+|5830 - 5850 MHz|5cm|secondario|500 W|Più servizio satelliti|
+|10,3 - 10,4 GHz|2cm|secondario|500 W|
+|10,4 - 10,50 GHz|2cm|secondario|500 W|Più servizio satelliti|
+|24- 24,05 GHz|1,5cm|PRIMARIO|500 W|Più servizio satelliti|
+|47 - 47,20 GHz|6mm|PRIMARIO|500 W|Più servizio satelliti|
+|76 – 77,5 GHz|3mm|secondario|500 W|Più servizio satelliti|
+|77,500 – 77,501 GHz|3mm|PRIMARIO|500 W|Più servizio satelliti|
+|78 - 81 GHz|3mm|secondario|500 W|
+|122,5 - 123 GHz|2mm|secondario|500 W|
+|134,000 – 134,001 GHz|2mm|PRIMARIO|500 W|
+|136 - 141 GHz|2mm|secondario|500 W|
+|241 - 248 GHz|1,2mm|secondario|500 W|
+|248 - 250 GHz|1,2mm|PRIMARIO|500 W|
 
 ### - Obiettivi
 * ???
+
+\pagebreak
+
 
 # C - REGOLAMENTAZIONE NAZIONALE E INTERNAZIONALE DEI SERVIZI DI RADIOAMATORE E DI RADIOAMATORE VIA SATELLITE
 ## 1 - REGOLAMENTO DELLE RADIOCOMUNICAZIONI DELL’UIT
