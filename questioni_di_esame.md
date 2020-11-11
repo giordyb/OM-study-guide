@@ -68,7 +68,7 @@
 * campo magnetico: la presenza di forze magnetiche in un certo spazio
 * **ogni conduttore percorso da corrente si circonda di campo magnetico** che nasce con la corrente e con essa si estingue
 * le linee che determinano le direzioni lungo cui tale campo si manifesta (“linee di forza”) sono (per un conduttore rettilineo) cerchi concentrici che lo circondano perpendicolarmente
-* l’intensità di campo magnetico è misurata in Amper/Spire H = N * I / l
+* l’intensità di campo magnetico è misurata in ampere/m H = N * I / l
 
 ### - Schermatura contro i campi magnetici
 * ???
