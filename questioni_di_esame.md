@@ -54,6 +54,7 @@
 
 ## 1.3 - Campo elettrico
 ### - Intensità di campo elettrico
+* campo elettrico: una modificazione che lo spazio subisce per la presenza delle sorgenti del campo elettrico (le cariche elettriche)
 * campo elettrico: porzione di spazio in cui una carica elettrica risulta sottoposta ad una forza a sua volta prodotta dalla distribuzione di altre cariche elettriche
 * intensità di campo elettrico: d.d.p. presente tra due punti del campo elettrico distante 1 metro tra di loro
 
@@ -251,8 +252,8 @@
 * si oppone alla variazione di corrente
 
 ### - L’effetto sull’induttanza del numero di spire, del diametro, della lunghezza e della composizione del nucleo (limitatamente agli aspetti qualitativi)
-* induttanza è data dalla corrente, dal numero di spire (direttamente prop.), dalla distanza delle spire (lunghezza) (inversamente prop.)
-* H = (N * I) / l
+* induttanza (L) è direttamente proporzionale al **quadrato** del numero di spire e al diametro dell'induttore, **inversamente proporzionale alla sua lunghezza**
+* L~Henry~ =  μ~(permeabilità magnetica)~ * N^2^* d/l
 
 ### - La reattanza
 * reattanza induttiva (X~L~): l’opposizione di un induttore alla circolazione di corrente alternata
@@ -367,12 +368,22 @@
 ## 3 - CIRCUITI
 ## 3.1 - Combinazione dei componenti
 ### - Circuiti in serie e in parallelo di resistori, bobine, condensatori, trasformatori e diodi 
-* resistenze e reattanze in serie: Impedenza (Z) = sqrt(R^2+X^2)
+* solo resistenze in serie = R~tot~ = R~1~ + R~2~ + R~3~
+* solo resistenze in parallelo = 1 / R~tot~ = 1 / R~1~ + 1 / R~2~ + 1 / R~3~ = (R~1~ * R~2~) / (R~1~ + R~2~)
+* solo capacità in serie: C~tot~ = (C~1~ * C~2~) / (C~1~ + C~2~)
+* solo capacità in parallelo: C~tot~ = C~1~ + C~2~
+* solo bobine in serie: I~tot~ = I~1~ + I~2~
+* solo bobine in parallelo: I~tot~ = (I~1~ * I~2~) / (I~1~ + I~2~)
+* resistenze e reattanze in serie: Z = sqrt(R^2+X^2)
 * resistenze e reattanze in parallelo: Z = R * X / sqrt(R^2+X^2)
-* reattanze in serie: X~T~ = X~L~ - X~C~
-* reattanze in parallelo:  X~T~ = -X~L~ * X~C~ / X~L~ - X~C~
-* trasformatori: ???
-* diodi: ???
+* reattanze capacitive in serie: X~T~ = X~L~ - X~C~
+* reattanze capacitive in parallelo:  X~T~ = -X~L~ * X~C~ / X~L~ - X~C~
+
+* trasformatori in serie: si somma la tensione se sono in fase, la corrente è il valore più basso degli avvolgimenti secondari
+* in parallelo: si somma la corrente
+
+* diodi in serie: ???
+* diodi in parallelo: ???
 
 ### - Corrente e tensione nei circuiti
 * le reattanze (pure) introducono uno **sfasamento** pari a 90° (in più o in meno) fra tensione e corrente, mentre le resistenze (pure) **non provocano alcuna rotazio­ne** di fase; ciascuno di questi componenti si op­pone cioè alla corrente in un modo diverso.
@@ -837,11 +848,10 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 
 * L’onda di spazio (ovvero soggetta a **riflessione ionosferica**) è soggetta a **rientrare** nell’atmosfera secondo angoli piuttosto elevati sull’orizzonte; tale comportamento è dovuto all’effetto speculare degli **strati ionizzanti**. 
 
-* angolo di riflessione,l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
+* angolo di riflessione (irradiazione),l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
 
 * Riflessione sporadica dello strato E. Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumulo di polveri metalliche, si possono attivare ionicamente **lenti riflettenti** corrispondenti alle quote di strato E. Questo fenomeno si manifesta per **brevi periodi** specialmente nella stagione **estiva**, e in corri­spondenza di esso diventano **possibili collegamenti a lunga distanza** con basse potenze e (specialmente) in **VHF**, con risultati altrimenti non raggiungibili con normale propagazione.
 
-* riflessioni: ???
 
 ### - Affievolimenti (fading)
 * due (o più) onde che si **sommano nel punto di ri­cezione**, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
