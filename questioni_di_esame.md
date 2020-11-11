@@ -68,7 +68,7 @@
 * campo magnetico: la presenza di forze magnetiche in un certo spazio
 * **ogni conduttore percorso da corrente si circonda di campo magnetico** che nasce con la corrente e con essa si estingue
 * le linee che determinano le direzioni lungo cui tale campo si manifesta (“linee di forza”) sono (per un conduttore rettilineo) cerchi concentrici che lo circondano perpendicolarmente
-* l’intensità di campo magnetico è misurata in Henry
+* l’intensità di campo magnetico è misurata in Amper/Spire H = N * I / l
 
 ### - Schermatura contro i campi magnetici
 * ???
@@ -429,8 +429,8 @@
 * E’ la variazione del comportamento del circuito al variare della frequenza. Puo’ anche essere considerata come la variazione del guadagno e della fase della funzione di trasferimento del circuito (Diagramma di Bode)
 
 ### - Filtri a PiGreco e a T
-* T: viene aggiunto un componente in orizzontale (es. C+C||L)
-* PiGreco: viene aggiunto un componente in verticale (es. C+L||L)
+* T: viene aggiunto un componente in serie (es. ^C^|~L~|^C^)
+* PiGreco: viene aggiunto un componente in parallelo (es. |~L~|^C^|~L~|)
 
 ### - Cristallo a quarzo
 * un cristallo di quarzo presenta le caratteristiche di un circuito in risonanza serie con un **elevato rapporto L/C e un altissimo Q** (di solito molte decine di migliaia e comunque maggiore di quello ottenibile coi migliori circuiti LC).
@@ -1061,19 +1061,19 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * ???
 
 ### - radiotelegrafia ...—... (SOS)
-* ???
+* Il codice “Sos” viene usato per chiedere soccorso nelle comunicazioni radiotelegrafiche
 
 ### - radiotelefonia “MAYDAY”
-* ???
+* Il codice “Mayday” è stato adottato dopo l’ultima guerra con la diffusione delle comunicazioni radiofoniche (detto a voce, “esseoesse” diventa un sibilo). L’espressione Mayday deriva dalla pronuncia dell’ultima parola della frase francese “venez m’aider” (venite ad aiutarmi).
 
 ### - Risoluzione n. 640 del Regolamento delle Radiocomunicazioni dell’UIT
-* ???
+* La Resolution 640 della convention ITU WARC tenutasi in Ginevra nel 1979 stabilisce che in caso di catastrofi naturali le stazioni di radioamatore possono effettuare traffico radio con scambio di messaggi per conto terzi, e sono consentite trasmissioni radio verso stazioni non radioamatoriali, cose che sono vietate nelle condizioni normali.
 
 ### - Utilizzazione internazionale di una stazione di radioamatore in caso di catastrofi naturali 
 * L'Autorità competente può, in caso di pubblica calamità o per contingenze particolari di interesse pubblico, autorizzare le stazioni di radioamatore ad effettuare speciali collegamenti oltre i limiti stabiliti dall'articolo 134.
 
 ### - Bande di frequenze attribuite al servizio di radioamatore per le catastrofi naturali
-* ???
+* In caso di calamità naturali il Ministero delle comunicazioni può utilizzare le bande di frequenze attribuite al servizio di radioamatore per comunicazioni internazionali relative ad operazioni di soccorso.
 
 ## 5 - INDICATIVI DI CHIAMATA
 ### - Identificazione delle stazioni di radioamatore 
@@ -1088,7 +1088,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * il nominativo deve essere ripetuto: all'inizio e alla fine delle trasmissioni, ogni 5 minuti, in ogni pacchetto per digitale
 
 ### - Composizione dell’indicativo di chiamata
-* Prefisso (IU2) + suffisso personale (ZZZ).
+* Prefisso (I# o IK# o IZ# o IW# o IU#) + suffisso personale (ZZZ).
 
 ### - Prefissi nazionali
 * in base alla regione
@@ -1148,15 +1148,21 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 # C - REGOLAMENTAZIONE NAZIONALE E INTERNAZIONALE DEI SERVIZI DI RADIOAMATORE E DI RADIOAMATORE VIA SATELLITE
 ## 1 - REGOLAMENTO DELLE RADIOCOMUNICAZIONI DELL’UIT
 ### - Definizione del servizio di radioamatore e del servizio di radioamatore via satellite 
+
 * L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
 
+* Quello del radioamatore è definito dalla ITU come un servizio di radiocomunicazione avente per oggetto l'istruzione individuale, l'intercomunicazione e gli studi tecnici, effettuato dagli amatori, vale a dire da persone debitamente autorizzate che s'interessano alla tecnica della radioelettricità a titolo unicamente personale e senza interesse pecuniario. La legislazione italiana estende questa definizione (art. 134, comma 1): L'attività di radioamatore consiste nell'espletamento di un servizio, svolto in linguaggio chiaro, o con l'uso di codici internazionalmente ammessi, esclusivamente su mezzo radioelettrico anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità a titolo esclusivamente personale senza alcun interesse di natura economica.
+
+
 ### - Definizione della stazione di radioamatore
+* ???
 
 ### - Articolo S25 del Regolamento delle Radiocomunicazioni
-* Radioamatori possono essere presenti nelle comunicazioni di emergenza in seguito a CATASTROFE NATURALE, ma ne lasciano la gestione alle normative dei singoli Stati membri.
+* L'articolo 25 specifica che i Radioamatori possono essere presenti nelle comunicazioni di emergenza in seguito a CATASTROFE NATURALE, ma ne lasciano la gestione alle normative dei singoli Stati membri.
+
 
 ### - Bande di frequenze del servizio di radioamatore e relativi statuti
-* ???
+* vedi band-plan
 
 ### - Regioni radio dell’UIT
 * regione 1: Europa, Africa, Asia Settentrionale (Russia)
@@ -1177,12 +1183,23 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * Ai cittadini dei Paesi membri della CEPT e non membri che attuano la raccomandazione CEPT TR 61-02, in possesso della patente HAREC in occasione di loro soggiorni in Italia della durata superiore a tre mesi, è rilasciata a domanda la corrispondente patente italiana.
 
 ## 3 - LEGISLAZIONE NAZIONALE, REGOLAMENTAZIONE E CONDIZIONI PER L’OTTENIMENTO DELLA LICENZA
-
 ### - Legislazione nazionale
-* ???
+* Il servizio di amatore è regolamentato a livello internazionale dalla UIT (Union internationale des télécommunications), meglio nota come International Telecommunication Union (ITU), e recepito successivamente dalle singole nazioni aderenti a tale istituzione con leggi nazionali. In Italia le varie leggi che regolamentavano il servizio di amatore (D.P.R. 29 marzo 1973 n. 156, D.P.R. 5 agosto 1066 n. 1214...) sono state accorpate nel Decreto Legislativo 1 agosto 2003, n° 259 (Codice delle Comunicazioni Elettroniche) e nel successivo Decreto 21 luglio 2005, ai quali vanno aggiunti i piani di ripartizione delle frequenze. In appendice sono riportate le sole parti del Decreto 259 riguardanti l'attività radioamatoriale, mentre il testo integrale del Codice delle Comunicazioni Elettroniche è disponibile sul sito del Ministero delle Comunicazioni in formato Adobe Acrobat (PDF).
+In seguito, quando non diversamente scritto, si farà riferimento agli articoli del Codice delle Comunicazioni Elettroniche.
 
 ### - Regolamentazione e condizioni per l’ottenimento della licenza
-* ???
+* L'autorizzazione generale è quindi necessaria in Italia, come in tutte le nazioni del mondo, per poter esercitare l'attività radioamatoriale, e può essere richiesta solo previo conseguimento di una patente, ottenibile dopo aver superato un esame su argomenti di elettrotecnica, radiotecnica, apparati per telecomunicazioni, antenne, propagazione, norme legislative e regolamenti (art. 136), da eseguirsi mediante quiz a risposta multipla. Il programma completo d'esame è riportato in appendice: sterminato, ma non del tutto impossibile. In molti casi viene data la giusta importanza alla normativa e in questi pochi minuti abbiamo già potuto fare la conoscenza dei primi due articoli. In verità l'art. 134 prevede altri tre commi:
+• Art. 134, comma 2: Al di fuori della sede dell?impianto l?attività di cui al comma 1 può essere svolta con apparato portatile anche su mezzo mobile, escluso quello aereo.
+• Art. 134, comma 3: L?attività di radioamatore è disciplinata dalle norme di cui al presente Capo e dell?allegato n. 26. • Art. 134, comma 4: E? libera l?attività di solo ascolto sulla gamma di frequenze attribuita al servizio di radioamatore.
+L'allegato n. 26 (Adeguamento della normativa tecnica relativa all'esercizio dell'attività radioamatoriale), che si dovrà conoscere, specifica anche le possibilità di esonero dall'esame per il conseguimento della patente.
+L'art. 135 (Tipi di autorizzazione) non ha più validità in quanto con il Decreto 21 luglio 2005 è stato abolito l'esame di telegrafia e le precedenti patenti di classe A e B sono state unificate nell'unica patente di classe A.
+Per ottenere l'autorizzazione generale si devono avere determinati requisiti (art. 137): L?impianto e l?esercizio della stazione di radioamatore sono consentiti a chi:
+a) abbia la cittadinanza di uno dei Paesi dell?Unione europea o dello Spazio Economico Europeo, di Paesi con i quali siano intercorsi accordi di reciprocità, fermo restando quanto disposto dall?articolo 2, comma 2, del decreto legislativo 25 luglio 1998, n. 286, ovvero sia residente in Italia;
+b) abbia età non inferiore a sedici anni;
+c) sia in possesso della relativa patente;
+d) non abbia riportato condanne per delitti non colposi a pena restrittiva superiore a due anni e non sia stato sottoposto a misure di sicurezza e di prevenzione finché durano gli effetti dei provvedimenti e sempre che non sia intervenuta sentenza di riabilitazione.
+Da notare che l'età per la richiesta dell'autorizzazione non deve essere inferiore ai sedici anni. Purtroppo questo requisito aumenta notevolmente l'età media della popolazione dei radioamatori italiani, è relativa alla sola autorizzazione e dovrebbe comunque consentire lo svolgimento dell'esame. Per questo caso e per quanto riguarda gli eventuali esoneri dall'esame è bene contattare per tempo l'ufficio competente.
+
 
 ### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
 * ???
