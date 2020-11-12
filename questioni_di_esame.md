@@ -50,7 +50,8 @@
 * tensione di uscita: tensione in uscita dal generatore, tenendo conto della resistenza interna ???
 
 ### - Connessione di generatori di tensione in serie ed in parallelo
-* tensioni in serie si sommano o si sottraggono se il segno è concordante o discordante
+* generatori in serie le tensioni si sommano o si sottraggono se il segno è concordante o discordante
+* in parallelo la tensione è pari a quella fornita da un solo elemento, mentre l’intensità di corrente è uguale alla somma delle intensità erogate dai singoli elementi.
 
 ## 1.3 - Campo elettrico
 ### - Intensità di campo elettrico
@@ -330,7 +331,7 @@
 *  utilizzato come amplificatore (di tensione o di corrente) e come adattatore d’impedenza
 
 ### - a emettitore comune
-* max amplificazione, alta impedenza d’ingresso, media impedenza di uscita, bassa freq.
+* max amplificazione, alta impedenza d’ingresso, media impedenza di uscita, bassa freq., **fase invertita**
 
 ### - a base comune
 * bassa impedenza di ingresso, impedenza uscita alta, amplificazione alta, alta frequenza
@@ -414,9 +415,9 @@
 
 ### - Fattore di qualità di un circuito accordato
 * in serie: è il rapporto tra la reattanza dell'elemento (di norma l'induttanza) e la resistenza globale di perdita
-   * Q=X/R 
+   * Q=X~L~/R 
 * in parallelo: è il rapporto tra la potenza reattiva e quella resistiva
-   * Q=IL/IR
+   * Q=R/X~L~ ovvero Q=IL/IR
 * serie: più è grande R e meno è sensibile il picco di risonanza
 * parallelo: più è piccolo R e meno è sensibile il picco di risonanza
 
@@ -606,7 +607,7 @@
 
 ### - Intermodulazione; transmodulazione
 * intermodulazione: segnale indesiderato presente in più frequenze causa sovraccarico.
-* transmodulazione (modulazione incrociata): segnale molto forte che sovrasta segnale più debole
+* transmodulazione (modulazione incrociata): segnale molto forte che sovrasta segnale più debole, rivela non linearità e saturazione di qualche stadio amplificatore.
 
 * distorsione da intermodulazione (IMD): effetto dal **sovraccarico** consiste nella comparsa del segnale indesiderato **in più posi­zioni** della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
 * transmodulazione (modulazione incrociata): si manifesta con la modulazione di un se­gnale molto forte (anche se su frequenza lonta na) che compare **sopra** il segnale più debole. il suono del segnale forte viene superimposto al segnale debole.
@@ -802,6 +803,7 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 ### - Rapporto di onda stazionaria
 * equivalente al rapporto fra l’impedenza caratteri­stica della linea e la resistenza del carico (o vice­versa, a seconda se è più alta la prima o la se­conda).
 * il rapporto fra un valore massimo ed uno minimo di tensione (o di corrente, è lo stesso) che fornisce il modo più semplice per de­finire il funzionamento di un sistema d’antenna e accessori connessi: il cosiddetto rapporto di onda stazionaria (abbreviato in ROS).
+* il trasferimento ottimale di potenza al carico avviene quando l'impedenza di carico (reale) è uguale all'impedenza del generatore (e della linea)
 
 ### - Perdite
 * dovute al **non perfetto isolamento**, **attenuano** il segnale
@@ -1011,38 +1013,32 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 # B - REGOLE E PROCEDURE D’ESERCIZIO NAZIONALI ED INTERNAZIONALI 
 ## 1 - ALFABETO FONETICO
 
-| | | | |
-|---|---|--|--|
-|A|ALFA|B|BRAVO|
-|C|CHARLIE|D| DELTA|
-|E|ECHO|F| FOXTROT|
-|G|GOLF|H| HOTEL|
-|I|INDIA|J| JULIET|
-|K|KILO|L| LIMA|
-|M|MIKE|N| NOVEMBER|
-|O|OSCAR|P| PAPA|
-|Q|QUEBEC|R| ROMEO|
-|S|SIERRA|T| TANGO|
-|U|UNIFORM|V| VICTOR|
-|W|WHISKEY|X| X-RAY|
+|   |   |   |  |   |   |
+|---|---|---|--|---|---|
+|A|ALFA|B|BRAVO|C|CHARLIE|D| DELTA|
+|E|ECHO|F| FOXTROT|G|GOLF|H| HOTEL|
+|I|INDIA|J| JULIET|K|KILO|L| LIMA|
+|M|MIKE|N| NOVEMBER|O|OSCAR|P| PAPA|
+|Q|QUEBEC|R| ROMEO|S|SIERRA|T| TANGO|
+|U|UNIFORM|V| VICTOR|W|WHISKEY|X| X-RAY|
 |Y|YANKEE|Z| ZULU|
 
 ## 2 - CODICE Q
 |CODICE|SIGNIFICATO|CODICE|SIGNIFICATO|
-|---|---|--|--|
-|**QRK**|**comprensibilità 1(cattiva)-5(ottima)**|**QRM**|**Disturbi**|
-|**QRN**|**Disturbi atmosferici**|**QRO**|**Aumento potenza**|
-|**QRP**|**Diminuzione di potenza**|**QSL**|**ricevuto manderò conferma**|
-|**QRS**|**(SLOW) Diminuire velocità di trasmissione**|**QRT**|**sospendere trasmissione**|
-|**QRX**|**sospendo temporaneamente**|**QRZ**|**stazione chiamata**|
+|-|---|-|---|
+|**QRK**|**comprensibilità 1-5**|**QRM**|**Disturbi (man-made)**|
+|**QRN**|**Disturbi atmosferici (Naturali)**|**QRO**|**Aumento potenza (Open Up)**|
+|**QRP**|**Diminuzione di potenza (Power)**|**QSL**|**ricevuto manderò conferma (Letter)**|
+|**QRS**|**(SLOW) Diminuire velocità di trasmissione**|**QRT**|**sospendere trasmissione (Terminate)**|
+|**QRX**|**richiamerò alle x**|**QRZ**|**stazione chiamata**|
 |**QSA**|**intensità segnale 1-5**|**QSB**|**fading**|
 |**QRV**|**stazione pronta**|**QSO**|**comunicare**|
-|**QSY**|**cambiare frequenza**|**QTH**|**posizione**|
-|QRA|Nominativo|QRB|Distanza|
+|**QSY**|**cambiare frequenza (Y Lambda al contrario)**|**QTH**|**posizione (Here)**|
+|QRA|Nominativo (RAgionesociale)|QRB|Distanza|
 |QRG|Frequenza esatta|QRH|Variazione di frequenza|
-|QRI|tonalità 1(buona)-2(variabile)-3(cattiva)|QRL|stazione impegnata|
-|QRQ|(QUICK) Aumento velocità di trasmissione|QRU|non ho nulla da comunicare|
-|QSD|manipolazione CW difettosa|QSK|posso sentirti tra i miei segnali|
+|QRI|tonalità 1-3)|QRL|stazione impegnata (Laboring)|
+|QRQ|Aumento velocità di trasmissione (Quickly)|QRU|non ho nulla da comunicare (nothing for U)|
+|QSD|manipolazione CW *d*ifettosa|QSK|posso sentirti tra i miei segnali, interrompi trasm. (breaK)|
 |QSM|ripeti ultima frase|QSN|ascolto il tuo segnale|
 |QSS|frequenza di lavoro|QSX|Stare in ascolto|
 |QTC|messaggio|QTR|ora esatta|
