@@ -1222,6 +1222,7 @@ Da notare che l'età per la richiesta dell'autorizzazione non deve essere infer
 
 ### - dati da registrare
 * dati da inserire: data, ora inizio e fine (in UTC), indicativo stazione, freq, rst, modo e potenza, note, QSL inviata/ricevuta
+\pagebreak
 
 ### Bibliografia:
 * Radiotecnica per radioamatori (Nerio Neri)
