@@ -732,7 +732,7 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 * irradia ugualmente in tutte le direzioni sul piano orizzontale.
 * antenna a 5/8 onda ha più guadagno di una 1/4
 * ground plane: ha un piano di terra fittizio alla base dello stilo (radiali)
-
+* marconiana: antenna verticale con tratto orizzontale che fa da "cappello capacitivo"
 ### - Antenne con riflettore e/o direttore (Yagi) 
 * hanno la capacità di **concentrare** l'irradiazione in direzioni privilegiate
 * rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
