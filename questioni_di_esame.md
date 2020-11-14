@@ -689,7 +689,11 @@
 * è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizzio adeguato
 
 ### - Rendimento
-* ???
+* AM = 100w portante + 25w x 2 (bande laterali)
+   * 100w di portante = 400w di picco
+* CW = 100w (solo portante)
+* SSB = 25w
+* FM = 
 
 ### - Deviazione di frequenza
 vedi 1.8
@@ -858,7 +862,7 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 ### - Affievolimenti (fading)
 * due (o più) onde che si **sommano nel punto di ri­cezione**, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
 * quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
-
+* AGC è stato creato per ovviare a questo problema
 ### - Troposfera
 * il livello **più bas­so** dell’atmosfera (dal suolo si estende fino a 10-15 km)
 
@@ -874,7 +878,7 @@ Quando si verifica questa inversione del normale gradiente termico, si può anch
 * Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumulo di polveri metalliche, si possono attivare ionicamente **lenti riflettenti** corrispondenti alle quote di strato E. Questo fenomeno si manifesta per **brevi periodi** specialmente nella stagione **estiva**, e in corri­spondenza di esso diventano **possibili collegamenti a lunga distanza** con basse potenze e (specialmente) in **VHF**, con risultati altrimenti non raggiungibili con normale propagazione.
 
 ### - Riflessione aurorale
-* Nelle regioni polari, in corrispondenza di tempeste, e quindi di emissio­ni solari, si verificano combinazioni fra questi fe­nomeni ed il campo magnetico terrestre che possono provocare sia l’effetto visivo delle **aurore boreali** (o australi) sia intense **perturbazioni elet­tromagnetiche che favoriscono la riflessione** di onde radio verso zone della superficie terrestre altrimenti non raggiungibili a frequenze molto alte e con potenze molto basse.
+* Nelle regioni polari, in corrispondenza di tempeste, e quindi di emissio­ni solari, si verificano combinazioni fra questi fe­nomeni ed il campo magnetico terrestre che possono provocare sia l’effetto visivo delle **aurore boreali** (o australi) sia intense **perturbazioni elet­tromagnetiche che favoriscono la riflessione** di onde radio (principalmente VHF) verso zone della superficie terrestre altrimenti non raggiungibili a frequenze molto alte e con potenze molto basse.
 
 ## 8 - MISURE
 ## 8.1 - Principi sulle misure
