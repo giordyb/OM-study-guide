@@ -872,7 +872,7 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 
 ### - Inversione di temperatura
 * Inversioni di temperatura. In presenza di particolari condizioni fisico/meteorologiche ed in zone particolari (segnatamente la superficie del mare), si viene spesso a creare una discontinui­tà nel normale andamento della temperatura, che tende a calare con la quota.
-Quando si verifica questa inversione del normale gradiente termico, si può anche verificare, specialmente attivo per frequenze elevate, una sorta di **“condotto d’onda” le cui superfici di discontinuità riflettono** le onde radio incidenti portandole a compiere percorsi altrimenti non realizzabili.
+Quando si verifica questa inversione del normale gradiente termico, si può anche verificare, specialmente attivo per frequenze elevate, una sorta di **“condotto d’onda” le cui superfici di discontinuità riflettono** le onde radio incidenti portandole a compiere percorsi altrimenti non realizzabili. (2 metri in su)
 
 ### - Riflessione sporadica sullo strato E
 * Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumulo di polveri metalliche, si possono attivare ionicamente **lenti riflettenti** corrispondenti alle quote di strato E. Questo fenomeno si manifesta per **brevi periodi** specialmente nella stagione **estiva**, e in corri­spondenza di esso diventano **possibili collegamenti a lunga distanza** con basse potenze e (specialmente) in **VHF**, con risultati altrimenti non raggiungibili con normale propagazione.
