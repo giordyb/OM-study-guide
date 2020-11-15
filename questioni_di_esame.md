@@ -43,7 +43,7 @@
 
 ## 1.2 - I generatori elettrici
 ### - Generatore di tensione, forza elettromotrice (f.e.m.), corrente di corto circuito, resistenza interna e tensione di uscita
-* generatore di tensione: dispositivo in grado di **mantenere un ecceso di elettroni** ad uno dei suoi terminali (positivo) e un difetto di elettroni nell’altro terminale (negativo)
+* generatore di tensione: dispositivo in grado di **mantenere un ecceso di elettroni** ad uno dei suoi terminali (negativo) e un difetto di elettroni nell’altro terminale (positivo)
 * forza elettromotrice: la forza esercitata su un conduttore per far **muovere le cariche**, espressione della d.d.p.
 * corrente di corto circuito: circuito dove **scorre (assorbe) troppa** corrente (resistenza prossima a zero)
 * resistenza interna e tensione: ogni genera­tore chimico o un circuito elettrico qualsiasi è do­tato di una certa resistività r.
