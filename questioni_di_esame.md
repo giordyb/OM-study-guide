@@ -882,6 +882,7 @@ vedi 1.8
 * due (o più) onde che si **sommano nel punto di ri­cezione**, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
 * quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 * AGC è stato creato per ovviare a questo problema
+
 ### - Troposfera
 * il livello **più bas­so** dell’atmosfera (dal suolo si estende fino a 10-15 km)
 
@@ -1182,10 +1183,6 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 11|extracorte|EHF|30-300Ghz|Millimetriche|10 mm-1 mm
 12|ultracorte|THF|300-3000Ghz|Decimillimetriche|1 mm-1000 micrometri
 
-
-### - Obiettivi
-* ???
-
 \pagebreak
 
 
@@ -1252,13 +1249,11 @@ In seguito, quando non diversamente scritto, si farà riferimento agli articoli
 * L’installazione dell’impianto d’antenna non deve provocare turbative e interferenze ad altri impianti di radiocomunicazioni.
 
 ### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
-* ???
 
 ### - modo di tenuta del registro
 * log (quaderno di stazione): dove registrare le informazioni sui collegamenti effettuati. **Obbligatoria per legge**  DL 259/03 art 215 comma 2. **conservato per tutto l'anno successivo al corrente** sanzione da €34-€370 per omissione o mancato aggiornamento
 
 ### - obiettivi
-* ???
 
 ### - dati da registrare
 * dati da inserire: 
