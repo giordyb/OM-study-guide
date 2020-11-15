@@ -63,7 +63,8 @@
 * l'unità di misura dell'intensità di campo elettrico
 
 ### - Schermatura contro i campi elettrici
-* ??? Gabbia di faraday
+* Il campo elettrico a bassa frequenza è in generale irradiato da parti in tensione. Esso può essere efficacemente mitigato con diversi sistemi. Uno di essi consiste nella sostituzione dei cavi elettrici con cavi schermati. In altre circostanze, può essere opportuno realizzare uno schermo, frapposto tra la sorgente e il ricettore. Le tecniche di schermatura, in questo caso sono diverse da quelle per l'alta frequenza. Quando si può, si può cercare di distanziare o di rimuovere la sorgente.
+* Molto spesso è possibile realizzare una buona schermatura utilizzando una rete metallica a maglie strette al posto di una lastra.
 
 ## 1.4 - Campo magnetico
 ### - Campo magnetico attorno ad un conduttore 
@@ -73,7 +74,9 @@
 * l’intensità di campo magnetico è misurata in ampere/m H = N * I / l
 
 ### - Schermatura contro i campi magnetici
-* ???
+* bisogna assorbirlo, per cui si utilizzano materiali ad alta permeabilità magnetica 
+* alternative sono la deviazione del campo da parte di un materiale ad alta permeabilità e la fasciatura delle linee di forza, con una spira in corto circuito.
+
 
 ## 1.5 - Campo elettromagnetico
 ### - Le onde radio come onde elettromagnetiche
@@ -142,6 +145,7 @@
 ### - Modulazione di ampiezza
 * modulazione di ampiezza (AM): il segnale (modulante) in BF va a **modulare** (imprimere il ritmo) **l’ampiezza** di un onda in RF (portante), inalternado frequenza e fase. 
    * L’ampiezza della **portante** varia al ritmo della **modulante**
+* % di modulazione: (V~modulante~ / V~portante~)*100
 
 ### - Modulazione di ampiezza a banda laterale unica 
 * AM a banda laterale unica (SSB): come AM ma senza portante e senza una delle due bande laterali
@@ -154,7 +158,9 @@
 
 ### - Deviazione di frequenza e indice di modulazione 
 * deviazione di frequenza: l’entità di cui varia la frequenza della portante, proporzionale all’ampiezza istantanea del segnale modulante, **equivalente all’ampiezza delle bande laterali**
+   * es. portante a 8000kHz -> bande laterali 7995kHz<->8005kHz = +-5kHz
 * indice di modulazione: rapporto tra **devazione portante (RF) / frequenza modulante (BF)**
+   * es. I~mod~ con 1kHz audio = 5kHz / 1kHz = 5
 
 ### - Portante, bande laterali e larghezza di banda
 * portante: un’onda elettromagnetica o un segnale elettrico, generalmente sinusoidale, con caratteristiche di **frequenza, ampiezza e fase note**, che viene **modificata da un segnale modulante**, in genere contenente informazioni, per essere poi trasmessa via etere o via cavo.
@@ -162,7 +168,10 @@
 * larghezza di banda: è la **misura dell’ampiezza di banda dello spettro**. Si misura in Hertz ed è data dall’intervallo di frequenze occupato dal segnale (audio tra 300 e 3000hz)
 
 ### - Forme d’onda
-* ???
+* sinusoidale
+* quadrata
+* triangolo
+* a dente di sega
 
 ## 1.9 - Potenza ed energia
 ### - Potenza dei segnali sinusoidali
@@ -411,11 +420,14 @@
 
 ### - Frequenza di risonanza
 * La frequenza di risonanza si ha quando XL=XC
-   * f0 = 159/sqrt(L*C)
+   * f0 = 1/6,28 * sqrt(L~H~ * C~F~)
+   * f0 = 159/sqrt(L~microH~ * C~picoF~) (con unità più piccole)
 
 ### - Fattore di qualità di un circuito accordato
 * in serie: è il rapporto tra la reattanza dell'elemento (di norma l'induttanza) e la resistenza globale di perdita
-   * Q=X~L~/R 
+   * Q=X~L~/R
+   * è anche Q = f0 / banda passante 
+      * es. portante 7Mhz con banda passsante +-70kHz: Q=7000kHz/140kHz = 50
 * in parallelo: è il rapporto tra la potenza reattiva e quella resistiva
    * Q=R/X~L~ ovvero Q=IL/IR
 * serie: più è grande R e meno è sensibile il picco di risonanza
@@ -540,11 +552,11 @@
 * [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 500Hz] -> [ampl. IF] -> [(BFO)-> Rilev.] -> [Ampl. Audio]
 
 ### - Ricevitore AM (A3E)
-* [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 5+6kHz] -> [ampl. IF] -> [Rilev.] -> [Ampl.. Audio]
+* [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 5+6kHz] -> [ampl. IF] -> [Rilev.{*diodo*}] -> [Ampl.. Audio]
 * come CW ma senza (BFO)]
 
 ### - Ricevitore SSB per telefonia con portante soppressa (J3E) 
-* [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 2,5kHz] -> [ampl. IF] -> [(BFO)-> Rilev.] -> [Ampl.. Audio]
+* [Antenna] -> [ampl. RF] -> [(oscill. locale) -> mixer] -> [Filtro 2,5kHz] -> [ampl. IF] -> [(BFO {*reinserisce portante*})-> Rilev{*a prodotto*}.] -> [Ampl.. Audio]
 
 ### - Ricevitore FM (F3E)
 * [Antenna] -> [amplificatore RF] -> [(oscill. locale) -> mixer] -> [Filtro 10+20kHz] -> [ampl./limit] -> [discrim.] -> [Ampl. Audio]
@@ -624,8 +636,10 @@
 ### - Trasmettitori telegrafici in CW (A1A)
 * [oscill. variabile] -> [(oscill. xtal)->mixer] -> [ampli. potenza] -> [antenna]
 
+* trasmettitore AM fonia: come in CW ma viene aggiunto un ulteriore amplificatore di modulazione che "modula" l'amplificatore di potenza.
+
 ### - Trasmettitori in banda laterale unica (SSB) a portante soppressa (J3E) 
-* [oscill. xtal] -> [(amplif. bf) -> modul. bilanc] -> [filtro] -> [(oscill. var) -> 1° conv] -> [(oscill. xtal) -> 2° conv] -> [ampl. lineare] -> [antenna]
+* [oscill. xtal] -> [(amplif. bf) -> modul. bilanciato {*mixer*}] -> [filtro {*molto stretto, rimuove sideband*}] -> [(oscill. var) -> 1° conv] -> [(oscill. xtal) -> 2° conv] -> [ampl. lineare] -> [antenna]
 
 ### - Trasmettitori in modulazione di frequenza (F3E)
 * [ampl. audio] -> [filtro elimn] -> [modulat. reatt. (fase)] -> [oscill] -> [moltipl] -> [molitpl] -> [ampl. potenza] -> [antenna]
@@ -687,6 +701,8 @@
 
 ### - Potenza di uscita
 * è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizzio adeguato
+   * es. AM = 100w portante + 2 * 25w banda laterale
+   * picco = 4x portante, es. 100w = 400w picco
 
 ### - Rendimento
 * AM = 100w portante + 25w x 2 (bande laterali)
@@ -711,11 +727,11 @@ vedi 1.8
 * la **struttura metallica** di contenimento dell’apparato (specie se non collegata a terra) si comportacome **elemento radiante** (ovvero antenna) di emissioni indesiderate, cioè irradiazioni del contenitore e della struttura. (p.166)
 
 ## 6 - ANTENNE E LINEE DI TRASMISSIONE
- * 
 ## 6.1 - Tipi di antenne
 ### - Dipolo a mezzonda alimentato al centro
 * tipo di antenna formata da **due conduttori di eguale lunghezza**, situati sulla stessa linea e alimentati contemporaneamente nel punto medio.
 * risuona (pur se in modo pronunciato) anche sulle **armo­niche**.
+   * è efficiente solo sulle armoniche dispari e non per quelle pari perchè a quelle pari risulterebbe il **minimo** di corrente per cui impedenza a 5000-6000 Ohm
 * l (1/2 onda)= 150 / f
 * si alimenta a **metà** della sua lunghezza
 * resistenza di irradiazione è circa **73 Ohm**
@@ -724,7 +740,7 @@ vedi 1.8
 * si usano le trappole per farlo risuonare a diverse frequenze
 
 ### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
-la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
+* la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
 
 ### - Antenna verticale in quarto d’onda
 * 50 ohm, metà dipolo è il terreno, oppure I RADIALI lunghi 1⁄4 d'onda.
@@ -732,7 +748,8 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 * irradia ugualmente in tutte le direzioni sul piano orizzontale.
 * antenna a 5/8 onda ha più guadagno di una 1/4
 * ground plane: ha un piano di terra fittizio alla base dello stilo (radiali)
-* marconiana: antenna verticale con tratto orizzontale che fa da "cappello capacitivo"
+* marconiana: antenna verticale con tratto orizzontale che fa da "cappello capacitivo", alimentata a 1/4 d'onda
+
 ### - Antenne con riflettore e/o direttore (Yagi) 
 * hanno la capacità di **concentrare** l'irradiazione in direzioni privilegiate
 * rapporto fronte-retro: è il rapporto tra la potenza irradiata nella direzione di massimo guadagno e quella irradiata in direzione opposta
@@ -752,7 +769,9 @@ la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripi
 * Le dimensioni del disco parabolico influisco­no solo sul guadagno ottenibile da questo tipo di antenna
 
 ### - Dipolo accordato
-* ???
+* un dipolo accordato è un dipolo la cui lunghezza è relativa alla frequenza che si vuole ricevere/trasmettere ovvero circa lambda/2 (es. 14Mhz, 20mt = 10mt)
+* un dipolo risonante in aria libera presenta una impedenza di CIRCA 70 ohm
+
 
 ## 6.2 - Caratteristiche delle antenne
 ### - Distribuzione della corrente e della tensione lungo l’antenna
@@ -921,7 +940,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * ???
 
 ### - Frequenza di risonanza
-* ???
+* si può misurare con un generatore di frequenza e un oscilloscopio
 
 ## 8.2 - Strumenti di misura
 ### Pratica delle operazioni di misura:
@@ -934,10 +953,10 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * strumenti che, con la possibilità di selezionare **diversi valori di fondo scala** mediante opportuni dispositivi selettori o commutatori, consentono di effettuare misurazioni di varie grandezze entro ampie gamme di valori
 
 ### - Riflettometri a ponte
-* ???
+* Il ponte riflettometrico è composto da quattro resistenze, due situate all'interno dell'apparecchio, una resistenza campione (75 ohm per gli impianti TV) e l'altra resistenza è rappresentata dalla reattanza del componente in prova. Il riflettometro ha inoltre un connettore deve essere collegato al misuratore di campo ed un altro connettore al quale si deve collegare il generatore di rumore. Quando l'impedenza incognita, ovvero l'impedenza del dispositivo in prova, ha un valore prossimo ai 75 ohm della resistenza campione, il livello di segnale cala bruscamente, avvicinandosi allo zero
 
 ### - Contatori di frequenza
-* ???
+* il frequenzimetro è uno strumento per la misura della frequenza esistente in circuito elettrico 
 
 ### - Frequenzimetro ad assorbimento
 * ???
@@ -1109,24 +1128,24 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 ### - Piani di frequenze della IARU 
 
 |frequenza|lambda|statuto|max power|note|
-|---|---|--|--|
+|-|-|-|-|-|
 |135,5 - 137,8 kHz|2200m|secondario|1 W eirp|max. 1 W eirp|
 |472 - 479 kHz|630m|secondario|1 W eirp|max. 1 W eirp|
-|1,830 – 1,850 MHz|160m|PRIMARIO|500 W||
-|3,500 – 3,800 MHz|80m|secondario|500 W||
-|5,3515 – 5,3665 MHz|60m|secondario|15 W eirp||
-|7,000 – 7,200 MHz|40m|PRIMARIO|500 W|Più servizio satelliti|
+|**1,830 – 1,850 MHz**|**160m**|**PRIMARIO**|**500 W**|
+|3,500 – 3,800 MHz|80m|secondario|500 W|
+|5,3515 – 5,3665 MHz|60m|secondario|15 W eirp|
+|**7,000 – 7,200 MHz**|**40m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
 |10,100 - 10,150 MHz|30m|secondario|500 W|
-|14,000 - 14,350 MHz|20m|PRIMARIO|500 W|Più servizio satelliti|
-|18,068 - 18,168 MHz|17m|PRIMARIO|500 W|Più servizio satelliti|
-|21,000 - 21,450 MHz|15m|PRIMARIO|500 W|Più servizio satelliti|
-|24,890 - 24,990 MHz|12m|PRIMARIO|500 W|Più servizio satelliti|
-|28,000 - 29,700 MHz|10m|PRIMARIO|500 W|Più servizio satelliti|
+|**14,000 - 14,350 MHz**|**20m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
+|**18,068 - 18,168 MHz**|**17m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
+|**21,000 - 21,450 MHz**|**15m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
+|**24,890 - 24,990 MHz**|**12m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
+|**28,000 - 29,700 MHz**|**10m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
 |50 - 52 MHz|6m|secondario|500 W|
-|144 – 145,8 MHz|2m|PRIMARIO|500 W|
-|145,8 – 146 MHz|2m|PRIMARIO|500 W|Esclusivo satelliti|
+|**144 – 145,8 MHz**|**2m**|**PRIMARIO**|**500 W**|
+|**145,8 – 146 MHz**|**2m**|**PRIMARIO**|**500 W**|**Esclusivo satelliti**|
 |430 - 434 MHz|70cm|secondario|500 W|
-|435 - 436 MHz|70cm|PRIMARIO|500 W|Esclusivo satelliti|
+|**435 - 436 MHz**|**70cm**|**PRIMARIO**|**500 W**|**Esclusivo satelliti**|
 |436 - 438 MHz|70cm|secondario|500 W|Esclusivo satelliti|
 |1240 - 1245 MHz|24cm|secondario|500 W|
 |1260 - 1270 MHz|23cm|secondario|500 W|Più servizio satelliti|
@@ -1134,20 +1153,35 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 |2300 - 2400 MHz|13cm|secondario|500 W|
 |2400 - 2450 MHz|12cm|secondario|500 W|Più servizio satelliti|
 |5650 - 5670 MHz|5cm|secondario|500 W|Più servizio satelliti|
-|5760 - 5770 MHz|5cm|PRIMARIO|500 W|
+|**5760 - 5770 MHz**|**5cm**|**PRIMARIO**|**500 W**|
 |5830 - 5850 MHz|5cm|secondario|500 W|Più servizio satelliti|
 |10,3 - 10,4 GHz|2cm|secondario|500 W|
 |10,4 - 10,50 GHz|2cm|secondario|500 W|Più servizio satelliti|
-|24- 24,05 GHz|1,5cm|PRIMARIO|500 W|Più servizio satelliti|
-|47 - 47,20 GHz|6mm|PRIMARIO|500 W|Più servizio satelliti|
+|**24- 24,05 GHz**|**1,5cm**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
+|**47 - 47,20 GHz**|**6mm**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
 |76 – 77,5 GHz|3mm|secondario|500 W|Più servizio satelliti|
-|77,500 – 77,501 GHz|3mm|PRIMARIO|500 W|Più servizio satelliti|
+|**77,500 – 77,501 GHz**|**3mm**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
 |78 - 81 GHz|3mm|secondario|500 W|
 |122,5 - 123 GHz|2mm|secondario|500 W|
-|134,000 – 134,001 GHz|2mm|PRIMARIO|500 W|
+|**134,000 – 134,001 GHz**|**2mm**|**PRIMARIO**|**500 W**|
 |136 - 141 GHz|2mm|secondario|500 W|
 |241 - 248 GHz|1,2mm|secondario|500 W|
-|248 - 250 GHz|1,2mm|PRIMARIO|500 W|
+|**248 - 250 GHz**|**1,2mm**|**PRIMARIO**|**500 W**|
+
+## BANDE
+
+|NUMERO|TIPO|BANDA|FREQUENZA|NOME|LAMBDA|
+|-|-|-|-|-|-|
+4|Lunghe|VLF|3-30kHz|Miriametriche|100-10 km|
+5|lunghe|LF|30-300kHz|Chiolmetriche|10-1 km|
+6|medie|MF|300-3000kHz|Ettometriche|1 km-100 m|
+7|corte|HF|3-30Mhz|Decametriche|100-10 m
+8|ultracorte|VHF|30-300Mhz|Metriche|10-1 m
+9|ultracorte|UHF|300-3000Mhz|Decimetriche|1m -100 mm
+10|supercorte|SHF|3-30Ghz|Centimetriche|100 mm-10 mm
+11|extracorte|EHF|30-300Ghz|Millimetriche|10 mm-1 mm
+12|ultracorte|THF|300-3000Ghz|Decimillimetriche|1 mm-1000 micrometri
+
 
 ### - Obiettivi
 * ???
@@ -1161,8 +1195,11 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 
 * L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
 
-* Quello del radioamatore è definito dalla ITU come un servizio di radiocomunicazione avente per oggetto l'istruzione individuale, l'intercomunicazione e gli studi tecnici, effettuato dagli amatori, vale a dire da persone debitamente autorizzate che s'interessano alla tecnica della radioelettricità a titolo unicamente personale e senza interesse pecuniario. La legislazione italiana estende questa definizione (art. 134, comma 1): L'attività di radioamatore consiste nell'espletamento di un servizio, svolto in linguaggio chiaro, o con l'uso di codici internazionalmente ammessi, esclusivamente su mezzo radioelettrico anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità a titolo esclusivamente personale senza alcun interesse di natura economica.
+* Quello del radioamatore è definito dalla ITU come un servizio di radiocomunicazione avente per oggetto l'istruzione individuale, l'intercomunicazione e gli studi tecnici, effettuato dagli amatori, vale a dire da persone debitamente autorizzate che s'interessano alla tecnica della radioelettricità a titolo unicamente personale e senza interesse pecuniario. 
+* La legislazione italiana estende questa definizione (art. 134, comma 1): 
+   * L'attività di radioamatore consiste nell'espletamento di un servizio, svolto in linguaggio chiaro, o con l'uso di codici internazionalmente ammessi, esclusivamente su mezzo radioelettrico anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità a titolo esclusivamente personale senza alcun interesse di natura economica.
 
+* Per ciascuna stazione di radioamatore, indipendentemente dal numero degli apparati, l'interessato versa un contributo annuo, compreso l'anno a partire dal quale l'autorizzazione generale decorre, di euro 5,00 per le autorizzazioni generali di classe A e di euro 3,00 per quelle di classe B a titolo di rimborso dei costi sostenuti per le attivita' di cui all'articolo 1, comma 1.
 
 ### - Definizione della stazione di radioamatore
 * ???
@@ -1198,18 +1235,21 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 In seguito, quando non diversamente scritto, si farà riferimento agli articoli del Codice delle Comunicazioni Elettroniche.
 
 ### - Regolamentazione e condizioni per l’ottenimento della licenza
-* L'autorizzazione generale è quindi necessaria in Italia, come in tutte le nazioni del mondo, per poter esercitare l'attività radioamatoriale, e può essere richiesta solo previo conseguimento di una patente, ottenibile dopo aver superato un esame su argomenti di elettrotecnica, radiotecnica, apparati per telecomunicazioni, antenne, propagazione, norme legislative e regolamenti (art. 136), da eseguirsi mediante quiz a risposta multipla. Il programma completo d'esame è riportato in appendice: sterminato, ma non del tutto impossibile. In molti casi viene data la giusta importanza alla normativa e in questi pochi minuti abbiamo già potuto fare la conoscenza dei primi due articoli. In verità l'art. 134 prevede altri tre commi:
-• Art. 134, comma 2: Al di fuori della sede dell?impianto l?attività di cui al comma 1 può essere svolta con apparato portatile anche su mezzo mobile, escluso quello aereo.
-• Art. 134, comma 3: L?attività di radioamatore è disciplinata dalle norme di cui al presente Capo e dell?allegato n. 26. • Art. 134, comma 4: E? libera l?attività di solo ascolto sulla gamma di frequenze attribuita al servizio di radioamatore.
-L'allegato n. 26 (Adeguamento della normativa tecnica relativa all'esercizio dell'attività radioamatoriale), che si dovrà conoscere, specifica anche le possibilità di esonero dall'esame per il conseguimento della patente.
-L'art. 135 (Tipi di autorizzazione) non ha più validità in quanto con il Decreto 21 luglio 2005 è stato abolito l'esame di telegrafia e le precedenti patenti di classe A e B sono state unificate nell'unica patente di classe A.
-Per ottenere l'autorizzazione generale si devono avere determinati requisiti (art. 137): L?impianto e l?esercizio della stazione di radioamatore sono consentiti a chi:
-a) abbia la cittadinanza di uno dei Paesi dell?Unione europea o dello Spazio Economico Europeo, di Paesi con i quali siano intercorsi accordi di reciprocità, fermo restando quanto disposto dall?articolo 2, comma 2, del decreto legislativo 25 luglio 1998, n. 286, ovvero sia residente in Italia;
-b) abbia età non inferiore a sedici anni;
-c) sia in possesso della relativa patente;
-d) non abbia riportato condanne per delitti non colposi a pena restrittiva superiore a due anni e non sia stato sottoposto a misure di sicurezza e di prevenzione finché durano gli effetti dei provvedimenti e sempre che non sia intervenuta sentenza di riabilitazione.
-Da notare che l'età per la richiesta dell'autorizzazione non deve essere inferiore ai sedici anni. Purtroppo questo requisito aumenta notevolmente l'età media della popolazione dei radioamatori italiani, è relativa alla sola autorizzazione e dovrebbe comunque consentire lo svolgimento dell'esame. Per questo caso e per quanto riguarda gli eventuali esoneri dall'esame è bene contattare per tempo l'ufficio competente.
+* L'autorizzazione generale è quindi necessaria in Italia, come in tutte le nazioni del mondo, per poter esercitare l'attività radioamatoriale, e può essere richiesta solo previo conseguimento di una patente, ottenibile dopo aver superato un esame su argomenti di elettrotecnica, radiotecnica, apparati per telecomunicazioni, antenne, propagazione, norme legislative e regolamenti (art. 136), da eseguirsi mediante quiz a risposta multipla. l'art. 134 prevede altri tre commi:
+* Art. 134, comma 2: Al di fuori della sede dell'impianto l'attività di cui al comma 1 può essere svolta con apparato portatile anche su mezzo mobile, **escluso quello aereo**.
+* Art. 134, comma 3: L'attività di radioamatore è disciplinata dalle norme di cui al presente Capo e dell'allegato n. 26. 
+* Art. 134, comma 4: E' libera l'attività di solo ascolto sulla gamma di frequenze attribuita al servizio di radioamatore.
+* L'allegato n. 26 (Adeguamento della normativa tecnica relativa all'esercizio dell'attività radioamatoriale), che si dovrà conoscere, specifica anche le possibilità di esonero dall'esame per il conseguimento della patente.
+* (art. 137): L'impianto e l'esercizio della stazione di radioamatore sono consentiti a chi:
+   * a) abbia la cittadinanza di uno dei Paesi dell'Unione europea o dello Spazio Economico Europeo, di Paesi con i quali siano intercorsi accordi di reciprocità, fermo restando quanto disposto dall?articolo 2, comma 2, del decreto legislativo 25 luglio 1998, n. 286, ovvero sia residente in Italia;
+   * b) abbia età non inferiore a sedici anni;
+   * c) sia in possesso della relativa patente;
+   * d) non abbia riportato condanne per delitti non colposi a pena restrittiva superiore a due anni e non sia stato sottoposto a misure di sicurezza e di prevenzione finché durano gli effetti dei provvedimenti e sempre che non sia intervenuta sentenza di riabilitazione.
 
+* Le apparecchiature radioelettriche utilizzate dalle stazioni di radioamatore acquistate, modificate o autocostruite, devono rispondere ai requisiti tecnici previsti dalla normativa internazionale di settore.
+* Le apparecchiature radioelettriche impiegate nelle stazioni di radioamatore, ove predisposte ad operare anche con bande di frequenze, classe di emissione o potenze diverse da quelle assegnate dal piano nazionale di ripartizione delle frequenze, devono comunque essere utilizzate nel rispetto delle norme di esercizio di cui all’art. 12.
+* Per la installazione delle antenne di radioamatore si applicano le disposizioni di cui all’art. 397 del dPR 29 marzo 1973, n. 156 nonché le vigenti norme di carattere tecnico, urbanistico, ambientale e di tutela della salute pubblica.
+* L’installazione dell’impianto d’antenna non deve provocare turbative e interferenze ad altri impianti di radiocomunicazioni.
 
 ### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
 * ???
@@ -1221,7 +1261,16 @@ Da notare che l'età per la richiesta dell'autorizzazione non deve essere infer
 * ???
 
 ### - dati da registrare
-* dati da inserire: data, ora inizio e fine (in UTC), indicativo stazione, freq, rst, modo e potenza, note, QSL inviata/ricevuta
+* dati da inserire: 
+   * data
+   * ora inizio e fine (in UTC)
+   * indicativo stazione 
+   * frequenza 
+   * rst
+   * modo e potenza 
+   * note 
+   * QSL inviata/ricevuta
+
 \pagebreak
 
 ### Bibliografia:
