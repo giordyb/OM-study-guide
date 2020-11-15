@@ -55,8 +55,7 @@
 
 ## 1.3 - Campo elettrico
 ### - Intensità di campo elettrico
-* campo elettrico: una modificazione che lo spazio subisce per la presenza delle sorgenti del campo elettrico (le cariche elettriche)
-* campo elettrico: porzione di spazio in cui una carica elettrica risulta sottoposta ad una forza a sua volta prodotta dalla distribuzione di altre cariche elettriche
+* **campo di forze generato nello spazio dalla presenza di una o più cariche elettriche** o di un campo magnetico variabile nel tempo. **Insieme al campo magnetico esso costituisce il campo elettromagnetico**, responsabile dell'interazione elettromagnetica.
 * intensità di campo elettrico: d.d.p. presente tra due punti del campo elettrico distante 1 metro tra di loro
 
 ### - L’unità di misura: volt/metro
@@ -70,14 +69,14 @@
 ### - Campo magnetico attorno ad un conduttore 
 * campo magnetico: la presenza di forze magnetiche in un certo spazio
 * **ogni conduttore percorso da corrente si circonda di campo magnetico** che nasce con la corrente e con essa si estingue
-* le linee che determinano le direzioni lungo cui tale campo si manifesta (“linee di forza”) sono (per un conduttore rettilineo) cerchi concentrici che lo circondano perpendicolarmente
+* le linee che determinano le direzioni lungo cui tale campo si manifesta (“**linee di forza**”) sono (per un conduttore rettilineo) **cerchi concentrici che lo circondano perpendicolarmente**
 * l’intensità di campo magnetico è misurata in ampere/metro
    * H = N * I / l
       * dove: N = numero di spire, I = intensità di corrente,  l = lunghezza del solenoide
 
 
 ### - Schermatura contro i campi magnetici
-* bisogna assorbirlo, per cui si utilizzano materiali ad alta permeabilità magnetica 
+* bisogna assorbirlo, per cui si utilizzano **materiali ad alta permeabilità magnetica** 
 * alternative sono la deviazione del campo da parte di un materiale ad alta permeabilità e la fasciatura delle linee di forza, con una spira in corto circuito.
 
 
@@ -97,12 +96,12 @@
 
 ## 1.6 - Segnali sinusoidali
 ### - La rappresentazione grafica in funzione del tempo 
-* sinusoidale: forma d’onda per la quale la variazione del valore avviene regolarmente e simmetricamente per due seomionde 
+* sinusoidale: forma d’onda per la quale la **variazione** del valore avviene **regolarmente e simmetricamente per due seomionde**
 * graficamente descrive due semionde
 * ciclo: lo sviluppo completo di una singola alternanza
 
 ### - Valore istantaneo, valore efficace e valore medio 
-* valore istantaneo: il valore di ampiezza in un singolo punto della sinusoide
+* valore istantaneo: il valore di ampiezza in un **singolo punto** della sinusoide
 * valore efficace: V~eff~ = 0,707V~max~
    * il valore che dovrebbe avere la **corrente continua** che, percorrendo lo stesso circuito di quella alternata, determina la **stessa quantità di calore** 
 * valore medio: la **media** di tutti valori dell’onda
@@ -141,7 +140,7 @@
 ### - Componente di tensione continua, componente della frequenza fondamentale e armoniche
 * Un segnale periodico si dice **alternato** quando il suo valore medio in un periodo è nullo
 * Un segnale periodico non **alternato** ha un valore medio non nullo e **si può scomporre in una componente continua e una componente alternata** avente la stessa forma d’ onda del segnale originario
-* fondamentale :l’onda sinusoidale che ha la **stessa frequenza del segnale**
+* fondamentale: l’onda sinusoidale che ha la **stessa frequenza del segnale**
 * armoniche: le frequenze più alte, **multiple** della fondamentale
 
 ## 1.8 - Segnali modulati
@@ -193,7 +192,7 @@
    * vedi R.O.S.
 
 ### - relazione tra potenza d’ingresso e potenza di uscita e rendimento
-* rendimento: rapporto tra la potenza utile a compiere un lavoro (**erogata**) e la potenza assorbita (**dissipata**). (Es. Lampadina da 24w converte in 6w energia luminosa.
+* rendimento: rapporto tra la potenza utile a compiere un lavoro (**erogata**) e la potenza assorbita (**dissipata**). (Es. Lampadina da 24w converte in 6w energia luminosa).
    * potenza erogata / potenza dissipata (in %) [6/24=25%]
 
 ### - Potenza di cresta della portante modulata
@@ -208,7 +207,7 @@
 * in serie si sommano, in parallelo 1/(1/R1 + 1/R2 + 1/R3...)
 
 ### - L’unità di misura: l’ohm
-* 1 Ohm la resistenza di un circuito in cui scorre una corrente di 1A quando la tensione applicata è 1V
+* 1 Ohm la resistenza di un circuito in cui scorre una **corrente di 1A** quando la **tensione applicata è 1V**
 
 ### - Caratteristiche corrente/tensione
 * fissa la corrente e la tensione desiderate in un certo punto di esercizio
@@ -225,21 +224,21 @@
 ## 2.2 - Condensatore
 ### - Capacità
 * Capacità: la capacità di immagazzinare energia in un campo **elettrico** 
-* tende ad opporsi a bruschi cambiamenti di tensione
+* tende ad **opporsi a bruschi cambiamenti di tensione**
 
 ### - L’unità di misura: il farad
-* C = Q / V rapporto tra quantità di cariche immagazzinate e la tensione occorsa a farlo
+* C = Q / V rapporto tra **quantità di cariche** immagazzinate e la **tensione** occorsa a farlo
 
 ### - La relazione tra capacità, dimensioni e dielettrico (limitatamente agli aspetti qualitativi)
-* la capacità di un condensatore è relativa (maggiore) a quanto maggiore è la superficie e minore è la distanza delle armature del dielettrico
+* la capacità di un condensatore è relativa (maggiore) a quanto **maggiore è la superficie** e **minore è la distanza** delle armature del dielettrico
 * condensatori in parallelo si sommano, in serie 1/(1/C1 + 1/C2 + 1/C3...)
 
 ### - La reattanza
-* la reattanza capacitiva si oppone al flusso della corrente alternata. Infinita in DC (0Hz), diminuisce con la frequenza. Misurata in Ohm
+* la reattanza capacitiva si **oppone al flusso della corrente alternata**. Infinita in DC (0Hz), diminuisce con la frequenza. Misurata in Ohm
 * X~C~ (Ohm) = 1/(2*pi*f*C)
 
 ### - Sfasamento tra tensione e corrente
-* in AC la corrente è in **anticipo** sulla tensione di 90°
+* in AC la corrente in un condensatore è in **anticipo** sulla tensione di 90°
 
 ### - Caratteristiche dei condensatori fissi e variabili: in aria, a mica, in plastica, ceramici ed elettrolitici 
 * ad aria: usati come tipi di capacità variabile
@@ -249,23 +248,23 @@
 * elettrolitici: capacità elevata in dimensioni contenute, poco stabili, polarizzati
 
 ### - Coefficiente di temperatura
-* coefficiente di temperatura: parti per milione per grado, capacità può aumentare o diminuire con la temperatura
+* coefficiente di temperatura: parti per milione per grado, capacità può **aumentare o diminuire con la temperatura**
 
 ### - Corrente di fuga
-* corrente (modestissima) che percorre un condensatore in funzione alla tensione applicata fra le armature 
+* **corrente (modestissima) che percorre un condensatore** in funzione alla tensione applicata fra le armature 
 
 ## 2.3 - Induttori
 ### - Bobine d’induzione
 * bobina di filo di rame avvolta attorno ad un bacchetta di ferrite
 
 ### - L’unità di misura: l’henry
-* induttanza, capacità di immagazzinare energia in un campo magnetico
-* 1 H induttanza di un circuito quando 1 ampere genera un campo magnetico di 1 Weber
+* induttanza, capacità di **immagazzinare energia in un campo magnetico**
+* 1 H induttanza di un circuito quando **1 ampere genera un campo magnetico di 1 Weber**
 * 1 H induttanza di un circuito con una tensione di 1V e corrente che varia 1A **al secondo**
 * si oppone alla variazione di corrente
 
 ### - L’effetto sull’induttanza del numero di spire, del diametro, della lunghezza e della composizione del nucleo (limitatamente agli aspetti qualitativi)
-* induttanza (L) è direttamente proporzionale al **quadrato** del numero di spire e al diametro dell'induttore, **inversamente proporzionale alla sua lunghezza**
+* induttanza (L) è direttamente proporzionale al **quadrato del numero di spire** e al **diametro** dell'induttore, **inversamente proporzionale alla sua lunghezza**
 * L~Henry~ =  μ~(permeabilità magnetica)~ * N^2^* d/l
 
 ### - La reattanza
@@ -286,12 +285,12 @@
 
 ## 2.4 - Applicazione ed utilizzazione dei trasformatori
 ### - Trasformatore ideali
-* dispositivo che serve a trasferire dal primario al secondario un certo ammontare di potenza (V*I) che nel trasferimento resta costante pur variando i singoli termini
-* corrente primario è in opposizione di fase da quello secondario
+* dispositivo che serve a **trasferire dal primario al secondario un certo ammontare di potenza** (V*I) che nel trasferimento resta costante pur variando i singoli termini
+* corrente primario è in **opposizione** di fase da quello secondario
 
 ### - La relazione tra il rapporto del numero di spire e il rapporto delle tensioni, delle correnti e delle impedenze (limitatamente agli aspetti qualitativi)
-* tra la **tensione** primaria e quella secondaria vi è lo stesso rapporto che esiste fra il numero di spire dei due avvolgimenti
-* variando il rapporto di tensione/corrente viene variata anche l’impedenza 
+* tra la **tensione** primaria e quella secondaria vi è lo stesso rapporto che esiste fra il **numero di spire** dei due avvolgimenti
+* variando il rapporto di tensione/corrente **viene variata anche l’impedenza**
    * Z~p~ = Z~s~/n^2 
    * n = sqrt(Z~p~/Z~s~)
 
@@ -301,16 +300,18 @@
 
 ## 2.5 - Diodo
 ### - Utilizzazione ed applicazione dei diodi
-* permette il passaggio di corrente in una sola direzione
+* passivo non-lineare
+* semiconduttore o valvola termoionica
+* permette il passaggio di corrente in una **sola direzione**
 * utilizzato come raddrizzatore
-* tensione di soglia 0.6V
+* semiconduttore: tensione di soglia 0.6V
 
 ### - Diodi di raddrizzamento, diodi Zener, diodi LED, diodi a tensione variabile e a capacità variabile (VARICAP)
 * raddrizzatore a ponte: circuito a quattro diodi che convertono un onda sinusoidale in una serie di onde tutte positive 
 * diodo zener: usato come stabilizzatore di tensione in un alimentatore (in parallelo con una resistenza), polarizzato inversamente ad un certo valore di polarizzazione (tensione di Zener) causa un brusco passaggio di corrente (valanga)
 * diodi led: diodo emettitore di luce in polarizzazione diretta
-* diodi a tensione variabile VARACTOR: simile al varicap, è utilizzato per distorcere il segnale e creare delle armoniche
-* diodi a capacità variabile VARICAP: permette di ottenere variazioni di qualche pF spostando la polarizzazione di pochi V
+* diodi a tensione variabile VARACTOR: simile al varicap, è utilizzato per distorcere il segnale e **creare delle armoniche**
+* diodi a capacità variabile VARICAP: permette di ottenere **variazioni di qualche pF** spostando la polarizzazione di pochi V (utilizzato in trasmettitore FM)
 
 ### - Tensione inversa, corrente, potenza e temperatura
 * tensione inversa di picco: rappresenta la tensione inversa massima che può sopportare
@@ -320,13 +321,13 @@
 
 ## 2.6 - Transistor
 ### - Transistor PNP e NPN
-* semiconduttore formato da doppia giunzione (NPN o PNP)
+* semiconduttore formato da **doppia giunzione** (NPN o PNP)
 * 3 terminali collettore, base e emettitore
 * con una **modesta corrente** entro la giunzione base-emettitore si ottiene una **elevata corrente** collettore-emettitore (amplifica)
 * per condurre la base deve essere positiva rispetto all’emettitore e negativa rispetto al collettore, tensione +0,6V tra base e emettitore
 
 ### - Fattore di amplificazione
-* detto beta, esprime **l’amplificazione** di corrente del transistor. Rapporto corrente collettore/base
+* detto **beta**, esprime **l’amplificazione** di corrente del transistor. Rapporto corrente collettore/base
 
 ### - Transistor a effetto di campo
 * detto FET, piccola barra di semiconduttore, tipicamente silicio a drogaggio N
@@ -343,13 +344,13 @@
 *  utilizzato come amplificatore (di tensione o di corrente) e come adattatore d’impedenza
 
 ### - a emettitore comune
-* max amplificazione, alta impedenza d’ingresso, media impedenza di uscita, bassa freq., **fase invertita**
+* max **amplificazione**, **alta impedenza** d’ingresso, media impedenza di uscita, bassa freq., **fase invertita**
 
 ### - a base comune
-* bassa impedenza di ingresso, impedenza uscita alta, amplificazione alta, alta frequenza
+* **bassa impedenza** di ingresso, impedenza uscita alta, amplificazione alta, utilizzo per **alta frequenza**
 
 ### - a collettore comune
-* impedenza di entrata altissima, impedenza uscita bassa, amplificazione < 1 (ma notevole corrente), alta freq. di impiego
+* impedenza di entrata altissima, impedenza uscita bassa, **amplificazione < 1** (ma notevole corrente), alta freq. di impiego (**usato come adattatore di impedenza**)
 
 ### - Le impedenze d’ingresso e di uscita nei suddetti circuiti 
 * vedi sopra
@@ -360,10 +361,10 @@
 
 ## 2.7 - Varie
 ### - Dispositivo termoionico semplice (valvola)
-* usato per amplificare piccoli segnali ma necessita di tensioni elevate per funzionare
+* usato per amplificare piccoli segnali ma necessita di **tensioni elevate** per funzionare
 * accetta carichi come una resistenza, un condensatore o un trasformatore
 * triodo è catodo, anodo e griglia
-* tensione su griglia controlla corrente tra catodo e anodo
+* **tensione su griglia** controlla **corrente** tra catodo e anodo
 
 ### - Circuiti numerici semplici
 * vantaggi: incorporano diverse funzioni in un singolo componente
@@ -381,22 +382,27 @@
 ## 3 - CIRCUITI
 ## 3.1 - Combinazione dei componenti
 ### - Circuiti in serie e in parallelo di resistori, bobine, condensatori, trasformatori e diodi 
-* solo resistenze in serie = R~tot~ = R~1~ + R~2~ + R~3~
-* solo resistenze in parallelo = 1 / R~tot~ = 1 / R~1~ + 1 / R~2~ + 1 / R~3~ = (R~1~ * R~2~) / (R~1~ + R~2~)
-* solo capacità in serie: C~tot~ = (C~1~ * C~2~) / (C~1~ + C~2~)
-* solo capacità in parallelo: C~tot~ = C~1~ + C~2~
-* solo bobine in serie: I~tot~ = I~1~ + I~2~
-* solo bobine in parallelo: I~tot~ = (I~1~ * I~2~) / (I~1~ + I~2~)
-* resistenze e reattanze in serie: Z = sqrt(R^2+X^2)
-* resistenze e reattanze in parallelo: Z = R * X / sqrt(R^2+X^2)
-* reattanze capacitive in serie: X~T~ = X~L~ - X~C~
-* reattanze capacitive in parallelo:  X~T~ = -X~L~ * X~C~ / X~L~ - X~C~
+* resistenze: 
+   * in serie:  R~tot~ = R~1~ + R~2~ + R~3~
+   * in parallelo: 1 / R~tot~ = 1 / R~1~ + 1 / R~2~ + 1 / R~3~ = (R~1~ * R~2~) / (R~1~ + R~2~)
+* solo capacità: 
+   * in serie: C~tot~ = (C~1~ * C~2~) / (C~1~ + C~2~)
+   * in parallelo: C~tot~ = C~1~ + C~2~
+* solo induttori
+   * in serie: I~tot~ = I~1~ + I~2~
+   * in parallelo: I~tot~ = (I~1~ * I~2~) / (I~1~ + I~2~)
+* solo reattanze:
+   * in serie: X~T~ = X~L~ - X~C~
+   * in parallelo: X~T~ = -X~L~ * X~C~ / X~L~ - X~C~
+* resistenze con reattanze 
+   * in serie: Z = sqrt(R^2+X^2)
+   * in parallelo: Z = R * X / sqrt(R^2+X^2)
 
 * trasformatori in serie: si somma la tensione se sono in fase, la corrente è il valore più basso degli avvolgimenti secondari
 * in parallelo: si somma la corrente
 
-* diodi in serie: ???
-* diodi in parallelo: ???
+* diodi in serie: **aumenterà la tensione** diretta del diodo risultante. (tensione di soglia * N. Diodi)
+* diodi in parallelo: aumenterà la **capacità di carico corrente** del diodo
 
 ### - Corrente e tensione nei circuiti
 * le reattanze (pure) introducono uno **sfasamento** pari a 90° (in più o in meno) fra tensione e corrente, mentre le resistenze (pure) **non provocano alcuna rotazio­ne** di fase; ciascuno di questi componenti si op­pone cioè alla corrente in un modo diverso.
@@ -410,7 +416,7 @@
 ### - Filtri serie e parallelo
 * filtri: reti circuitali complesse, costituite da componenti quasi sempre reattivi, che presenta­no caratteristiche di **selettività**.
 
-* serie: alla frequenza di risonanza si ha impedenza bassa e intensità di corrente massima. X~L~=X~C~ si eliminano e rimane R
+* serie: alla frequenza di risonanza si ha **impedenza bassa e intensità di corrente massima**. X~L~=X~C~ si eliminano e rimane R
 
 * parallelo: **antirisonanza** o risonanza di tensione, alla frequenza di risonanza si ha impedenza alta, tensione massima ai suoi capi e corrente minima.
 
@@ -481,14 +487,14 @@
 ### - Amplificatori a bassa frequenza e ad alta frequenza
 
 * bassa frequenza: amplificatore con **emettitore, source o catodo comune**: viene usato per amplificazioni elevate su valori di impedenza abbastanza alti,il suo è esteso sia agli amplificatori di tensione che di potenza.
-* alta frequenza: amplificatore con **base, griglia o gate comune**. molto stabile,viene usato per frequenze molto alte per le quali l'effetto di capacità ingresso/uscita sarebbe intollerabile. Oltre che come amplificatore di tensione viene usato anche come amplificatore di potenza a RF.
+* alta frequenza: amplificatore con **base, griglia o gate comune**. molto stabile,viene usato per frequenze molto alte per le quali l'effetto di **capacità ingresso/uscita sarebbe intollerabile**. Oltre che come amplificatore di tensione viene usato anche come **amplificatore di potenza a RF**.
 
 ### - Fattore di amplificazione
-* il fattore di amplificazione è dato dal rapporto tra la tensione del segnale in uscita con la tensione del segnale in ingresso (beta)
+* il fattore di amplificazione è dato dal rapporto tra la tensione del segnale in uscita con la tensione del segnale in ingresso (**beta**)
 
 ### - Caratteristica ampiezza/frequenza e larghezza di banda 
-* caratteristica ampiezza/frequenza: rappresenta l'andamento dell'amplificazione (o curva di risposta) in funziona della frequenza
-* larghezza di banda: l'intervallo di frequenza entro cui la caratteristica amp.freq. ne indica il regolare funzionamento, cioè l'amplificazione rimane costante (costanza del fattore di amplificazione)
+* caratteristica ampiezza/frequenza: rappresenta l'andamento dell'amplificazione (o **curva di risposta**) in funziona della frequenza
+* larghezza di banda: l'**intervallo di frequenza** nel quale **l'amplificazione rimane costante** (costanza del fattore di amplificazione)
 
 ### - Classi di amplificatori A, A/B, B e C
 * Classe di lavoro A: angolo di **conduzione 360°**, rendimento del 30%, bassissima distorsione
@@ -496,13 +502,12 @@
 * Classe di lavoro AB: angolo di **conduzione tra 180° e 360°**
 * Classe di lavoro C: angolo di conduzione <180°, rendimento 70-75%, alta distorsione (alte frequenze)
 
-
 ### - Armoniche (distorsioni non desiderate)
-* un amplificatore **non lineare** può generare distorsioni indesiderate che si trasformano in armoniche, nel caso sia inevitabile è bene preedere di filtrare il segnale ottenuto con circuiti risonanti. 
+* un amplificatore **non lineare** (classe C) può generare distorsioni indesiderate che si trasformano in armoniche, nel caso sia inevitabile è bene preedere di filtrare il segnale ottenuto con circuiti risonanti.
 
 ## 3.5 - Rivelatori
 ### - Rivelatori di modulazione di ampiezza
-* a diodo per audio, bfo per CW ???
+* circuito a diodo
 
 ### - Rivelatori a diodi
 * composto da un diodo e un circuito RC. Il diodo elimina la parte di segnale negativa, il circuito RC filtra il segnale RF e rimane il segnale a BF
@@ -520,8 +525,8 @@
 * demodulatore per la FM 
 
 ### - Rivelatori per la telegrafia e per la banda laterale unica
-* rivelatore CW: ??? BFO ???
-* rivelatore SSB: rivelatore a prodotto
+* rivelatore CW: BFO reinserisce portante
+* rivelatore SSB: inserito **dopo BFO**, rivelatore a prodotto
 
 ## 3.6 - Oscillatori
 ### - Fattori che influiscono sulla frequenza e le condizioni di stabilità necessarie per l’oscillazione 
@@ -531,22 +536,22 @@
 * salti bruschi dovuti ad **instabilità meccanica** ed a insufficiente robustezza.
 
 ### - Oscillatore LC
-* un oscillatore è un **amplificatore che si autopilota** ,cioè è autoeccitato.
+* un oscillatore è un **amplificatore che si autopilota**, cioè è autoeccitato.
 * diversi tipi circuitali tra cui: oscillatore Meissner, Hartley, Colpitts.
 * composto da circuito risonante, un amplificatore e una rete di reazione (o retroazione)
 
 ### - Oscillatore a quarzo, oscillatore su frequenze armoniche
 * oscillatore al quarzo: **mantiene la frequenza** di oscillazione costante e con un alto grado di precisione rispetto ad altri circuiti (alto Q)
-* è possibile ottenere da un oscillatore al quarzo un modo di **vibrazione che esalta le armoniche** (normalmente la 3a) ovviando in parte alla massima frequenza raggiungibile. da accoppiare con un circuito LC in uscita sintonizzato sull'armonica  
+* è possibile ottenere da un oscillatore al quarzo un modo di **vibrazione che esalta le armoniche** (normalmente la 3^a^) ovviando in parte alla massima frequenza raggiungibile. da accoppiare con un circuito LC in uscita sintonizzato sull'armonica  
 
 ## 3.7 - Circuiti ad aggancio di fase (PLL - Phase Lock Loop)
 ### - Circuiti a PLL con circuito comparatore di fase
-* circuito **per mantenere in fase due oscillatori**, paragona due frequenze (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e modifica la tensione di controllo del VFO per mantenerli in fase. 
+* circuito **per mantenere in fase due oscillatori**, **paragona due frequenze** (una a frequenza fissa es. quarzo e una controllata in tensione es. VFO) tramite un mixer usato come comparatore e **modifica la tensione di controllo** del VFO per mantenerli in fase. 
 
 ## 4 - RICEVITORI
 ## 4.1 - Tipi di ricevitore
 ### - Ricevitore a supereterodina semplice e doppia
-* A una o più frequenze intermedie IF. Converte i segnali RF ricevuti in una frequenza di valore fisso e ben definito IF.
+* **A una o più frequenze intermedie IF**. Converte i segnali RF ricevuti in una frequenza di valore fisso e ben definito IF.
 * consiste nel convertire tutti i segnali ricevuti, opportunamente sintoniz­zati ed eventualmente preamplificati (in genere con un solo stadio), ad un valore di frequenza fis­so e ben definito IF
 *  supereterodina doppia ha 2 IF
 
@@ -617,15 +622,21 @@
 * l'attitudine a **rimanere sintonizzato** su un segnale fisso
 
 ### - Frequenza immagine
-* è la frequenza **somma** della frequenza di oscillatore locale più frequenza intermedia quando l'oscillatore locale del supereterodina converte la frequenza **differenza** e viceversa. 
-* la freq. immagine è "lontana" 2 x IF dalla freq. sintonizzata. Se in più o in meno, dipende se l'oscillatore locale è sopra o sotto il segnale ricevuto.
+* è la frequenza **somma** della **frequenza di oscillatore locale (VFO)** più **frequenza intermedia (IF)** quando l'oscillatore locale del supereterodina converte la frequenza **differenza** e viceversa. 
+* la freq. immagine è **"lontana" 2 x IF** dalla freq. sintonizzata. Se in più o in meno, dipende se l'oscillatore locale è sopra o sotto il segnale ricevuto.
+   * es. RF = 10Mhz; IF = 9Mhz; VFO = 19Mhz (10+9) F. Immagine = 28Mhz (19~VFO~+9~IF~)
+   * RF - VFO -> IF
+   * IF + VFO -> F~Imm~ (frequenza immagine)
+   * IF*2 = F~Imm~ (28Mhz)
 
 ### - Intermodulazione; transmodulazione
-* intermodulazione: segnale indesiderato presente in più frequenze causa sovraccarico.
-* transmodulazione (modulazione incrociata): segnale molto forte che sovrasta segnale più debole, rivela non linearità e saturazione di qualche stadio amplificatore.
+* intermodulazione: 
+   * segnale indesiderato **presente in più frequenze** causa sovraccarico.
+   * distorsione da intermodulazione (IMD): effetto dal **sovraccarico** consiste nella comparsa del segnale indesiderato **in più posi­zioni** della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
 
-* distorsione da intermodulazione (IMD): effetto dal **sovraccarico** consiste nella comparsa del segnale indesiderato **in più posi­zioni** della sintonia del ricevitore, pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore anche se il segnale disturbante è molto fuori sintonia.
-* transmodulazione (modulazione incrociata): si manifesta con la modulazione di un se­gnale molto forte (anche se su frequenza lonta na) che compare **sopra** il segnale più debole. il suono del segnale forte viene superimposto al segnale debole.
+* transmodulazione (modulazione incrociata): 
+   * segnale molto forte che sovrasta segnale più debole, rivela non linearità e saturazione di qualche stadio amplificatore.
+   * si manifesta con la modulazione di un se­gnale molto forte (anche se su frequenza lonta na) che compare **sopra** il segnale più debole. il suono del segnale forte viene superimposto al segnale debole.
 
 ## 5 - TRASMETTITORI
 ## 5.1 - Tipi di trasmettitori
@@ -633,12 +644,11 @@
 * ????
 
 ### - Moltiplicazione di frequenza
-* un circuito elettronico che genera un'uscita segnale la cui uscita in frequenza è una armonica (multiplo) della sua frequenza di ingresso. 
+* un circuito elettronico che genera un'uscita segnale la cui **uscita in frequenza è una armonica** (multiplo) della sua frequenza di ingresso. 
 
 ## 5.2 - Schemi a blocchi
 ### - Trasmettitori telegrafici in CW (A1A)
 * [oscill. variabile] -> [(oscill. xtal)->mixer] -> [ampli. potenza] -> [antenna]
-
 * trasmettitore AM fonia: come in CW ma viene aggiunto un ulteriore amplificatore di modulazione che "modula" l'amplificatore di potenza.
 
 ### - Trasmettitori in banda laterale unica (SSB) a portante soppressa (J3E) 
@@ -649,39 +659,39 @@
 
 ## 5.3 - Descrizione degli stadi seguenti (limitatamente agli schemi a blocchi) 
 ### - Miscelatore (Mixer)
-* mixer: converte la frequenza di un segnale / mescola 2 segnali in 1
+* mixer: **converte** la frequenza di un segnale / mescola 2 segnali in 1
 
 ### - Oscillatore
 * **genera l'onda portante** sul quale viaggerà il segnale informativo vero e proprio
 
 ### - Eccitatore (buffer, driver)
-* amplificatore di potenza mo­desta (pilota o driver) messo in seguito ad un oscillatore (p.165)
+* **amplificatore** di potenza mo­desta (pilota o driver) messo in seguito ad un oscillatore (p.165)
 
 ### - Moltiplicatore di frequenza
-* un circuito elettronico che genera un segnale la cui uscita in frequenza è una **armonica (multiplo)** della sua frequenza di ingresso. 
+* un circuito elettronico che **genera un segnale** la cui uscita in frequenza è una **armonica (multiplo)** della sua frequenza di ingresso. 
 
 ### - Amplificatore di potenza
-* amplifica il segnale RF per essere irradiato
+* amplifica il segnale RF per essere **irradiato**
 
 ### - Filtro di uscita (filtro a pigreco) 
 * filtro d’uscita per **evitare/attenuare** sensibilmente eventuali prodotti spurii presenti. (p.165)
 
 ### - Modulatore di frequenza
-* imprime alla portante le informazioni da trasmettere.
+* **imprime** alla portante le informazioni da trasmettere.
 
 ### - Modulatore SSB
 * Rimuove/**attenua la portante** dal segnale
 * Modulatore bilanciato: manipola la portante a RF e l’informazione audio in modo da rendere dispo­nibili all’uscita ambedue le bande laterali, ma **non la portante**. (p. 151)
 
 ### - Modulatore di fase
-* provvede a variare la sintonia del circuito risonante dell’o­scillatore a quarzo, dando così luogo ad una variazione nella fase della corrente che attraversa lo stesso. (p. 183)
+* provvede a variare la sintonia del circuito risonante dell’o­scillatore a quarzo, dando così luogo ad una **variazione nella fase** della corrente che attraversa lo stesso. (p. 183)
 
 ### - Filtro a quarzo
 * filtro ad **alta selettività** per eliminare la frequenza immagine
 
 ## 5.4 - Caratteristiche dei trasmettitori (in forma descrittiva) 
 ### - Stabilità di frequenza
-* quanto l'oscillatore che genera la portante devia dalla frequenza di oscillazione
+* quanto **l'oscillatore** che genera la portante **devia** dalla frequenza di oscillazione
 * spostamenti della frequenza dell’onda portante sono indesiderati, l’o­scillatore dovrà essere scelto e realizzato in modo tale da presentare una sufficiente stabilità della sua frequenza di oscillazione. (p.166)
 
 ### - Larghezza di banda in alta frequenza
@@ -700,10 +710,10 @@
 * quando i segnali non sono elaborati uniformemente al variare della loro ampiezza (es. amplificatore classe C).
 
 ### - Impedenza di uscita
-* ??? del trasmettitore? 75 Ohm?
+* del trasmettitore? 75 Ohm?
 
 ### - Potenza di uscita
-* è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizzio adeguato
+* è la grandezza in watt della potenza di uscita a RF dell'amplificatore, si misura con un carico fittizio adeguato
    * es. AM = 100w portante + 2 * 25w banda laterale
    * picco = 4x portante, es. 100w = 400w picco
 
@@ -712,7 +722,7 @@
    * 100w di portante = 400w di picco
 * CW = 100w (solo portante)
 * SSB = 25w
-* FM = 
+* FM = ??
 
 ### - Deviazione di frequenza
 vedi 1.8
@@ -721,7 +731,7 @@ vedi 1.8
 vedi 1.8
 
 ### - Clicks di manipolazione CW
-* Quando la manipola­zione telegrafica avviene producendo interruzio­ni con fronti d'onda molto ripidi e squadrati, la nota ricevuta risulta disturbata da rumori di tipo metallico. (p.166)
+* Quando la manipola­zione telegrafica avviene producendo **interruzio­ni con fronti d'onda molto ripidi** e squadrati, la nota ricevuta risulta disturbata da rumori di tipo metallico. (p.166)
 
 ### - Irradiazioni parassite
 * **battimenti e combinazioni indesiderate**, dovute a non lineari­tà di certi stadi o insufficienti schermature. (p.166)
@@ -740,7 +750,7 @@ vedi 1.8
 * resistenza di irradiazione è circa **73 Ohm**
 * guadagna circa 2,1 dB rispetto all'antenna isotropica
 * se estremi puntati a nord e sud irradia est e ovest
-* si usano le trappole per farlo risuonare a diverse frequenze
+* si usano le **trappole per farlo risuonare** a diverse frequenze
 
 ### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
 * la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
@@ -775,14 +785,13 @@ vedi 1.8
 * un dipolo accordato è un dipolo la cui lunghezza è relativa alla frequenza che si vuole ricevere/trasmettere ovvero circa lambda/2 (es. 14Mhz, 20mt = 10mt)
 * un dipolo risonante in aria libera presenta una impedenza di CIRCA 70 ohm
 
-
 ## 6.2 - Caratteristiche delle antenne
 ### - Distribuzione della corrente e della tensione lungo l’antenna
 * in centro filo: minima tensione, massima corrente ovvero bassa impedenza, agli estremi la tensione è molto alta e la corrente bassa, quindi alta impedenza.
 * ogni punto dell'antenna è interessato da un diverso valore di tensione e corrente e quindi da un diverso valore del loro rapporto, pertanto l'impendeza è differente in ogni punto risultando minima al centro di un dipolo a 1/2 onda e massima ai suoi estremi
 
 ### - Impedenza nel punto di alimentazione
-* l’elemento radiante a mezz'onda può venire alimentato, anziché al centro (come nel caso del dipolo classico), anche ad una delle estremità; in tal caso l’impedenza di ali­mentazione avrà un valore ben diverso (cioè molto elevato), talché è necessario interporre, fra conduttore e linea (non risonante) un oppor­tuno sistema di adattamento/accordo. (p.203)
+* l’elemento radiante a mezz'onda può venire alimentato, anziché al centro (come nel caso del dipolo classico), anche ad una delle **estremità**; in tal caso l’impedenza di ali­mentazione avrà un valore ben diverso (cioè **molto elevato**), talché è necessario interporre, fra conduttore e linea (non risonante) un oppor­tuno sistema di adattamento/accordo. (p.203)
 
 ### - Impedenza capacitiva o induttiva di un’antenna non accordata 
 * l'antenna funziona bene sulla frequenza di risonanza, oltre cambia l'impedenza.
@@ -844,8 +853,8 @@ vedi 1.8
 * semplice dispositivo passivo che permette di adattare fra di loro linee o apparati di impedenza e tipologie diverse. (p.201) 
 
 ### - Linee aperte e chiuse come circuiti accordati 
-* **Spezzoni di linee** aventi lunghezze opportune possono comportarsi come veri e propri circuiti accordati a seconda che siano lasciati aperti o che siano chiusi in cortocircuito.
-* si comportano come dispositivi la cui reattanza, alla frequenza di risonanza, è funzione del carico su cui vengono “terminati”, non­ ché della lunghezza dei vari tipi di linea, indipen­dentemente dalla loro impedenza caratteristica.
+* **Spezzoni di linee** aventi lunghezze opportune possono comportarsi come **veri e propri circuiti accordati** a seconda che siano lasciati aperti o che siano chiusi in cortocircuito.
+* si comportano come dispositivi la cui reattanza, alla frequenza di risonanza,**è funzione del carico su cui vengono “terminati”**, non­ ché della lunghezza dei vari tipi di linea, indipen­dentemente dalla loro impedenza caratteristica.
 
 ### - Sistemi di accordo d’antenna
 * consente il collegamento diretto dela linea di alimentazione RF all'antenna (specie se direttiva) può avere diverse caratteristiche costruttive
@@ -876,13 +885,13 @@ vedi 1.8
 
 * L’onda di spazio (ovvero soggetta a **riflessione ionosferica**) è soggetta a **rientrare** nell’atmosfera secondo angoli piuttosto elevati sull’orizzonte; tale comportamento è dovuto all’effetto speculare degli **strati ionizzanti**. 
 
-* angolo di riflessione (irradiazione),l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
+* angolo di riflessione (irradiazione), l’angolo formato sia dall’onda di partenza incidente sullo strato interessato sia dall'onda riflessa da quest’ultimo verso la superficie terrestre.
 
 * Riflessione sporadica dello strato E. Per particolari condizioni di irradiazione solare ed in occasione della formazione di "zone” di accumulo di polveri metalliche, si possono attivare ionicamente **lenti riflettenti** corrispondenti alle quote di strato E. Questo fenomeno si manifesta per **brevi periodi** specialmente nella stagione **estiva**, e in corri­spondenza di esso diventano **possibili collegamenti a lunga distanza** con basse potenze e (specialmente) in **VHF**, con risultati altrimenti non raggiungibili con normale propagazione.
 
 
 ### - Affievolimenti (fading)
-* due (o più) onde che si **sommano nel punto di ri­cezione**, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa variazioni bru­sche o lente del segnale ricevuto, fino addirittura al suo annullamento
+* due (o più) onde che si **sommano nel punto di ri­cezione**, non siano per niente in concordanza di fase, o lo siano sólo in certi istanti. il ricevitore accusa **variazioni bru­sche o lente del segnale ricevuto**, fino addirittura al suo annullamento
 * quando, dallo stesso punto di origine, due o più onde fanno percorsi diversi e giungono nello stesso punto di ricezione ci saranno ritardi e sfasamenti che causano brusche variazioni di segnale nel ricevitore
 * AGC è stato creato per ovviare a questo problema
 
@@ -935,7 +944,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * Ove invece il segnale sia modulato, esso sarà variamente influenzato (in forma come in valore) dalla modulazione, con valori estremamente variabili della potenza di picco, o **potenza di cresta** che risulterà estremamente variabile nel tempo in modo scorrelato rispetto a potenza efficace e potenza media.
 
 ### - Rapporto di onda stazionaria
-* In misure lungo linee di trasmissione, la pre­senza di ROS (specialmente se elevati) può introdurre errori di misura per la presenza di ventri e nodi delle tensioni e correnti presenti, che vi sovrappongono.
+* In misure lungo linee di trasmissione, la pre­senza di ROS (specialmente se elevati) **può introdurre errori di misura** per la presenza di ventri e nodi delle tensioni e correnti presenti, che vi sovrappongono.
 
 ### - Forma d’onda dell’inviluppo di un segnale in alta frequenza
 * la forma d’onda dell’inviluppo di modulazione conseguente ad un valore continuamente variabile nel tempo **non consente una misura attendibile della potenza** di cresta, se non per valori istantanei o in presenza di una nota continua.
@@ -979,7 +988,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * bloccaggio o silenziamento, cioè la **desensibilizzazione del ricevi­tore** in quanto il forte livello del segnale sposta automaticamente le polarizzazioni degli stadi fino a bloccarli: ciò risulta evidentemente danno­so nel ricevere segnali deboli.
 
 ### - Disturbi con il segnale desiderato
-* modulazione incrociata (o transmodulazio­ne), e si manifesta con la modulazione di un se gnale molto forte (anche se su frequenza lonta­na) che compare sopra il segnale più debole che si sta sintonizzando; il suono ap­partenente al segnale forte viene superimposto al messaggio debole, col risultato dell’incomprensibilità.
+* modulazione incrociata (o transmodulazio­ne), e si manifesta con la modulazione di un segnale molto forte (anche se su frequenza lonta­na) che compare sopra il segnale più debole che si sta sintonizzando; il suono ap­partenente al segnale forte viene superimposto al messaggio debole, col risultato dell’incomprensibilità.
 
 ### - Intermodulazione
 * distorsione da intermodulazione (IMD); esso consiste nella comparsa del forte segnale, indesiderato e disturbante, in più posi­zioni della sintonia del ricevitore, ed il fatto è pro­vocato dai prodotti anomali elaborati in particola­re dallo stadio convertitore (ma non solo da esso), che passano di conseguenza agli stadi successivi, anche se il segnale disturbante è molto fuori sintonia.
@@ -1100,13 +1109,13 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * Il codice “Mayday” è stato adottato dopo l’ultima guerra con la diffusione delle comunicazioni radiofoniche (detto a voce, “esseoesse” diventa un sibilo). L’espressione Mayday deriva dalla pronuncia dell’ultima parola della frase francese “venez m’aider” (venite ad aiutarmi).
 
 ### - Risoluzione n. 640 del Regolamento delle Radiocomunicazioni dell’UIT
-* La Resolution 640 della convention ITU WARC tenutasi in Ginevra nel 1979 stabilisce che in caso di catastrofi naturali le stazioni di radioamatore possono effettuare traffico radio con scambio di messaggi per conto terzi, e sono consentite trasmissioni radio verso stazioni non radioamatoriali, cose che sono vietate nelle condizioni normali.
+* La Resolution 640 della convention ITU WARC tenutasi in Ginevra nel 1979 stabilisce che **in caso di catastrofi naturali** le stazioni di radioamatore possono effettuare traffico radio con **scambio di messaggi per conto terzi**, e sono consentite trasmissioni radio verso stazioni non radioamatoriali, cose che sono vietate nelle condizioni normali.
 
 ### - Utilizzazione internazionale di una stazione di radioamatore in caso di catastrofi naturali 
-* L'Autorità competente può, in caso di pubblica calamità o per contingenze particolari di interesse pubblico, autorizzare le stazioni di radioamatore ad effettuare speciali collegamenti oltre i limiti stabiliti dall'articolo 134.
+* L'Autorità competente può, in caso di pubblica calamità o per contingenze particolari di interesse pubblico, autorizzare le stazioni di radioamatore ad effettuare **speciali collegamenti oltre i limiti** stabiliti dall'articolo 134.
 
 ### - Bande di frequenze attribuite al servizio di radioamatore per le catastrofi naturali
-* In caso di calamità naturali il Ministero delle comunicazioni può utilizzare le bande di frequenze attribuite al servizio di radioamatore per comunicazioni internazionali relative ad operazioni di soccorso.
+* In caso di calamità naturali il Ministero delle comunicazioni può utilizzare le bande di frequenze attribuite al servizio di radioamatore per **comunicazioni internazionali relative ad operazioni di soccorso**.
 
 \pagebreak
 
@@ -1218,11 +1227,9 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 
 * L’attività di radioamatore consiste nell'espletamento di un servizio, svolto in **linguaggio chiaro**, o con l'uso di codici internazionalmente ammessi, **esclusivamente su mezzo radioelettrico** anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità radioelettricità a **titolo esclusivamente esclusivamente personale senza alcun interesse di natura economica**.
 
-* Quello del radioamatore è definito dalla ITU come un servizio di radiocomunicazione avente per oggetto l'istruzione individuale, l'intercomunicazione e gli studi tecnici, effettuato dagli amatori, vale a dire da persone debitamente autorizzate che s'interessano alla tecnica della radioelettricità a titolo unicamente personale e senza interesse pecuniario. 
-* La legislazione italiana estende questa definizione (art. 134, comma 1): 
-   * L'attività di radioamatore consiste nell'espletamento di un servizio, svolto in linguaggio chiaro, o con l'uso di codici internazionalmente ammessi, esclusivamente su mezzo radioelettrico anche via satellite, di istruzione individuale, di intercomunicazione e di studio tecnico, effettuato da persone che abbiano conseguito la relativa autorizzazione generale e che si interessano della tecnica della radioelettricità a titolo esclusivamente personale senza alcun interesse di natura economica.
+* Quello del radioamatore è definito dalla ITU come un servizio di radiocomunicazione avente per oggetto l'istruzione individuale, l'intercomunicazione e gli studi tecnici, effettuato dagli amatori, vale a dire da persone debitamente autorizzate che s'interessano alla tecnica della radioelettricità a **titolo unicamente personale e senza interesse pecuniario**.
 
-* Per ciascuna stazione di radioamatore, indipendentemente dal numero degli apparati, l'interessato versa un contributo annuo, compreso l'anno a partire dal quale l'autorizzazione generale decorre, di euro 5,00 per le autorizzazioni generali di classe A e di euro 3,00 per quelle di classe B a titolo di rimborso dei costi sostenuti per le attivita' di cui all'articolo 1, comma 1.
+* Per ciascuna stazione di radioamatore, indipendentemente dal numero degli apparati, l'interessato versa un **contributo annuo**, compreso l'anno a partire dal quale l'autorizzazione generale decorre, di euro 5,00 per le autorizzazioni generali di classe A a titolo di rimborso dei costi sostenuti per le attivita' di cui all'articolo 1, comma 1.
 
 ### - Definizione della stazione di radioamatore
 * ???
@@ -1247,40 +1254,35 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * riconoscimento di "Licenza di Radioamatore della CEPT",rese possibile per i Radioamatori degli Stati sottoscrittori operare per breve tempo da altri Stati aderenti senza chiedere licenze temporanee
 
 ### - Utilizzazione temporanea delle stazioni di radioamatore nei Paesi CEPT
-* Ai cittadini dei membri dei paesi CEPT in possesso di patente HAREC per soggiorno superiore a 3 mesi è rilasciata su domanda la patente italiana
+* Ai cittadini dei membri dei paesi CEPT in possesso di patente HAREC per **soggiorno superiore a 3 mesi è rilasciata su domanda la patente italiana**
 
 ### - Utilizzazione temporanea delle stazioni di radioamatore nei Paesi non membri della CEPT che partecipano al sistema della Raccomandazione T/R 61-01
 * Ai cittadini dei Paesi membri della CEPT e non membri che attuano la raccomandazione CEPT TR 61-02, in possesso della patente HAREC in occasione di loro soggiorni in Italia della durata superiore a tre mesi, è rilasciata a domanda la corrispondente patente italiana.
 
 ## 3 - LEGISLAZIONE NAZIONALE, REGOLAMENTAZIONE E CONDIZIONI PER L’OTTENIMENTO DELLA LICENZA
 ### - Legislazione nazionale
-* Il servizio di amatore è regolamentato a livello internazionale dalla UIT (Union internationale des télécommunications), meglio nota come International Telecommunication Union (ITU), e recepito successivamente dalle singole nazioni aderenti a tale istituzione con leggi nazionali. In Italia le varie leggi che regolamentavano il servizio di amatore (D.P.R. 29 marzo 1973 n. 156, D.P.R. 5 agosto 1066 n. 1214...) sono state accorpate nel Decreto Legislativo 1 agosto 2003, n° 259 (Codice delle Comunicazioni Elettroniche) e nel successivo Decreto 21 luglio 2005, ai quali vanno aggiunti i piani di ripartizione delle frequenze. In appendice sono riportate le sole parti del Decreto 259 riguardanti l'attività radioamatoriale, mentre il testo integrale del Codice delle Comunicazioni Elettroniche è disponibile sul sito del Ministero delle Comunicazioni in formato Adobe Acrobat (PDF).
-In seguito, quando non diversamente scritto, si farà riferimento agli articoli del Codice delle Comunicazioni Elettroniche.
+* Il servizio di amatore è regolamentato a livello internazionale dalla UIT (Union internationale des télécommunications), meglio nota come International Telecommunication Union (ITU), e recepito successivamente dalle singole nazioni aderenti a tale istituzione con leggi nazionali. In Italia le varie leggi che regolamentavano il servizio di amatore (D.P.R. 29 marzo 1973 n. 156, D.P.R. 5 agosto 1066 n. 1214...) sono state accorpate nel Decreto Legislativo 1 agosto 2003, n° 259 (Codice delle Comunicazioni Elettroniche) e nel successivo Decreto 21 luglio 2005, ai quali vanno aggiunti i piani di ripartizione delle frequenze. 
 
 ### - Regolamentazione e condizioni per l’ottenimento della licenza
-* L'autorizzazione generale è quindi necessaria in Italia, come in tutte le nazioni del mondo, per poter esercitare l'attività radioamatoriale, e può essere richiesta solo previo conseguimento di una patente, ottenibile dopo aver superato un esame su argomenti di elettrotecnica, radiotecnica, apparati per telecomunicazioni, antenne, propagazione, norme legislative e regolamenti (art. 136), da eseguirsi mediante quiz a risposta multipla. l'art. 134 prevede altri tre commi:
-* Art. 134, comma 2: Al di fuori della sede dell'impianto l'attività di cui al comma 1 può essere svolta con apparato portatile anche su mezzo mobile, **escluso quello aereo**.
-* Art. 134, comma 3: L'attività di radioamatore è disciplinata dalle norme di cui al presente Capo e dell'allegato n. 26. 
-* Art. 134, comma 4: E' libera l'attività di solo ascolto sulla gamma di frequenze attribuita al servizio di radioamatore.
-* L'allegato n. 26 (Adeguamento della normativa tecnica relativa all'esercizio dell'attività radioamatoriale), che si dovrà conoscere, specifica anche le possibilità di esonero dall'esame per il conseguimento della patente.
-* (art. 137): L'impianto e l'esercizio della stazione di radioamatore sono consentiti a chi:
-   * a) abbia la cittadinanza di uno dei Paesi dell'Unione europea o dello Spazio Economico Europeo, di Paesi con i quali siano intercorsi accordi di reciprocità, fermo restando quanto disposto dall?articolo 2, comma 2, del decreto legislativo 25 luglio 1998, n. 286, ovvero sia residente in Italia;
-   * b) abbia età non inferiore a sedici anni;
-   * c) sia in possesso della relativa patente;
-   * d) non abbia riportato condanne per delitti non colposi a pena restrittiva superiore a due anni e non sia stato sottoposto a misure di sicurezza e di prevenzione finché durano gli effetti dei provvedimenti e sempre che non sia intervenuta sentenza di riabilitazione.
+* L'autorizzazione generale è necessaria in Italia, come in tutte le nazioni del mondo, per poter esercitare l'attività radioamatoriale, e può essere richiesta solo previo conseguimento di una patente, ottenibile dopo aver superato un esame su argomenti di elettrotecnica, radiotecnica, apparati per telecomunicazioni, antenne, propagazione, norme legislative e regolamenti (art. 136), da eseguirsi mediante quiz a risposta multipla. l'art. 134 prevede altri tre commi:
+   * Art. 134, comma 2: Al di fuori della sede dell'impianto l'attività di cui al comma 1 può essere svolta con apparato portatile anche su mezzo mobile, **escluso quello aereo**.
+   * Art. 134, comma 3: L'attività di radioamatore è disciplinata dalle norme di cui al presente Capo e dell'allegato n. 26. 
+   * Art. 134, comma 4: E' **libera l'attività di solo ascolto** sulla gamma di frequenze attribuita al servizio di radioamatore.
+   * L'allegato n. 26 (Adeguamento della normativa tecnica relativa all'esercizio dell'attività radioamatoriale), che si dovrà conoscere, specifica anche le possibilità di esonero dall'esame per il conseguimento della patente.
+   * (art. 137): L'impianto e l'esercizio della stazione di radioamatore sono consentiti a chi:
+      * abbia la cittadinanza di uno dei Paesi dell'Unione europea o dello Spazio Economico Europeo, di Paesi con i quali siano intercorsi accordi di reciprocità, fermo restando quanto disposto dall?articolo 2, comma 2, del decreto legislativo 25 luglio 1998, n. 286, ovvero sia residente in Italia;
+      * abbia età non inferiore a sedici anni;
+      * sia in possesso della relativa patente;
+      * non abbia riportato condanne per delitti non colposi a pena restrittiva superiore a due anni e non sia stato sottoposto a misure di sicurezza e di prevenzione finché durano gli effetti dei provvedimenti e sempre che non sia intervenuta sentenza di riabilitazione.
 
-* Le apparecchiature radioelettriche utilizzate dalle stazioni di radioamatore acquistate, modificate o autocostruite, devono rispondere ai requisiti tecnici previsti dalla normativa internazionale di settore.
-* Le apparecchiature radioelettriche impiegate nelle stazioni di radioamatore, ove predisposte ad operare anche con bande di frequenze, classe di emissione o potenze diverse da quelle assegnate dal piano nazionale di ripartizione delle frequenze, devono comunque essere utilizzate nel rispetto delle norme di esercizio di cui all’art. 12.
-* Per la installazione delle antenne di radioamatore si applicano le disposizioni di cui all’art. 397 del dPR 29 marzo 1973, n. 156 nonché le vigenti norme di carattere tecnico, urbanistico, ambientale e di tutela della salute pubblica.
-* L’installazione dell’impianto d’antenna non deve provocare turbative e interferenze ad altri impianti di radiocomunicazioni.
+* Le apparecchiature radioelettriche utilizzate dalle stazioni di radioamatore acquistate, modificate o autocostruite, devono **rispondere ai requisiti tecnici previsti dalla normativa** internazionale di settore.
+* Le apparecchiature radioelettriche impiegate nelle stazioni di radioamatore, ove predisposte ad operare anche con bande di frequenze, classe di emissione o potenze diverse da quelle assegnate dal piano nazionale di ripartizione delle frequenze, **devono comunque essere utilizzate nel rispetto delle norme di esercizio** di cui all’art. 12.
+* Per la **installazione delle antenne di radioamatore** si applicano le disposizioni di cui all’art. 397 del dPR 29 marzo 1973, n. 156 nonché le vigenti norme di carattere tecnico, urbanistico, ambientale e di tutela della salute pubblica.
+* L’installazione dell’impianto d’antenna **non deve provocare turbative e interferenze** ad altri impianti di radiocomunicazioni.
 
-### - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
-
+## - Dimostrazione pratica della conoscenza della tenuta di un registro di stazione: 
 ### - modo di tenuta del registro
-* log (quaderno di stazione): dove registrare le informazioni sui collegamenti effettuati. **Obbligatoria per legge**  DL 259/03 art 215 comma 2. **conservato per tutto l'anno successivo al corrente** sanzione da €34-€370 per omissione o mancato aggiornamento
-
-### - obiettivi
-
+* log (quaderno di stazione): dove registrare le **informazioni sui collegamenti** effettuati. **Obbligatoria per legge**  DL 259/03 art 215 comma 2. **conservato per tutto l'anno successivo al corrente** sanzione da €34-€370 per omissione o mancato aggiornamento
 ### - dati da registrare
 * dati da inserire: 
    * data
