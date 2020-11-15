@@ -71,7 +71,10 @@
 * campo magnetico: la presenza di forze magnetiche in un certo spazio
 * **ogni conduttore percorso da corrente si circonda di campo magnetico** che nasce con la corrente e con essa si estingue
 * le linee che determinano le direzioni lungo cui tale campo si manifesta (“linee di forza”) sono (per un conduttore rettilineo) cerchi concentrici che lo circondano perpendicolarmente
-* l’intensità di campo magnetico è misurata in ampere/m H = N * I / l
+* l’intensità di campo magnetico è misurata in ampere/metro
+   * H = N * I / l
+      * dove: N = numero di spire, I = intensità di corrente,  l = lunghezza del solenoide
+
 
 ### - Schermatura contro i campi magnetici
 * bisogna assorbirlo, per cui si utilizzano materiali ad alta permeabilità magnetica 
@@ -1105,6 +1108,8 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 ### - Bande di frequenze attribuite al servizio di radioamatore per le catastrofi naturali
 * In caso di calamità naturali il Ministero delle comunicazioni può utilizzare le bande di frequenze attribuite al servizio di radioamatore per comunicazioni internazionali relative ad operazioni di soccorso.
 
+\pagebreak
+
 ## 5 - INDICATIVI DI CHIAMATA
 ### - Identificazione delle stazioni di radioamatore 
 * le stazioni obbligate a trasmettere il segnale di identificazione
@@ -1119,9 +1124,30 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 
 ### - Composizione dell’indicativo di chiamata
 * Prefisso (I# o IK# o IZ# o IW# o IU#) + suffisso personale (ZZZ).
+* utilizzi alternativi se in luogo diverso dall'indirizzo dichiarato
+   * nella propria zona: IU2ZZZ /P
+   * in zona diversa: IU2ZZZ /5 (codice zona)
+   * su mezzo mobile: IU2ZZZ /M4
+   * su barca: IU2ZZZ /MM
+   * all'estero: F/ IU2ZZZ 
+   * radiofaro IU2ZZZ /B
 
 ### - Prefissi nazionali
-* in base alla regione
+* I1, IK1, IZ1, IW1, IU1: Piemonte e Liguria
+* I2, IK2, IZ2, IW2, IU2: Lombardia
+* I3, IK3, IZ3, IW3, IU3: Veneto
+* I4, IK4, IZ4, IW4, IU4: Emilia-Romagna
+* I5, IK5, IZ5, IW5, IU5: Toscana
+* I6, IK6, IZ6, IW6, IU6: Marche e Abruzzo
+* I7, IK7, IZ7, IW7, IU7: Puglie e provincia di Matera
+* I8, IK8, IZ8, IW8, IU8: Molise, Campania, Calabria e provincia di Potenza
+* I0, IK0, IZ0, IW0A-IW0T, IU0: Lazio e Umbria
+* Dall'elenco mancano le regioni a statuto speciale, a cui sono stati assegnati prefissi:
+* IX1, IW1A-O: Valle d'Aosta
+* IN3, IW3A-D: Trentino-Alto Adige
+* IV3, IW3Q-Z: Friuli-Venezia Giulia
+* IS0, IW0U-IW0Z: Sardegna
+* IT9, IW9: Sicilia (la Sicilia coincide con tutta la call area 9)
 
 \pagebreak
 
