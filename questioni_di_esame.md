@@ -1037,9 +1037,9 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 # B - REGOLE E PROCEDURE D’ESERCIZIO NAZIONALI ED INTERNAZIONALI 
 ## 1 - ALFABETO FONETICO
 
-|   |   |   |  |   |   |
-|---|---|---|--|---|---|
-|A|ALFA|B|BRAVO|C|CHARLIE|D| DELTA|
+|Lettera|Codice|Lettera|Codice|Lettera|Codice|Lettera|Codice|
+|-|-|-|-|-|-|-|--|
+|A|ALFA|B|BRAVO|C|CHARLIE|D|DELTA|
 |E|ECHO|F| FOXTROT|G|GOLF|H| HOTEL|
 |I|INDIA|J| JULIET|K|KILO|L| LIMA|
 |M|MIKE|N| NOVEMBER|O|OSCAR|P| PAPA|
