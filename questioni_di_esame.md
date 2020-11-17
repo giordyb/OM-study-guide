@@ -285,8 +285,15 @@
 
 ## 2.4 - Applicazione ed utilizzazione dei trasformatori
 ### - Trasformatore ideali
-* dispositivo che serve a **trasferire dal primario al secondario un certo ammontare di potenza** (V*I) che nel trasferimento resta costante pur variando i singoli termini
-* corrente primario è in **opposizione** di fase da quello secondario
+* trasformatore:
+   * dispositivo che serve a **trasferire dal primario al secondario un certo ammontare di potenza** (V*I) che nel trasferimento resta costante pur variando i singoli termini
+   * corrente primario è in **opposizione** di fase da quello secondario
+
+* trasformatore ideale 
+   * Accoppiamento perfetto tra le bobine, il flusso creato da un avvolgimento si concatena perfettamente con l'altro.
+   * Perdite trascurabili, sia nel rame che nel ferro.
+   * Bassa riluttanza del circuito magnetico
+   * La potenza apparente in ingresso è uguale alla potenza apparente in uscita.
 
 ### - La relazione tra il rapporto del numero di spire e il rapporto delle tensioni, delle correnti e delle impedenze (limitatamente agli aspetti qualitativi)
 * tra la **tensione** primaria e quella secondaria vi è lo stesso rapporto che esiste fra il **numero di spire** dei due avvolgimenti
@@ -1089,6 +1096,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 * CQ :   Chiamata a tutte le stazioni
 * CW :   Onda continua - Telegrafia
 * K  :   Invito a trasmettere
+
 * MSG:   Messaggio
 * PSE:   Per favore
 * RST:   Intelligibilità, forza del segnale, tonalità
@@ -1171,7 +1179,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 |472 - 479 kHz|630m|secondario|1 W eirp|max. 1 W eirp|
 |**1,830 – 1,850 MHz**|**160m**|**PRIMARIO**|**500 W**|
 |3,500 – 3,800 MHz|80m|secondario|500 W|
-|5,3515 – 5,3665 MHz|60m|secondario|15 W eirp|
+|5,3515 – 5,3665 MHz|630m|secondario|15 W eirp|
 |**7,000 – 7,200 MHz**|**40m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
 |10,100 - 10,150 MHz|30m|secondario|500 W|
 |**14,000 - 14,350 MHz**|**20m**|**PRIMARIO**|**500 W**|**Più servizio satelliti**|
