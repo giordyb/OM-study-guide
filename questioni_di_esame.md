@@ -296,7 +296,9 @@
 
 ### - I trasformatori
 * 2 induttori accoppiati, possono avere un nucleo magnetico in comune
+   * la dimensione del nucleo magnetico è inversamente proporzionale alla frequenza
 * autotrasformatore: singola bobina con circuito secondario attaccato con una presa al circuito primario (singolo avvolgimento), si risparmia rame ma il secondo circuito non è isolato
+* trasformatore di isolamento, stesso rapporto spire ma isola il secondario dal primario
 
 ## 2.5 - Diodo
 ### - Utilizzazione ed applicazione dei diodi
