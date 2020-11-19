@@ -290,10 +290,10 @@
    * corrente primario è in **opposizione** di fase da quello secondario
 
 * trasformatore ideale 
-   * Accoppiamento perfetto tra le bobine, il flusso creato da un avvolgimento si concatena perfettamente con l'altro.
-   * Perdite trascurabili, sia nel rame che nel ferro.
-   * Bassa riluttanza del circuito magnetico
-   * La potenza apparente in ingresso è uguale alla potenza apparente in uscita.
+   * Accoppiamento perfetto tra le bobine, il flusso creato da un avvolgimento si **concatena perfettamente** con l'altro.
+   * **Perdite trascurabili**, sia nel rame che nel ferro.
+   * **Bassa riluttanza** del circuito magnetico
+   * **La potenza apparente in ingresso è uguale alla potenza apparente in uscita**.
 
 ### - La relazione tra il rapporto del numero di spire e il rapporto delle tensioni, delle correnti e delle impedenze (limitatamente agli aspetti qualitativi)
 * tra la **tensione** primaria e quella secondaria vi è lo stesso rapporto che esiste fra il **numero di spire** dei due avvolgimenti
@@ -393,7 +393,7 @@
 ### - Circuiti in serie e in parallelo di resistori, bobine, condensatori, trasformatori e diodi 
 * resistenze: 
    * in serie:  R~tot~ = R~1~ + R~2~ + R~3~
-   * in parallelo: 1 / R~tot~ = 1 / R~1~ + 1 / R~2~ + 1 / R~3~ = (R~1~ * R~2~) / (R~1~ + R~2~)
+   * in parallelo: R~tot~ = 1 / (1 / R~1~ + 1 / R~2~ + 1 / R~3~) = (R~1~ * R~2~) / (R~1~ + R~2~)
 * solo capacità: 
    * in serie: C~tot~ = (C~1~ * C~2~) / (C~1~ + C~2~)
    * in parallelo: C~tot~ = C~1~ + C~2~
@@ -404,8 +404,8 @@
    * in serie: X~T~ = X~L~ - X~C~
    * in parallelo: X~T~ = -X~L~ * X~C~ / X~L~ - X~C~
 * resistenze con reattanze 
-   * in serie: Z = sqrt(R^2+X^2)
-   * in parallelo: Z = R * X / sqrt(R^2+X^2)
+   * in serie: Z = sqrt(R^2^+X^2^)
+   * in parallelo: Z = R * X / sqrt(R^2^+X^2^)
 
 * trasformatori in serie: si somma la tensione se sono in fase, la corrente è il valore più basso degli avvolgimenti secondari
 * in parallelo: si somma la corrente
@@ -466,7 +466,7 @@
    * si ottiene combinando un filtro PA con uno PB avente la frequenza di taglio (ft) del PA **inferiore** alla frequenza di taglio (ft) del PB
 * arresta banda (**notch**): elimina frequenze tra f1 e f2 dove f1<f2
    * si ottiene combinando un filtro PA con uno PB avente la frequenza di taglio (ft) del PA **superiore** alla frequenza di taglio (ft) del PB
-
+* per ricordare i componenti: Pass Basso = B=Bobina in serie
 ### - Risposta in frequenza
 * E’ la variazione del comportamento del circuito al variare della frequenza. Puo’ anche essere considerata come la variazione del guadagno e della fase della funzione di trasferimento del circuito (Diagramma di Bode)
 
@@ -761,7 +761,10 @@ vedi 1.8
 * se estremi puntati a nord e sud irradia est e ovest
 * si usano le **trappole per farlo risuonare** a diverse frequenze
 
-### - Dipolo a mezzonda alimentato all’estremità - Dipolo ripiegato
+### - Dipolo a mezzonda alimentato all’estremità 
+* il dipolo a mezz'onda alimentato all'estemità presenta una impedenza molto elevata che va adattata con un opportuno sistema di adattamento/accordo
+
+### - Dipolo ripiegato
 * la lunghezza effettiva del conduttore è lambda (=300/f), ma esso risulta **ripiegato** in modo da “ingombrare” per lambda/2 (con modesta distanza fra i due fili). la resistenza è circa 4x dipolo normale **(250-300Ohm)**
 
 ### - Antenna verticale in quarto d’onda
@@ -1219,7 +1222,7 @@ Se invece si tratta di misure correnti che scorrono in un circuito o apparato, l
 |NUMERO|TIPO|BANDA|FREQUENZA|NOME|LAMBDA|
 |-|-|-|-|-|-|
 4|Lunghe|VLF|3-30kHz|Miriametriche|100-10 km|
-5|lunghe|LF|30-300kHz|Chiolmetriche|10-1 km|
+5|lunghe|LF|30-300kHz|Chilometriche|10-1 km|
 6|medie|MF|300-3000kHz|Ettometriche|1 km-100 m|
 7|corte|HF|3-30Mhz|Decametriche|100-10 m
 8|ultracorte|VHF|30-300Mhz|Metriche|10-1 m
