@@ -20,7 +20,7 @@ CQ è la chiamata generale, CQ DX per un DX.
 * Risposta "**IU1XXX** this is **IU2OZH**, thank you for coming back, your report is 59. My name is Giordy - golf india oscar romeo delta yankee, now back to you **IU1XXX** from **IU2OZH** over"
 * Risposta: "**IU2OZH** from **IU1XXX**, hello Giordy you are also 59, my name is Leo, Lima Echo Oscar, I am near Tolouse, Tolouse back to you Giordy, **IU2OZH** from **IU1XXX**
 * **IU1XXX** from **IU2OZH** thanks for the QSO leo, I hope to meet you on air again, please QSL via LOTW or EQSL. 73 Good Luck and good DZ back to you
-* **IU2OZH** from **IU1XXX** thank you good luck my sql will be from
+* **IU2OZH** from **IU1XXX** thank you good luck my sql will be from eqsl
 
 
 
